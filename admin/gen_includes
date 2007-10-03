@@ -1,0 +1,84 @@
+#!./python
+
+### This script generates all needed server side include files
+### used by the MGI userdocs product.
+
+###----------------------------------------------------------------------###
+###----------------- SETUP ----------------------------------------------###
+###----------------------------------------------------------------------###
+import sys
+import os
+ 
+# Ensure the python libs are in the system path, and ignore python warnings
+if '/usr/local/mgi/lib/python/' not in sys.path:
+        sys.path.insert(0, '/usr/local/mgi/lib/python/')
+import ignoreDeprecation
+
+import Configuration
+config = Configuration.Configuration ('Configuration', 1)
+ 
+# Ensure local invocation, and not via symbolic link
+if os.path.islink(sys.argv[0]):
+        msg = "ERROR: Script %s invoked by a symbolic link.\n" % sys.argv[0]
+        sys.stderr.write(msg)
+        sys.exit(1)
+ 
+# make sure script is invoked from its installation directory.
+NOTBASENAME, BASENAME = os.path.split(sys.argv[0])
+if NOTBASENAME not in ('.', '', None):
+        msg = "ERROR: Script %s invoked from another directory.\n" % sys.argv[0]
+        sys.stderr.write(msg)
+        sys.exit(1)
+
+
+###----------------------------------------------------------------------###
+###----------------- CONSTANTS ------------------------------------------###
+###----------------------------------------------------------------------###
+
+INCLUDEDIR = '../www/include'
+
+###----------------------------------------------------------------------###
+###----------------- FUNCTIONS ------------------------------------------###
+###----------------------------------------------------------------------###
+
+def createIncludeFile(filename, dataSource):
+#
+# INPUTS: filename - string full path name of file
+#         dataSource - either string or a function which returns a string. 
+#         dataSource value will be the contents of the include file
+#
+# EFFECTS: the include file is created and its permissions are set
+#          accordingly
+#
+
+    # gather the string which will be contained in the include file
+    if type(dataSource) == type("string"):
+      fileContents = dataSource
+    else:
+      fileContents = dataSource() #executes input function, returning string
+
+    # generate the include file
+    filePath = os.path.join(INCLUDEDIR, filename)
+    fd = open(filePath, 'w')
+    fd.write(fileContents)
+    fd.close()
+    os.system("chgrp " + config['GROUP'] + " " + filePath)
+
+    return
+
+###----------------------------------------------------------------------###
+###----------------- GENERATE THE INCLUDES ------------------------------###
+###----------------------------------------------------------------------###
+
+#####----- MGI URLs ----------------------#####
+createIncludeFile('javawi_url.html', config['JAVAWI_URL'])
+createIncludeFile('wi_url.html', config['WI_URL'])
+createIncludeFile('mgihome_url.html', config['MGIHOME_URL'])
+createIncludeFile('mblast_url.html', config['MBLASTWI_URL'])
+createIncludeFile('glossary_url.html', config['GLOSSARY_URL'])
+createIncludeFile('ftp_url.html', config['FTP_URL'])
+
+#####----- Template Include Files --------#####
+createIncludeFile('templateHead.html',      config['MGICONFIG_PATH'] + 'web/templateHead.html')
+createIncludeFile('templateBodyStart.html', config['MGICONFIG_PATH'] + 'web/templateBodyStart.html')
+createIncludeFile('templateBodyStop.html',  config['MGICONFIG_PATH'] + 'web/templateBodyStop.html')
