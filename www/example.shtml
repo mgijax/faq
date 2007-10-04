@@ -1,0 +1,35 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>Title goes here...</TITLE>
+
+<!--#include file='include/templateBodyStart.html'-->
+
+Body of the page goes here...<BR>
+...<br>
+...<br>
+<br>
+<br>
+<br>
+
+Anchors to the Javawi2 product
+<ul>
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded">Gene Expression Data Expanded Query Form</A></LI>
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=10603">Gene Detail: Kit</A></LI>
+<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=32226">Allele Detail: Kit<sup>Ph</sup></a></LI>
+</ul>
+
+Anchors to the Python WI product
+<ul>
+<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml">Sequence Query Form</A></LI>
+<LI><A HREF="<!--#include file='include/wi_url.html'-->searches/reference_form.shtml">Reference Query Form</A></LI>
+</ul>
+
+Anchors to a userdoc
+<ul>
+<LI><A HREF="<!--#include file='include/userdocs_url.html'-->reference_help.shtml">Reference Help</A></LI>
+<LI><A HREF="<!--#include file='include/userdocs_url.html'-->accession_help.shtml">Accession Help</A></LI>
+</ul>
+
+<BR><BR>
+
+<!--#include file='include/templateBodyStop.html'-->
