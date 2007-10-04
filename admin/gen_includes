@@ -41,6 +41,12 @@ INCLUDEDIR = '../www/include'
 ###----------------- FUNCTIONS ------------------------------------------###
 ###----------------------------------------------------------------------###
 
+def createIncludeLink (includeName, fileLoc ) :
+
+    filePath = os.path.join(INCLUDEDIR, includeName)
+    os.system("rm " + filePath)
+    os.system("ln -s " + fileLoc + " " + filePath)
+
 def createIncludeFile(filename, dataSource):
 #
 # INPUTS: filename - string full path name of file
@@ -74,11 +80,11 @@ def createIncludeFile(filename, dataSource):
 createIncludeFile('javawi_url.html', config['JAVAWI_URL'])
 createIncludeFile('wi_url.html', config['WI_URL'])
 createIncludeFile('mgihome_url.html', config['MGIHOME_URL'])
-createIncludeFile('mblast_url.html', config['MBLASTWI_URL'])
+createIncludeFile('mblast_url.html', config['MOUSEBLAST_URL'])
 createIncludeFile('glossary_url.html', config['GLOSSARY_URL'])
 createIncludeFile('ftp_url.html', config['FTP_URL'])
 
 #####----- Template Include Files --------#####
-createIncludeFile('templateHead.html',      config['MGICONFIG_PATH'] + 'web/templateHead.html')
-createIncludeFile('templateBodyStart.html', config['MGICONFIG_PATH'] + 'web/templateBodyStart.html')
-createIncludeFile('templateBodyStop.html',  config['MGICONFIG_PATH'] + 'web/templateBodyStop.html')
+createIncludeLink('templateHead.html',      config['MGICONFIG_PATH'] + 'web/templateHead.html')
+createIncludeLink('templateBodyStart.html', config['MGICONFIG_PATH'] + 'web/templateBodyStart.html')
+createIncludeLink('templateBodyStop.html',  config['MGICONFIG_PATH'] + 'web/templateBodyStop.html')
