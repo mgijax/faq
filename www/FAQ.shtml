@@ -1,0 +1,85 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>FAQ</TITLE>
+
+<!--#include file='include/templateBodyStart.html'-->
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+
+<h2>Genes and Markers</h2>
+<UL>
+<h3>How do I search for genes, QTL, or other marker types in a specific region of the mouse genome?</h3>
+<h3>How do I find a gene using a non-MGI accession ID?</h3>
+<h3>How do I find all gene trap cell lines for a particular gene?</h3>
+<h3>How do I retrieve Entrez gene, Ensembl, VEGA, or other IDs for a list of genes?</h3>
+<h3>How do I get a name for a gene?</h3>
+<h3>How do I search for genes sharing a specific protein domain?</h3>
+<h3>How do I retrieve flanking sequence for a gene?</h3>
+<h3>How do I find genomic or cDNA clones?</h3>
+<h3>How do I find primer sequence for a gene?</h3>
+</UL>
+
+<br>
+<h2>Phenotypes, Alleles and Diseases</h2> 
+<UL>
+<h3>How do I find mutations in a specific gene?</h3>
+<A HREF="./PAD_disease.shtml"><h3>How do I find mouse models for a particular disease?</h3></A>
+<h3>How do I find candidate genes for a given phenotype and in a specific genome location?</h3>
+<h3>How do I download all phenotype annotations in MGI?</h3>
+<h3>How do I find specific types of mouse mutations, e.g., cre transgenes, conditional alleles, or knock out alleles?</h3>
+<h3>How do I figure out which mouse to order?</h3>
+</UL>
+
+<br>
+<h2>Gene Expression</h2>
+<UL>
+<A HREF="./GXD_GeneTissue.shtml"><h3>How do I find expression data for a specific gene and tissue?</h3></A>
+<h3>How do I find expression data for a tissue during development?</h3>
+<h3>How do I find genes expressed in one tissue but not another?</h3>
+<h3>How do I find references that report expression data for a gene at a specific age?</h3>
+<h3>How do I find expression data for a specific gene?</h3>
+<h3>How do I find expression data in mouse mutants?</h3>
+</UL>
+
+<br>
+<h2>Functional (Gene Ontology) Annotation</h2>
+<UL>
+<h3>How do I download Gene Ontology terms for all genes in MGI?</h3>
+<h3>How do I find human orthologs of these genes?</h3>
+<h3>How do I find all members of a gene family in MGI?</h3>
+</UL>
+
+<br>
+<h2>Strains, SNPs and Polymorphisms</h2>
+<UL>
+<h3>How do I find polymorphic differences between strains?</h3>
+<h3>How do I find all known coding SNPs in a specific genomic location for one or more strains?</h3>
+<h3>How do I find strains with polymorphisms in a particular gene?</h3>
+<h3>How do I find primer sequences for a gene?</h3>
+<h3>How do I find genomic sequence for a specific mouse strain?</h3>
+</UL>
+
+<br>
+<h2>Mammalian Orthology</h2>
+<UL>
+<h3>How do I view a comparative map of mouse and human chromosomes?</h3>
+<h3>How do I search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes?</h3>
+<h3>How do I find the mouse ortholog of a human gene?</h3> 
+<h3>How do I download all mouse and human orthologs?</h3>
+<h3>How do I find information about assignment of orthology by MGI?</h3>
+</UL>
+
+<br>
+<h2>General</h2>
+<UL>
+<h3>How can I contribute my data to MGI?</h3>
+<h3>How do I join or unsubscribe from MGI-list?</h3>
+</UL>
+
+</TABLE>
+
+<!--#include file='include/templateBodyStop.html'-->
