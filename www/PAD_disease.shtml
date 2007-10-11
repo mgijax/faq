@@ -1,0 +1,29 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>PAD_Disease</TITLE>
+
+<!--#include file='include/templateBodyStart.html'-->
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<H3>How do I find mouse models for a particular disease?</H3>
+<OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=omimVocab&subset=A"TARGET = "BLANK">here</A>
+to go to the Human Disease Vocabulary Browser. The Human Disease Vocabulary Browser is located beneath the Search menu in the toolbar, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/OMIM.jpg" WIDTH=600 HEIGHT=392 ALT="Human Disease (OMIM) Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>As an example, type <B>Huntington</B> in the text box. 
+<P>
+<LI>Click the <B>Search</B> button. 
+<P>
+<LI>Click the link to <B>Huntington Disease; HD</B> from the list of results to view details about the mouse models associated with this disease.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBodyStop.html'-->
+

@@ -1,0 +1,32 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>GXD_GeneTissue</TITLE>
+
+<!--#include file='include/templateBodyStart.html'-->
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<H3>How do I find expression data for a specific gene and tissue?</H3>
+<OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=expressionQF"TARGET = "BLANK">here</A>
+to go to the Gene Expression Data Query Form. The Gene Expression Data Query Form is located beneath the Search menu in the toolbar, as shown below.
+<P>
+<CENTER>
+<IMG SRC="" WIDTH=600 HEIGHT=392 ALT="Search Menu GXD QF Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>In the <B>Gene</B> section near the top of the form, type the gene symbol of interest into the <B>Gene/Marker Symbol/Name</B> field.  As an example, use <I><B>Ptch1</B></I>. 
+<P>
+<LI>Find the <B>Expression</B> section of the form and type the name of a tissue into the <B>Anatomical Structure(s)</B> field.  As an example, type <B>brain</B>. 
+<P>
+<LI>Find the <B>Sorting and output format</B> section at the bottom of the form.  Change the <B>Return data type</B> button to Assay Results.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>Once the query results have been returned, click on any link in the <B>Result Details</B> column to view details from assays that examined <I>Ptch1</I> expression in the brain.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBodyStop.html'-->
