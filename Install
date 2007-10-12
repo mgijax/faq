@@ -233,13 +233,6 @@ do
 	cd $TOP
 done
 
-
-# Compile the Python libraries for this product
-logHeading "Compiling the Python libraries..."
-cd lib/python
-compilePythonLibs $PYTHON
-cd $TOP
-
 # Gather the webshare.rcd file from the shared images product
 logHeading "Generating webshare.rcd"
 cd admin
