@@ -1,0 +1,44 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>GXD_mutant</TITLE>
+
+<!--#include file='include/templateBodyStart.html'-->
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<H3>How do I find expression data in mouse mutants?</H3>
+<OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=expressionQF"TARGET = "BLANK">here</A>
+to go to the Gene Expression Data Query Form. The Gene Expression Data Query Form is located beneath the Search menu in the toolbar, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/GXD_QF.jpg" WIDTH=600 HEIGHT=347 ALT="Search Menu GXD QF Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Find the section named <B>Mutated Gene</B> in the lower half of the form. Type the symbol of a mutated gene into the text box. For example, type <I><B>Shh</B></I>. 
+<P>
+<LI>Find the <B>Sorting and output format</B> section at the bottom of the form.  Change the <B>Return data type</B> button to Assay Results.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>The results will list assays using <I>Shh</I> mutants. The specific allele used to obtain each result will be listed in the <B>Mutant Allele(s)</B> column. 
+Click on any link in the <B>Result Details</B> column to view details for a specific assay. If you don't see the <B>Mutant Allele(s)</B> column, return to the 
+Gene Expression Data Query Form and select the Assay Results button as described in step 3.
+<P>
+<LI>On the results page:
+<P>
+<UL>
+<LI>column 1 lists the gene in which expression was assayed;</LI>
+<LI>column 2 describes the type of assay;</LI>
+<LI>column 3 links to details for each assay;</LI>
+<LI>column 4 lists the combination of alleles in the specimen used for each assay;</LI>
+<LI>column 5 describes the age of the specimen;</LI>
+<LI>column 6 describes the anatomical structure examined in the assay;</LI>
+<LI>column 7 tells whether or not expression was detected.</LI>
+</UL>
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBodyStop.html'-->
