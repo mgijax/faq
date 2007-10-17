@@ -48,11 +48,11 @@
 <H2>Gene Expression</H2>
 <UL>
 <A HREF="./GXD_GeneTissue.shtml"><H3>How do I find expression data for a specific gene and tissue?</H3></A>
-<H3>How do I find expression data for a tissue during development?</H3>
+<A HREF="./GXD_tissue_dev.shtml"><H3>How do I find expression data for a tissue during development?</H3></A>
 <H3>How do I find genes expressed in one tissue but not another?</H3>
 <H3>How do I find references that report expression data for a gene at a specific age?</H3>
 <H3>How do I find expression data for a specific gene?</H3>
-<H3>How do I find expression data in mouse mutants?</H3>
+<A HREF="./GXD_mutant.shtml"><H3>How do I find expression data in mouse mutants?</H3></A>
 </UL>
 
 <br>
