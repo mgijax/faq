@@ -1,8 +1,15 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>Title goes here...</TITLE>
+<TITLE>Sample FAQ page...</TITLE>
 
-<!--#include file='include/templateBodyStart.html'-->
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+<div id="faqPageHeader">
+  <img class="" src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+  <span class="faqHeaderText">Sample FAQ page heading</span>
+</div>
+
+
 
 Body of the page goes here...<BR>
 ...<br>
@@ -32,4 +39,4 @@ Anchors to a userdoc
 
 <BR><BR>
 
-<!--#include file='include/templateBodyStop.html'-->
+<!--#include file='include/templateBlankBodyStop.html'-->
