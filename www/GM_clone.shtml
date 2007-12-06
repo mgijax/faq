@@ -1,0 +1,48 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Genomic or cDNA Clones</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find genomic or cDNA clones?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF"TARGET = "BLANK">here</A>
+to open the Molecular Probes and Clones Query Form in a new window. The Molecular Probes and Clones Query Form is located beneath
+the Search menu, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/srchmenu_clone.jpg" WIDTH=600 HEIGHT=280 ALT="Search Menu Clone Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>For <B>Gene/Marker Symbol/Name</B>, change "contains" to "=" in the drop-down menu and type <I>Whrn</I> in the text box.
+<P>
+<LI>Find the <B>Probe/Clone attributes</B> section, select "genomic" from the <B>Sequence Type</B> drop-down menu. 
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>Click on the link to MGI:2785018.
+<P>
+<LI>On the page that follows, copy the ID number RP23-340H1.
+<P>
+<LI>Go to the BACPAC Resources Center at http://bacpac.chori.org/ to order this clone. 
+<P>
+<LI>For cDNA clones, return to the Molecular Probes and Clones Query Form.
+<P>
+<LI>Type <I>Whrn</I> in the <B>Gene/Marker Symbol/Name</B> text box and select "cDNA" for sequence type.
+<P>
+<LI>Detail pages for cDNA clones may contain direct links to IMAGE or RIKEN clone suppliers. To order RIKEN clones specifically,
+visit DNAForm at http://www.dnaform.jp/products/clone_e.html.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

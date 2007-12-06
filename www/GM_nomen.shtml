@@ -1,0 +1,47 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Approved Nomenclature</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find or obtain approved nomenclature for a gene, allele or strain?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
+to open the MGI home page in a new window. To review mouse nomenclature, select Nomenclature from the More Resources menu, as shown below. 
+<P>
+<CENTER>
+<IMG SRC="Images/mrmenu_nomen.jpg" WIDTH=600 HEIGHT=264 ALT="More Resources Menu Nomenclature Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>The Quick Guides are good places to start for gene, allele and mutation nomenclature. 
+More detailed information may be found in the full guides.  As an example, allele symbol 
+<I>Egfr<sup>tm1Cwr</sup></I> refers to the first targeted mutation (tm1) of the <I>Egfr</I> gene 
+produced by Case Western Reserve University (Cwr).
+<P>
+<LI>To submit data, click the links to <U>Submit</U> a Proposed Locus Symbol or Mutant Allele Information, or 
+<U>Register</U> a new Mouse Strain Name. 
+<P>
+<LI>To request nomenclature or lab codes, select Nomenclature & Lab Code Requests from the Submit menu, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/sbmtmenu_nomen.jpg" WIDTH=600 HEIGHT=275 ALT="Submit Menu Nomenclature Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>For experimental data such as mapping, linkage, haplotype, expression or other data, select 
+Contribute Data to MGI from the Submit menu.
+<P>
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

@@ -1,0 +1,41 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Gene Traps for a Gene</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I search for all gene trap cell lines associated with a gene or marker?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml"TARGET = "BLANK">here</A>
+to go to the Phenotypes and Alleles Query Form. The Phenotypes and Alleles Query Form is located beneath the Search menu, 
+as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/PA_QF.jpg" WIDTH=600 HEIGHT=284 ALT="Search Menu P&A QF Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Find the <B>Nomenclature & location</B> section of the form and type <I>Nrp2</I> in the 
+<B>Gene/Marker</B> text box. 
+<P>
+<LI>In the <B>Categories</B> section in the lower half of the page, 
+check the box next to <U>gene trapped</U> located at the bottom of the center column.
+<P>
+<LI> Click the <B>Search</B> button.
+<P>
+<LI>Click any allele symbol in the first column of the search results to view detail 
+about an allele.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

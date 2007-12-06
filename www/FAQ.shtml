@@ -1,95 +1,252 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>FAQ</TITLE>
+  <title><!--#include file="include/mgiversion.html"-->FAQ</title>
+
+  <link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 <!--#include file='include/templateBodyStart.html'-->
 
-<!-- CSS -->
-<link href="http://firien.informatics.jax.org/usrlocalmgi/live/webshare/css/mgi.css" rel="stylesheet" type="text/css"/>
-<BR>
-<BR>
-<FONT color="#002255" face="Arial,Helvetica" size="6">
-			  <B>Frequently Asked Questions</B></FONT>
+<!-- Title Bar -->
+<div id="titleBarWrapper">
+ <span class="titleBarMainTitle">Frequently Asked Questions</span>
+</div> <!--titleBar-->
 
+<style>
+	.toc { margin 0px;
+		background-color:#DFEFFF; }
+	.toc ul { font-size: 12px;
+		margin 0px;
+		text-align: center;
+		line-height: 1.75;
+		list-style-type: none;
+		padding: .75em .75em 0.1em .75em;
+		min-width: 600px;}
+	.toc li { display: inline;
+		white-space: nowrap; }
+	.outline { border: 2px solid #DFEFFF; }
+	dl.linkedList { margin-left: 2em; }
+	.linkedList dt { margin-top: 1em; }
+	.linkedList dd { margin-left: 1em;
+		margin-top: .25em;
+		font-style:italic}
+</style>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<!-- this file is an example template to be used to create a page in the
+"All X" format, similar to the "All Search Tools" page.  To use this template
+simply add anchor links to the sections your page contains in the toc table,
+then create each section to contain the appropriate anchor link and content.
+Note that the links in the toc are a list <ul> where each link is a <li> item.
+Note that the list in each section is a definition list <dl> where the term
+<dt> is the heading, and the definition <dd> is the descriptive text.  -->
 
-<FONT color="#002255" size="2">
+<!-- main body table -->
+<table width="75%" cellpadding="2" align="center">
 
+	<tr><td>
+		<!-- TOC table -->
+		<table class="toc" width="100%">
+			<tr>
+				<td>
+					<ul>
+						<li><a href="#marker">Genes, Genome Features &amp Maps</a> | </li>
+						<li><a href="#pheno">Phenotypes, Alleles &amp Disease Models</a> | </li>
+						<li><a href="#expression">Gene Expression</a> | </li>
+						<li><a href="#go">GO Functional Annotations</a> | </li>
+						<li><a href="#path">Biochemical Pathways</a> | </li>
+						<li><a href="#strain">Strains, SNPs &amp Polymorphisms</a> | </li>
+						<li><a href="#orthology">Mammalian Orthology</a> | </li>
+						<li><a href="#general">General Questions</a> </li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</td></tr>
 
-<H2>Genes and Markers</H2>
-<UL>
-<H3>How do I search for genes, QTL, or other marker types in a specific region of the mouse genome?</H3>
-<H3>How do I find a gene using a non-MGI accession ID?</H3>
-<H3>How do I find all gene trap cell lines for a particular gene?</H3>
-<H3>How do I retrieve Entrez gene, Ensembl, VEGA, or other IDs for a list of genes?</H3>
-<H3>How do I get a name for a gene?</H3>
-<H3>How do I search for genes sharing a specific protein domain?</H3>
-<H3>How do I retrieve flanking sequence for a gene?</H3>
-<H3>How do I find genomic or cDNA clones?</H3>
-<H3>How do I find primer sequence for a gene?</H3>
-</UL>
+	<tr><td>
 
-<br>
-<H2>Phenotypes, Alleles and Diseases</H2> 
-<UL>
-<H3>How do I find mutations in a specific gene?</H3>
-<A HREF="./PAD_disease.shtml"><H3>How do I find mouse models for a particular disease?</H3></A>
-<H3>How do I find candidate genes for a given phenotype and in a specific genome location?</H3>
-<H3>How do I download all phenotype annotations in MGI?</H3>
-<H3>How do I find specific types of mouse mutations, e.g., cre transgenes, conditional alleles, or knock out alleles?</H3>
-<H3>How do I figure out which mouse to order?</H3>
-</UL>
+	<a name="marker">
+		<table class="outline" width="100%">
+			<tr>
+				<td class="enhance">
+					<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/homepage_mini_Genes.shtml">Genes, Genome Features &amp Maps</a>
+				</td>
+			</tr>
+			<tr >
+				<td>
+					<dl class="linkedList">
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_marker.shtml")'> How do I search for genes, QTL, or other features in a specific genome interval?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_ID.shtml")'> How do I search for a gene using an Entrez, Ensembl, VEGA, or other accession ID?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_pirsf.shtml")'> How do I search for genes sharing a specific protein domain?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_gtrap.shtml")'> How do I search for all gene trap cell lines associated with a gene or marker?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_batch.shtml")'> How do I retrieve Entrez, Ensembl, VEGA, or other IDs for a list of genes?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_genmap.shtml")'> How do I create a genome map from a genomic interval?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_gmodel.shtml")'> How do I see different gene models along with the MGI-curated representative model?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_nomen.shtml")'> How do I find or obtain approved nomenclature for a gene, allele or strain?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_clone.shtml")'> How do I find genomic or cDNA clones?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GM_primer.shtml")'> How do I find primer sequence for a gene?</a></dt>
+					</dl>
+				</td>
+			</tr>
+		</table>
+	</td></tr>
 
-<br>
-<H2>Gene Expression</H2>
-<UL>
-<A HREF="./GXD_GeneTissue.shtml"><H3>How do I find expression data for a specific gene and tissue?</H3></A>
-<A HREF="./GXD_tissue_dev.shtml"><H3>How do I find expression data for a tissue during development?</H3></A>
-<H3>How do I find genes expressed in one tissue but not another?</H3>
-<H3>How do I find references that report expression data for a gene at a specific age?</H3>
-<H3>How do I find expression data for a specific gene?</H3>
-<A HREF="./GXD_mutant.shtml"><H3>How do I find expression data in mouse mutants?</H3></A>
-</UL>
+	<tr><td>
+			
+	<a name="pheno">
+		<table class="outline" width="100%">
+			<tr>
+				<td class="enhance">
+					<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/homepage_mini_PAD.shtml">Phenotypes, Alleles &amp Disease Models</a>
+				</td>
+			</tr>
+			<tr >
+				<td>
+					<dl class="linkedList">
+						<dt>&bull; <a href='javascript:openFaqWindow("PAD_gene.shtml")'> How do I find mutations in a specific gene?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("PAD_disease.shtml")'>How do I find mouse models for a human disease or condition?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_combo.shtml")'> How do I find mutations that cause a specific combination of phenotypes?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_muttype.shtml")'> How do I find all of one kind of allele (e.g. cre transgenes, LoxP/Frt-flanked alleles, etc.)?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_cand.shtml")'> How do I find candidate genes for a given phenotype and a specific genome location?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_dload.shtml")'> How do I download all phenotype annotations in MGI?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_strain.shtml")'> How do I find available strains carrying a mutation in a specific gene?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_EScell.shtml")'> How do I find an ES cell line?</a></dt>
+					</dl>
+				</td>
+			</tr>
+		</table>
+</td></tr>
 
-<br>
-<H2>Functional (Gene Ontology) Annotation</H2>
-<UL>
-<H3>How do I download Gene Ontology terms for all genes in MGI?</H3>
-<H3>How do I find human orthologs of these genes?</H3>
-<H3>How do I find all members of a gene family in MGI?</H3>
-</UL>
+	<tr><td>
+			
+	<a name="expression">
+		<table class="outline" width="100%">
+			<tr>
+				<td class="enhance">
+					<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/homepage_mini_GXD.shtml">Gene Expression</a>
+				</td>
+			</tr>
+			<tr >
+				<td>
+					<dl class="linkedList">
+						<dt>&bull; <a href='javascript:openFaqWindow("GXD_Gene.shtml")'>How do I find expression data for a specific gene?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("GXD_tissue_dev.shtml")'>How do I find expression data for a tissue during development?</a></dt>
+	              		<dt>&bull; <a href='javascript:openFaqWindow("GXD_comp_tissue.shtml")'>How do I find genes expressed in one tissue but not another?</a></dt>
+                 		<dt>&bull; <a href='javascript:openFaqWindow("GXD_ref_age.shtml")'>How do I find references that report expression data for a gene at a specific age?</a></dt></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GXD_GeneTissue.shtml")'>How do I find expression data for a specific gene and tissue?</a></dt>
+                 		<dt>&bull; <a href='javascript:openFaqWindow("GXD_mutant.shtml")'>How do I find expression data in mouse mutants?</a></dt>
+                 	</dl>
+				</td>
+			</tr>
+		</table>
+</td></tr>
 
-<br>
-<H2>Strains, SNPs and Polymorphisms</H2>
-<UL>
-<H3>How do I find polymorphic differences between strains?</H3>
-<H3>How do I find all known coding SNPs in a specific genomic location for one or more strains?</H3>
-<H3>How do I find strains with polymorphisms in a particular gene?</H3>
-<H3>How do I find primer sequences for a gene?</H3>
-<H3>How do I find genomic sequence for a specific mouse strain?</H3>
-</UL>
+<tr><td>
 
-<br>
-<H2>Mammalian Orthology</H2>
-<UL>
-<H3>How do I view a comparative map of mouse and human chromosomes?</H3>
-<H3>How do I search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes?</H3>
-<H3>How do I find the mouse ortholog of a human gene?</H3> 
-<H3>How do I download all mouse and human orthologs?</H3>
-<H3>How do I find information about assignment of orthology by MGI?</H3>
-</UL>
+<a name="go">
+	<table class="outline" width="100%">
+		<tr>
+			<td class="enhance">
+				<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/homepage_mini_GO.shtml">GO Functional Annotations</a>
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<dl class="linkedList">
+         				<dt>&bull; <a href='javascript:openFaqWindow("GO_gene.shtml")'> How do I find GO annotation for a specific gene?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("GO_term.shtml")'> How do I find all mouse genes annotated to a particular GO term?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("GO_dload.shtml")'> How do I download all Gene Ontology annotations in MGI?</a></dt>
+                </dl>
+			</td>
+		</tr>
+	</table>
+</td></tr>
 
-<br>
-<H2>General</H2>
-<UL>
-<H3>How can I contribute my data to MGI?</H3>
-<H3>How do I join or unsubscribe from MGI-list?</H3>
-</UL>
-</FONT>
-</TABLE>
+<tr><td>
+
+<a name="path">
+	<table class="outline" width="100%">
+		<tr>
+			<td class="enhance">
+				<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/underConstruction.shtml">Biochemical Pathways</a>
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<dl class="linkedList">
+         				<dt>&bull; <a href='javascript:openFaqWindow("")'> How do I see a list of all pathways in MouseCyc?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("")'> How do I search MouseCyc for a specific compound?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("")'> How can I display my mouse gene expression data in the context of mouse pathways?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("")'> How do I compare mouse pathways to human pathways?</a></dt>
+                </dl>
+			</td>
+		</tr>
+	</table>
+</td></tr>
+
+<tr><td>
+
+<a name="strain">
+	<table class="outline" width="100%">
+		<tr>
+			<td class="enhance">
+				<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/homepage_mini_Strain.shtml">Strains, SNPs &amp Polymorphisms</a>
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<dl class="linkedList">
+               			<dt>&bull; <a href='javascript:openFaqWindow("STRN_SNP.shtml")'> How do I find all known coding SNPs in a specific genomic location for one or more strains?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("STRN_poly.shtml")'> How do I find strains with RFLP/PCR polymorphisms in a particular gene?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("STRN_Fest.shtml")'> How do I find characteristics of a specific strain in M. Festing's <i>Inbred Strains of Mice and Rats?</i></a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("STRN_genom.shtml")'> How do I find genomic sequence for a specific mouse strain?</a></dt>
+                </dl>
+			</td>
+		</tr>
+	</table>
+</td></tr>
+
+<tr><td>
+
+<a name="orthology">
+	<table class="outline" width="100%">
+		<tr>
+			<td class="enhance">
+				<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/homepage_mini_Ortho.shtml">Mammalian Orthology</a>
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<dl class="linkedList">
+               			<dt>&bull; <a href='javascript:openFaqWindow("ORTH_map.shtml")'> How do I view a comparative map of mouse and human chromosomes?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("ORTH_PIRSF.shtml")'> How do I search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("ORTH_gene.shtml")'> How do I find the mouse ortholog of a human gene?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("ORTH_dload.shtml")'> How do I download all mouse and human orthologs?</a></dt>
+                </dl>
+			</td>
+		</tr>
+	</table>
+</td></tr>
+
+<tr><td>
+
+<a name="general">
+	<table class="outline" width="100%">
+		<tr>
+			<td class="enhance">
+				General Questions
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<dl class="linkedList">
+                		<dt>&bull; <a href='javascript:openFaqWindow("GQ_data.shtml")'> How can I contribute my data to MGI?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("GQ_list.shtml")'>How do I join or unsubscribe from MGI-list and Phenome-list?</a></dt>
+                </dl>
+			</td>
+		</tr>
+	</table>
+</td></tr>
+
+</table>
 
 <!--#include file='include/templateBodyStop.html'-->

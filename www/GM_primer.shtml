@@ -1,0 +1,58 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Primer Sequence for a Gene</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find primer sequence for a gene?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<OL><LI>Click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF"TARGET = "BLANK">here</A>
+to open the Molecular Probes and Clones Query Form in a new window. The Molecular Probes and Clones Query Form is located beneath
+the Search menu, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/srchmenu_clone.jpg" WIDTH=600 HEIGHT=280 ALT="Search Menu Clone Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>For <B>Gene/Marker Symbol/Name</B>, type <I>Myo6</I> in the text box.  
+<P>
+<LI>Find the <B>Probe/Clone attributes</B> section. Select "primer" from the <B>Sequence Type</B> drop-down menu. 
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>Click the link to <U>MGI:6655</U> in the <B>Nucleotide Probe/Clone AccID</B> column to view details about primer sequences, alleles, 
+fragment sizes and strains. 
+<P>
+<LI>To find genotyping protocols including reaction components, cycling conditions and primers, visit JAX Mice at 
+http://jaxmice.jax.org.
+<P>
+<CENTER>
+<IMG SRC="Images/jaxmice.jpg" WIDTH=776 HEIGHT=360 ALT="JAXMice Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>In the left hand navigation bar, click the link to <U>Mouse Strain Information</U> beneath <B>JAX Mice & Services</B>. 
+<P>
+<LI>In the lower right of the page, find the <B>JAX Mice Resources</B> section and click the link to <U>Genotyping Protocols</U> 
+near the bottom.
+<P>
+<LI>Type <I>Tub</I> in the <B>Gene Symbol</B> text box and click the <B>Search</B> button. 
+<P>
+<LI>Click a link in the <B>Protocol</B> column for detailed information.
+<P>
+<LI>Scroll down the page below the gel image to view detailed reaction conditions.
+<P>
+<LI>For additional information please contact JAX Mice directly at micetech@jax.org or 800-422-MICE.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

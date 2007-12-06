@@ -1,0 +1,37 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Protein Domains</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I search for genes sharing a specific protein domain?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=pirsfVocab&subset=A"TARGET = "BLANK">here</A>
+to open the Protein Superfamily Browser in a new window. The Protein Superfamily Browser is located beneath the 
+Search menu in the toolbar, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/srchmenu_pirsf.jpg" WIDTH=772 HEIGHT=384 ALT="Search Menu PIRSF Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>As an example, type <I>potassium channels</I> in the text box. 
+<P>
+<LI>Click the <B>Search</B> button. 
+<P>
+<LI>Click the link to <U>potassium channel protein Drk1</U> from the list of genes in this superfamily, along with
+human and rat orthologs and protein sequence IDs.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
+
