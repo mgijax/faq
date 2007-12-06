@@ -3,27 +3,33 @@
 
 <TITLE>MGI_4.0 FAQ: Find Expression In A Gene</TITLE>
 
-<!--#include file='include/templateBodyStart.html'-->
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find expression data for a specific gene?</span>
+</div>
 
 <TABLE border=0 cellpadding=0 cellspacing=7>
 <TR>
 <TD>
 <BR>
-<H3>How do I find expression data for a specific gene?</H3>
+
 <OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
-to go to the MGI home page.
+to open the MGI home page in a new window.
+<P>
+<CENTER>
+<IMG SRC="Images/home.jpg" WIDTH=600 HEIGHT=578 ALT="Search Box Screen Shot">
+</CENTER>
+<P>
 <P>
 <LI>Type a gene symbol into the search box in the upper right hand corner of the web page.  
 As an example, use <I><B>Pax6</B></I>.
 <P>
-<CENTER>
-<IMG SRC="Images/search_box.jpg" WIDTH=600 HEIGHT=329 ALT="Search Box Screen Shot">
-</CENTER>
-<P>
-<P>
 <LI>Click the <B>Search</B> button.
 <P>
-<LI>On the Search Results page, click the link to <U>Pax6</U> in the <B>Symbol/Name</B> column.
+<LI>On the Search Results page, click the link to <U>Pax6</U> in the <B>Symbol, Name</B> column.
 <P>
 <LI>Find the <B>Expression</B> section on the <B>Pax6</B> Gene Detail page. This section 
 summarizes <I>Pax6</I> expression data in MGI:
@@ -35,12 +41,12 @@ summarizes <I>Pax6</I> expression data in MGI:
 </UL>
 <P>
 <LI>For each Assay Type, the number of results and number of assays is supplied. To view all results of 
-Western blots, for example, click on the numerical link beneath Results for Assay Type Western blot. 
-To view all Western blot assays for <I>Pax6</I> expression, click the numerical link beneath Assays.
+Western blots, for example, click on the numerical link beneath <B>Results</B> for Assay Type Western blot. 
+Then click a link in the <B>Results Details</B> column to view assay details.
 <P>
 <LI>The <B>Expression</B> section also lists images, references, and cDNA clones associated with <I>Pax6</I>.
 Click the numerical links next to Images, GXD Literature Index, and cDNA source data to view these.
 </OL>
 </TR></TABLE></BODY></HTML>
 
-<!--#include file='include/templateBodyStop.html'-->
+<!--#include file='include/templateBlankBodyStop.html'-->

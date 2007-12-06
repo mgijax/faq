@@ -1,0 +1,50 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Specific Types of Mutations</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find all of one kind of allele (e.g. cre transgenes, LoxP/Frt-flanked alleles, etc.)?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml"TARGET = "BLANK">here</A>
+to go to the Phenotypes and Alleles Query Form. The Phenotypes and Alleles Query Form is located beneath the Search menu, 
+as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/PA_QF.jpg" WIDTH=600 HEIGHT=284 ALT="Search Menu P&A QF Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>In the <B>Categories</B> section in the lower half of the page, 
+check the box next to <U>transgenic (Cre/Flp)</U>.
+<P>
+<LI>In the <B>Sorting and output format</B> section at the bottom of the page, 
+check the box next to <U>no limit</U> to clear the default limit of 500 on the number of results returned.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>Click any allele symbol in the first column of the search results to view greater detail 
+about an allele.
+<P>
+<LI>Use your browser's back button to return to the Phenotypes and Alleles Query form. 
+Uncheck the box next to <U>transgenic (Cre/Flp)</U>, and check the box next to 
+<U>targeted (Floxed/Frt)</U>.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>Click any allele symbol in the first column of the search results to view detail 
+about an allele.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

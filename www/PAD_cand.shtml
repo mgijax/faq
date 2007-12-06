@@ -1,0 +1,49 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Candidate Genes</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find candidate genes for a given phenotype and a specific genome location?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF"TARGET = "BLANK">here</A>
+to go to the Genes and Markers Query Form. The Genes and Markers Query Form is located beneath the Search menu, 
+as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/GM_QF.jpg" WIDTH=600 HEIGHT=271 ALT="Search Menu G&M QF Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Select Gene from the <B>Type</B> drop-down menu in the first section of the form. 
+<P>
+<LI>Select chromosome 7 in the <B>Map position</B> section of the form. 
+<P>
+<LI>In the text box beneath Genome Coordinates, type <I>130 and 140</I>.
+<P>
+<LI>Change the units from bp to Mbp in the drop-down menu near the Genome Coordinates text box.
+<P>
+<LI>Find the <B>Mouse phenotypes & mouse models of human disease</B> section in the lower half of the form.
+<P>
+<LI>Click the link to <U>Anatomical Systems Affected by Phenotypes</U> beneath the text box.
+<P>
+<LI>Select <U>homeostasis/metabolism</U> from the menu in the new window. 
+<P>
+<LI>Click the <B>Add to Query</B> button.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

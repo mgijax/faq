@@ -1,0 +1,42 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Orthologs for Mouse and Human Genes</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find the mouse ortholog of a human gene?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml"TARGET = "BLANK">here</A>
+to go to the Mammalian Orthology Query Form. The Mammalian Orthology Query Form is located beneath the Search menu, 
+as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/ORTH_OQF.jpg" WIDTH=900 HEIGHT=368 ALT="Search Menu Orthology Query Form Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>On the Mammalian Orthology Query Form, select human (Homo sapiens) from the <B>Primary Species</B> list.
+<P>
+<LI>Type <I>Myo6</I> into the <B>Marker Symbol/Name</B> text box.
+<P>
+<LI>Select mouse from the <B>Comparison Species</B> list.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>The search results display a table including genomic location, accession identifiers, and evidence codes
+for human-mouse orthologs of gene <I>Myo6</I>.
+<P>
+<LI>To download all human and mouse orthologs, visit the Data Reports page located beneath the Download menu.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

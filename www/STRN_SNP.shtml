@@ -1,0 +1,64 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Polymorphisms Between Strains</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find all known coding SNPs in a specific genomic location for one or more strains?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF"TARGET = "BLANK">here</A>
+to open the Mouse SNP Query Form in a new window. The Mouse SNP Query Form is located beneath
+the Search menu, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/srchmenu_SNPs.jpg" WIDTH=868 HEIGHT=364 ALT="Search Menu SNPs Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>From the Available Strains list, select the following strains. To select all at once, hold down the Ctrl key on 
+Windows machines while selecting each strain. On Macintosh machines, hold down the Command key. 
+<P>
+<UL>
+<LI>129X1/SvJ
+<LI>C57BL/6J
+<LI>DBA/2J
+</UL>
+<P>
+<LI>Click the <B>Add</B> button to move strains to the Selected Strains list.
+<P>
+<LI>In the <B>SNP attributes</B> section of the page, find the <B>dbSNP Function Class</B> pick list.
+Select both Coding-NonSynonymous and Coding-Synonymous at once by holding down the Ctrl key on Windows machines.
+On Macintosh machines, hold down the Command key.
+<P>
+<LI>Find the <B>Map position</B> section of the page. In the <B>Marker range</B> text boxes at right, type <I>Hnf4g</I>
+in the first text box, and <I>Car3</I> in the second.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>A new browser window will open displaying coding SNPs identified 
+between the <I>Hnf4g</I> and <I>Car3</I> genes on chromosome 3.
+<P>
+<LI>To view flanking sequence for a SNP, click any link to <U>MGI SNP Detail</U> 
+in the <B>SNP ID</B> column at left.
+<P>
+<LI>To view SNPs associated with all strains assayed, return to the 
+Mouse SNPs Query Results page and click the <U>Hnf4g</U> link in the 
+<B>Gene: dbSNP Function Class</B> column. 
+<P>
+<LI>On the <I>Hnf4g</I> Gene Detail page, find the Polymorphisms section and 
+click the number in parentheses next to SNPs within 2kb<U>(<I>x</I> from dbSNP build <I>y</I>)</U>.
+</OL>
+</TR>
+</TABLE>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

@@ -2,18 +2,26 @@
 
 <TITLE>MGI_4.0 FAQ: Disease Models</TITLE>
 
-<!--#include file='include/templateBodyStart.html'-->
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find mouse models for a particular disease?</span>
+</div>
+
+
 
 <TABLE border=0 cellpadding=0 cellspacing=7>
 <TR>
 <TD>
 <BR>
-<H3>How do I find mouse models for a particular disease?</H3>
+
 <OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=omimVocab&subset=A"TARGET = "BLANK">here</A>
 to go to the Human Disease Vocabulary Browser. The Human Disease Vocabulary Browser is located beneath the Search menu in the toolbar, as shown below.
 <P>
 <CENTER>
-<IMG SRC="Images/OMIM.jpg" WIDTH=600 HEIGHT=392 ALT="Human Disease (OMIM) Screen Shot">
+<IMG SRC="Images/srchmenu_OMIM.jpg" WIDTH=762 HEIGHT=370 ALT="Human Disease (OMIM) Screen Shot">
 </CENTER>
 <P>
 <P>
@@ -25,5 +33,5 @@ to go to the Human Disease Vocabulary Browser. The Human Disease Vocabulary Brow
 </OL>
 </TR></TABLE></BODY></HTML>
 
-<!--#include file='include/templateBodyStop.html'-->
+<!--#include file='include/templateBlankBodyStop.html'-->
 

@@ -1,0 +1,36 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Strain Characteristics</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find characteristics of a specific strain in M. Festing's <I>Inbred Strains of Mice and Rats</I>?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi"TARGET = "BLANK">here</A>
+to open Dr. Michael Festing's <I>Inbred Strains of Mice and Rats</I> in a new window. Festing's <I>Inbred Strains of Mice and Rats</I> 
+is located beneath the Search menu as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/srchmenu_Fest.jpg" WIDTH=868 HEIGHT=364 ALT="Search Menu Festing's Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Type <I>C57BL/6</I> into the text box and hit the Return or Enter key on your keyboard.
+<P>
+<LI>The results will list all strains that include any mention of <I>C57BL/6</I> in their descriptions.
+ Click the <U>C57BL</U> link in the list of strains returned to read about strain C57BL and its substrains,
+ including C57BL/6.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

@@ -1,0 +1,62 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Genes Annotated to a GO Term</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find all genes annotated to a specific GO term?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml"TARGET = "BLANK">here</A>
+to open the GO Browser in a new window. The GO Browser is located beneath the Search menu, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/srchmenu_GO.jpg" WIDTH=837 HEIGHT=449 ALT="Search Menu GO Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Type the term <I>deacetylation</I> in the text box.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>The search results list 9 biological processes containing the term deacetylation, and one cellular component 
+having a synonym containing this term. Click the link to the first term <U>histone deacetylation</U>.
+<P>
+<LI>The detail page for this term provides a GO ID number, a definition, and a number of paths to this term. 
+These paths demonstrate hierarchically the relationship between the term histone deacetylation, more general 
+high level terms such as histone modification, and more specific terms such as histone deacetylation at centromere.
+<P>
+<LI>Click the link to <U>6 genes, 6 annotations</U> next to the term histone deacetylation [GO:0016575].
+<P>
+<LI>The results list genes annotated with this term, including several histone deacetylases and the gene <I>Sirt1</I>. 
+Notice that the <B>Evidence</B> column includes the codes IEA (inferred from electronic annotation), ISS 
+(inferred from sequence similarity), and IDA (inferred from direct assay). The final column, labeled <B>Ref(s)</B>, 
+provides links to the references used to make these annotations. 
+<P>
+<LI>Click the link to <U>J:65145</U>, the final link in the <B>Ref(s)</B> column. This links to the reference used for the <I>Sirt1</I> annotation.
+<P>
+<LI>Back up to the search results and click the link to <U>Sirt1</U> in the <B>Symbol, Name</B> column.
+<P>
+<LI>In the lower half of the <I>Sirt1</I> Gene Detail page, find the <B>Gene Ontology (GO) classifications</B> section.
+<P>
+<LI>Click the link to <U>All GO classifications(19)</U>.
+<P>
+<LI>On the Gene Ontology Classifications page, click the link to <U>Tabular View</U> to view a table of GO annotations for <I>Sirt1</I>.
+<P>
+<LI>Click the link to <U>GO Graph</U> to view three directed acyclic graphs containing all of the 19 terms annotated to <I>Sirt1</I>. 
+These graphs show relationships or paths from the highest level terms molecular function, cellular component and biological process, 
+to the lowest level terms such as "NAD-dependent histone deacetylase activity".  Notice that there are two paths between the terms 
+"molecular function" and "NAD-dependent histone deacetylase activity". One path follows a route through the term 
+"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds" and the second path through "deacetylase activity". 
+</OL>
+</TR></TABLE>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

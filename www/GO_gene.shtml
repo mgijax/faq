@@ -1,0 +1,43 @@
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find GO Annotation For A Gene</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find GO annotation for a specific gene?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
+to open the MGI home page in a new window.
+<P>
+<CENTER>
+<IMG SRC="Images/home.jpg" WIDTH=600 HEIGHT=578 ALT="Search Box Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Type a gene symbol into the search box in the upper right hand corner of the web page.  
+As an example, use <I>Pax6</I>.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>On the Search Results page, click the link to <U>Pax6</U> in the <B>Symbol, Name</B> column.
+<P>
+<LI>Find the <B>Gene Ontology (GO) classifications</B> section on the <I>Pax6</I> Gene Detail page.
+<P>
+<LI>Click the link to All GO classifications(<U><I>x</I></U>).
+<P>
+<LI>The <B>Gene Ontology classifications</B> page supplies all classifications in text, table and graphical form. 
+Click the link to <U>Tabular View</U> to view a table listing all classifications, or the link to <U>GO Graph</U> 
+to view a graph of all classifications.
+</OL>
+</TR></TABLE>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

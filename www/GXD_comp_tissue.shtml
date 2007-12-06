@@ -2,23 +2,35 @@
 
 <TITLE>MGI_4.0 FAQ: Compare Expression Between Tissues</TITLE>
 
-<!--#include file='include/templateBodyStart.html'-->
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find genes expressed in one tissue but not another?</span>
+</div>
 
 <TABLE border=0 cellpadding=0 cellspacing=7>
 <TR>
 <TD>
 <BR>
-<H3>How do I find genes expressed in one tissue but not another?</H3>
+
 <OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=expressionQFexpanded"TARGET = "BLANK">here</A>
-to go to the Gene Expression Data Expanded Query Form. The Gene Expression Data Expanded Query Form is located beneath the Search menu in the toolbar, as shown below.
+to open the Gene Expression Data Expanded Query Form in a new window. The Gene Expression Data Expanded Query Form is located beneath the Search menu in the toolbar, as shown below.
 <P>
 <CENTER>
-<IMG SRC="Images/GXD_EQF.jpg" WIDTH=600 HEIGHT=358 ALT="Search Menu GXD EQF Screen Shot">
+<IMG SRC="Images/GXD_EQF.jpg" WIDTH=600 HEIGHT=277 ALT="Search Menu GXD EQF Screen Shot">
 </CENTER>
 <P>
 <P>
 <LI>Find the <B>Expression</B> section in the center of the form. Notice that this section is divided into
 four quadrants: two on the left entitled <B>Anatomical Structure(s)</B> and two on the right entitled  <B>Developmental Stage(s)</B>.
+<P>
+<P>
+<CENTER>
+<IMG SRC="Images/GXD_EQFanat.jpg" WIDTH=600 HEIGHT=279 ALT="Search Menu GXD EQF Anatomical Structure Screen Shot">
+</CENTER>
+<P>
 <P>
 <LI>Type the name of a tissue, such as <B>forebrain</B>, into the <B>Anatomical Structures(s)</B> text box in the upper left quadrant.  
 This part of the search will return assays in which expression was detected.
@@ -33,4 +45,4 @@ since the structures you have searched for may appear in more than one assay. Cl
 </OL>
 </TR></TABLE></BODY></HTML>
 
-<!--#include file='include/templateBodyStop.html'-->
+<!--#include file='include/templateBlankBodyStop.html'-->

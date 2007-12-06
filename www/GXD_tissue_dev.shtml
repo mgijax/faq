@@ -2,19 +2,25 @@
 
 <TITLE>MGI_4.0 FAQ: Expression in Tissues</TITLE>
 
-<!--#include file='include/templateBodyStart.html'-->
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find expression data for a tissue during development?</span>
+</div>
 
 <TABLE border=0 cellpadding=0 cellspacing=7>
 <TR>
 <TD>
 <BR>
-<H3>How do I find expression data for a tissue during development?</H3>
+
 <OL><LI>Click <A HREF="<!--#include file="include/wi_url.html"-->searches/anatdict_form.shtml"TARGET = "BLANK">here</A>
-to go to Mouse Anatomical Dictionary Browser.
+to open the Mouse Anatomical Dictionary Browser in a new window.
 The Mouse Anatomical Dictionary Browser is located beneath the Search menu in the toolbar, as shown below.
 <P>
 <CENTER>
-<IMG SRC="Images/GXD_AD.jpg" WIDTH=600 HEIGHT=364 ALT="Search Menu AD Browser Screen Shot">
+<IMG SRC="Images/GXD_AD.jpg" WIDTH=600 HEIGHT=286 ALT="Search Menu AD Browser Screen Shot">
 </CENTER>
 <P>
 <P>
@@ -28,7 +34,11 @@ As an example, click on <B>heart</B> in <B>Theiler stage 17</B>.
 <LI>Click on <B><U>show all</U></B> to see all expression results annotated to the heart and its substructures.
 To further refine your query, click the link to <B><U>refine search</U></B>.
 <P>
-</OL>
-</TR></TABLE></BODY></HTML>
+<LI>Once the query results have been returned, click on any link in the 
+<B>Result Details</B> column to view details from assays that examined expression 
+in the heart in Theiler stage 17.
 
-<!--#include file='include/templateBodyStop.html'-->
+</OL>
+</TR></TABLE>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

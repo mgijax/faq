@@ -2,36 +2,43 @@
 
 <TITLE>MGI_4.0 FAQ: Find Expression References For A Gene</TITLE>
 
-<!--#include file='include/templateBodyStart.html'-->
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find references that report expression data for a gene at a specific age?</span>
+</div>
 
 <TABLE border=0 cellpadding=0 cellspacing=7>
 <TR>
 <TD>
 <BR>
-<H3>How do I find references that report expression data for a gene at a specific age?</H3>
+
 <OL><LI>Click <A HREF="<!--#include file="include/wi_url.html"-->searches/gxdindex_form.shtml"TARGET = "BLANK">here</A>
-to go to the Gene Expression Literature Index Query Form. The Gene Expression Literature Index Query Form is located beneath the Search menu in the toolbar, as shown below.
+to open the Gene Expression Literature Query Form in a new window. The Gene Expression Literature Query Form is located beneath the Search menu in the toolbar, as shown below.
 <P>
 <CENTER>
-<IMG SRC="Images/GXD_LI.jpg" WIDTH=600 HEIGHT=358 ALT="Search Menu GXD LI Screen Shot">
+<IMG SRC="Images/GXD_LI.jpg" WIDTH=600 HEIGHT=282 ALT="Search Menu GXD LI Screen Shot">
 </CENTER>
 <P>
 <P>
 <LI>Type a gene symbol into the <B>Gene Symbol/Name</B> text box.  As an example, use <I><B>Fgf8</B></I>. 
 <P>
-<LI>Select an age from the Age selection list.  For example, select 10.5 days post-conception.
+<LI>Select an age from the Age selection list. For example, select 10.5 days post-conception.
 <P>
 <LI>Click the <B>Search</B> button.
 <P>
 <LI>The search results list references that have examined <I>Fgf8</I> expression at embryonic day 10.5 (E10.5) as well
 as the assay types used in these studies.
 <P>
-<LI>The table at the top of the page records the number of references at each developmental stage by assay type. Click a numerical link to retrieve references.
+<LI>The table at the top of the page groups the references by developmental stage analyzed and assay type used.  Click a numerical link to retrieve a list of these references.
 <P>
-<LI>Scroll down the page. The second table lists references for <I>Fgf8</I>. The numerical links indicate the number of index results for each reference.
-Click a numerical link to view a table of index results by age and assay type. Numerical links followed by an asterisk indicate that detailed assay results exist
-for that reference.
+<LI>Scroll down the page.  The second table lists references that analyze <I>Fgf8</I> expression.  The numerical links indicate the number 
+of results for each reference.  Numerical links that are followed by an asterisk indicate that detailed assay results 
+from that reference have been entered into the database. Click a numerical link to view a table of that summarizes which ages were 
+analyzed and which assay types were used to examine expression of that gene in that reference.
 </OL>
 </TR></TABLE></BODY></HTML>
 
-<!--#include file='include/templateBodyStop.html'-->
+<!--#include file='include/templateBlankBodyStop.html'-->

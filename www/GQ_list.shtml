@@ -1,0 +1,40 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Research Community E-Mail Lists</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I join or unsubscribe from MGI-list and Phenome-list?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
+to open the MGI home page in a new window. To join or unsubscribe from MGI-list or Phenome-list, select Research Community
+E-Mail Lists from the More Resources menu, as shown below. 
+<P>
+<CENTER>
+<IMG SRC="Images/mrmenu_list.jpg" WIDTH=793 HEIGHT=361 ALT="More Resources Menu Listserve Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>To subscribe, type your name and e-mail address into the text boxes. 
+<P>
+<LI>Check a box next to mgi-list or phenome-list
+and click the Submit button.
+<P>
+<LI>To unsubscribe, click the link to <U>Enter MGI-LIST</U> or <U>Enter PHENOME-LIST</U>. 
+<P>
+<LI>Type your e-mail address and password into the text boxes and click the button to enter.
+<P>
+<LI>Click the Leave(unsubscribe) button. 
+</OL>
+</TR></TABLE>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

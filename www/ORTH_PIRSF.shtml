@@ -1,0 +1,46 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: PIRSF Protein Superfamilies</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I search or browse PIRSF protein 
+ superfamilies mapped to mouse, human, and rat genes?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=pirsfVocab&subset=A"TARGET = "BLANK">here</A>
+to open the Protein Information Resource SuperFamily (PIRSF) Browser in a new window. The PIRSF Browser is located 
+beneath the Search menu, as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/srchmenu_pirsf.jpg" WIDTH=772 HEIGHT=384 ALT="Search Menu PIRSF Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>On the PIRSF Protein Superfamilies browser page, type <I>zinc finger</I> into the text box.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>The search results display a list of protein superfamilies containing the
+phrase "zinc finger". Click the link to a protein superfamily name to retrieve
+a list of genes within this superfamily.
+<P>
+<LI>To browse protein superfamily names, click the link to the first character
+of a protein superfamily name at the top of the page. For example, click the link
+to the letter <U>B</U> to retrieve all protein superfamily names starting with 
+this character.
+<P>
+<LI>Click any link to a protein superfamily name to retrieve
+a list of genes within this superfamily.
+</OL>
+</TR></TABLE>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
