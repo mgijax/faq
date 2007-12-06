@@ -23,9 +23,12 @@ the original expression data.  Major ways to access the images in GXD include:
 The images can be accessed by clicking on hyperlinks in the image field of expression assay detail pages.  (See FAQs for further instructions on doing expression queries.)
 <P>
 <LI>Image link on gene detail pages:  A summary of all the expression images for a gene can be assessed by 
-clicking on the Images link in the Expression section of that gene’s detail page.  (For more detailed 
+clicking on the Images link in the Expression section of that gene's detail page.  (For more detailed 
 instructions see the FAQ "How do I find expression data for a given gene?")
 </UL>
-</TR></TABLE></BODY></HTML>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
