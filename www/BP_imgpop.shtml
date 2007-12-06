@@ -1,0 +1,34 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0: Displaying Your Data on Pathways</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">Displaying your data on pathways</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<form><input type="button" value=" Print this page "onclick="window.print();return false;" /></form>
+Using the MouseCyc OmicsViewer you can display your experimental data in the context of mouse biochemical pathways.
+For example, the graphic below shows the pathways in which mouse genes associated with embryonic lethality occur.
+<p>
+<p>
+<CENTER>
+<img src="Images/BiochemPath_ImageLink.png" height="200">
+</CENTER>
+<p>
+<p><a href="http://ella.jax.org:8000/expression.html" target="_blank">Click here</a> to learn how to overlay 
+your experimental mouse data onto MouseCyc biochemical pathways.</p>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
