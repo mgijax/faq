@@ -31,11 +31,13 @@ the <U>MGI GO Term Finder</U>.
 You can choose to return GO annotations from either the Biological Process, Molecular Function,
 or Cellular Component Ontology for this set of genes. 
 <P>
-<LI>As a quick example, type these two gene symbols into the text box for <B>Step 1</B>:
+<LI>As a quick example, type these three gene symbols into the text box for <B>Step 1</B>:
 <P>
 <I>Pax6</I>
 <BR>
 <I>Pax3</I>
+<BR>
+<I>Pax2</I>
 <P>
 <LI>For <B>Step 2</B>, select the radio button next to Function. 
 <P>
