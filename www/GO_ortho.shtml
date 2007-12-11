@@ -1,0 +1,43 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: View annotations for Ortholog Sets</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I view annotations for mouse/human/rat ortholog sets?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
+to open the MGI home page in a new window. To view annotations for mouse/human/rat ortholog sets, select Prototype Tools
+from the More Resources menu, as shown below. 
+<P>
+<CENTER>
+<IMG SRC="Images/mrmenu_proto.jpg" WIDTH=842 HEIGHT=381 ALT="More Resources Menu Prototypes Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>On the Prototype Tools page, scroll to the bottom and click the link to <U>GOgraphEX - GO Graphical Explorer</U>.
+<P>
+<LI>On the GOgraphEX page, click the link to <U>GO Comparative Graphs: mouse-human-rat experimental annotations</U>.
+<P>
+<LI>Click the link to <U>Compare mouse-human-rat</U> GO annotations. 
+<P>
+<LI>Click on the letter <U>S</U> to view a list of gene symbols beginning with this character. 
+<P>
+<LI>Scroll down the page to gene symbol <I>Slc22a6</I>.
+<P>
+<LI>Click the link to <U>Graph: Slc22a6</U> at far right to view a graph showing relationships or "paths" from the molecular 
+function, cellular component and biological process ontologies, to the lowest level terms such 
+as sodium-independent organic anion transport.
+</OL>
+</TR></TABLE>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

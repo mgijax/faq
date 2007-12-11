@@ -7,7 +7,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find all genes annotated to a specific GO term?</span>
+ <span class="faqHeaderText">How do I find all genes with shared annotation to a GO term?</span>
 </div>
 
 <TABLE border=0 cellpadding=0 cellspacing=7>

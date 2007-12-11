@@ -1,0 +1,49 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Genomic Sequence for Genes with Common GO Annotation</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I obtain FASTA sequence files for genes with GO annotations in common?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml"TARGET = "BLANK">here</A>
+to open the Mouse Sequence Query Form in a new window. The Mouse Sequence Query Form is located beneath 
+the search menu as shown below.
+<P>
+<CENTER>
+<IMG SRC="Images/srchmenu_seq.jpg" WIDTH=832 HEIGHT=365 ALT="Search Menu Sequence Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Find the first section of the form, entitled <B>Sequence attributes</B>. For <B>Sequence Type</B>, 
+select Polypeptide from the pick list.
+<P>
+<LI>Scroll down the page to the <B>Gene Ontology (GO) classifications</B> section located near the center
+of the form.
+<P>
+<LI>Type the term <I>histone deacetylation</I> in the <B>Gene Classifications</B> text box.
+<P>
+<LI>Click the <B>Search</B> button.
+<P>
+<LI>The search will return all polypeptide sequences annotated to GO term "histone deacetylation".
+<P>
+<LI>To select all sequences, click the <B>Select all</B> button located at upper left.
+<P>
+<LI>Find the drop-down menu in the upper center of the page that allows you to <U>download in FASTA format</U> or <U>forward 
+to MouseBLAST</U>.
+<P>
+<LI>Click the <B>Go</B> button to download the selected sequences in FASTA format.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->

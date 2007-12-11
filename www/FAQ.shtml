@@ -152,9 +152,13 @@ Note that the list in each section is a definition list <dl> where the term
 		<tr >
 			<td>
 				<dl class="linkedList">
-         				<dt>&bull; <a href='javascript:openFaqWindow("GO_gene.shtml")'> How do I find GO annotation for a specific gene?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("GO_term.shtml")'> How do I find all mouse genes annotated to a particular GO term?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("GO_dload.shtml")'> How do I download all Gene Ontology annotations in MGI?</a></dt>
+         				<dt>&bull; <a href='javascript:openFaqWindow("GO_gene.shtml")'> How do I find all GO annotations for a specific gene?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("GO_term.shtml")'> How do I find all genes with shared annotation to GO term?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("GO_dload.shtml")'> How do I download all mouse GO annotations?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GO_finder.shtml")'> How do I find shared function for a list of specific genes?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GO_ortho.shtml")'> How do I view annotations for mouse/human/rat ortholog sets?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GO_seq.shtml")'> How do I obtain FASTA sequence files for genes with GO annotations in common?</a></dt>
+
                 </dl>
 			</td>
 		</tr>

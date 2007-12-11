@@ -1,0 +1,48 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Shared Function for a List of Genes</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find shared function for a list of specific genes?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<OL><LI>Click <A HREF="<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml"TARGET = "BLANK">here</A>
+to go to the GO Functional Annotations page. This page may be accessed by clicking the GO Functional Annotations link on 
+the MGI home page, or by clicking the tab near the top center of other MGI pages.
+<P>
+<CENTER>
+<IMG SRC="Images/GO_mini.jpg" WIDTH=876 HEIGHT=579 ALT="GO Mini Home Page Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Find the box labeled <B>Access MGI-GO data</B> located at left. In the lower right of this box, click the link to
+the <U>MGI GO Term Finder</U>.
+<P>
+<LI>Using the MGI GO Term Finder, you can enter a list or upload a file of official MGI gene/marker symbols. 
+You can choose to return GO annotations from either the Biological Process, Molecular Function,
+or Cellular Component Ontology for this set of genes. 
+<P>
+<LI>As a quick example, type these two gene symbols into the text box for <B>Step 1</B>:
+<P>
+<I>Pax6</I>
+<BR>
+<I>Pax3</I>
+<P>
+<LI>For <B>Step 2</B>, select the radio button next to Function. 
+<P>
+<LI>For <B>Step 3</B>, select Exclude IEAs. 
+<P>
+<LI> Click the <B>Search</B> button.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
