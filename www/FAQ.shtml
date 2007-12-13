@@ -1,8 +1,6 @@
 <!--#include file='include/templateHead.html'-->
-
-  <title><!--#include file="include/mgiversion.html"--> - FAQ</title>
-
-  <link rel="stylesheet" type="text/css" href="homepage.css"/>
+<title><!--#include file="include/mgiversion.html"--> - FAQ</title>
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 <!--#include file='include/templateBodyStart.html'-->
 
@@ -91,7 +89,7 @@ Note that the list in each section is a definition list <dl> where the term
 	</td></tr>
 
 	<tr><td>
-
+			
 	<a name="pheno">
 		<table class="outline" width="100%">
 			<tr>
@@ -117,7 +115,7 @@ Note that the list in each section is a definition list <dl> where the term
 </td></tr>
 
 	<tr><td>
-
+			
 	<a name="expression">
 		<table class="outline" width="100%">
 			<tr>
@@ -155,7 +153,7 @@ Note that the list in each section is a definition list <dl> where the term
          				<dt>&bull; <a href='javascript:openFaqWindow("GO_gene.shtml")'> How do I find all GO annotations for a specific gene?</a></dt>
                 		<dt>&bull; <a href='javascript:openFaqWindow("GO_term.shtml")'> How do I find all genes with shared annotation to GO term?</a></dt>
                 		<dt>&bull; <a href='javascript:openFaqWindow("GO_dload.shtml")'> How do I download all mouse GO annotations?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GO_finder.shtml")'> How do I find shared function for a list of specific genes?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GO_finder .shtml")'> How do I find shared function for a list of specific genes?</a></dt>
 						<dt>&bull; <a href='javascript:openFaqWindow("GO_ortho.shtml")'> How do I view annotations for mouse/human/rat ortholog sets?</a></dt>
 						<dt>&bull; <a href='javascript:openFaqWindow("GO_seq.shtml")'> How do I obtain FASTA sequence files for genes with GO annotations in common?</a></dt>
 
@@ -177,10 +175,10 @@ Note that the list in each section is a definition list <dl> where the term
 		<tr >
 			<td>
 				<dl class="linkedList">
-         				<dt>&bull; <a href='javascript:openFaqWindow("")'> How do I see a list of all pathways in MouseCyc?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("")'> How do I search MouseCyc for a specific compound?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("")'> How can I display my mouse gene expression data in the context of mouse pathways?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("")'> How do I compare mouse pathways to human pathways?</a></dt>
+         				<dt>&bull; <a href='javascript:openFaqWindow("BP_allpath.shtml")'> How do I see a list of all pathways in MouseCyc?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("BP_comp.shtml")'> How do I search MouseCyc for a specific compound?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("BP_expr.shtml")'> How can I display my mouse gene expression data in the context of mouse pathways?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("BP_path.shtml")'> How do I compare mouse pathways to human pathways?</a></dt>
                 </dl>
 			</td>
 		</tr>
