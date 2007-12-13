@@ -1,0 +1,34 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: See a List of All Biochemical Pathways</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I see a list of all pathways in MouseCyc?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+<OL><LI>Click <A HREF="<!--#include file='include/mgihome_url.html'-->homepages/minihome_BioPath.shtml"TARGET = "BLANK">here</A>
+to go to the Biochemical Pathways page. This page may be accessed by clicking the Biochemical Pathways link on 
+the MGI home page, or by clicking the tab near the top center of other MGI pages.
+<P>
+<CENTER>
+<IMG SRC="Images/BP_mini.jpg" WIDTH=785 HEIGHT=560 ALT="BP Mini Home Page Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>Find the box labeled <B>What can I do here?</B> located at left. Click the link to <U>Browse the pathway ontology</U>
+ in the MouseCyc database.
+<P>
+<LI> Click the <B>Expand all</B> button to view a list of all pathways.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
