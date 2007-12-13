@@ -1,0 +1,52 @@
+
+<!--#include file='include/templateHead.html'-->
+
+<TITLE>MGI_4.0 FAQ: Find Genes With Certain Attributes</TITLE>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I use attributes such as genome location, disease association, phenotype, or function to find specific genes?</span>
+</div>
+
+<TABLE border=0 cellpadding=0 cellspacing=7>
+<TR>
+<TD>
+<BR>
+
+<OL><LI>Click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF"TARGET = "BLANK">here</A>
+to open the Genes and Markers Query Form in a new window. The Genes and Markers Query Form is located beneath the Search menu, as shown below.
+<P>
+<P>
+<CENTER>
+<IMG SRC="Images/GM_QF.jpg" WIDTH=600 HEIGHT=271 ALT="Search Menu G&M QF Screen Shot">
+</CENTER>
+<P>
+<P>
+<LI>In the <B>Gene/Marker</B> section of the page, find the <B>Type</B> drop-down menu and select Gene. 
+<P>
+<LI>To identify genes within a specific genomic location, find the <B>Map Position</B> section of the form. As an example,
+select 7 from the <B>Chromosome(s)</B> list.
+<P>
+<LI>In the text box beneath <B>Genome Coordinates</B>, type <I>130 and 140</I>.
+<P>
+<LI>Change the pull-down menu near the <B>Genome Coordinates</B> text box from bp to Mbp.
+<P>
+<LI>To limit this search to genes associated with a specific function, find the <B>Gene Ontology classifications</B> section 
+in the lower half of the form.
+<P>
+<LI>In the text box beneath <B>Gene Ontology (GO) Classifications</B>, type <I>bone mineralization</I>.
+<P>
+<LI>To further limit this search to genes associated with specific phenotypes or diseases, find the <B>Mouse phenotypes & mouse models of 
+human disease</B> section in the lower half of the form.
+<P>
+<LI>In the text box beneath <B>Phenotype/Human Disease</B>, type <I>craniofacial</I>.
+<P>
+<LI>Click the <B>Search</B> button. The search results will list all genes on chromosome 7 between
+130 and 140 Mbp that are associated with bone mineralization and a craniofacial phenotype.
+</OL>
+</TR></TABLE></BODY></HTML>
+
+<!--#include file='include/templateBlankBodyStop.html'-->
