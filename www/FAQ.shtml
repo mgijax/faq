@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-  <title><!--#include file="include/mgiversion.html"-->FAQ</title>
+  <title><!--#include file="include/mgiversion.html"--> - FAQ</title>
 
   <link rel="stylesheet" type="text/css" href="homepage.css"/>
 
@@ -91,7 +91,7 @@ Note that the list in each section is a definition list <dl> where the term
 	</td></tr>
 
 	<tr><td>
-			
+
 	<a name="pheno">
 		<table class="outline" width="100%">
 			<tr>
@@ -117,7 +117,7 @@ Note that the list in each section is a definition list <dl> where the term
 </td></tr>
 
 	<tr><td>
-			
+
 	<a name="expression">
 		<table class="outline" width="100%">
 			<tr>

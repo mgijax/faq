@@ -83,6 +83,8 @@ createIncludeFile('mgihome_url.html', config['MGIHOME_URL'])
 createIncludeFile('mblast_url.html', config['MOUSEBLAST_URL'])
 createIncludeFile('userdocs_url.html', config['USERDOCS_URL'])
 createIncludeFile('webshare_url.html', config['WEBSHARE_URL'])
+createIncludeFile('mgiversion.html', config['NAME'])
+
 
 #####----- Template Include Files --------#####
 createIncludeLink('templateHead.html',      config['MGICONFIG_PATH'] + 'web/templateHead.html')
