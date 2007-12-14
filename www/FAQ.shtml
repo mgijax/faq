@@ -219,6 +219,7 @@ Note that the list in each section is a definition list <dl> where the term
 		<tr >
 			<td>
 				<dl class="linkedList">
+				        <dt>&bull; <a href='javascript:openFaqWindow("ORTH_set.shtml")'> How do I view the ortholog set for a mouse gene?</a></dt>
                			<dt>&bull; <a href='javascript:openFaqWindow("ORTH_map.shtml")'> How do I view a comparative map of mouse and human chromosomes?</a></dt>
                 		<dt>&bull; <a href='javascript:openFaqWindow("ORTH_PIRSF.shtml")'> How do I search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes?</a></dt>
 						<dt>&bull; <a href='javascript:openFaqWindow("ORTH_gene.shtml")'> How do I find the mouse ortholog of a human gene?</a></dt>
