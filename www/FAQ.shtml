@@ -126,12 +126,12 @@ Note that the list in each section is a definition list <dl> where the term
 			<tr >
 				<td>
 					<dl class="linkedList">
-						<dt>&bull; <a href='javascript:openFaqWindow("GXD_Gene.shtml")'>How do I find expression data for a specific gene?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("GXD_GeneTissue.shtml")'>How do I find expression data for a specific gene and tissue?</a></dt>
                 		<dt>&bull; <a href='javascript:openFaqWindow("GXD_tissue_dev.shtml")'>How do I find expression data for a tissue during development?</a></dt>
 	              		<dt>&bull; <a href='javascript:openFaqWindow("GXD_comp_tissue.shtml")'>How do I find genes expressed in one tissue but not another?</a></dt>
                  		<dt>&bull; <a href='javascript:openFaqWindow("GXD_ref_age.shtml")'>How do I find references that report expression data for a gene at a specific age?</a></dt></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GXD_GeneTissue.shtml")'>How do I find expression data for a specific gene and tissue?</a></dt>
-                 		<dt>&bull; <a href='javascript:openFaqWindow("GXD_mutant.shtml")'>How do I find expression data in mouse mutants?</a></dt>
+       					<dt>&bull; <a href='javascript:openFaqWindow("GXD_Gene.shtml")'>How do I find expression data for a specific gene?</a></dt>
+       					<dt>&bull; <a href='javascript:openFaqWindow("GXD_mutant.shtml")'>How do I find expression data in mouse mutants?</a></dt>
                  	</dl>
 				</td>
 			</tr>
