@@ -46,6 +46,7 @@ Note that the list in each section is a definition list <dl> where the term
 			<tr>
 				<td>
 					<ul>
+						<li><a href="#general">General Questions</a> | </li>
 						<li><a href="#marker">Genes, Genome Features &amp Maps</a> | </li>
 						<li><a href="#pheno">Phenotypes, Alleles &amp Disease Models</a> | </li>
 						<li><a href="#expression">Gene Expression</a> | </li>
@@ -53,12 +54,33 @@ Note that the list in each section is a definition list <dl> where the term
 						<li><a href="#path">Biochemical Pathways</a> | </li>
 						<li><a href="#strain">Strains, SNPs &amp Polymorphisms</a> | </li>
 						<li><a href="#orthology">Mammalian Orthology</a> | </li>
-						<li><a href="#general">General Questions</a> </li>
 					</ul>
 				</td>
 			</tr>
 		</table>
 	</td></tr>
+
+<tr><td>
+
+<a name="general">
+	<table class="outline" width="100%">
+		<tr>
+			<td class="enhance">
+				General Questions
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<dl class="linkedList">
+                		<dt>&bull; <a href='javascript:openFaqWindow("GM_marker.shtml")'>How do I search for genes, QTL, or other marker types in a specific region of the mouse genome?</a></dt>
+				        <dt>&bull; <a href='javascript:openFaqWindow("GM_attr.shtml")'>How do I use attributes such as genome location, disease association, phenotype, or function to find specific genes?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("GQ_data.shtml")'>How can I contribute my data to MGI?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("GQ_list.shtml")'>How do I join or unsubscribe from MGI-list and Phenome-list?</a></dt>
+                </dl>
+			</td>
+		</tr>
+	</table>
+</td></tr>
 
 	<tr><td>
 
@@ -224,26 +246,6 @@ Note that the list in each section is a definition list <dl> where the term
                 		<dt>&bull; <a href='javascript:openFaqWindow("ORTH_PIRSF.shtml")'> How do I search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes?</a></dt>
 						<dt>&bull; <a href='javascript:openFaqWindow("ORTH_gene.shtml")'> How do I find the mouse ortholog of a human gene?</a></dt>
                 		<dt>&bull; <a href='javascript:openFaqWindow("ORTH_dload.shtml")'> How do I download all mouse and human orthologs?</a></dt>
-                </dl>
-			</td>
-		</tr>
-	</table>
-</td></tr>
-
-<tr><td>
-
-<a name="general">
-	<table class="outline" width="100%">
-		<tr>
-			<td class="enhance">
-				General Questions
-			</td>
-		</tr>
-		<tr >
-			<td>
-				<dl class="linkedList">
-                		<dt>&bull; <a href='javascript:openFaqWindow("GQ_data.shtml")'> How can I contribute my data to MGI?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("GQ_list.shtml")'>How do I join or unsubscribe from MGI-list and Phenome-list?</a></dt>
                 </dl>
 			</td>
 		</tr>
