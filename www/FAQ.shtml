@@ -53,7 +53,7 @@ Note that the list in each section is a definition list <dl> where the term
 						<li><a href="#go">GO Functional Annotations</a> | </li>
 						<li><a href="#path">Biochemical Pathways</a> | </li>
 						<li><a href="#strain">Strains, SNPs &amp Polymorphisms</a> | </li>
-						<li><a href="#orthology">Mammalian Orthology</a> | </li>
+						<li><a href="#orthology">Mammalian Orthology</a></li>
 					</ul>
 				</td>
 			</tr>

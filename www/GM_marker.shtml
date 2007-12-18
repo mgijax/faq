@@ -1,7 +1,7 @@
 
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Genes, QTL or Other Marker Types</TITLE>
+<title>MGI_4.0 FAQ: Find Genes, QTL or Other Marker Types</title>
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
 
@@ -27,7 +27,7 @@
 			or marker range. Within this interval, you can choose to retrieve genes, QTL, pseudogenes, microRNA, 
 			or other marker types.
 			<p>
-			To begin, click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF"TARGET = "BLANK">here</A>
+			To begin, click <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF"target = "blank">here</a>
 			to open the Genes and Markers Query Form in a new window. The Genes and Markers Query Form is located beneath the Search menu as shown.
 			</p>
 		</td>
@@ -36,7 +36,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<IMG SRC="Images/srchmenu_GM.jpg" WIDTH=758 HEIGHT=413 ALT="Search Menu G&M QF Screen Shot">
+						<img src="Images/srchmenu_GM.jpg" width=758 height=413 alt="Search Menu G&M QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -60,7 +60,7 @@
 						<p>
 						<li>Find the <b>Map Position</B> section of the form and select 7 from the <b>Chromosome(s)</B> list.
 						<p>
-						<li>In the text box beneath <b>Genome Coordinates</B>, type <I>130 and 140</I>.
+						<li>In the text box beneath <b>Genome Coordinates</B>, type <I>130 - 140</I>.
 						<p>
 						<li>Change the pull-down menu near the <b>Genome Coordinates</B> text box from bp to Mbp.
 						<p>
@@ -72,7 +72,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<IMG SRC="Images/GM_QFtop.jpg" WIDTH=780 HEIGHT=333 ALT="G&M QF Screen Shot">
+								<img src="Images/GM_QFtop.jpg" width=780 height=333 alt="G&M QF Screen Shot">
 							</td>
 						</tr>
 					</table>

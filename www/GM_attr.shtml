@@ -1,7 +1,7 @@
 
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Genes With Certain Attributes</TITLE>
+<title>MGI_4.0 FAQ: Find Genes With Certain Attributes</title>
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
 
@@ -28,14 +28,14 @@
 			You can narrow your search to a specific region of the mouse genome by choosing a chromosome number and entering genome coordinates, a 
 			cytogenetic band, centiMorgan position, or marker range.
 			<p>			
-			To begin, click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF"TARGET = "BLANK">here</A>
+			To begin, click <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF"target = "blank">here</a>
 			to open the Genes and Markers Query Form in a new window. The Genes and Markers Query Form is located beneath the Search menu as shown.
 	</p>
 			<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<IMG SRC="Images/srchmenu_GM.jpg" WIDTH=758 HEIGHT=413 ALT="Search Menu G&M QF Screen Shot">
+						<img src="Images/srchmenu_GM.jpg" width=758 height=413 alt="Search Menu G&M QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -65,7 +65,7 @@
 					form. As an example, select 7 from the <b>Chromosome(s)</b> list.</li>
 					<p>
 					</p>
-					<li>In the text box beneath <b>Genome Coordinates</b>, type <i>130 and 140</i>.</li>
+					<li>In the text box beneath <b>Genome Coordinates</b>, type <i>130 - 140</i>.</li>
 					<p>
 					</p>
 					<li>Change the pull-down menu near the <b>Genome Coordinates</b> text box from bp to Mbp.</li>
@@ -93,7 +93,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<IMG SRC="Images/GM_QFfull.jpg" WIDTH=765 HEIGHT=657 ALT="G&M QF Screen Shot">
+								<img src="Images/GM_QFfull.jpg" width=765 height=657 alt="G&M QF Screen Shot">
 							</td>
 						</tr>
 					</table>
