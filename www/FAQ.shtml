@@ -74,7 +74,10 @@ Note that the list in each section is a definition list <dl> where the term
 				<dl class="linkedList">
                 		<dt>&bull; <a href='javascript:openFaqWindow("GM_marker.shtml")'>How do I search for genes, QTL, or other marker types in a specific region of the mouse genome?</a></dt>
 				        <dt>&bull; <a href='javascript:openFaqWindow("GM_attr.shtml")'>How do I use attributes such as genome location, disease association, phenotype, or function to find specific genes?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("GQ_data.shtml")'>How can I contribute my data to MGI?</a></dt>
+                  		<dt>&bull; <a href='javascript:openFaqWindow("PAD_allele.shtml")'>How do I find mutant alleles associated with specific phenotypes or human diseases?</a></dt>
+                  		<dt>&bull; <a href='javascript:openFaqWindow("GXD_tissue_dev.shtml")'>How do I find expression data for a tissue during development?</a></dt>
+ 						<dt>&bull; <a href='javascript:openFaqWindow("GM_genmap.shtml")'> How do I create a graphical display of a genetic or genomic map?</a></dt>
+ 						<dt>&bull; <a href='javascript:openFaqWindow("GQ_data.shtml")'>How can I contribute my data to MGI?</a></dt>
                 		<dt>&bull; <a href='javascript:openFaqWindow("GQ_list.shtml")'>How do I join or unsubscribe from MGI-list and Phenome-list?</a></dt>
                 </dl>
 			</td>
@@ -122,14 +125,14 @@ Note that the list in each section is a definition list <dl> where the term
 			<tr >
 				<td>
 					<dl class="linkedList">
-						<dt>&bull; <a href='javascript:openFaqWindow("PAD_gene.shtml")'> How do I find mutations in a specific gene?</a></dt>
+						<dt>&bull; <a href='javascript:openFaqWindow("PAD_gene.shtml")'>How do I find mutations in a specific gene?</a></dt>
 						<dt>&bull; <a href='javascript:openFaqWindow("PAD_disease.shtml")'>How do I find mouse models for a human disease or condition?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_combo.shtml")'> How do I find mutations that cause a specific combination of phenotypes?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_muttype.shtml")'> How do I find all of one kind of allele (e.g. cre transgenes, LoxP/Frt-flanked alleles, etc.)?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_cand.shtml")'> How do I find candidate genes for a given phenotype and a specific genome location?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_dload.shtml")'> How do I download all phenotype annotations in MGI?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_strain.shtml")'> How do I find available strains carrying a mutation in a specific gene?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_EScell.shtml")'> How do I find an ES cell line?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_combo.shtml")'>How do I find mutations that cause a specific combination of phenotypes?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_muttype.shtml")'>How do I find all of one kind of allele (e.g. cre transgenes, LoxP/Frt-flanked alleles, etc.)?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_cand.shtml")'>How do I find candidate genes for a given phenotype and a specific genome location?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_dload.shtml")'>How do I download all phenotype annotations in MGI?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_strain.shtml")'>How do I find available strains carrying a mutation in a specific gene?</a></dt>
+                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_EScell.shtml")'>How do I find an ES cell line?</a></dt>
 					</dl>
 				</td>
 			</tr>
