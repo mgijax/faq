@@ -70,17 +70,23 @@ Note that the list in each section is a definition list <dl> where the term
 			</td>
 		</tr>
 		<tr >
-			<td>
-				<dl class="linkedList">
-                		<dt>&bull; <a href='javascript:openFaqWindow("GM_marker.shtml")'>How do I search for genes, QTL, or other marker types in a specific region of the mouse genome?</a></dt>
-				        <dt>&bull; <a href='javascript:openFaqWindow("GM_attr.shtml")'>How do I use attributes such as genome location, disease association, phenotype, or function to find specific genes?</a></dt>
-                  		<dt>&bull; <a href='javascript:openFaqWindow("PAD_allele.shtml")'>How do I find mutant alleles associated with specific phenotypes or human diseases?</a></dt>
-                  		<dt>&bull; <a href='javascript:openFaqWindow("GXD_tissue_dev.shtml")'>How do I find expression data for a tissue during development?</a></dt>
- 						<dt>&bull; <a href='javascript:openFaqWindow("GM_genmap.shtml")'> How do I create a graphical display of a genetic or genomic map?</a></dt>
- 						<dt>&bull; <a href='javascript:openFaqWindow("GQ_data.shtml")'>How can I contribute my data to MGI?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("GQ_list.shtml")'>How do I join or unsubscribe from MGI-list and Phenome-list?</a></dt>
-                </dl>
-			</td>
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+                     			<dt>..  search for genes, QTL, or other features in a specific genome interval? <a href='javascript:openFaqWindow("GM_marker.shtml")'>FAQ</a></dt>
+				        		<dt>..  use attributes such as genome location, disease association, phenotype, or function to find specific genes? <a href='javascript:openFaqWindow("GM_attr.shtml")'>FAQ</a></dt>
+                       			<dt>..  find mutant alleles associated with specific phenotypes or human diseases? <a href='javascript:openFaqWindow("PAD_allele.shtml")'>FAQ</a></dt>
+                       			<dt>..  find expression data for a tissue during development? <a href='javascript:openFaqWindow("GXD_tissue_dev.shtml")'>FAQ</a></dt>
+ 				     			<dt>..  create a graphical display of a genetic or genomic map? <a href='javascript:openFaqWindow("GM_genmap.shtml")'>FAQ</a></dt>
+ 				     			<dt>..  contribute my data to MGI? <a href='javascript:openFaqWindow("GQ_data.shtml")'>FAQ</a></dt>
+                     			<dt>..  join or unsubscribe from MGI-list and Phenome-list? <a href='javascript:openFaqWindow("GQ_list.shtml")'>FAQ</a></dt>
+                			</dl>
+						</td>
+					</tr>
+				</td>
+			</tr>
 		</tr>
 	</table>
 </td></tr>
@@ -96,22 +102,31 @@ Note that the list in each section is a definition list <dl> where the term
 			</tr>
 			<tr >
 				<td>
-					<dl class="linkedList">
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_marker.shtml")'> How do I search for genes, QTL, or other features in a specific genome interval?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_ID.shtml")'> How do I search for a gene using an Entrez, Ensembl, VEGA, or other accession ID?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_pirsf.shtml")'> How do I search for genes sharing a specific protein domain?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_gtrap.shtml")'> How do I search for all gene trap cell lines associated with a gene or marker?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_batch.shtml")'> How do I retrieve Entrez, Ensembl, VEGA, or other IDs for a list of genes?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_genmap.shtml")'> How do I create a genome map from a genomic interval?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_gmodel.shtml")'> How do I see different gene models along with the MGI-curated representative model?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_nomen.shtml")'> How do I find or obtain approved nomenclature for a gene, allele or strain?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_clone.shtml")'> How do I find genomic or cDNA clones?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GM_primer.shtml")'> How do I find primer sequence for a gene?</a></dt>
-					</dl>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+
+								<dt>.. search for genes, QTL, or other features in a specific genome interval? <a href='javascript:openFaqWindow("GM_marker.shtml")'>FAQ</a></dt>
+								<dt>.. search for a gene using an Entrez, Ensembl, VEGA, or other accession ID? <a href='javascript:openFaqWindow("GM_ID.shtml")'>FAQ</a></dt>
+								<dt>.. search for genes sharing a specific protein domain? <a href='javascript:openFaqWindow("GM_pirsf.shtml")'>FAQ</a></dt>
+								<dt>.. search for all gene trap cell lines associated with a gene or marker? <a href='javascript:openFaqWindow("GM_gtrap.shtml")'>FAQ</a></dt>
+								<dt>.. retrieve Entrez, Ensembl, VEGA, or other IDs for a list of genes? <a href='javascript:openFaqWindow("GM_batch.shtml")'>FAQ</a></dt>
+								<dt>.. create a genome map from a genomic interval? <a href='javascript:openFaqWindow("GM_genmap.shtml")'>FAQ</a></dt>
+								<dt>.. see different gene models along with the MGI-curated representative model? <a href='javascript:openFaqWindow("GM_gmodel.shtml")'>FAQ</a></dt>
+								<dt>.. find or obtain approved nomenclature for a gene, allele or strain? <a href='javascript:openFaqWindow("GM_nomen.shtml")'>FAQ</a></dt>
+								<dt>.. find genomic or cDNA clones? <a href='javascript:openFaqWindow("GM_clone.shtml")'>FAQ</a></dt>
+								<dt>.. find primer sequence for a gene? <a href='javascript:openFaqWindow("GM_primer.shtml")'>FAQ</a></dt>
+                			</dl>
+						</td>
+					</tr>
 				</td>
 			</tr>
-		</table>
-	</td></tr>
+		</tr>
+	</table>
+</td></tr>
 
 	<tr><td>
 			
@@ -124,19 +139,28 @@ Note that the list in each section is a definition list <dl> where the term
 			</tr>
 			<tr >
 				<td>
-					<dl class="linkedList">
-						<dt>&bull; <a href='javascript:openFaqWindow("PAD_gene.shtml")'>How do I find mutations in a specific gene?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("PAD_disease.shtml")'>How do I find mouse models for a human disease or condition?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_combo.shtml")'>How do I find mutations that cause a specific combination of phenotypes?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_muttype.shtml")'>How do I find all of one kind of allele (e.g. cre transgenes, LoxP/Frt-flanked alleles, etc.)?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_cand.shtml")'>How do I find candidate genes for a given phenotype and a specific genome location?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_dload.shtml")'>How do I download all phenotype annotations in MGI?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_strain.shtml")'>How do I find available strains carrying a mutation in a specific gene?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("PAD_EScell.shtml")'>How do I find an ES cell line?</a></dt>
-					</dl>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+
+								<dt>.. find mutations in a specific gene? <a href='javascript:openFaqWindow("PAD_gene.shtml")'>FAQ</a></dt>
+								<dt>.. find mouse models for a human disease or condition? <a href='javascript:openFaqWindow("PAD_disease.shtml")'>FAQ</a></dt>
+                				<dt>.. find mutations that cause a specific combination of phenotypes? <a href='javascript:openFaqWindow("PAD_combo.shtml")'>FAQ</a></dt>
+                				<dt>.. find all of one kind of allele (e.g. cre transgenes, LoxP/Frt-flanked alleles, etc.)? <a href='javascript:openFaqWindow("PAD_muttype.shtml")'>FAQ</a></dt>
+                				<dt>.. find candidate genes for a given phenotype and a specific genome location? <a href='javascript:openFaqWindow("PAD_cand.shtml")'>FAQ</a></dt>
+                				<dt>.. download all phenotype annotations in MGI? <a href='javascript:openFaqWindow("PAD_dload.shtml")'>FAQ</a></dt>
+                				<dt>.. find available strains carrying a mutation in a specific gene? <a href='javascript:openFaqWindow("PAD_strain.shtml")'>FAQ</a></dt>
+                				<dt>.. find an ES cell line? <a href='javascript:openFaqWindow("PAD_EScell.shtml")'>FAQ</a></dt>
+                			</dl>
+						</td>
+					</tr>
 				</td>
 			</tr>
-		</table>
+		</tr>
+	</table>
 </td></tr>
 
 	<tr><td>
@@ -150,17 +174,26 @@ Note that the list in each section is a definition list <dl> where the term
 			</tr>
 			<tr >
 				<td>
-					<dl class="linkedList">
-						<dt>&bull; <a href='javascript:openFaqWindow("GXD_GeneTissue.shtml")'>How do I find expression data for a specific gene and tissue?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("GXD_tissue_dev.shtml")'>How do I find expression data for a tissue during development?</a></dt>
-	              		<dt>&bull; <a href='javascript:openFaqWindow("GXD_comp_tissue.shtml")'>How do I find genes expressed in one tissue but not another?</a></dt>
-                 		<dt>&bull; <a href='javascript:openFaqWindow("GXD_ref_age.shtml")'>How do I find references that report expression data for a gene at a specific age?</a></dt></dt>
-       					<dt>&bull; <a href='javascript:openFaqWindow("GXD_Gene.shtml")'>How do I find expression data for a specific gene?</a></dt>
-       					<dt>&bull; <a href='javascript:openFaqWindow("GXD_mutant.shtml")'>How do I find expression data in mouse mutants?</a></dt>
-                 	</dl>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+
+								<dt>.. find expression data for a specific gene and tissue? <a href='javascript:openFaqWindow("GXD_GeneTissue.shtml")'>FAQ</a></dt>
+                				<dt>.. find expression data for a tissue during development? <a href='javascript:openFaqWindow("GXD_tissue_dev.shtml")'>FAQ</a></dt>
+	              				<dt>.. find genes expressed in one tissue but not another? <a href='javascript:openFaqWindow("GXD_comp_tissue.shtml")'>FAQ</a></dt>
+                 				<dt>.. find references that report expression data for a gene at a specific age? <a href='javascript:openFaqWindow("GXD_ref_age.shtml")'>FAQ</a></dt></dt>
+       							<dt>.. find expression data for a specific gene? <a href='javascript:openFaqWindow("GXD_Gene.shtml")'>FAQ</a></dt>
+       							<dt>.. find expression data in mouse mutants? <a href='javascript:openFaqWindow("GXD_mutant.shtml")'>FAQ</a></dt>
+                            </dl>
+						</td>
+					</tr>
 				</td>
 			</tr>
-		</table>
+		</tr>
+	</table>
 </td></tr>
 
 <tr><td>
@@ -174,16 +207,23 @@ Note that the list in each section is a definition list <dl> where the term
 		</tr>
 		<tr >
 			<td>
-				<dl class="linkedList">
-         				<dt>&bull; <a href='javascript:openFaqWindow("GO_gene.shtml")'> How do I find all GO annotations for a specific gene?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("GO_term.shtml")'> How do I find all genes with shared annotation to GO term?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("GO_dload.shtml")'> How do I download all mouse GO annotations?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GO_finder .shtml")'> How do I find shared function for a list of specific genes?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GO_ortho.shtml")'> How do I view annotations for mouse/human/rat ortholog sets?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("GO_seq.shtml")'> How do I obtain FASTA sequence files for genes with GO annotations in common?</a></dt>
-
-                </dl>
-			</td>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+                				<dt>.. download all mouse GO annotations? <a href='javascript:openFaqWindow("GO_dload.shtml")'>FAQ</a></dt>
+         						<dt>.. find all GO annotations for a specific gene? <a href='javascript:openFaqWindow("GO_gene.shtml")'>FAQ</a></dt>
+                				<dt>.. find all genes with shared annotation to a GO term? <a href='javascript:openFaqWindow("GO_term.shtml")'>FAQ</a></dt>
+								<dt>.. find shared function for a list of specific genes? <a href='javascript:openFaqWindow("GO_finder.shtml")'>FAQ</a></dt>
+								<dt>.. view annotations for mouse/human/rat ortholog sets? <a href='javascript:openFaqWindow("GO_ortho.shtml")'>FAQ</a></dt>
+								<dt>.. obtain FASTA sequence files for genes with GO annotations in common? <a href='javascript:openFaqWindow("GO_seq.shtml")'>FAQ</a></dt>
+							</dl>
+						</td>
+					</tr>
+				</td>
+			</tr>
 		</tr>
 	</table>
 </td></tr>
@@ -194,18 +234,26 @@ Note that the list in each section is a definition list <dl> where the term
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
-				<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/underConstruction.shtml">Biochemical Pathways</a>
+				<a href="http://firien.informatics.jax.org/usrlocalmgi/live/mgihome/www/homepages/minihome_BioPath.shtml">Biochemical Pathways</a>
 			</td>
 		</tr>
 		<tr >
 			<td>
-				<dl class="linkedList">
-         				<dt>&bull; <a href='javascript:openFaqWindow("BP_allpath.shtml")'> How do I see a list of all pathways in MouseCyc?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("BP_comp.shtml")'> How do I search MouseCyc for a specific compound?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("BP_expr.shtml")'> How can I display my mouse gene expression data in the context of mouse pathways?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("BP_path.shtml")'> How do I compare mouse pathways to human pathways?</a></dt>
-                </dl>
-			</td>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+         						<dt>.. see a list of all pathways in MouseCyc? <a href='javascript:openFaqWindow("BP_allpath.shtml")'>FAQ</a></dt>
+                				<dt>.. search MouseCyc for a specific compound? <a href='javascript:openFaqWindow("BP_comp.shtml")'>FAQ</a></dt>
+                				<dt>.. display my mouse gene expression data in the context of mouse pathways? <a href='javascript:openFaqWindow("BP_expr.shtml")'>FAQ</a></dt>
+                				<dt>.. compare mouse pathways to human pathways? <a href='javascript:openFaqWindow("BP_path.shtml")'>FAQ</a></dt>
+                            </dl>
+						</td>
+					</tr>
+				</td>
+			</tr>
 		</tr>
 	</table>
 </td></tr>
@@ -221,13 +269,21 @@ Note that the list in each section is a definition list <dl> where the term
 		</tr>
 		<tr >
 			<td>
-				<dl class="linkedList">
-               			<dt>&bull; <a href='javascript:openFaqWindow("STRN_SNP.shtml")'> How do I find all known coding SNPs in a specific genomic location for one or more strains?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("STRN_poly.shtml")'> How do I find strains with RFLP/PCR polymorphisms in a particular gene?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("STRN_Fest.shtml")'> How do I find characteristics of a specific strain in M. Festing's <i>Inbred Strains of Mice and Rats?</i></a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("STRN_genom.shtml")'> How do I find genomic sequence for a specific mouse strain?</a></dt>
-                </dl>
-			</td>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+               					<dt>.. find all known coding SNPs in a specific genomic location for one or more strains? <a href='javascript:openFaqWindow("STRN_SNP.shtml")'>FAQ</a></dt>
+                				<dt>.. find strains with RFLP/PCR polymorphisms in a particular gene? <a href='javascript:openFaqWindow("STRN_poly.shtml")'>FAQ</a></dt>
+                				<dt>.. find characteristics of a specific strain in M. Festing's <i>Inbred Strains of Mice and Rats?</i> <a href='javascript:openFaqWindow("STRN_Fest.shtml")'>FAQ</a></dt>
+                				<dt>.. find genomic sequence for a specific mouse strain? <a href='javascript:openFaqWindow("STRN_genom.shtml")'>FAQ</a></dt>
+                            </dl>
+						</td>
+					</tr>
+				</td>
+			</tr>
 		</tr>
 	</table>
 </td></tr>
@@ -243,14 +299,23 @@ Note that the list in each section is a definition list <dl> where the term
 		</tr>
 		<tr >
 			<td>
-				<dl class="linkedList">
-				        <dt>&bull; <a href='javascript:openFaqWindow("ORTH_set.shtml")'> How do I view the ortholog set for a mouse gene?</a></dt>
-               			<dt>&bull; <a href='javascript:openFaqWindow("ORTH_map.shtml")'> How do I view a comparative map of mouse and human chromosomes?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("ORTH_PIRSF.shtml")'> How do I search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes?</a></dt>
-						<dt>&bull; <a href='javascript:openFaqWindow("ORTH_gene.shtml")'> How do I find the mouse ortholog of a human gene?</a></dt>
-                		<dt>&bull; <a href='javascript:openFaqWindow("ORTH_dload.shtml")'> How do I download all mouse and human orthologs?</a></dt>
-                </dl>
-			</td>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+
+				        		<dt>.. view the ortholog set for a mouse gene? <a href='javascript:openFaqWindow("ORTH_set.shtml")'>FAQ</a></dt>
+               					<dt>.. view a comparative map of mouse and human chromosomes? <a href='javascript:openFaqWindow("ORTH_map.shtml")'>FAQ</a></dt>
+                				<dt>.. search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes? <a href='javascript:openFaqWindow("ORTH_PIRSF.shtml")'>FAQ</a></dt>
+								<dt>.. find the mouse ortholog of a human gene? <a href='javascript:openFaqWindow("ORTH_gene.shtml")'>FAQ</a></dt>
+                				<dt>.. download all mouse and human orthologs? <a href='javascript:openFaqWindow("ORTH_dload.shtml")'>FAQ</a></dt>
+                            </dl>
+						</td>
+					</tr>
+				</td>
+			</tr>
 		</tr>
 	</table>
 </td></tr>

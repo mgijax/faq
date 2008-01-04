@@ -1,7 +1,7 @@
 
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0: Finding Gene Expression Assay Images</TITLE>
+<title>MGI_4.0: Finding Gene Expression Assay Images</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 
@@ -11,24 +11,21 @@
  <span class="faqHeaderText">Accessing gene expression assay images</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<table border=0 cellpadding=0 cellspacing=7>
+<tr>
+<td>
+<br>
 <form><input type="button" value=" Print this page "onclick="window.print();return false;" /></form>
 Whenever possible, the text annotations of expression results in GXD are complemented by images of 
 the original expression data.  Major ways to access the images in GXD include:
-<UL>
-<LI>Using GXD query forms:  Queries return data summaries that, in turn, lead to expression assay detail pages. 
+<ul>
+<li>Using GXD query forms:  Queries return data summaries that, in turn, lead to expression assay detail pages. 
 The images can be accessed by clicking on hyperlinks in the image field of expression assay detail pages.  (See FAQs for further instructions on doing expression queries.)
 <P>
-<LI>Image link on gene detail pages:  A summary of all the expression images for a gene can be assessed by 
+<li>Image link on gene detail pages:  A summary of all the expression images for a gene can be assessed by 
 clicking on the Images link in the Expression section of that gene's detail page.  (For more detailed 
 instructions see the FAQ "How do I find expression data for a specific gene?")
-</UL>
-</TR>
-</TABLE>
-</BODY>
-</HTML>
-
+</ul>
+</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

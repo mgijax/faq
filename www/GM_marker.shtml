@@ -16,27 +16,38 @@
 <br>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
-		<td class="enhance" colspan=2 align=center>
-			Genes and Markers Query Form
+		<td class="enhance" colspan=2 align=left>
+			Overview
 		</td>
 	</tr>
 	<tr>
-		<td valign=top>
-			You can use the Genes and Markers Query Form to narrow your search to a specific region of the mouse genome 
-			by choosing a chromosome number and entering genome coordinates, a cytogenetic band, centiMorgan position, 
-			or marker range. Within this interval, you can choose to retrieve genes, QTL, pseudogenes, microRNA, 
-			or other marker types.
-			<p>
-			To begin, click <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF"target = "blank">here</a>
-			to open the Genes and Markers Query Form in a new window. The Genes and Markers Query Form is located beneath the Search menu as shown.
-			</p>
+		<td colspan=2 align=left>You can use the Genes and Markers Query Form to narrow your search to a specific region of the mouse genome. 
+			Within this interval, you can choose to retrieve genes, QTL, pseudogenes, microRNA, or other marker types.
 		</td>
-
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Genes and Markers Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Genes and Markers Query Form from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF"target = "blank">Genes and Markers Query Form</a>
+			in a new window or tab. 
+		</td>
+		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GM.jpg" width=758 height=413 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/srchmenu_GM.jpg" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -44,10 +55,12 @@
 	</tr>
 </table>
 <br>
-<table class="outline" width="100%">
+<table width="100%">
 	<tr>
-		<td class="enhance" colspan=2 align=center>
-			Finding genes within a specific genomic interval
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding genes on Chromosome 7 between 130 and 140 Mbp
 		</td>
 	</tr>
 
@@ -56,48 +69,45 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>In the <b>Gene/Marker</B> section of the page, find the <b>Type</B> drop-down menu and select Gene. 
+						<li>Select <I>Gene</I> from the <b>Type</B> drop-down menu. 
 						<p>
-						<li>Find the <b>Map Position</B> section of the form and select 7 from the <b>Chromosome(s)</B> list.
+						<li>Select <I>7</I> from the <b>Chromosome(s)</B> list.
 						<p>
-						<li>In the text box beneath <b>Genome Coordinates</B>, type <I>130 - 140</I>.
+						<li>Type <I>130 - 140</I> in the text box beneath <b>Genome Coordinates</B>.
 						<p>
-						<li>Change the pull-down menu near the <b>Genome Coordinates</B> text box from bp to Mbp.
+						<li>Change <I>bp</I> to <I>Mbp</I> in the drop-down menu near <b>Genome Coordinates</B>.
 						<p>
-						<li>Click the <b>Search</B> button. The search results will list all genes on Chromosome 7 between
-						130 and 140 Mbp.
+						<li>Click <b>Search</B>. 
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_QFtop.jpg" width=780 height=333 alt="G&M QF Screen Shot">
+								<img src="Images/GM_QFtop.jpg" width=757 height=455 alt="G&M QF Screen Shot">
 							</td>
 						</tr>
 					</table>
 				</td>	
-			</tr>
+			</tr> 
 		</td>
 	</tr>
 </table>
 
 <br>
 
-<table class="outline" width="100%">
+<table width="100%">
 	<tr>
-		<td class="enhance" colspan=2 align=center>
-			Finding QTL within a specific genomic interval
+		<td class="enhance" colspan=2 align=left>
+			Example 2. Finding QTL on Chromosome 7 between 130 and 140 Mbp
 		</td>
 	</tr>
 	<tr>
 		<td valign=top>
 			<ol>
-			<li>Return to the Genes and Markers Query Form.
+			<li>Follow the steps detailed in Example 1 above, but select <I>QTL</I> instead of <I>Gene</I> for step 1.
 			<p>
-			<li>Change the <b>Type</B> drop-down menu from Gene to QTL.
-			<p>
-			<li>Click the <b>Search</B> button to retrieve all QTL on Chromosome 7 between 130 and 140 Mbp.
+			<li>Click the <b>Search</B> button.
 		</td>
 	</tr>
 </table>
