@@ -69,22 +69,22 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select <I>Gene</I> from the <b>Type</B> drop-down menu. 
+						<li>Select <I>Gene</I> from the <b>Type</b> drop-down menu. 
 						<p>
-						<li>Select <I>7</I> from the <b>Chromosome(s)</B> list.
+						<li>Select <I>7</I> from the <b>Chromosome(s)</b> list.
 						<p>
-						<li>Type <I>130 - 140</I> in the text box beneath <b>Genome Coordinates</B>.
+						<li>Type <I>130 - 140</I> in the text box beneath <b>Genome Coordinates</b>.
 						<p>
-						<li>Change <I>bp</I> to <I>Mbp</I> in the drop-down menu near <b>Genome Coordinates</B>.
+						<li>Change <I>bp</I> to <I>Mbp</I> in the drop-down menu near <b>Genome Coordinates</b>.
 						<p>
-						<li>Click <b>Search</B>. 
+						<li>Click <b>Search</b>. 
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_QFtop.jpg" width=757 height=455 alt="G&M QF Screen Shot">
+								<img src="Images/GM_marker.jpg" width=760 height=455 alt="G&M QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -107,7 +107,7 @@
 			<ol>
 			<li>Follow the steps detailed in Example 1 above, but select <I>QTL</I> instead of <I>Gene</I> for step 1.
 			<p>
-			<li>Click the <b>Search</B> button.
+			<li>Click the <b>Search</b> button.
 		</td>
 	</tr>
 </table>
