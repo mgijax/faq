@@ -233,12 +233,6 @@ do
 	cd $TOP
 done
 
-# Gather the webshare.rcd file from the shared images product
-logHeading "Generating webshare.rcd"
-cd admin
-gen_rcd
-cd $TOP
-
 # Generate the include files for .shtml files to use
 logHeading "Generating the include files..."
 cd admin
