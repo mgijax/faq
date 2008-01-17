@@ -1,8 +1,9 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Compare Expression Between Tissues</TITLE>
+<title>MGI_4.0 FAQ: Compare Expression Between Tissues</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -10,39 +11,105 @@
  <span class="faqHeaderText">How do I find genes expressed in one tissue but not another?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=expressionQFexpanded"TARGET = "BLANK">here</A>
-to open the Gene Expression Data Expanded Query Form in a new window. The Gene Expression Data Expanded Query Form is located beneath the Search menu in the toolbar, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/GXD_EQF.jpg" WIDTH=600 HEIGHT=277 ALT="Search Menu GXD EQF Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Find the <B>Expression</B> section in the center of the form. Notice that this section is divided into
-four quadrants: two on the left entitled <B>Anatomical Structure(s)</B> and two on the right entitled  <B>Developmental Stage(s)</B>.
-<P>
-<P>
-<CENTER>
-<IMG SRC="Images/GXD_EQFanat.jpg" WIDTH=600 HEIGHT=279 ALT="Search Menu GXD EQF Anatomical Structure Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Type the name of a tissue, such as <B>forebrain</B>, into the <B>Anatomical Structures(s)</B> text box in the upper left quadrant.  
-This part of the search will return assays in which expression was detected.
-<P>
-<LI>Type the name of a second tissue, such as <B>midbrain</B>, into the <B>Anatomical Structures(s)</B> text box in the lower left quadrant.  
-This part of the search will return assays in which expression was NOT detected.
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>The search results will list genes which are expressed in the forebrain but not in the midbrain. Each gene may be listed more than once,
-since the structures you have searched for may appear in more than one assay. Click a link in the <B>Results Details</B> column to view assay details.
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Gene Expression Data Expanded Query Form to query for genes expressed in some anatomical structures
+		and/or developmental stages but not in others.  
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Gene Expression Data Expanded Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Gene Expression Data Expanded Query Form from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded"target = "blank">Gene Expression Data Expanded Query Form</a>
+			in a new window or tab. 
+		</td>
 
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/srchmenu_GXDE.jpg" width=794 height=411 alt="Search Menu GXD EQF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding genes expressed in the forebrain but not in the midbrain
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Type <b>forebrain</b> into the <b>Anatomical Structures(s)</b> text box in the upper left quadrant of
+						the <b>Expression</b> section of the form. This part of the search will return assays in which expression 
+						was detected. 
+						<p>
+						<li>Type <b>midbrain</b> into the <b>Anatomical Structures(s)</b> text box in the lower left quadrant of
+						the <b>Expression</b> section. This part of the search will return assays in which expression was NOT detected.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_EQFanat.jpg" width=600 height=279 alt="Search Menu GXD EQF Anatomical Structure Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 4>Click a link in the <b>Result Details</b> column to view assay details. Each gene may 
+						be listed more than once, since the structures you have searched for may appear in more than one assay.
+					</ol>
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXDsummary.jpg" width=753 height=191 alt="GXD Summary Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
