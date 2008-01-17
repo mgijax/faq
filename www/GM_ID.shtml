@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Genes Using Accession IDs</TITLE>
+<title>MGI_4.0 FAQ: Find Genes Using Accession IDs</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,52 +11,100 @@
  <span class="faqHeaderText">How do I search for a gene using an Entrez, Ensembl, VEGA, or other accession ID?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
-to open the MGI home page in a new window.
-<P>
-<CENTER>
-<IMG SRC="Images/home.jpg" WIDTH=600 HEIGHT=578 ALT="Search Box Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Type an accession ID into the search box in the upper right hand corner of the web page.  
-As an example, use 18505.
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>On the Search Results page, find an entry described as "Gene" in the <B>Type</B> column.
-<P>
-<LI>Click a link to <U>MGI Marker Detail</U> in the <B>MGI Links</B> column to retrieve a Gene Detail page. In this example
-you will retrieve the Gene Detail page for the <I>Pax3</I> gene.
-<P>
-<LI>For a list of accession IDs, click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=batchQF"TARGET = "BLANK">here</A>
-to go to the Batch Query tool. The Batch Query tool is located beneath the Search menu, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/GM_batch.jpg" WIDTH=600 HEIGHT=285 ALT="Search Menu Batch Query Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Using the MGI Batch Query, you can enter a list or upload a file of official 
-MGI gene/marker symbols, or gene, transcript, or sequence IDs from MGI, Ensembl, Entrez, 
-Uniprot or other sources. You can choose to return gene symbols and names, genomic location, 
-Gene Ontology or Mammalian Phenotype terms, MGI allele IDs, or IDs from other sources. 
-<P>
-<LI>As a quick example, type these two accession identifiers into the text box:
-<P>
-<I>18505</I>
-<BR>
-<I>18508</I>
-<P>
-<LI>For <B>Input Identifier Type</B>, select Entrez Gene ID. 
-<P>
-<LI> Click the <B>Search</B> button.
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Search Box to find information about genes,
+			markers or accession identifiers in MGI. The Search Box returns a list of genes, 
+			markers, or accession IDs that contain your entry.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Search Box
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"target = "blank">MGI home page</a>
+			in a new window or tab. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/header.jpg" width=759 height=103 alt="MGI Header Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding the gene associated with Entrez Gene accession identifier 18505
+		</td>
+	</tr>
 
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li>Type <i>18505</i> into the search box.
+					<p>
+					<li>Click <b>Search</b>.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/search_box.jpg" width=409 height=29 alt="Search Box Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 3>The <b>Search Results</b> page lists symbols, names, and accession identifiers containing
+					<i>18505</i>. Click the link to <u>MGI Marker Detail</u> to retrieve the Gene Detail 
+					page for the <i>Pax3</i> gene.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_ID1.jpg" width=755 height=406 alt="Search Results Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

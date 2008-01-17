@@ -79,7 +79,7 @@ Note that the list in each section is a definition list <dl> where the term
 				        		<dt>..  use attributes such as genome location, disease association, phenotype, or function to find specific genes? <a href='javascript:openFaqWindow("GM_attr.shtml")'>FAQ</a></dt>
                        			<dt>..  find mutant alleles associated with specific phenotypes or human diseases? <a href='javascript:openFaqWindow("PAD_allele.shtml")'>FAQ</a></dt>
                        			<dt>..  find expression data for a tissue during development? <a href='javascript:openFaqWindow("GXD_tissue_dev.shtml")'>FAQ</a></dt>
- 				     			<dt>..  create a graphical display of a genetic or genomic map? <a href='javascript:openFaqWindow("GM_genmap.shtml")'>FAQ</a></dt>
+ 				     			<dt>..  create a genome map from a genomic interval? <a href='javascript:openFaqWindow("GM_genmap.shtml")'>FAQ</a></dt>
  				     			<dt>..  contribute my data to MGI? <a href='javascript:openFaqWindow("GQ_data.shtml")'>FAQ</a></dt>
                      			<dt>..  join or unsubscribe from MGI-list and Phenome-list? <a href='javascript:openFaqWindow("GQ_list.shtml")'>FAQ</a></dt>
                 			</dl>
