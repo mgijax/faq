@@ -1,10 +1,9 @@
-
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Contribute Data to MGI</TITLE>
+<title>MGI_4.0 FAQ: Contribute Data to MGI</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -12,37 +11,97 @@
  <span class="faqHeaderText">How can I contribute my data to MGI?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
-<OL><LI>For experimental data such as mapping, homology, phenotype, expression or other data, select 
-Contribute Data to MGI from the Submit menu, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/sbmtmenu_data.jpg" WIDTH=779 HEIGHT=365 ALT="Submit Menu Data Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>To request nomenclature or lab codes, select Nomenclature & Lab Code Requests from the Submit menu, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/sbmtmenu_nomen.jpg" WIDTH=600 HEIGHT=275 ALT="Submit Menu Nomenclature Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>To review mouse nomenclature, select Nomenclature from the More Resources menu, as shown below. 
-<P>
-<CENTER>
-<IMG SRC="Images/mrmenu_nomen.jpg" WIDTH=600 HEIGHT=264 ALT="More Resources Menu Nomenclature Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>The Quick Guides are good places to start for gene, allele and mutation nomenclature. 
-More detailed information may be found in the full guides.  As an example, allele symbol 
-<I>Egfr<sup>tm1Cwr</sup></I> refers to the first targeted mutation (tm1) of the <I>Egfr</I> gene 
-produced by Case Western Reserve University (Cwr).
-</OL>
-</TR></TABLE>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
+<br>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can submit experimental data to MGI to increase the 
+			exposure of your work and to make data available to the scientific community.
+			Submitting experimental data to MGI will increase the exposure of your work 
+			because your data will be integrated with many other data and made widely 
+			available for database searches, adding to its value and increasing its 
+			exposure.  Also, by increasing the amount of data in MGI, you can help 
+			increase its utility for yourself and others.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Submitting data to MGI
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, click <b>Submit Data</b> in the navigation bar as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/wi_url.html'-->menus/allsubmitforms_menu.shtml"target = "blank">Submit Data</a>
+			page in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/sbmt_data.jpg" width=757 height=107 alt="Navigation Bar Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Submitting allele, phenotype or expression data
+		</td>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>For new alleles, mutations, or transgenes, click the link to <u>Allele Nomenclature</u> to 
+							retrieve the 
+							<a href="<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml"target = "blank">Mutation Submission Form</a>.
+							Use this form to describe spontaneous, induced, or genetically engineered mutations. MGI staff 
+							will help you assign correct nomenclature and provide an MGI accession identifier.
+							<p>
+						<li>To submit phenotype information for mutations already in MGI, click the link to <u>Phenotype Data</u> to 
+							retrieve the 
+							<a href="<!--#include file='include/mgihome_url.html'-->nomen/phenotype_data_form.shtml"target = "blank">Phenotype Data Submission Form</a>.
+							<p>
+						<li>To submit expression data, click the link to <u>Expression Data</u> to 
+							retrieve guidelines for 
+							<a href="<!--#include file='include/mgihome_url.html'-->GXD/GEN/gxd_submission_guidelines.shtml"target = "blank">Submitting expression data to the Gene Expression Database (GXD)</a>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GQ_data1.jpg" width=601 height=338 alt="Submit Page Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
