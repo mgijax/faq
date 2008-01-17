@@ -1,8 +1,9 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Protein Domains</TITLE>
+<title>MGI_4.0 FAQ: Protein Domains</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -10,28 +11,104 @@
  <span class="faqHeaderText">How do I search for genes sharing a specific protein domain?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=pirsfVocab&subset=A"TARGET = "BLANK">here</A>
-to open the Protein Superfamily Browser in a new window. The Protein Superfamily Browser is located beneath the 
-Search menu in the toolbar, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/srchmenu_pirsf.jpg" WIDTH=772 HEIGHT=384 ALT="Search Menu PIRSF Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>As an example, type <I>potassium channels</I> in the text box. 
-<P>
-<LI>Click the <B>Search</B> button. 
-<P>
-<LI>Click the link to <U>potassium channel protein Drk1</U> from the list of genes in this superfamily, along with
-human and rat orthologs and protein sequence IDs.
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Protein Superfamily Browser to retrieve genes, sequences
+			and human, rat and mouse orthologs for a given superfamily.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Protein Superfamily Browser
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Protein Superfamily Browser from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file="include/javawi_url.html"-->WIFetch?page=pirsfVocab&subset=A"target = "blank">Protein Superfamily Browser</a>
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/srchmenu_pirsf.jpg" width=772 height=384 alt="Search Menu PIRSF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding potassium channel superfamily members
+		</td>
+	</tr>
 
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Type <i>potassium channel</i> in the text box. 
+						<p>
+						<li>Click <b>Search</b>. 
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_pirsf1.jpg" width=706 height=205 alt="PIRSF Browser Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 3>Click the link to <u>potassium channel protein Drk1</u> to view a list of genes 
+						in this superfamily, along with human and rat orthologs and protein sequence IDs.
+					</ol>
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_pirsf2.jpg" width=514 height=180 alt="PIRSF Search Results Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
 

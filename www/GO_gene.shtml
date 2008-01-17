@@ -1,8 +1,9 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find GO Annotation For A Gene</TITLE>
+<title>MGI_4.0 FAQ: Find GO Annotation For A Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -10,34 +11,134 @@
  <span class="faqHeaderText">How do I find all GO annotations for a specific gene?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
-to open the MGI home page in a new window.
-<P>
-<CENTER>
-<IMG SRC="Images/home.jpg" WIDTH=600 HEIGHT=578 ALT="Search Box Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Type a gene symbol into the search box in the upper right hand corner of the web page.  
-As an example, use <I>Pax6</I>.
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>On the Search Results page, click the link to <U>Pax6</U> in the <B>Symbol, Name</B> column.
-<P>
-<LI>Find the <B>Gene Ontology (GO) classifications</B> section on the <I>Pax6</I> Gene Detail page.
-<P>
-<LI>Click the link to All GO classifications(<U><I>x</I></U>).
-<P>
-<LI>The <B>Gene Ontology classifications</B> page supplies all classifications in text, table and graphical form. 
-Click the link to <U>Tabular View</U> to view a table listing all classifications, or the link to <U>GO Graph</U> 
-to view a graph of all classifications.
-</OL>
-</TR></TABLE>
+<br>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Search Box to find information about genes,
+			markers or accession identifiers in MGI. The Search Box returns a list of genes, 
+			markers, or accession IDs that contain your entry.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Search Box
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"target = "blank">MGI home page</a>
+			in a new window or tab. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/header.jpg" width=759 height=103 alt="MGI Header Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding orthologs for gene <i>Pax6</i>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li>Type <i>pax6</i> into the search box.
+					<p>
+					<li>Click <b>Search</b>.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/search_box.jpg" width=409 height=29 alt="Search Box Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 3>The <b>Search Results</b> page lists symbols and names containing
+					<i>Pax6</i>. Click the link to <u>Pax6</u>.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_Gene1.jpg" width=752 height=369 alt="Search Results Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign=top><ol>
+					<li value = 4>Click the link to <u>All GO classifications(44)</u> on the <b>Pax6 Gene Detail</b> page.
+				</ol>
+			</td>
+			<td valign=top>
+				<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GO_gene2.jpg" width=742 height=80 alt="Pax6 GO Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 5>The <b>Gene Ontology classifications</b> page supplies all classifications in text, 
+						table and graphical form. Click the link to <u>Tabular View</u> to view a table listing all 
+						classifications, or the link to <u>GO Graph</u> to view a graph of all classifications.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GO_gene3.jpg" width=733 height=145 alt="GO Classifications Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

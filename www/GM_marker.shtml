@@ -1,4 +1,3 @@
-
 <!--#include file='include/templateHead.html'-->
 
 <title>MGI_4.0 FAQ: Find Genes, QTL or Other Marker Types</title>
@@ -69,13 +68,13 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select <I>Gene</I> from the <b>Type</b> drop-down menu. 
+						<li>Select <i>Gene</i> from the <b>Type</b> drop-down menu. 
 						<p>
-						<li>Select <I>7</I> from the <b>Chromosome(s)</b> list.
+						<li>Select <i>7</i> from the <b>Chromosome(s)</b> list.
 						<p>
-						<li>Type <I>130 - 140</I> in the text box beneath <b>Genome Coordinates</b>.
+						<li>Type <i>130 - 140</i> in the text box beneath <b>Genome Coordinates</b>.
 						<p>
-						<li>Change <I>bp</I> to <I>Mbp</I> in the drop-down menu near <b>Genome Coordinates</b>.
+						<li>Change <i>bp</i> to <i>Mbp</i> in the drop-down menu near <b>Genome Coordinates</b>.
 						<p>
 						<li>Click <b>Search</b>. 
 					</ol>
@@ -93,9 +92,7 @@
 		</td>
 	</tr>
 </table>
-
 <br>
-
 <table width="100%">
 	<tr>
 		<td class="enhance" colspan=2 align=left>
@@ -105,13 +102,10 @@
 	<tr>
 		<td valign=top>
 			<ol>
-			<li>Follow the steps detailed in Example 1 above, but select <I>QTL</I> instead of <I>Gene</I> for step 1.
+			<li>Follow the steps detailed in Example 1 above, but select <i>QTL</i> instead of <i>Gene</i> for step 1.
 			<p>
-			<li>Click the <b>Search</b> button.
+			<li>Click <b>Search</b>.
 		</td>
 	</tr>
 </table>
-
-
-
 <!--#include file='include/templateBlankBodyStop.html'-->

@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Shared Function for a List of Genes</TITLE>
+<title>MGI_4.0 FAQ: Find Shared Function for a List of Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,40 +11,108 @@
  <span class="faqHeaderText">How do I find shared function for a list of specific genes?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
-<OL><LI>Click <A HREF="<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml"TARGET = "BLANK">here</A>
-to go to the GO Functional Annotations page. This page may be accessed by clicking the GO Functional Annotations link on 
-the MGI home page, or by clicking the tab near the top center of other MGI pages.
-<P>
-<CENTER>
-<IMG SRC="Images/GO_mini.jpg" WIDTH=876 HEIGHT=579 ALT="GO Mini Home Page Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Find the box labeled <B>Access MGI-GO data</B> located at left. In the lower right of this box, click the link to
-the <U>MGI GO Term Finder</U>.
-<P>
-<LI>Using the MGI GO Term Finder, you can enter a list or upload a file of official MGI gene/marker symbols. 
-You can choose to return GO annotations from either the Biological Process, Molecular Function,
-or Cellular Component Ontology for this set of genes. 
-<P>
-<LI>As a quick example, type these three gene symbols into the text box for <B>Step 1</B>:
-<P>
-<I>Pax6</I>
-<BR>
-<I>Pax3</I>
-<BR>
-<I>Pax2</I>
-<P>
-<LI>For <B>Step 2</B>, select the radio button next to Function. 
-<P>
-<LI>For <B>Step 3</B>, select Exclude IEAs. 
-<P>
-<LI> Click the <B>Search</B> button.
-</OL>
-</TR></TABLE></BODY></HTML>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
+<br>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the GO Functional Annotations page to retrieve
+			functional annotations to mouse genes. 
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the GO Functional Annotations page
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the GO Functional Annotations page by clicking the appropriate tab as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml"target = "blank">GO Functional Annotations</a>
+			page in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GO_tab.jpg" width=763 height=102 alt="GO Tab Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding shared function for <i>Pax</i> genes
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click the link to the <u>MGI GO Term Finder</u> in the box labeled 
+						<b>Access GO Functional Annotations Data</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GO_finder1.jpg" width=455 height=176 alt="GO Page Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 2>Type these three gene symbols into the text box:
+						<p>
+						<i>Pax6</i>
+						<br>
+						<i>Pax3</i>
+						<br>
+						<i>Pax2</i>
+						<p>
+						<li>Select the radio button next to <i>Function</i>. 
+						<p>
+						<li>Select <i>Exclude IEAs</i>. 
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GO_finder2.jpg" width=450 height=585 alt="GO Term Finder Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
