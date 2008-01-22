@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Mutations in a Gene</TITLE>
+<title>MGI_4.0 FAQ: Find Mutations in a Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,32 +11,106 @@
  <span class="faqHeaderText">How do I find mutations in a specific gene?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml"TARGET = "BLANK">here</A>
-to go to the Phenotypes and Alleles Query Form. The Phenotypes and Alleles Query Form is located beneath the Search menu, 
-as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/PA_QF.jpg" WIDTH=600 HEIGHT=284 ALT="Search Menu P&A QF Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Type <I>kit</I> in the <B>Gene/Marker</B> text box.
-<P>
-<LI>Change the drop-down menu to the left of the Gene/Marker text box from "contains" to "=".
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>The search results list all alleles of the <I>Kit</I> gene. The first column supplies the allele
-symbol and name. Mutation types, such as chemically induced (ENU), knock-in, and spontaneous mutations 
-are described in the <B>Category</B> column. The final column lists genotypes as a combination of <I>Kit</I>
-alleles on a specific genetic background. Click any allele symbol in the first column of the search results 
-to view greater detail about an allele, genotypes involving this allele, and phenotypes of mice carrying this allele.
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Phenotypes, Alleles and Disease Models Query Form to find alleles of a gene, alleles
+		associated with a specific phenotype, or alleles created by a specific type of mutation.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Phenotypes, Alleles and Disease Models Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Phenotypes, Alleles and Disease Models Query Form from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml"target = "blank">Phenotypes, Alleles and Disease Models Query Form</a>
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=600 height=284 alt="Search Menu PAD QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding <i>Kit</i> alleles
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Type <i>kit</i> in the <b>Gene/Marker</b> text box.
+						<p>
+						<li>Change <i>contains</i> to <i>=</i> in the drop-down menu to the right of <b>Gene/Marker</b>.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_gene1.jpg" width=859 height=417 alt="PAD QF Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 4>Click an allele symbol in the first column of the search results to view detail.
+					</ol>
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_gene2.jpg" width=827 height=179 alt="PAD Summary Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
