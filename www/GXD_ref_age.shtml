@@ -8,8 +8,8 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find references that report expression data f
- or a gene at a specific age?</span>
+ <span class="faqHeaderText">How do I find references that report expression data 
+ for a gene at a specific age?</span>
 </div>
 
 <style>
