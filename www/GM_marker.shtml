@@ -13,6 +13,9 @@
 </style>
 
 <br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
+
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
@@ -46,7 +49,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GM.jpg" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -83,7 +86,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_marker.jpg" width=760 height=455 alt="G&M QF Screen Shot">
+								<img src="Images/GM_marker.jpg" width=756 height=353 alt="G&M QF Screen Shot">
 							</td>
 						</tr>
 					</table>

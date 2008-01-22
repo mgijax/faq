@@ -1,8 +1,9 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Expression in Tissues</TITLE>
+<title>MGI_4.0 FAQ: Expression in Tissues</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -10,46 +11,177 @@
  <span class="faqHeaderText">How do I find expression data for a tissue during development?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/wi_url.html"-->searches/anatdict_form.shtml"TARGET = "BLANK">here</A>
-to open the Mouse Anatomical Dictionary Browser in a new window.
-The Mouse Anatomical Dictionary Browser is located beneath the Search menu in the toolbar, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/GXD_AD.jpg" WIDTH=600 HEIGHT=286 ALT="Search Menu AD Browser Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Type the name of the tissue into the <B>Query</B> text box.  As an example, type <B>heart</B>. 
-<P>
-<LI>Click the Search button. 
-<P>
-<LI>Your return will list all the developmental (Theiler) stages that contain terms that match the query.  
-As an example, click on <B>heart</B> in <B>Theiler stage 17</B>.
-<P>
-<LI>Click on <B><U>show all</U></B> to see all expression results annotated to the heart and its substructures.
-<P>
-<LI>Once the query results have been returned, click on any link in the 
-<B>Result Details</B> column to view details from assays that examined expression 
-in the heart in Theiler stage 17.
-<P>
-<LI>To further refine your original query, click the back button on your browser to return to the page used in step 5 
-(Anatomical Dictionary Browser Term Detail page). This time, click the link to <B><U>refine search</U></B>.
-<P>
-<LI>On the Anatomical Dictionary Browser Query Refiner page, find the <B>Assay type(s)</B> section at the bottom.
-<P>
-<LI>Scroll down the <B>Assay type(s)</B> pick list and select RNA in situ.
-<P>
-<LI>Click the Search button. 
-<P>
-<LI>Once the query results have been returned, click on any link in the <B>Result Details</B> column 
-to view details from RNA in situ assays that examined expression in the heart in Theiler stage 17.
+<br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 
-</OL>
-</TR></TABLE>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use The Mouse Anatomical Dictionary Browser to find 
+			anatomical terms of most interest to you, either by browsing the hierarchy of 
+			anatomical structures or by searching for specific terms.  You can then use 
+			the links provided to find the expression results associated with those terms.
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Mouse Anatomical Dictionary Browser
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Mouse Anatomical Dictionary Browser from 
+			the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the
+			<a href="<!--#include file="include/wi_url.html"-->searches/anatdict_form.shtml"target = "blank">Mouse Anatomical Dictionary Browser</a>
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding expression results for the heart in Theiler stage 17
+		</td>
+	</tr>
 
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Type <i>heart</i> into the <b>Query</b> text box.
+						<p>
+						<li>Click the <b>Search</b> button. 
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_tissue_dev1.jpg" width=812 height=282 alt="AD Browser Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 3>Click on <u>heart</u> in <b>Theiler stage 17</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_tissue_dev2.jpg" width=592 height=649 alt="AD Browser Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 4>Click on <u>show all</u> to see all expression 
+						results annotated to the heart and its substructures.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_tissue_dev3.jpg" width=543 height=321 alt="AD Browser Term Detail">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 5>Click on a link in the <b>Result Details</b> column to 
+						view details from assays that examined expression in the heart in Theiler stage 17.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_tissue_dev4.jpg" width=667 height=153 alt="GXD Summary">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 6>To further refine your original query, click the back button 
+						on your browser to return to the page used in step 4. This time, click 
+						the link to <u>refine search</u>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_tissue_dev5.jpg" width=543 height=321 alt="AD Browser Term Detail">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 7>On the <b>Anatomical Dictionary Browser Query Refiner</b> page, select <i>RNA in situ</i>
+						from the <b>Assay type(s)</b> pick list.
+						<p>
+						<li>Click the <b>Search</b> button.
+						<p>
+						<li>As in step 5 above, click on any link in the <b>Result Details</b> column 
+						to view details from RNA in situ assays that examined expression in the heart in Theiler stage 17.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_tissue_dev6.jpg" width=818 height=145 alt="AD Query Refiner Page">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

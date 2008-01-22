@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Accession IDs for a List of Genes</TITLE>
+<title>MGI_4.0 FAQ: Find Accession IDs for a List of Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,36 +11,114 @@
  <span class="faqHeaderText">How do I retrieve Entrez, Ensembl, VEGA, or other IDs for a list of genes?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=batchQF"TARGET = "BLANK">here</A>
-to go to the Batch Query tool. The Batch Query tool is located beneath the Search menu, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/GM_batch.jpg" WIDTH=600 HEIGHT=285 ALT="Search Menu Batch Query Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Using the MGI Batch Query, you can enter a list or upload a file of official 
-MGI gene/marker symbols, or gene, transcript, or sequence IDs from MGI, Ensembl, Entrez, 
-Uniprot or other sources. You can choose to return gene symbols and names, genomic location, 
-Gene Ontology or Mammalian Phenotype terms, MGI allele IDs, or IDs from other sources. 
-<P>
-<LI>As a quick example, type these two gene symbols into the text box:
-<P>
-<I>Pax6</I>
-<BR>
-<I>Pax3</I>
-<P>
-<LI>For <B>Input Identifier Type</B>, select Current Gene/Marker Symbol. 
-<P>
-<LI>In the <B>Output</B> section, check the boxes next to Ensembl ID, Entrez Gene ID, or VEGA ID.
-<P>
-<LI> Click the <B>Search</B> button.
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>
+			Using the MGI Batch Query, you can enter a list or upload a file of official 
+			MGI gene/marker symbols, or gene, transcript, or sequence IDs from MGI, Ensembl, Entrez, 
+			Uniprot or other sources. You can choose to return gene symbols and names, genomic location, 
+			Gene Ontology or Mammalian Phenotype terms, MGI allele IDs, or IDs from other sources.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the MGI Batch Query
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the MGI Batch Query from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=batchQF"target = "blank">Batch Query</a>
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="Search Menu Batch Query Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding Ensembl ID numbers for gene symbols <i>Pax6</i> and <i>Pax3</i>
+		</td>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Type these two gene symbols into the text box:
+						<p>
+						<i>Pax6</i>
+						<br>
+						<i>Pax3</i>
+						<p>
+						<li>Select <i>Current Gene/Marker Symbol</i> for <b>Input Identifier Type</b>. 
+						<p>
+						<li>Check the box next to <i>Ensembl ID</i> in the <b>Output</b> section.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_batch1.jpg" width=720 height=428 alt="Batch Query Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =5>Click on an MGI ID in the <b>MGI Gene/Marker ID</b> column to retrieve the 
+							corresponding <b>Gene Detail</b> page.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_batch2.jpg" width=729 height=161 alt="Batch Query Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

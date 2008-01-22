@@ -1,44 +1,134 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Expression References For A Gene</TITLE>
+<title>MGI_4.0 FAQ: Find Expression References For A Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find references that report expression data for a gene at a specific age?</span>
+ <span class="faqHeaderText">How do I find references that report expression data f
+ or a gene at a specific age?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/wi_url.html"-->searches/gxdindex_form.shtml"TARGET = "BLANK">here</A>
-to open the Gene Expression Literature Query Form in a new window. The Gene Expression Literature Query Form is located beneath the Search menu in the toolbar, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/GXD_LI.jpg" WIDTH=600 HEIGHT=282 ALT="Search Menu GXD LI Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Type a gene symbol into the <B>Gene Symbol/Name</B> text box.  As an example, use <I><B>Fgf8</B></I>. 
-<P>
-<LI>Select an age from the Age selection list. For example, select 10.5 days post-conception.
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>The search results list references that have examined <I>Fgf8</I> expression at embryonic day 10.5 (E10.5) as well
-as the assay types used in these studies.
-<P>
-<LI>The table at the top of the page groups the references by developmental stage analyzed and assay type used.  Click a numerical link to retrieve a list of these references.
-<P>
-<LI>Scroll down the page.  The second table lists references that analyze <I>Fgf8</I> expression.  The numerical links indicate the number 
-of results for each reference.  Numerical links that are followed by an asterisk indicate that detailed assay results 
-from that reference have been entered into the database. Click a numerical link to view a table that summarizes which ages were 
-analyzed and which assay types were used to examine expression of that gene in that reference.
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Gene Expression Literature Query Form 
+			to search for references on gene expression during development using the genes 
+			and ages analyzed (and the assay types used) in the references.  
+			Other fields on the form allow you to query for bibliographic information 
+			or specific words in the title or abstract.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Genes Expression Literature Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Genes Expression Literature Query Form 
+			from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file="include/wi_url.html"-->searches/gxdindex_form.shtml"target = "blank">Gene Expression Literature Query Form</a>
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="Search Menu GEL QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding literature assaying <i>Fgf8</i> expression 
+			at 10.5 days post-conception
+		</td>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Type <i>fgf8</i> into the <b>Gene Symbol/Name</b> text box.
+						<p>
+						<li>Select <i>10.5</i> from the Age pick list.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ref_age1.jpg" width=577 height=261 alt="GEL QF Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 4>The search results list references that examined <i>Fgf8</i> expression 
+						at embryonic day 10.5 (E10.5) as well as the assay types used in these studies.
+						<p>
+						<li>The <b>Summary by Age and Assay</b> table at the top of the page groups the references by developmental 
+						stage analyzed and assay type used.  You can click a numerical link to retrieve a 
+						list of these references.
+						<p>
+						<li>Scroll down the page.  The <b>Summary by Gene and Reference</b> table 
+						lists references that 
+						analyze <i>Fgf8</i> expression.  The numerical links indicate the number 
+						of results for each reference.  Numerical links that are followed by 
+						an asterisk indicate that detailed assay results from that reference 
+						have been entered into the database. You can click a numerical link to view 
+						a table that summarizes which ages were analyzed and which assay 
+						types were used to examine expression of that gene in that reference.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ref_age2.jpg" width=785 height=572 alt="GEL Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

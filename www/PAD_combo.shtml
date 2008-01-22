@@ -1,41 +1,115 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Mutations Causing a Combination of Phenotypes</TITLE>
+<title>MGI_4.0 FAQ: Find Mutations Causing a Combination of Phenotypes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">How do I find mutations that cause a specific combination of phenotypes?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml"TARGET = "BLANK">here</A>
-to go to the Phenotypes and Alleles Query Form. The Phenotypes and Alleles Query Form is located beneath the Search menu, 
-as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/PA_QF.jpg" WIDTH=600 HEIGHT=284 ALT="Search Menu P&A QF Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>In the <B>Phenotype/Disease</B> text box near the top of the page, type <I>hyperglycemia AND glucosuria</I>. 
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>The results page lists all alleles where both terms appear as a Mammalian Phenotype Ontology term, 
-a synonym to one of these terms, a disease term or synonym, or in the notes describing a phenotype. 
-</LI>
-<P>
-<LI>Click any allele symbol in the first column of the search results to view greater detail 
-about an allele, including descriptions of phenotypes and any associated diseases. Note that the precise 
-search terms entered may not appear in the phenotype descriptions for an allele. These search terms may have
-been captured as synonyms during the search, and be represented by different terms than those originally entered.
-</OL>
-</TR>
-</TABLE>
+<br>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Phenotypes, Alleles and Disease Models
+		Query Form to find alleles of a gene, alleles associated with a specific 
+		phenotype, or alleles created by a specific type of mutation.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Phenotypes, Alleles and Disease Models Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Phenotypes, Alleles and Disease Models 
+			Query Form from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/wi_url.html'-->searches/allele_form.shtml"target = "blank">Phenotypes, Alleles and Disease Models Query Form</a>
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=600 height=284 alt="Search Menu PAD QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding alleles associated with both hyperglycemia AND glucosuria
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Type <i>hyperglycemia AND glucosuria</i> in the <b>Phenotype/Disease</b> text box.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_combo1.jpg" width=560 height=290 alt="PAD QF Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 3>Click on an allele symbol in the first column of the search results to view greater detail 
+							about the selected allele, including descriptions of phenotypes and any associated diseases. Note that the precise 
+							search terms entered may not appear in the phenotype descriptions for an allele. These search terms may have
+							been captured as synonyms during the search, and be represented by different terms than those originally entered.
+					</ol>
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_combo2.jpg" width=723 height=328 alt="PAD Summary Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

@@ -1,8 +1,9 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Expression in a Gene and Tissue</TITLE>
+<title>MGI_4.0 FAQ: Expression in a Gene and Tissue</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -10,29 +11,108 @@
  <span class="faqHeaderText">How do I find expression data for a specific gene and tissue?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/javawi_url.html"-->WIFetch?page=expressionQF"TARGET = "BLANK">here</A>
-to open the Gene Expression Data Query Form in a new window. The Gene Expression Data Query Form is located beneath the Search menu in the toolbar, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/GXD_QF.jpg" WIDTH=600 HEIGHT=280 ALT="Search Menu GXD QF Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>In the <B>Gene</B> section near the top of the form, type the gene symbol of interest into the <B>Gene/Marker Symbol/Name</B> field.  As an example, use <I><B>Ptch1</B></I>. 
-<P>
-<LI>Find the <B>Expression</B> section of the form and type the name of a tissue into the <B>Anatomical Structure(s)</B> field.  As an example, type <B>brain</B>. 
-<P>
-<LI>Find the <B>Sorting and output format</B> section at the bottom of the form.  Change the <B>Return data type</B> button to Assay Results.
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>Once the query results have been returned, click on any link in the <B>Result Details</B> column to view details from assays that examined <I>Ptch1</I> expression in the brain.
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Gene Expression Data Query Form to search 
+		for detailed expression data of greatest interest to you using a variety of query parameters.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Accessing the Gene Expression Data Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Gene Expression Data Query Form 
+			from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file="include/javawi_url.html"-->WIFetch?page=expressionQF"target = "blank">Gene Expression Data Query Form</a>
+			in a new window or tab. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/srchmenu_GXD.jpg" width=600 height=280 alt="Search Menu GXD QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding expression assays in brain for gene <i>Ptch1</i>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Type <i>ptch1</i> into the <b>Gene/Marker Symbol/Name</b> 
+						text box.
+						<p>
+						<li>Type <i>brain</i> into the <b>Anatomical Structure(s)</b>
+						 text box.
+						<p>
+						<li>Change the <b>Return data type</b> button to Assay Results.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_GeneTissue1.jpg" width=724 height=737 alt="GXD QF Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 5>Click on a link in the <b>Result Details</b> column to view 
+						details from assays that examined <i>Ptch1</i> expression in the 
+						brain.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_GeneTissue2.jpg" width=600 height=263 alt="GXD Search Results Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

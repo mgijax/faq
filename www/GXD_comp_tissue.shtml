@@ -16,6 +16,9 @@
 </style>
 
 <br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
+
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
@@ -49,7 +52,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GXDE.jpg" width=794 height=411 alt="Search Menu GXD EQF Screen Shot">
+						<img src="Images/" width=794 height=411 alt="Search Menu GXD EQF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -103,7 +106,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXDsummary.jpg" width=753 height=191 alt="GXD Summary Screen Shot">
+								<img src="Images/GXD_comp_tissue2.jpg" width=755 height=228 alt="GXD Summary Screen Shot">
 							</td>
 						</tr>
 					</table>

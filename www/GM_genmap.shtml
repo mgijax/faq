@@ -1,8 +1,9 @@
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Create a Genome Map</TITLE>
+<title>MGI_4.0 FAQ: Create a Genome Map</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -10,69 +11,144 @@
  <span class="faqHeaderText">How do I create a genome map from a genomic interval?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
-to open the MGI home page in a new window. Select Mouse GBrowse from the Search menu in the toolbar, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/srchmenu_gbrowse.jpg" WIDTH=825 HEIGHT=368 ALT="Search Menu GBrowse Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Mouse GBrowse represents an entire chromosome as a line with demarcations in mega base pairs (M). In the image below,
-the <B>Overview</B> displays all of chromosome 7. The red line located between 130M and 140M indicates the region of 
-chromosome 7 displayed in the <B>Details</B> section. The line in the <B>Details</B> section displays chromosome 7 from 136,732 
-to 136,969 kilobase pairs (k).
-<P>
-<CENTER>
-<IMG SRC="Images/gbrowse_oview.jpg" WIDTH=834 HEIGHT=175 ALT="GBrowse Overview">
-</CENTER>
-<P>
-<P>
-<LI>Find the <B>Landmark or Region</B> text box, and notice that the region displayed in detail is chromosome 7 from 
-136,732,000 to 136,969,000 base pairs, written as 7:136732000..136969000. To view a different interval on chromosome 7,
-change the numbers representing base pairs. For example, change the text in the <B>Landmark or Region</B> text box to
-7:101000000..103000000 to view chromosome 7 from 101M to 103M.
-<P>
-<LI>Click the <B>Search</B> button at the right of the text box.
-<P>
-<LI>Scroll down the page to the <B>Tracks</B> section.
-<P>
-<CENTER>
-<IMG SRC="Images/gbrowse_tracks.jpg" WIDTH=833 HEIGHT=442 ALT="GBrowse Tracks">
-</CENTER>
-<P>
-<P>
-<LI>The <B>Tracks</B> section permits display of alleles, genes, phenotypes associated with alleles, QTL, SNPs and much
-more. To display some of these features on the map, check the boxes next to the following:
-<UL>
-<LI><B><U>Alleles</U></B></LI>
-<UL>
-<LI>Alleles_targeted</LI>
-</UL>
-<LI><B><U>Genes</U></B></LI>
-<UL>
-<LI>VEGA transcripts</LI>
-</UL>
-<LI><B><U>Phenotypes</U></B></LI>
-<UL>
-<LI>Behavior_neurological</LI>
-<LI>Digestive_alimentary</LI>
-<LI>Growth_size</LI>
-<LI>Homeostasis_metabolism</LI>
-<LI>Immune_system</LI>
-<LI>QTL</LI>
-</UL>
-</UL>
-<P>
-<LI>Click the <B>Update Image</B> button at the lower right of the <B>Tracks</B> section.
+<br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 
-</OL>
-</TR></TABLE></BODY></HTML>
-
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>
+			Mouse GBrowse graphically displays genes, alleles, phenotypes, QTL and SNPs
+			on mouse chromosomes.
+		</td>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Accessing Mouse GBrowse
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access Mouse GBrowse from the Search menu as shown 
+			in the image at right.
+			<p>
+			For this tutorial, open 
+			<a href="http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current"target = "blank">Mouse GBrowse</a>
+			in a new window or tab. 
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=825 height=368 alt="Search Menu GBrowse Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Displaying targeted alleles, VEGA transcripts, QTL and a variety of 
+			phenotypes on Chromosome 7 between 101 and 103 Mbp
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Change the text in the <b>Landmark or Region</b> text box to <i>7:101000000..103000000</i> 
+						to view chromosome 7 from 101Mbp to 103Mbp.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_genmap1.jpg" width=756 height=122 alt="GBrowse Overview">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 3>Scroll down the page to the <b>Tracks</b> section.
+						<p>
+						<li>Check the boxes next to the following:
+							<dl>
+								<dt><img src="Images/minus_box.jpg"><b> <u>Alleles</u></b>
+								<dl>
+									<dt><dd><img src="Images/check_box.jpg"> Alleles_targeted
+								</dl>
+								<dt><img src="Images/minus_box.jpg"><b> <u>Genes</u></b>
+								<dl>
+									<dt><dd><img src="Images/check_box.jpg"> VEGA transcripts
+								</dl>
+								<dt><img src="Images/minus_box.jpg"><b> <u>Phenotypes</u></b>
+								<dl>
+									<dt><dd><img src="Images/check_box.jpg"> Behavior_neurological
+									<dt><dd><img src="Images/check_box.jpg"> Digestive_alimentary
+									<dt><dd><img src="Images/check_box.jpg"> Growth_size
+									<dt><dd><img src="Images/check_box.jpg"> Homeostasis_metabolism
+									<dt><dd><img src="Images/check_box.jpg"> Immune_system
+									<dt><dd><img src="Images/check_box.jpg"> QTL
+								</dl>
+							</dl>
+							<p>
+						<li>Click <b>Update Image</b>.
+					</ol>
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_genmap2.jpg" width=772 height=466 alt="GBrowse Tracks">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 6>The <b>Details</b> section displays QTL for this region of chromosome
+						7. Beneath the QTL, phenotype terms are listed at left, and associated transcripts
+						modeled to the right of these terms.
+						<p>
+						<li>Click on a transcript to view a list of alleles.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_genmap3.gif" width=842 height=540 alt="GBrowse Details">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
-
