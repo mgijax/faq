@@ -75,7 +75,8 @@
 					<ol>
 						<li>Type <i>kit</i> in the <b>Gene/Marker</b> text box.
 						<p>
-						<li>Change <i>contains</i> to <i>=</i> in the drop-down menu to the right of <b>Gene/Marker</b>.
+						<li>Change <i>contains</i> to <i>=</i> 
+						in the drop-down menu to the right of <b>Gene/Marker</b>.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -97,7 +98,8 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click an allele symbol in the first column of the search results to view detail.
+						<li value = 4>Click an allele symbol in the first column of the 
+						search results to view details.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
