@@ -116,6 +116,11 @@
 						with Huntington Disease. For a detailed interpretation of this page, click
 						<a style="text-decoration:none" href="<!--#include file='include/userdocs_url.html'-->omim_detail_help.shtml">
 						<img src="Images/docu_img.jpg" align = top width=24 height=20 alt="Documentation Link"></a>.
+						<p>
+						Click on <b>OMIM ID:</b> 
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=143100">143100</a>
+						to view the corresponding Huntington Disease entry in Online Mendelian 
+						Inheritance in Man (OMIM).			
 					</ol>
 				</td>
 				<td valign=top>
