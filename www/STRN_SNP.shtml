@@ -1,57 +1,127 @@
-
 <!--#include file='include/templateHead.html'-->
 
 <title>MGI_4.0 FAQ: Find Polymorphisms Between Strains</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find all known coding SNPs in a specific genomic location for one or more strains?</span>
+ <span class="faqHeaderText">How do I find all known coding SNPs in a 
+ specific genomic location for one or more strains?</span>
 </div>
 
-<table border=0 cellpadding=0 cellspacing=7>
-<tr>
-<td>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
+
 <br>
-
-<ol><li>Click <A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF"TARGET = "BLANK">here</A>
-to open the Mouse SNP Query Form in a new window. The Mouse SNP Query Form is located beneath
-the Search menu, as shown below.
-<p>
-<center>
-<img src="Images/srchmenu_SNPs.jpg" width=868 height=364 alt="Search Menu SNPs Screen Shot">
-</center>
-<p>
-<p>
-<li>From the Available Strains list, select the following strains. To select all at once, hold down the Ctrl key on 
-Windows machines while selecting each strain. On Macintosh machines, hold down the Command key. 
-<p>
-<ul>
-<li>129X1/SvJ
-<li>C57BL/6J
-<li>DBA/2J
-</ul>
-<p>
-<li>Click the <b>Add</b> button to move strains to the Selected Strains list.
-<p>
-<li>In the <b>SNP attributes</b> section of the page, find the <b>dbSNP Function Class</b> pick list.
-Select both Coding-NonSynonymous and Coding-Synonymous at once by holding down the Ctrl key on Windows machines.
-On Macintosh machines, hold down the Command key.
-<p>
-<li>Find the <b>Map position</b> section of the page. In the <b>Marker range</b> text boxes at right, type <i>Slc10a5</i>
-in the first text box, and <i>Car3</i> in the second.
-<p>
-<li>Click the <b>Search</b> button.
-<p>
-<li>A new browser window will open displaying coding SNPs identified 
-between the <i>Slc10a5</i> and <i>Car3</i> genes on chromosome 3.
-<p>
-<li>To view flanking sequence for a SNP, click any link to <u>MGI SNP Detail</u> 
-in the <b>SNP ID</b> column at left.
-</ol>
-</tr>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Mouse SNP Query Form to 
+		search for mouse single nucleotide polymorphisms represented in 
+		dbSNP. Use this form to search for SNPs by strain or strain 
+		comparison, dbSNP attributes, marker, marker range or associated gene.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Mouse SNP Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Mouse SNP Query Form 
+			from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF"target = "blank">Mouse SNP Query Form</a>
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="Search Menu SNP QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
 </table>
-
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding coding SNPs between genes <i>Slc10a5</i> and <i>Car3</i>
+			for strains 129X1/SvJ, C57BL/6J and DBA/2J
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Select the following strains from the Available Strains list. 
+						<p>
+						<ul>
+							<li>129X1/SvJ
+							<li>C57BL/6J
+							<li>DBA/2J
+						</ul>
+						<p>
+						<li>Click the <b>Add</b> button to move strains to the Selected Strains list.
+						<p>
+						<li>Select <i>Coding-NonSynonymous</i> and <i>Coding-Synonymous</i> from the <b>dbSNP 
+						Function Class</b> pick list.
+						<p>
+						<li>Type <i>Slc10a5</i> in the first <b>Marker range</b> text box, and 
+						<i>Car3</i> in the second.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/STRN_SNP1.jpg" width=767 height=593 alt="SNP QF Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 6>Click any link to <u>MGI SNP Detail</u> in the <b>SNP ID</b> 
+						column to view flanking sequence for a SNP.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/STRN_SNP2.jpg" width=686 height=216 alt="SNP Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
