@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Genomic Sequence for a Strain</TITLE>
+<title>MGI_4.0 FAQ: Find Genomic Sequence for a Strain</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,36 +11,116 @@
  <span class="faqHeaderText">How do I find genomic sequence for a specific mouse strain?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml"TARGET = "BLANK">here</A>
-to open the Mouse Sequence Query Form in a new window. The Mouse Sequence Query Form is located beneath 
-the search menu as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/srchmenu_seq.jpg" WIDTH=832 HEIGHT=365 ALT="Search Menu Sequence Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>For <B>Sequence Type</B>, select DNA from the pick list.
-<P>
-<LI>Find the <B>Sequence source</B> section. Type <I>129</I> into the <B>Strain/Species</B> text box.
-<P>
-<LI>Find the <B>Map position</B> section and select chromosome X from the pick list.
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>The search will return all DNA sequences on chromosome X that originate from strain 129 or substrains. Check a 
-box in the <B>Select</B> column.
-<P>
-<LI>Find the drop-down menu in the upper center of the page that allows you to <U>download in FASTA format</U> or <U>forward 
-to MouseBLAST</U>.
-<P>
-<LI>Click the <B>Go</B> button to download the selected sequence in FASTA format.
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Mouse Sequence Query Form to 
+		find sequences by: 
+		<ul>
+			<li>attribute, such as type, provider name, description, or length;
+			<li>source, such as strain (or species if other than laboratory mouse), 
+			tissue, library, or clone collection;
+			<li>or properties of annotated markers, such as symbol/name, mapped position, 
+			GO classifications, protein domains, gene expression, or phenotype classifications.
+		</ul>
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Mouse Sequence Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Mouse Sequence Query Form 
+			from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="<!--#include file='include/wi_url.html'-->searches/sequence_form.shtml"target = "blank">Mouse Sequence Query Form</a>
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="Search Menu MS QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding genomic sequence for strain 129
+		</td>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Select <i>DNA</i> from the <b>Sequence Type</b> pick list.
+						<p>
+						<li>Type <i>129</i> into the <b>Strain/Species</b> text box.
+						<p>
+						<li>Select <i>X</i> from the the <b>Chromosome(s)</b> pick list.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/STRN_genom1.jpg" width=789 height=710 alt="MS QF Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =5>Check a box in the <b>Select</b> column.
+						<p>
+						<li>Click the <b>Go</b> button to download the selected 
+						sequence in FASTA format.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/STRN_genom2.jpg" width=850 height=273 alt="MS QF Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
