@@ -16,6 +16,8 @@
 </style>
 
 <br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
@@ -49,7 +51,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GO_tab.jpg" width=763 height=102 alt="GO Tab Screen Shot">
+						<img src="Images/" width=763 height=102 alt="GO Tab Header">
 					</td>
 				</tr>
 			</table>
@@ -70,14 +72,14 @@
 				<td valign=top>
 					<ol>
 						<li>Click the link to the <u>MGI GO Term Finder</u> in the box labeled 
-						<b>Access GO Functional Annotations Data</b>.
+						<b>Access Data</b>.
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_finder1.jpg" width=455 height=176 alt="GO Page Screen Shot">
+								<img src="Images/" width=455 height=176 alt="Access Data Box">
 							</td>
 						</tr>
 					</table>

@@ -16,6 +16,8 @@
 </style>
 
 <br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
@@ -50,7 +52,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_seq.jpg" width=832 height=365 alt="Search Menu Sequence Screen Shot">
+						<img src="Images/" width=832 height=365 alt="Search Menu Sequence Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -63,7 +65,8 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding all polypeptide sequences annotated to Gene Ontology term "histone deacetylation"
+			Example 1. Finding all polypeptide sequences annotated to 
+			Gene Ontology term "histone deacetylation"
 		</td>
 	</tr>
 
@@ -72,9 +75,11 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select Polypeptide from the <b>Sequence Type</b> pick list.
+						<li>Select Polypeptide from the <b>Sequence Type</b> 
+						pick list.
 						<p>
-						<li>Type the term <i>histone deacetylation</i> in the <b>Gene Classifications</b> text box.
+						<li>Type the term <i>histone deacetylation</i> in the 
+						<b>Gene Classifications</b> text box.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -92,9 +97,11 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click the <b>Select all</b> button to select all sequences. 
+						<li value = 4>Click the <b>Select all</b> button to 
+						select all sequences. 
 						<p>
-						<li>Click the <b>Go</b> button to download the selected sequences in FASTA format.
+						<li>Click the <b>Go</b> button to download the selected 
+						sequences in FASTA format.
 				</td>
 				<td valign=top>
 					<table class="outline">
