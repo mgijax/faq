@@ -32,7 +32,7 @@
 			<li>attribute, such as type, provider name, description, or length;
 			<li>source, such as strain (or species if other than laboratory mouse), 
 			tissue, library, or clone collection;
-			<li>or properties of annotated markers, such as symbol/name, mapped position, 
+			<li>properties of annotated markers, such as symbol/name, mapped position, 
 			GO classifications, protein domains, gene expression, or phenotype classifications.
 		</ul>
 		</td>
