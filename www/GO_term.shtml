@@ -16,6 +16,9 @@
 </style>
 
 <br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
+
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
@@ -48,7 +51,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GM.jpg" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/" width=764 height=411 alt="Search Menu GO Browser Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -88,8 +91,8 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>The search results list 16 biological processes containing the term <i>neuron migration</i>. 
-							Click the link to the term <u>neuron migration</u>.
+						<li value = 3>Click the link to the term <u>neuron migration</u>.
+
 					</ol>
 				</td>
 				<td valign=top>
@@ -105,11 +108,8 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>The detail page for this term provides a GO ID number, a definition, and a number 
-							of paths to this term. These paths demonstrate hierarchically the relationship between the 
-							term <i>neuron migration</i>, more general high level terms such as <i>generation of neurons</i>, 
-							and more specific terms such as <i>inward migration of deep nuclear neurons</i>.
-							Click the link to <u>56 genes, 62 annotations</u> next to the term neuron migration [GO:0001764].
+						<li value = 4>Click the link to <u>56 genes, 62 annotations</u> next to 
+						the term neuron migration [GO:0001764].
 					</ol>
 				</td>
 				<td valign=top>
@@ -125,7 +125,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>The results list genes annotated with this term, including gene <i>Pax6</i>. 
+						<li value = 5>The results list genes annotated with this term. 
 							Notice that the <b>Evidence</b> column includes the codes IDA (inferred from direct assay), IGI 
 							(inferred from genetic interaction), and IMP (inferred from mutant phenotype). The final column, 
 							labeled <b>Ref(s)</b>, provides links to the references used to make these annotations. 
