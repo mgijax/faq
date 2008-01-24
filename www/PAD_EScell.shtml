@@ -1,9 +1,9 @@
- 
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find ES Cell Lines</TITLE>
+<title>MGI_4.0 FAQ: Find ES Cell Lines</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,41 +11,230 @@
  <span class="faqHeaderText">How do I find an ES cell line?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>To find embryonic stem (ES) cell lines, click 
-<A HREF="http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp"TARGET = "BLANK">here</A> to open 
-the International Mouse Strain Resource (IMSR) search form in a new window. The IMSR is located 
-in the toolbar, as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/find_mice.jpg" WIDTH=600 HEIGHT=277 ALT="Find Mice Home Page Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>For <B>Strain/Stock State(s)</B>, uncheck boxes next to Live Mice, Cryopreserved Ovaries,
-Cryopreserved Embryos, and Cryopreserved/Freeze-Dried Sperm.
-<P>
-<LI>Check the box next to ES cell lines.
-<P>
-<LI>In the <B>Gene or Allele Symbol/Name</B> text box, type <I>pax</I>.
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>The International Mouse Strain Resource contains information from a number of 
-different repositories including the Texas Institute for Genomic Medicine (TIGM), 
-the Mutant Mouse Regional Resources Center (MMRRC), and others. 
-Note that the <B>Strain/Stock Designation</B> column links to strain information at the 
-repository site; the <B>Holder Site</B> column links to the holder for questions or orders; 
-farther right, the <B>Allele Symbol</B> column links to the Phenotypic Allele Detail page in MGI.
-<P>
-<LI>Click on any link in the <B>Strain/Stock Designation</B> column for more 
-information about a specific ES cell line.
-<P>
-</OL>
-</TR></TABLE></BODY></HTML>
+<br>
+<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<br>
 
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the International Mouse 
+		Strain Resource (IMSR) to locate resources holding particular 
+		mouse strains or stocks.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the IMSR
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the IMSR from the MGI navigation bar
+			as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="http://www.informatics.jax.org/imsr/index.jsp"target = "blank">IMSR</a> 
+			in a new window or tab. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="Navbar Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding suppliers of ES cell lines with mutations in gene <i>Acadm</i>
+		</td>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click 
+						<a href="http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp"target = "blank">Search IMSR</a>.
+					</ol>					
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_EScell1.jpg" width=662 height=373 alt="IMSR Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =2>Uncheck boxes next to: 
+							<dl>
+								<dt><dd><img src="Images/check_box_blank.jpg"> Live Mice
+								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved Ovaries
+								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved Embryos
+								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved/Freeze-Dried Sperm
+							</dl>
+						<li>Check the box next to:
+							<dl>
+								<dt><dd><img src="Images/check_box.jpg"> ES cell lines
+							</dl>
+						<p>
+						<li>Type <i>acadm</i> in the <b>Gene or Allele Symbol/Name</b> text box.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>					
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_EScell2.jpg" width=709 height=579 alt="IMSR Search Form">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =6>Click on a link in the <b>Strain/Stock Designation</b> 
+						column to request a specific ES cell line from the holder.
+					</ol>					
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_EScell3.jpg" width=661 height=311 alt="IMSR Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
+<table width="100%">
+	<tr>
+	</tr>
+
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 2. Finding all ES cell lines in MGI with mutations in gene <i>Acadm</i>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Open the 
+						<a href="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"target = "blank">MGI home page</a>
+						in a new window or tab.
+						<p>
+						<li>Type <i>acadm</i> into the search box.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>					
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/search_box.jpg" width=409 height=29 alt="Search Box Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td> 
+					<tr>
+						<td valign=top><ol>
+							<li value = 4>The <b>Search Results</b> page lists symbols and names containing
+							<i>acadm</i>. Click the link to 
+							<a href="<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=25"target = "blank">Acadm</a>.
+						</td>
+						<td valign=top>
+							<table class="outline">
+								<tr>
+									<td>
+										<img src="Images/PAD_EScell4.jpg" width=787 height=244 alt="Search Results Screen Shot">
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</td>	
+			</tr>
+			<tr>
+				<td> 
+					<tr>
+						<td valign=top><ol>
+							<li value = 5>Scroll down the <b>Acadm Gene Detail</b> page to the <b>Other 
+							database links</b> section. Click the link to 
+							<a href="<!--#include file="include/javawi_url.html"-->WIFetch?page=GTSummary&key=25"target = "blank">All 30...</a>
+							to view a list of
+							all gene traps associated with <i>Acadm</i>.
+						</td>
+						<td valign=top>
+							<table class="outline">
+								<tr>
+									<td>
+										<img src="Images/PAD_EScell5.jpg" width=765 height=127 alt="Gene Detail Page">
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</td>	
+			</tr>
+			<tr>
+				<td> 
+					<tr>
+						<td valign=top><ol>
+							<li value = 6>Click a link in the <b>Gene Trap</b> column to view additional
+							details at NCBI.
+						</td>
+						<td valign=top>
+							<table class="outline">
+								<tr>
+									<td>
+										<img src="Images/PAD_EScell6.jpg" width=478 height=271 alt="Gene Traps">
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
