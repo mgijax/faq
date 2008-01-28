@@ -16,7 +16,7 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -43,8 +43,9 @@
 			On most MGI pages, you can access the GO Browser from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="<!--#include file='include/wi_url.html'-->searches/GO_form.shtml"target = "blank">GO Browser</a>
-			in a new window or tab. 
+			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/GO_form.shtml')">
+			GO Browser</a>
+			in a new window. 
 		</td>
 		
 		<td valign=top>

@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Download All Phenotype Annotations</TITLE>
+<title>MGI_4.0 FAQ: Download All Phenotype Annotations</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,27 +11,105 @@
  <span class="faqHeaderText">How do I download all phenotype annotations in MGI?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
+<br>
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<br>
 
-<OL><LI>Click <A HREF="ftp://ftp.informatics.jax.org/pub/reports/index.html"TARGET = "BLANK">here</A>
-to go to the Data Reports page. The Data Reports page is located beneath the Download menu as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/dlmenu_all.jpg" WIDTH=600 HEIGHT=278 ALT="Download Menu Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Click the link to <U>Phenotypic Data</U> to move down the page.
-<P>
-<LI>Click the link to <U>MGI_PhenoGenoMP.rpt</U> to download a plain text file containing specific Mammalian
-Phenotype terms annotated to genotypes. Click the link to <U>MGI_PhenotypicAllele.rpt</U> to download a file 
-containing general Mammalian Phenotype terms annotated to alleles.
-<P>
-</OL>
-</TR></TABLE></BODY></HTML>
-
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can download plain text files from the MGI Data and Statistical Reports page.
+			These files include lists of all genes and markers in MGI, alleles of genes and markers, annotations to 
+			genes and alleles and more.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Accessing the MGI Data and Statistical Reports Page
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the MGI Data and Statistical Reports Page from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html')">
+			MGI Data and Statistical Reports Page</a>
+			in a new window. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/dlmenu_all.jpg" width=600 height=278 alt="Download Menu Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Downloading all mouse phenotype annotations
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click the link to <u>Phenotypic Data</u> to move down the page.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/reports_toc.jpg" width=615 height=453 alt="Reports TOC Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 2>Click the link to <u>MGI_PhenotypicAllele.rpt</u> to download a file 
+						containing general Mammalian Phenotype terms annotated to alleles. Or, click the link to 
+						<u>MGI_PhenoGenoMP.rpt</u> to download a plain text file containing specific Mammalian
+						Phenotype terms annotated to genotypes. 
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_dload.jpg" width=579 height=264 alt="PAD Reports Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->

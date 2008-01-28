@@ -16,7 +16,7 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
 <br>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
@@ -25,8 +25,8 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the GO Functional Annotations page to retrieve
-			functional annotations to mouse genes. 
+		<td colspan=2 align=left>You can use the GO Functional 
+		Annotations page to retrieve functional annotations to mouse genes. 
 		</td>
 	</tr>
 	<tr>
@@ -40,11 +40,14 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the GO Functional Annotations page by clicking the appropriate tab as shown in the image at right.
+			On most MGI pages, you can access the GO Functional 
+			Annotations page by clicking the appropriate tab 
+			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml"target = "blank">GO Functional Annotations</a>
-			page in a new window or tab. 
+			<a href="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml')">
+			GO Functional Annotations</a>
+			page in a new window. 
 		</td>
 		
 		<td valign=top>

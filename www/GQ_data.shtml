@@ -16,6 +16,9 @@
 </style>
 
 <br>
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<br>
+
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
@@ -46,8 +49,9 @@
 			On most MGI pages, click <b>Submit Data</b> in the navigation bar as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="<!--#include file='include/wi_url.html'-->menus/allsubmitforms_menu.shtml"target = "blank">Submit Data</a>
-			page in a new window or tab. 
+			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->menus/allsubmitforms_menu.shtml')">
+			Submit Data</a>
+			page in a new window. 
 		</td>
 		
 		<td valign=top>

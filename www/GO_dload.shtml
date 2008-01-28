@@ -16,7 +16,7 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -26,8 +26,11 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can download plain text files from the MGI Data and Statistical Reports page.
-			These files include lists of all genes and markers in MGI, alleles of genes and markers, annotations to 
+		<td colspan=2 align=left>
+			You can download plain text files from the 
+			MGI Data and Statistical Reports page. These files 
+			include lists of all genes and markers in MGI, 
+			alleles of genes and markers, annotations to 
 			genes and alleles and more.
 		</td>
 	</tr>
@@ -42,11 +45,14 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the MGI Data and Statistical Reports Page from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the MGI Data and 
+			Statistical Reports Page from the Search menu as shown 
+			in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="ftp://ftp.informatics.jax.org/pub/reports/index.html"target = "blank">MGI Data and Statistical Reports Page</a>
-			in a new window or tab. 
+			<a href="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html')">
+			MGI Data and Statistical Reports Page</a>
+			in a new window. 
 		</td>		
 		<td valign=top>
 			<table class="outline">
