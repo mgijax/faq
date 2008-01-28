@@ -45,8 +45,9 @@
 			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
 			<p>
 			For this tutorial, open the 
-			<a href="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"target = "blank">MGI home page</a>
-			in a new window or tab. 
+			<a href="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml')">
+			MGI home page</a>
+			in a new window. 
 		</td>		
 		<td valign=top>
 			<table class="outline">
