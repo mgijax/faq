@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Find Orthologs for Mouse and Human Genes</TITLE>
+<title>MGI_4.0 FAQ: Find Orthologs for Mouse and Human Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,32 +11,113 @@
  <span class="faqHeaderText">How do I find the mouse ortholog of a human gene?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
-<OL><LI>Click <A HREF="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml"TARGET = "BLANK">here</A>
-to go to the Mammalian Orthology Query Form. The Mammalian Orthology Query Form is located beneath the Search menu, 
-as shown below.
-<P>
-<CENTER>
-<IMG SRC="Images/ORTH_OQF.jpg" WIDTH=900 HEIGHT=368 ALT="Search Menu Orthology Query Form Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>On the Mammalian Orthology Query Form, select human (Homo sapiens) from the <B>Primary Species</B> list.
-<P>
-<LI>Type <I>Myo6</I> into the <B>Marker Symbol/Name</B> text box.
-<P>
-<LI>Select mouse from the <B>Comparison Species</B> list.
-<P>
-<LI>Click the <B>Search</B> button.
-<P>
-<LI>The search results display a table including genomic location, accession identifiers, and evidence codes
-for human-mouse orthologs of gene <I>Myo6</I>.
-<P>
-<LI>To download all human and mouse orthologs, visit the Data Reports page located beneath the Download menu.
-</OL>
-</TR></TABLE></BODY></HTML>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
+<br>
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<br>
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Mammalian Orthology Query Form 
+		to search for orthologies between two or more mammalian species.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Mammalian Orthology Query Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Mammalian Orthology Query Form 
+			from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/homology_form.shtml')">
+			Mammalian Orthology Query Form</a>
+			in a new window. 
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="Search Menu Orth QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding the mouse ortholog of human <i>MYO6</i>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Select <i>human (Homo sapiens)</i> from the <b>Primary Species</b> pick list.
+						<p>
+						<li>Type <i>myo6</i> into the <b>Marker Symbol/Name</b> text box.
+						<p>
+						<li>Select <i>mouse, laboratory (Mus musculus domesticus)</i> 
+						from the <b>Comparison Species</b> pick list.
+						<p>
+						<li>Click <b>Search</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/ORTH_gene1.jpg" width=580 height=564 alt="Orthology QF">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =5>The search results display a table including genomic location, 
+						accession identifiers, and evidence codes for human-mouse orthologs of gene <i>Myo6</i>.
+						<p>
+						<li>To download all human and mouse orthologs, visit the 
+						<a href="ftp://ftp.informatics.jax.org/pub/reports/index.html#orthology"target="blank">
+						MGI Data and Statistical Reports</a> 
+						page located beneath the Download menu.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/ORTH_gene2.jpg" width=597 height=414 alt="Orthology Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
