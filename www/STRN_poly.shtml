@@ -47,7 +47,8 @@
 			Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml"target = "blank">RFLP/PCR Polymorphism Query Form</a>
+			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml')">
+			RFLP/PCR Polymorphism Query Form</a>
 			in a new window or tab. 
 		</td>
 		
