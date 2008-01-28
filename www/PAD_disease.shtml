@@ -47,8 +47,9 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="<!--#include file="include/javawi_url.html"-->WIFetch?page=omimVocab&subset=A"target = "blank">Human Disease Vocabulary Browser</a>
-			in a new window or tab.
+			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A')">
+			Human Disease Vocabulary Browser</a>
+			in a new window.
 		</td>
 		
 		<td valign=top>
