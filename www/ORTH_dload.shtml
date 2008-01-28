@@ -26,8 +26,10 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can download plain text files from the MGI Data and Statistical Reports page.
-			These files include lists of all genes and markers in MGI, alleles of genes and markers, annotations to 
+		<td colspan=2 align=left>
+		You can download plain text files from the MGI Data and Statistical Reports page.
+			These files include lists of all genes and markers in MGI, 
+			alleles of genes and markers, annotations to 
 			genes and alleles and more.
 		</td>
 	</tr>
@@ -42,7 +44,8 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the MGI Data and Statistical Reports Page from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the MGI Data and 
+			Statistical Reports Page from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html')">
@@ -54,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/dlmenu_all.jpg" width=600 height=278 alt="Download Menu Screen Shot">
+						<img src="Images/" width=600 height=278 alt="Download Menu Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -74,7 +77,9 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click the link to <u>Mammalian Orthology</u> to move down the page.
+						<li>Click the link to 
+						<a href="ftp://ftp.informatics.jax.org/pub/reports/index.html#orthology"target="blank">Mammalian Orthology</a> 
+						to move down the page.
 					</ol>
 				</td>
 				<td valign=top>
@@ -94,8 +99,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 2>Click the link to <u>HMD_HumanSequence.rpt</u> to download a plain text file containing all
-						orthologies between mouse and human along with sequence identifiers for each species.
+						<li value = 2>Click the link to <u>HMD_HumanSequence.rpt</u> 
+						to download a plain text file containing all
+						orthologies between mouse and human along with sequence identifiers 
+						for each species.
 					</ol>
 				</td>
 				<td valign=top>
