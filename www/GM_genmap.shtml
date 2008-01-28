@@ -42,8 +42,9 @@
 			in the image at right.
 			<p>
 			For this tutorial, open 
-			<a href="http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current"target = "blank">Mouse GBrowse</a>
-			in a new window or tab. 
+			<a href="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current')">
+			Mouse GBrowse</a>
+			in a new window. 
 		</td>
 		<td valign=top>
 			<table class="outline">
