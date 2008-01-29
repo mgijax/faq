@@ -16,7 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -47,7 +48,7 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A')">
 			Human Disease Vocabulary Browser</a>
 			in a new window.
 		</td>
@@ -95,8 +96,11 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click the link to <b>Huntington Disease; HD</b> from the list of results 
-						to view details about the mouse models associated with this disease.
+						<li value = 3>Click the link to 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=humanDisease&key=848093'target="blank">
+						Huntington Disease; HD</a>
+						from the list of results to view details about the mouse 
+						models associated with this disease.
 					</ol>
 				</td>
 				<td valign=top>
@@ -119,7 +123,8 @@
 						<img src="Images/docu_img.jpg" align = top width=24 height=20 alt="Documentation Link"></a>.
 						<p>
 						Click on <b>OMIM ID:</b> 
-						<a href="http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=143100">143100</a>
+						<a href="http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=143100"target="blank">
+						143100</a>
 						to view the corresponding Huntington Disease entry in Online Mendelian 
 						Inheritance in Man (OMIM).			
 					</ol>
