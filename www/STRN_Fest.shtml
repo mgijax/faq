@@ -49,7 +49,7 @@
 			shown in the image at right.
 			<p>
 			For this tutorial, open 
-			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi')">
+			<a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi')">
 			Festing's <i>Inbred Strains of Mice and Rats</i></a>
 			in a new window. 
 		</td>

@@ -121,8 +121,10 @@
 						<b>Probe</b></a> column to retrieve further details, 
 						including primer sequences in many cases.
 						<p>
-						<li>For RFLPs, return to step 3 above and click an <u>RFLP</u> link in the
-						<b>Type</b> column to view details.
+						<li>For RFLPs, return to step 3 above and click an 
+						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=1794'>
+						RFLP</a> 
+						link in the <b>Type</b> column to view details.
 					</ol>
 				</td>
 				<td valign=top>
