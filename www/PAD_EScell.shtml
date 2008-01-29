@@ -17,6 +17,7 @@
 
 <br>
 <input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -46,7 +47,7 @@
 			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp')">
+			<a href='http://www.informatics.jax.org/imsr/index.jsp' onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp')">
 			IMSR</a>
 			in a new window. 
 		</td>
