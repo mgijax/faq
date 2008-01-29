@@ -16,6 +16,10 @@
 </style>
 
 <br>
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
+<br>
+
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
@@ -41,15 +45,15 @@
 			On most MGI pages, you can access the Genes and Markers Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF')">Genes and Markers Query Form</a>
-			in a new window or tab. 
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF')">Genes and Markers Query Form</a>
+			in a new window. 
 		</td>
 		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GM.jpg" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -80,7 +84,7 @@
 						<p>
 						<li>Click the link to <u>Anatomical Systems Affected by Phenotypes</u> beneath the <b>Phenotype/Human Disease</b> text box.
 						<p>
-						<li>Select <u>homeostasis/metabolism</u> from the menu in the new window. 
+						<li>Select <i>homeostasis/metabolism</i> from the menu in the new window. 
 						<p>
 						<li>Click <b>Add to Query</b>.
 						<p>
@@ -91,7 +95,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_cand.jpg" width=757 height=753 alt="G&M QF Screen Shot">
+								<img src="Images/PAD_cand.jpg" width=754 height=651 alt="G&M QF Screen Shot">
 							</td>
 						</tr>
 					</table>
