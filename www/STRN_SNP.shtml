@@ -111,8 +111,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>Click any link to <u>MGI SNP Detail</u> in the <b>SNP ID</b> 
-						column to view flanking sequence for a SNP.
+						<li value = 6>Click any link to 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'>
+						MGI SNP Detail</a> 
+						in the <b>SNP ID</b> column to view flanking sequence for a SNP.
 					</ol>
 				</td>
 				<td valign=top>
