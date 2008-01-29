@@ -46,7 +46,7 @@
 			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp')">
+			<a href="http://www.informatics.jax.org/imsr/index.jsp" onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp')">
 			IMSR</a>
 			in a new window. 
 		</td>
