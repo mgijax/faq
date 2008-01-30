@@ -18,6 +18,7 @@
 
 <br>
 <input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -48,7 +49,7 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF'); return false;">
 			Mouse SNP Query Form</a>
 			in a new window. 
 		</td>
@@ -79,7 +80,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select the following strains from the Available Strains list. 
+						<li>Select the following strains from the Available Strains list:
 						<p>
 						<ul>
 							<li>129X1/SvJ
@@ -112,7 +113,7 @@
 				<td valign=top>
 					<ol>
 						<li value = 6>Click any link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'>
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'target="blank">
 						MGI SNP Detail</a> 
 						in the <b>SNP ID</b> column to view flanking sequence for a SNP.
 					</ol>
