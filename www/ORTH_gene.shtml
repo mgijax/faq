@@ -17,6 +17,7 @@
 
 <br>
 <input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -45,7 +46,9 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/homology_form.shtml')">
+			<a href='<!--#include file='include/wi_url.html'-->searches/homology_form.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/homology_form.shtml'); 
+			return false;">
 			Mammalian Orthology Query Form</a>
 			in a new window. 
 		</td>
@@ -67,7 +70,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding the mouse ortholog of human <i>MYO6</i>
+			Example 1. Finding the mouse ortholog of human MYO6
 	</tr>
 
 	<tr>
@@ -99,7 +102,7 @@
 				<td valign=top>
 					<ol>
 						<li value =5>The search results display a table including genomic location, 
-						accession identifiers, and evidence codes for human-mouse orthologs of gene <i>Myo6</i>.
+						accession identifiers, and evidence codes for human-mouse orthologs of gene MYO6.
 						<p>
 						<li>To download all human and mouse orthologs, visit the 
 						<a href="ftp://ftp.informatics.jax.org/pub/reports/index.html#orthology"target="blank">

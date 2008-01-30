@@ -46,7 +46,7 @@
 			On most MGI pages, you can access the Protein Superfamily Browser from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A'); return false;">
 			Protein Superfamily Browser</a>
 			in a new window. 
 		</td>

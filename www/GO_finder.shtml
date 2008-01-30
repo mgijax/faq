@@ -17,6 +17,7 @@
 
 <br>
 <input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
@@ -45,11 +46,12 @@
 			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml')">
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml'
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml'); 
+			return false;">
 			GO Functional Annotations</a>
 			page in a new window. 
 		</td>
-		
 		<td valign=top>
 			<table class="outline">
 				<tr>
@@ -74,8 +76,8 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click the link to the <u>MGI GO Term Finder</u> in the box labeled 
-						<b>Access Data</b>.
+						<li>Click the link to the <u>MGI GO Term Finder</u> in the 
+						box labeled <b>Access Data</b>.
 					</ol>
 				</td>
 				<td valign=top>
