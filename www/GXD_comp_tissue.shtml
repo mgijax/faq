@@ -16,7 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -26,7 +27,8 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Gene Expression Data Expanded Query Form to query for genes expressed in some anatomical structures
+		<td colspan=2 align=left>You can use the Gene Expression Data Expanded 
+		Query Form to query for genes expressed in some anatomical structures
 		and/or developmental stages but not in others.  
 		</td>
 	</tr>
@@ -41,10 +43,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Gene Expression Data Expanded Query Form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Gene Expression Data Expanded 
+			Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded'
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded'); 
+			return false;">
 			Gene Expression Data Expanded Query Form</a>
 			in a new window. 
 		</td>

@@ -13,7 +13,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -41,8 +42,11 @@
 			On most MGI pages, you can access the Genes and Markers Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF')">Genes and Markers Query Form</a>
-			in a new window or tab. 
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'); 
+			return false;">
+			Genes and Markers Query Form</a>
+			in a new window. 
 		</td>
 		
 		<td valign=top>

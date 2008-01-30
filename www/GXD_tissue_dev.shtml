@@ -16,7 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -46,9 +47,11 @@
 			the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the
-			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml')">
+			<a href='<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml'
+			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml'); 
+			return false;">
 			Mouse Anatomical Dictionary Browser</a>
-			in a new window or tab. 
+			in a new window. 
 		</td>
 		
 		<td valign=top>
@@ -95,7 +98,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click on <u>heart</u> in <b>Theiler stage 17</b>.
+						<li value = 3>Click on 
+						<a href='<!--#include file='include/wi_url.html'-->searches/anatdict.cgi?id=2167'target="blank">
+						heart</a> 
+						in <b>Theiler stage 17</b>.
 					</ol>
 				</td>
 				<td valign=top>
@@ -111,8 +117,11 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click on <u>show all</u> to see all expression 
-						results annotated to the heart and its substructures.
+						<li value = 4>Click on 
+						<a href='<!--#include file='include/wi_url.html'-->searches/expression_report.cgi?_Structure_key=2167&sort=Gene%20Symbol&returnType=assay%20results&substructures=substructures'target="blank">
+						show all</a> 
+						to see all expression results annotated to the 
+						heart and its substructures.
 					</ol>
 				</td>
 				<td valign=top>
@@ -147,7 +156,9 @@
 					<ol>
 						<li value = 6>To further refine your original query, click the back button 
 						on your browser to return to the page used in step 4. This time, click 
-						the link to <u>refine search</u>.
+						the link to 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=ADRefiner&stage=17&structure=2167'target="blank">
+						refine search</a>.
 					</ol>
 				</td>
 				<td valign=top>
