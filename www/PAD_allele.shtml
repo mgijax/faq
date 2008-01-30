@@ -7,7 +7,8 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find mutant alleles associated with specific phenotypes or human diseases?</span>
+ <span class="faqHeaderText">How do I find mutant alleles associated with 
+ specific phenotypes or human diseases?</span>
 </div>
 
 <style>
@@ -26,8 +27,10 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Phenotypes, Alleles and Disease Models Query Form to find alleles of a gene, alleles
-		associated with a specific phenotype, or alleles created by a specific type of mutation.
+		<td colspan=2 align=left>You can use the Phenotypes, Alleles and 
+		Disease Models Query Form to find alleles of a gene, alleles
+		associated with a specific phenotype, or alleles created by a 
+		specific type of mutation.
 		</td>
 	</tr>
 	<tr>
@@ -41,10 +44,14 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Phenotypes, Alleles and Disease Models Query Form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Phenotypes, Alleles and 
+			Disease Models Query Form from the Search menu as shown in the 
+			image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml')">
+			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml'); 
+			return false;">
 			Phenotypes, Alleles and Disease Models Query Form</a>
 			in a new window. 
 		</td>
@@ -96,10 +103,14 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click any allele symbol in the first column of the search results to view greater detail 
-							about an allele, including descriptions of phenotypes and any associated diseases. Note that the precise 
-							search terms entered may not appear in the phenotype descriptions for an allele. These search terms may have
-							been captured as synonyms during the search, and be represented by different terms than those originally entered.
+						<li value = 3>Click any allele symbol in the first column of 
+							the search results to view greater detail about an allele, 
+							including descriptions of phenotypes and any associated 
+							diseases. Note that the precise search terms entered may 
+							not appear in the phenotype descriptions for an allele. 
+							These search terms may have been captured as synonyms 
+							during the search, and be represented by different terms 
+							than those originally entered.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
