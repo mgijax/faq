@@ -27,8 +27,10 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Genes and Markers Query Form to narrow your search to a specific region of the mouse genome. 
-			Within this interval, you can choose to retrieve genes or other marker types associated with a mouse phenotype.
+		<td colspan=2 align=left>You can use the Genes and Markers Query Form 
+			to narrow your search to a specific region of the mouse genome. 
+			Within this interval, you can choose to retrieve genes or other 
+			marker types associated with a mouse phenotype.
 		</td>
 	</tr>
 	<tr>
@@ -42,7 +44,8 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Genes and Markers Query Form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Genes and Markers Query Form 
+			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'); return false;">Genes and Markers Query Form</a>

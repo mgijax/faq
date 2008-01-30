@@ -17,6 +17,7 @@
 
 <br>
 <input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -47,7 +48,7 @@
 			Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml')">
+			<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml'); return false;">
 			RFLP/PCR Polymorphism Query Form</a>
 			in a new window. 
 		</td>
@@ -97,7 +98,7 @@
 				<td valign=top>
 					<ol>
 						<li value = 3>Click a 
-						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=18023'>
+						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=18023'target="blank">
 						PCR</a> 
 						link in the <b>Type</b> column to view details 
 						about alleles, relative fragment sizes and strains.
@@ -117,12 +118,12 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click a link in the 
-						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?34750'>
+						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?34750'target="blank">
 						<b>Probe</b></a> column to retrieve further details, 
 						including primer sequences in many cases.
 						<p>
 						<li>For RFLPs, return to step 3 above and click an 
-						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=1794'>
+						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=1794'target="blank">
 						RFLP</a> 
 						link in the <b>Type</b> column to view details.
 					</ol>

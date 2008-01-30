@@ -7,7 +7,8 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I use attributes such as genome location, disease association, phenotype, or function to find specific genes?</span>
+ <span class="faqHeaderText">How do I use attributes such as genome location, 
+ disease association, phenotype, or function to find specific genes?</span>
 </div>
 
 <style>
@@ -15,7 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -25,8 +27,10 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Genes and Markers Query Form to narrow your search to a specific region of the mouse genome. 
-			Within this interval, you can choose to retrieve genes or other marker types associated with a human disease, mouse phenotype, or function.
+		<td colspan=2 align=left>You can use the Genes and Markers Query Form 
+			to narrow your search to a specific region of the mouse genome. 
+			Within this interval, you can choose to retrieve genes or other 
+			marker types associated with a human disease, mouse phenotype, or function.
 		</td>
 	</tr>
 	<tr>
@@ -40,11 +44,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Genes and Markers Query Form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Genes and Markers Query Form 
+			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF')">Genes and Markers Query Form</a>
-			in a new window or tab. 
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'); return false;">
+			Genes and Markers Query Form</a>
+			in a new window. 
 		</td>
 		
 		<td valign=top>

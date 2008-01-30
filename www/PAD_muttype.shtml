@@ -49,7 +49,7 @@
 			Disease Models Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml')">
+			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml'); return false;">
 			Phenotypes, Alleles and Disease Models Query Form</a>
 			in a new window. 
 		</td>
@@ -82,7 +82,7 @@
 						<li>Check the box next to <i>transgenic (Cre/Flp)</i> in the 
 						<b>Categories</b> section.
 						<p>
-						<li>Check the box next to <i>no limit</i> to clear the default 
+						<li>Check the <i>no limit</i> box to clear the default 
 						limit of 500 on the number of results returned.
 						<p>
 						<li>Click <b>Search</b>.
