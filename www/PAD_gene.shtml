@@ -27,8 +27,9 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Phenotypes, Alleles and Disease Models Query Form to find alleles of a gene, alleles
-		associated with a specific phenotype, or alleles created by a specific type of mutation.
+		<td colspan=2 align=left>You can use the Phenotypes, Alleles and Disease Models 
+		Query Form to find alleles of a gene, alleles associated with a specific 
+		phenotype, or alleles created by a specific type of mutation.
 		</td>
 	</tr>
 	<tr>
@@ -42,10 +43,11 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Phenotypes, Alleles and Disease Models Query Form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Phenotypes, Alleles and Disease Models 
+			Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml')">
+			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml'); return false;">
 			Phenotypes, Alleles and Disease Models Query Form</a>
 			in a new window. 
 		</td>

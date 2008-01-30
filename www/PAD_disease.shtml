@@ -48,7 +48,9 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A' 
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A'); 
+			return false;">
 			Human Disease Vocabulary Browser</a>
 			in a new window.
 		</td>
@@ -119,7 +121,7 @@
 						<li value = 4>The <b>Human Disease and Mouse Model Detail</b> page lists mouse 
 						and human genes, transgenes and other mutations, and mouse models associated 
 						with Huntington Disease. For a detailed interpretation of this page, click
-						<a style="text-decoration:none" href="<!--#include file='include/userdocs_url.html'-->omim_detail_help.shtml">
+						<a style="text-decoration:none" href="<!--#include file='include/userdocs_url.html'-->omim_detail_help.shtml"target="blank">
 						<img src="Images/docu_img.jpg" align = top width=24 height=20 alt="Documentation Link"></a>.
 						<p>
 						Click on <b>OMIM ID:</b> 
@@ -139,7 +141,6 @@
 					</table>
 				</td>	
 			</tr>
-
 		</td>
 	</tr>
 </table>

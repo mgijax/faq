@@ -47,7 +47,9 @@
 			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='http://www.informatics.jax.org/imsr/index.jsp' onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp')">
+			<a href='http://www.informatics.jax.org/imsr/index.jsp' 
+			onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp'); 
+			return false;">
 			IMSR</a>
 			in a new window. 
 		</td>
@@ -157,7 +159,10 @@
 				<td valign=top>
 					<ol>
 						<li>Open the 
-						<a href="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"target = "blank">MGI home page</a>
+						<a href='<!--#include file="include/mgihome_url.html"-->homepages/index.shtml' 
+						onClick="javascript:openNewWindow('<!--#include file="include/mgihome_url.html"-->homepages/index.shtml'); 
+						return false;">
+						MGI home page</a>
 						in a new window.
 						<p>
 						<li>Type <i>acadm</i> into the search box.

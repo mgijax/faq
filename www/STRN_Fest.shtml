@@ -18,7 +18,7 @@
 
 <br>
 <input type="button" value=" Print " onclick="window.print();return false;" />
-<br>
+<input type="button" value=" Close "onclick="window.close();return false;" /><br>
 
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
@@ -49,7 +49,7 @@
 			shown in the image at right.
 			<p>
 			For this tutorial, open 
-			<a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi')">
+			<a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi'); return false;">
 			Festing's <i>Inbred Strains of Mice and Rats</i></a>
 			in a new window. 
 		</td>
@@ -100,7 +100,7 @@
 					<ol>
 						<li value =3>The results list all strains that include a reference to 
 						<i>C57BL/6</i> in their descriptions. Click the 
-						<a href="<!--#include file='include/wi_url.html'-->external/festing/mouse/docs/C57BL.shtml">C57BL</a>
+						<a href="<!--#include file='include/wi_url.html'-->external/festing/mouse/docs/C57BL.shtml"target="blank">C57BL</a>
 						link for  
 						descriptions of C57BL substrains, including C57BL/6.
 					</ol>
