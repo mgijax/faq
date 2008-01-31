@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Compare Mouse to Human Pathways</TITLE>
+<title>MGI_4.0 FAQ: Compare Mouse to Human Pathways</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,31 +11,145 @@
  <span class="faqHeaderText">How do I compare mouse pathways to human pathways?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
-to open the MGI home page in a new window.
-<P>
-<CENTER>
-<IMG SRC="Images/home_lg.jpg" WIDTH=790 HEIGHT=684 ALT="Home Page Long Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Find the box labeled <B>MGI News</B> in the lower half of the page.
-<P>
-<LI>Click the link to <U>MouseCyc</U> within this box.
-<P>
-<LI>On the Pathway Tools Query page, find the link to <B>Comparative Analysis</B> near the bottom
-of the page. Click this link.
-<P>
-<LI>Select which set of comparative analysis tables you wish to generate by checking the box next to <B>Pathways</B>.
-<P>
-<LI>Check boxes next to both <I>Homo sapiens</I> and <I>Mus musculus</I> C57BL/6J near the bottom of the page.
-<P>
-<LI>Click the <B>Submit</B> button.
-</TR></TABLE></BODY></HTML>
+<br>
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
+<br>
 
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Biochemical Pathways page 
+			to access mouse genetic and genomic data in the context of 
+			physiological and cellular processes.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Biochemical Pathways page
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Biochemical Pathways page 
+			by clicking the appropriate tab as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages//minihome_BioPath.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/minihome_BioPath.shtml'); 
+			return false;">
+			Biochemical Pathways</a>
+			page in a new window. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="BP Tab Header">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Comparing human and mouse pathways
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click the link to the 
+						<a href='http://ella.jax.org:8000/MOUSE/class-tree?object=Pathways'target="blank">
+						Browse the pathway ontology</a> 
+						in the MouseCyc database.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_allpath1.jpg" width=451 height=317 alt="Access Data Box">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =2>Click <b>Query Page</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_comp1.jpg" width=627 height=212 alt="Pathways List">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =3>Click the link to the 
+						<a href='http://ella.jax.org:8000/MOUSE/comp-genomics?'target="blank">
+						Comparative Analysis</a>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_path3.jpg" width=577 height=545 alt="Pathway Tools">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =4>Check the box next to <b>Pathways</b>.
+						<p>
+						<li>Check boxes next to both <i>Homo sapiens</i> 
+						and <i>Mus musculus C57BL/6J</i>.
+						<p>
+						<li>Click <b>Submit</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_path4.jpg" width=635 height=427 alt="Comparative Analysis">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
