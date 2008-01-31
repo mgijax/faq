@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Search MouseCyc for a Specific Compound</TITLE>
+<title>MGI_4.0 FAQ: Search MouseCyc for a Specific Compound</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,30 +11,144 @@
  <span class="faqHeaderText">How do I search MouseCyc for a specific compound?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<OL><LI>Click <A HREF="<!--#include file="include/mgihome_url.html"-->homepages/index.shtml"TARGET = "BLANK">here</A>
-to open the MGI home page in a new window.
-<P>
-<CENTER>
-<IMG SRC="Images/home_lg.jpg" WIDTH=790 HEIGHT=684 ALT="Home Page Long Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Find the box labeled <B>MGI News</B> in the lower half of the page.
-<P>
-<LI>Click the link to <U>MouseCyc</U> within this box.
-<P>
-<LI>On the Pathway Tools Query page, find the drop-down menu next to <B>Query</B>.
-<P>
-<LI>Select Compound (by name) from this menu.
-<P>
-<LI>Type <I>ATP</I> into the search box next to the Query menu.
-<P>
-<LI>Click the <B>Submit</B> button.
-</TR></TABLE></BODY></HTML>
+<br>
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
+<br>
 
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Biochemical Pathways page 
+			to access mouse genetic and genomic data in the context of 
+			physiological and cellular processes.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Biochemical Pathways page
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Biochemical Pathways page 
+			by clicking the appropriate tab as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages//minihome_BioPath.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/minihome_BioPath.shtml'); 
+			return false;">
+			Biochemical Pathways</a>
+			page in a new window. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="BP Tab Header">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding data associated with ATP
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click the link to the 
+						<a href='http://ella.jax.org:8000/MOUSE/class-tree?object=Pathways'target="blank">
+						Browse the pathway ontology</a> 
+						in the MouseCyc database.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_allpath1.jpg" width=451 height=317 alt="Access Data Box">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =2>Click the <b>Query Page</b> button.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_comp1.jpg" width=627 height=212 alt="Pathways List">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =3>Select <i>Compound (by name)</i> from the 
+						<b>Query</b> drop-down menu.
+						<p>
+						<li>Type <i>ATP</i> into the text box.
+						<p>
+						<li>Click <b>Submit</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_comp2.jpg" width=537 height=124 alt="Query Page">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =6>Click the link to 
+						<a href='http://ella.jax.org:8000/MOUSE/NEW-IMAGE?type=COMPOUND&object=ATP'target="blank">
+						ATP</a>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_comp3.jpg" width=384 height=135 alt="Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
