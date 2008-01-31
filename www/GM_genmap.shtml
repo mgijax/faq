@@ -16,7 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -42,7 +43,9 @@
 			in the image at right.
 			<p>
 			For this tutorial, open 
-			<a href="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current')">
+			<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'
+			onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'); 
+			return false;">
 			Mouse GBrowse</a>
 			in a new window. 
 		</td>
@@ -70,8 +73,9 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Change the text in the <b>Landmark or Region</b> text box to <i>7:101000000..103000000</i> 
-						to view chromosome 7 from 101Mbp to 103Mbp.
+						<li>Change the text in the <b>Landmark or Region</b> text box 
+						to <i>7:101000000..103000000</i> to view chromosome 7 from 
+						101Mbp to 103Mbp.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -132,9 +136,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>The <b>Details</b> section displays QTL for this region of chromosome
-						7. Beneath the QTL, phenotype terms are listed at left, and associated transcripts
-						modeled to the right of these terms.
+						<li value = 6>The <b>Details</b> section displays QTL for this 
+						region of chromosome 7. Beneath the QTL, phenotype terms are 
+						listed at left, and associated transcripts modeled to the 
+						right of these terms.
 						<p>
 						<li>Click on a transcript to view a list of alleles.
 					</ol>

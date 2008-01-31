@@ -8,7 +8,8 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I retrieve Entrez, Ensembl, VEGA, or other IDs for a list of genes?</span>
+ <span class="faqHeaderText">How do I retrieve Entrez, Ensembl, VEGA, 
+ or other IDs for a list of genes?</span>
 </div>
 
 <style>
@@ -16,7 +17,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -27,10 +29,12 @@
 	</tr>
 	<tr>
 		<td colspan=2 align=left>
-			Using the MGI Batch Query, you can enter a list or upload a file of official 
-			MGI gene/marker symbols, or gene, transcript, or sequence IDs from MGI, Ensembl, Entrez, 
-			Uniprot or other sources. You can choose to return gene symbols and names, genomic location, 
-			Gene Ontology or Mammalian Phenotype terms, MGI allele IDs, or IDs from other sources.
+			Using the MGI Batch Query, you can enter a list or upload 
+			a file of official MGI gene/marker symbols, or gene, transcript, 
+			or sequence IDs from MGI, Ensembl, Entrez, Uniprot or other 
+			sources. You can choose to return gene symbols and names, 
+			genomic location, Gene Ontology or Mammalian Phenotype 
+			terms, MGI allele IDs, or IDs from other sources.
 		</td>
 	</tr>
 	<tr>
@@ -44,12 +48,15 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the MGI Batch Query from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the MGI Batch Query from 
+			the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=batchQF')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=batchQF' 
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=batchQF'); 
+			return false;">
 			Batch Query</a>
-			in a new window or tab. 
+			in a new window. 
 		</td>
 		
 		<td valign=top>
@@ -69,7 +76,8 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding Ensembl ID numbers for gene symbols <i>Pax6</i> and <i>Pax3</i>
+			Example 1. Finding Ensembl ID numbers for gene symbols 
+			<i>Pax6</i> and <i>Pax3</i>
 		</td>
 	</tr>
 
@@ -84,9 +92,11 @@
 						<br>
 						<i>Pax3</i>
 						<p>
-						<li>Select <i>Current Gene/Marker Symbol</i> for <b>Input Identifier Type</b>. 
+						<li>Select <i>Current Gene/Marker Symbol</i> for 
+						<b>Input Identifier Type</b>. 
 						<p>
-						<li>Check the box next to <i>Ensembl ID</i> in the <b>Output</b> section.
+						<li>Check the box next to <i>Ensembl ID</i> in the 
+						<b>Output</b> section.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -104,8 +114,8 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value =5>Click on an MGI ID in the <b>MGI Gene/Marker ID</b> column to retrieve the 
-							corresponding <b>Gene Detail</b> page.
+						<li value =5>Click on an MGI ID in the <b>MGI Gene/Marker ID</b> 
+						column to retrieve the corresponding <b>Gene Detail</b> page.
 					</ol>
 				</td>
 				<td valign=top>
