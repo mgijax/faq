@@ -16,7 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -26,8 +27,10 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Molecular Probes and Clones Query Form to identify probes or clones for a 
-		specific gene or region of the mouse genome. This form may be used to retrieve data about genomic or cDNA clones or primer
+		<td colspan=2 align=left>You can use the Molecular Probes and 
+		Clones Query Form to identify probes or clones for a 
+		specific gene or region of the mouse genome. This form may be 
+		used to retrieve data about genomic or cDNA clones or primer
 		sequences, and to identify suppliers of genomic or cDNA clones.
 		</td>
 	</tr>
@@ -42,10 +45,14 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Molecular Probes and Clones Query Form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Molecular Probes 
+			and Clones Query Form from the Search menu as shown 
+			in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF' 
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF'); 
+			return false;">
 			Molecular Probes and Clones Query Form</a>
 			in a new window. 
 		</td>
@@ -76,9 +83,11 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Type <i>myo6</i> in the text box beneath <b>Gene/Marker Symbol/Name</b>.
+						<li>Type <i>myo6</i> in the text box beneath 
+						<b>Gene/Marker Symbol/Name</b>.
 						<p>
-						<li>Select <i>primer</i> from the <b>Sequence Type</b> drop-down menu. 
+						<li>Select <i>primer</i> from the <b>Sequence Type</b> 
+						drop-down menu. 
 						<p>
 						<li>Click <b>Search</b>.
 						<p>
@@ -101,8 +110,12 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click the link to <u>MGI:6655</u> in the <b>Nucleotide Probe/Clone AccID</b> 
-						column to view details about primer sequences, alleles, fragment sizes and strains.
+						<li value = 4>Click the link to 
+						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?35075'target="blank">
+						MGI:6655</a> 
+						in the <b>Nucleotide Probe/Clone AccID</b> column to 
+						view details about primer sequences, alleles, relative 
+						fragment sizes and strains.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -131,8 +144,10 @@
 			<li>To find genotyping protocols including reaction components, cycling conditions and primers, visit
 			<a href="http://jaxmice.jax.org"target = "blank">JAX Mice & Services</a>.
 			<p>
-			<li>Click the link to <u>Mouse Strain Information</u> beneath <b>JAX Mice & Services</b> 
-			in the left hand navigation bar.
+			<li>Click the link to 
+			<a href="http://jaxmice.jax.org/info/index.html"target = "blank">
+			Mouse Strain Information</a> 
+			beneath <b>JAX Mice & Services</b>.
 			</ol>
 		</td>
 		<td valign=top align = right colspan=2>
@@ -150,7 +165,9 @@
 	<tr>
 		<td valign=top>
 			<ol>
-			<li value = 3>Click the link to <u>Genotyping Protocols</u> in the lower right of the page.
+			<li value = 3>Click the link to 
+			<a href="http://jaxmice.jax.org/pub-cgi/protocols/protocols.sh?objtype=prot_query_top&uclass=read"target = "blank">
+			Genotyping Protocols</a> in the lower right of the page.
 			</ol>
 		</td>
 		<td valign=top align = right colspan=2>
@@ -170,7 +187,7 @@
 			<ol>
 			<li value = 4>Type <i>tub</i> in the <b>Gene Symbol</b> text box.
 			<p>
-			<li>Click the <b>Search</b> button. 
+			<li>Click <b>Search</b>. 
 			</ol>
 		</td>
 		<td valign=top align = right colspan=2>
@@ -188,7 +205,10 @@
 	<tr>
 		<td valign=top>
 			<ol>
-			<li value = 6>Click the link in the <b>Protocol</b> column for detailed information.
+			<li value = 6>Click the 
+			<a href="http://jaxmice.jax.org/pub-cgi/protocols/protocols.sh?objtype=protocol&protocol_id=143"target = "blank">
+			tub</a>
+			link in the <b>Protocol</b> column for detailed information.
 			<p>
 			<li>Scroll down the page below the gel image to view detailed reaction conditions.
 			For additional information please contact JAX Mice directly at micetech@jax.org or 800-422-MICE.
