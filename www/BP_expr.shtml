@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: Display Mouse Gene Expression Data</TITLE>
+<title>MGI_4.0 FAQ: Display Mouse Gene Expression Data</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,32 +11,115 @@
  <span class="faqHeaderText">How do I display my mouse gene expression data in the context of mouse pathways?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
-<OL><LI>Click <A HREF="<!--#include file='include/mgihome_url.html'-->homepages/minihome_BioPath.shtml"TARGET = "BLANK">here</A>
-to go to the Biochemical Pathways page. This page may be accessed by clicking the Biochemical Pathways link on 
-the MGI home page, or by clicking the tab near the top center of other MGI pages.
-<P>
-<CENTER>
-<IMG SRC="Images/BP_mini.jpg" WIDTH=785 HEIGHT=560 ALT="BP Mini Home Page Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Find the box labeled <B>What can I do here?</B> located at left. Click the link to <U>Overlay experimental data 
-onto the Pathway Tools Omics Viewer</U> near the bottom of this box.
-<P>
-<LI>Find the pull-down menu next to <B>Select a dataset</B> located at right. Choose <I>Mus musculus</I> C57BL/6J from this menu.
-<P>
-<LI>To upload a file, click the <B>Choose file</B> button. This file should be tab-delimited text with gene symbols in the first column and
-expression level in the second and all subsequent columns.
-<P>
-<LI>Scroll down the page to the <B>Single Experiment Time Step or Animated Time Series</B> section. Find the box entitled <B>Data column 
-(numerator in ratios)</B>. Type the number 1 in this box.
-<P>
-<LI>Scroll to the bottom of the page and click the <B>Submit</B> button.
-</OL>
-</TR></TABLE></BODY></HTML>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
+<br>
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
+<br>
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Biochemical Pathways page 
+			to access mouse genetic and genomic data in the context of 
+			physiological and cellular processes.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Biochemical Pathways page
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Biochemical Pathways page 
+			by clicking the appropriate tab as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages//minihome_BioPath.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/minihome_BioPath.shtml'); 
+			return false;">
+			Biochemical Pathways</a>
+			page in a new window. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="BP Tab Header">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding pathway data associated with expression data
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click the link to the 
+						<a href='http://ella.jax.org:8000/expression.html'target="blank">
+						Overlay experimental data onto the Pathway Tools Omics Viewer</a>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_expr1.jpg" width=411 height=330 alt="Access Data Box">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =2>Select <i>Mus musculus C57BL/6J</i> from 
+						the <b>Select a dataset</b> drop-down menu.
+						<p>
+						<li>Click the <b>Choose file</b> button to upload a file. 
+						This file should be tab-delimited text with gene symbols in the 
+						first column and expression level in the second and all subsequent 
+						columns.
+						<p>
+						<li>Type the number <i>1</i> into the <b>Data column (numerator in ratios)</b> 
+						box. 
+						<p>
+						<li>Click the <b>Submit</b> button located at the bottom of the page.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_expr2.jpg" width=725 height=745 alt="Pathway Tools">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
