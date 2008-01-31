@@ -16,7 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -26,8 +27,10 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Molecular Probes and Clones Query Form to identify probes or clones for a 
-		specific gene or region of the mouse genome. This form may be used to retrieve data about genomic or cDNA clones or primer
+		<td colspan=2 align=left>You can use the Molecular Probes and 
+		Clones Query Form to identify probes or clones for a 
+		specific gene or region of the mouse genome. This form may 
+		be used to retrieve data about genomic or cDNA clones or primer
 		sequences, and to identify suppliers of genomic or cDNA clones.
 		</td>
 	</tr>
@@ -42,10 +45,14 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Molecular Probes and Clones Query Form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Molecular Probes 
+			and Clones Query Form from the Search menu as shown in 
+			the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF' 
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF'); 
+			return false;">
 			Molecular Probes and Clones Query Form</a>
 			in a new window. 
 		</td>
@@ -54,7 +61,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=600 height=280 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/" width=600 height=280 alt="Search Menu P&C QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -76,11 +83,13 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Change <i>contains</i> to <i>=</i> in the drop-down menu beneath <b>Gene/Marker Symbol/Name</b>.
+						<li>Change <i>contains</i> to <i>=</i> in the drop-down 
+						menu beneath <b>Gene/Marker Symbol/Name</b>.
 						<p>
 						<li>Type <i>Whrn</i> in the text box.
 						<p>
-						<li>Select <i>genomic</i> from the <b>Sequence Type</b> drop-down menu. 
+						<li>Select <i>genomic</i> from the <b>Sequence Type</b> 
+						drop-down menu. 
 						<p>
 						<li>Click <b>Search</b>.
 						<p>
@@ -103,7 +112,9 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click the link to <u>MGI:2785018</u>.
+						<li value = 5>Click the link to 
+						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?1030525'target="blank">
+						MGI:2785018</a>.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -123,7 +134,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>Click the link to <u>RPCI-23</u> on the page that follows.
+						<li value = 6>Click the link to 
+						<a href='http://www.ncbi.nlm.nih.gov/genome/clone/query.cgi?EXPR=RP23-340H1'target="blank">
+						RPCI-23</a> 
+						on the page that follows.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -143,7 +157,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 7>Click the link to <u>RP23-340H1</u> on the NCBI Clone Registry page.
+						<li value = 7>Click the link to 
+						<a href='http://www.ncbi.nlm.nih.gov/genome/clone/clname.cgi?stype=Id&list=597596&TransHist=0'target="blank">
+						RP23-340H1</a> 
+						on the NCBI Clone Registry page.
 						<p>
 						<li>Order this clone from  
 						<a href="http://bacpac.chori.org"target = "blank">BACPAC Resources</a>
@@ -173,14 +190,16 @@
 	<tr>
 		<td valign=top>
 			<ol>
-			<li>Follow the steps detailed in Example 1 above, but select <i>cDNA</i> instead of <i>genomic</i> for step 3.
+			<li>Follow the steps detailed in Example 1 above, but select 
+			<i>cDNA</i> instead of <i>genomic</i> for step 3.
 			<p>
 			<li>Click <b>Search</b>.
 			<p>
-			<li>Detail pages for cDNA clones may contain direct links to IMAGE or RIKEN. To order RIKEN clones specifically,
-			visit <a href="http://www.dnaform.jp/products/clone_e.html"target = "blank">DNAForm</a>.
+			<li>Detail pages for cDNA clones may contain direct links to 
+			IMAGE or RIKEN. To order RIKEN clones specifically,
+			visit 
+			<a href="http://www.dnaform.jp/products/clone_e.html"target = "blank">DNAForm</a>.
 		</td>
 	</tr>
 </table>
-
 <!--#include file='include/templateBlankBodyStop.html'-->
