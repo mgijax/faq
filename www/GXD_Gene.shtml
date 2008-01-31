@@ -97,7 +97,9 @@
 			<tr>
 				<td valign=top><ol>
 					<li value = 3>The <b>Search Results</b> page lists symbols and names containing
-					<i>Pax6</i>. Click the link to <u>Pax6</u>.
+					<i>Pax6</i>. Click the link to 
+					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'target="blank">
+					Pax6</a>.
 				</td>
 				<td valign=top>
 					<table class="outline">
