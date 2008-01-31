@@ -8,7 +8,8 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I search for a gene using an Entrez, Ensembl, VEGA, or other accession ID?</span>
+ <span class="faqHeaderText">How do I search for a gene using an Entrez, Ensembl, 
+ VEGA, or other accession ID?</span>
 </div>
 
 <style>
@@ -16,7 +17,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
@@ -25,8 +27,9 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Search Box to find information about genes,
-			markers or accession identifiers in MGI. The Search Box returns a list of genes, 
+		<td colspan=2 align=left>You can use the Search Box to find 
+			information about genes, markers or accession identifiers 
+			in MGI. The Search Box returns a list of genes, 
 			markers, or accession IDs that contain your entry.
 		</td>
 	</tr>
@@ -41,10 +44,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
+			On most MGI pages, you can find the Search Box in the upper 
+			right corner, as shown in the image.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml')">
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages/index.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
+			return false;">
 			MGI home page</a>
 			in a new window. 
 		</td>		
@@ -52,7 +58,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/header.jpg" width=759 height=103 alt="MGI Header Screen Shot">
+						<img src="Images/" width=759 height=103 alt="MGI Header Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -81,7 +87,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/search_box.jpg" width=409 height=29 alt="Search Box Screen Shot">
+								<img src="Images/" width=409 height=29 alt="Search Box Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -93,8 +99,10 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 3>The <b>Search Results</b> page lists symbols, names, and accession identifiers containing
-					<i>18505</i>. Click the link to <u>MGI Marker Detail</u> to retrieve the Gene Detail 
+					<li value = 3>The <b>Search Results</b> page lists symbols, names, 
+					and accession identifiers containing <i>18505</i>. Click the link to 
+					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12181'target="blank"> 
+					MGI Marker Detail</a> to retrieve the Gene Detail 
 					page for the <i>Pax3</i> gene.
 				</td>
 				<td valign=top>
