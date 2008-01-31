@@ -83,7 +83,9 @@
 						set of colored histograms, each corresponding to a a segment
 						of a human chromosome. The length of the bar in a histogram 
 						indicates the number of human/mouse orthologies. 
-						Click on human chromosome 8.
+						Click on 
+						<a href='<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?format=compact&breadth=Selected%20Species&order=location&_Organism_key=1&cmp_Organism_key=2&primary_chromosome=1&cmp_chromosome=8'target="blank">
+						human chromosome 8</a>.
 					</ol>
 				</td>
 				<td valign=top>
