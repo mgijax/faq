@@ -16,7 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
@@ -25,8 +26,9 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Search Box to find information about genes,
-			markers or accession identifiers in MGI. The Search Box returns a list of genes, 
+		<td colspan=2 align=left>You can use the Search Box to find 
+			information about genes, markers or accession identifiers 
+			in MGI. The Search Box returns a list of genes, 
 			markers, or accession IDs that contain your entry.
 		</td>
 	</tr>
@@ -41,10 +43,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
+			On most MGI pages, you can find the Search Box in 
+			the upper right corner, as shown in the image.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml')">
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages/index.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
+			return false;">
 			MGI home page</a>
 			in a new window. 
 		</td>		
@@ -92,8 +97,10 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 3>The <b>Search Results</b> page lists symbols and names containing
-					<i>Pax6</i>. Click the link to <u>Pax6</u>.
+					<li value = 3>The <b>Search Results</b> page lists 
+					symbols and names containing <i>Pax6</i>. Click the link to 
+					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'target="blank">
+					Pax6</a>.
 				</td>
 				<td valign=top>
 					<table class="outline">
@@ -107,7 +114,10 @@
 			</tr>
 			<tr>
 				<td valign=top><ol>
-					<li value = 4>Click the link to <u>Mammalian Orthology</u> on the <b>Pax6 Gene Detail</b> page.
+					<li value = 4>Click the link to 
+					<a href='<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?_Marker_key=12184'target="blank">
+					Mammalian Orthology</a> 
+					on the <b>Pax6 Gene Detail</b> page.
 				</ol>
 			</td>
 			<td valign=top>
@@ -127,9 +137,12 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 5>The <b>Mammalian Orthology</b> page supplies a table of <i>Pax6</i> orthologs
-					in human, mouse and rat. To view a graph of Gene Ontology annotations for these orthologs,
-					click the link to <u>Mouse-Human-Rat Comparative GO Graph</u>.
+					<li value = 5>The <b>Mammalian Orthology</b> page supplies 
+					a table of <i>Pax6</i> orthologs in human, mouse and rat. 
+					To view a graph of Gene Ontology annotations for these 
+					orthologs, click the link to 
+					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:97490'target="blank">					
+					Mouse-Human-Rat Comparative GO Graph</a>.
 				</td>
 				<td valign=top>
 					<table class="outline">
