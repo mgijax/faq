@@ -8,7 +8,8 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I search for genes sharing a specific protein domain?</span>
+ <span class="faqHeaderText">How do I search for genes sharing a 
+ specific protein domain?</span>
 </div>
 
 <style>
@@ -16,7 +17,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
@@ -25,8 +27,9 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Protein Superfamily Browser to retrieve genes, sequences
-			and human, rat and mouse orthologs for a given superfamily.
+		<td colspan=2 align=left>You can use the Protein Superfamily 
+			Browser to retrieve genes, sequences and human, rat and 
+			mouse orthologs for a given superfamily.
 		</td>
 	</tr>
 	<tr>
@@ -40,10 +43,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Protein Superfamily Browser from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Protein Superfamily 
+			Browser from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A')">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A' 
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A'); 
+			return false;">
 			Protein Superfamily Browser</a>
 			in a new window. 
 		</td>
@@ -96,8 +102,11 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click the link to <u>potassium channel protein Drk1</u> to view a list of genes 
-						in this superfamily, along with human and rat orthologs and protein sequence IDs.
+						<li value = 3>Click the link to 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3080825'target="blank">
+						potassium channel protein Drk1</a> 
+						to view a list of genes in this superfamily, along with 
+						human and rat orthologs and protein sequence IDs.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
