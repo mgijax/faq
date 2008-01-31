@@ -1,9 +1,9 @@
-
 <!--#include file='include/templateHead.html'-->
 
-<TITLE>MGI_4.0 FAQ: See a List of All Biochemical Pathways</TITLE>
+<title>MGI_4.0 FAQ: See a List of All Biochemical Pathways</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 
 <div id="faqPageHeader">
@@ -11,24 +11,108 @@
  <span class="faqHeaderText">How do I see a list of all pathways in MouseCyc?</span>
 </div>
 
-<TABLE border=0 cellpadding=0 cellspacing=7>
-<TR>
-<TD>
-<BR>
-<OL><LI>Click <A HREF="<!--#include file='include/mgihome_url.html'-->homepages/minihome_BioPath.shtml"TARGET = "BLANK">here</A>
-to go to the Biochemical Pathways page. This page may be accessed by clicking the Biochemical Pathways link on 
-the MGI home page, or by clicking the tab near the top center of other MGI pages.
-<P>
-<CENTER>
-<IMG SRC="Images/BP_mini.jpg" WIDTH=785 HEIGHT=560 ALT="BP Mini Home Page Screen Shot">
-</CENTER>
-<P>
-<P>
-<LI>Find the box labeled <B>What can I do here?</B> located at left. Click the link to <U>Browse the pathway ontology</U>
- in the MouseCyc database.
-<P>
-<LI> Click the <B>Expand all</B> button to view a list of all pathways.
-</OL>
-</TR></TABLE></BODY></HTML>
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
+<br>
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
+<br>
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Overview
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the Biochemical Pathways page 
+			to access mouse genetic and genomic data in the context of 
+			physiological and cellular processes.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the Biochemical Pathways page
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Biochemical Pathways page 
+			by clicking the appropriate tab as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages//minihome_BioPath.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/minihome_BioPath.shtml'); 
+			return false;">
+			Biochemical Pathways</a>
+			page in a new window. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/" width=764 height=411 alt="BP Tab Header">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Viewing a list of all pathways in MouseCyc
+		</td>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click the link to the 
+						<a href='http://ella.jax.org:8000/MOUSE/class-tree?object=Pathways'target="blank">
+						Browse the pathway ontology</a> 
+						in the MouseCyc database.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_allpath1.jpg" width=451 height=317 alt="Access Data Box">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value =2>Click the <b>Expand All</b> button 
+						to view a list of all pathways.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/BP_allpath2.jpg" width=365 height=174 alt="Pathways List">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+</table>
 <!--#include file='include/templateBlankBodyStop.html'-->
