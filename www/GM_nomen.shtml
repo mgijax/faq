@@ -16,8 +16,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print " onClick="javascript:window.print(); return false;">
-<input type="button" value=" Close " onClick="javascript:window.close(); return false;">
+<input type="button" value=" Print " onClick= onClick="javascript:window.print(); return false;">
+<input type="button" value=" Close " onClick= onClick="javascript:window.close(); return false;">
 			
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -27,9 +27,11 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Mouse Nomenclature Home Page to identify correct nomenclature for genes, markers, 
-			alleles, strains, mutations, and chromosome aberrations. You can also submit a proposed locus symbol, submit mutant
-			allele information, register a new mouse strain name, or apply for a laboratory registration code from this page.
+		<td colspan=2 align=left>You can use the Mouse Nomenclature Home Page 
+			to identify correct nomenclature for genes, markers, alleles, strains, 
+			mutations, and chromosome aberrations. You can also submit a proposed 
+			locus symbol, submit mutant allele information, register a new mouse 
+			strain name, or apply for a laboratory registration code from this page.
 		</td>
 	</tr>
 	<tr>
@@ -43,10 +45,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Mouse Nomenclature Home Page from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Mouse Nomenclature Home Page 
+			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/index.shtml')">
+			<a href='<!--#include file='include/mgihome_url.html'-->nomen/index.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/index.shtml'); 
+			return false;">
 			Mouse Nomenclature Home Page</a>
 			in a new window. 
 		</td>
@@ -65,69 +70,40 @@
 <br>
 <table width="100%">
 	<tr>
-	</tr>
-	<tr>
-		<td class="enhance" colspan=2 align=left>
-			Rules and Guidelines
+		<td valign=top>
+			<h3>Rules and Guidelines</h3>
+			Refer to the Quick Guides for gene, allele and mutation nomenclature. More detailed 
+			information may be found in the full guides.  As an example, allele symbol 
+			<i>Egfr<sup>tm1Cwr</sup></i> refers to the first targeted mutation (tm1) of the 
+			<i>Egfr</i> gene produced by Case Western Reserve University (Cwr).
+			<p>
+			<h3>Searches</h3>
+			Search or apply for a lab code by clicking the appropriate link to the 
+			Institute for Laboratory Animal Research (ILAR).
+			<p>
+			<h3>Submissions/Registrations</h3>
+			Submit data by clicking the links to:
+			<ul>
+				<li><a href='<!--#include file='include/mgihome_url.html'-->nomen/nomen_submit_form.shtml'target="blank">
+				Submit</a>
+				 a Proposed Locus Symbol
+				<li><a href='<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml'target="blank">
+				Submit</a>
+				Mutant Allele Information
+				<li><a href='<!--#include file='include/mgihome_url.html'-->submissions/strains/index.shtml'target="blank">
+				Register</a>
+				a new Mouse Strain Name
+			</ul>
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GM_nomen1.jpg" width=726 height=413 alt="Mouse Nomen Screen Shot">
+					</td>
+				</tr>
+			</table>
 		</td>
 	</tr>
-	<tr>
-		<td> 
-			<tr>
-				<td valign=top>
-					Refer to the Quick Guides for gene, allele and mutation nomenclature. More detailed 
-					information may be found in the full guides.  As an example, allele symbol 
-					<i>Egfr<sup>tm1Cwr</sup></i> refers to the first targeted mutation (tm1) of the 
-					<i>Egfr</i> gene produced by Case Western Reserve University (Cwr).
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GM_nomen1.jpg" width=726 height=413 alt="Mouse Nomen Screen Shot">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>	
-				<td class="enhance" colspan=2 align=left>
-					Searches
-				</td>
-			</tr>
-				<td valign=top>
-					Search or apply for a lab code by clicking the appropriate link to the 
-					Institute for Laboratory Animal Research (ILAR).
-				</td>
-			<tr>
-	
-				
-
-		</td>
-
-
-	<tr>
-		<td> 
-			<tr>
-		</td>
-	</tr>
-	<tr>
-		<td class="enhance" colspan=2 align=left>
-			Submissions/Registrations
-		</td>
-	</tr>
-	<tr>
-		<td> 
-			<tr>
-				<td valign=top>
-					Submit data by clicking the links to <u>Submit</u> a Proposed Locus Symbol or 
-					Mutant Allele Information, or <u>Register</u> a new Mouse Strain Name. 
-				</td>	
-			</tr>
-		</td>
-	</tr>
-
 </table>
-
-
 <!--#include file='include/templateBlankBodyStop.html'-->
