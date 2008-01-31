@@ -8,7 +8,8 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find all genes with shared annotation to a GO term?</span>
+ <span class="faqHeaderText">How do I find all genes with shared 
+ annotation to a GO term?</span>
 </div>
 
 <style>
@@ -17,6 +18,7 @@
 
 <br>
 <input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -26,7 +28,8 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the GO Browser to search for genes annotated to a specific Gene Ontology term.
+		<td colspan=2 align=left>You can use the GO Browser 
+		to search for genes annotated to a specific Gene Ontology term.
 		</td>
 	</tr>
 	<tr>
@@ -40,10 +43,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the GO Browser from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the GO Browser 
+			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/GO_form.shtml')">
+			<a href='<!--#include file='include/wi_url.html'-->searches/GO_form.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/GO_form.shtml'); 
+			return false;">
 			GO Browser</a>
 			in a new window. 
 		</td>
@@ -92,8 +98,9 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click the link to the term <u>neuron migration</u>.
-
+						<li value = 3>Click the link to the term 
+						<a href='<!--#include file='include/wi_url.html'-->searches/GO.cgi?id=GO:0001764'target="blank">
+						neuron migration</a>.
 					</ol>
 				</td>
 				<td valign=top>
@@ -109,8 +116,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click the link to <u>56 genes, 62 annotations</u> next to 
-						the term neuron migration [GO:0001764].
+						<li value = 4>Click the link to 
+						<a href='<!--#include file='include/wi_url.html'-->searches/GOannot_report.cgi?id=GO:0001764'target="blank">						
+						56 genes, 62 annotations</a> 
+						next to the term neuron migration [GO:0001764].
 					</ol>
 				</td>
 				<td valign=top>
@@ -127,11 +136,15 @@
 				<td valign=top>
 					<ol>
 						<li value = 5>The results list genes annotated with this term. 
-							Notice that the <b>Evidence</b> column includes the codes IDA (inferred from direct assay), IGI 
-							(inferred from genetic interaction), and IMP (inferred from mutant phenotype). The final column, 
-							labeled <b>Ref(s)</b>, provides links to the references used to make these annotations. 
+							Notice that the <b>Evidence</b> column includes the codes IDA 
+							(inferred from direct assay), IGI (inferred from genetic 
+							interaction), and IMP (inferred from mutant phenotype). 
+							The final column, labeled <b>Ref(s)</b>, provides links 
+							to the references used to make these annotations. 
 						<p>
-						<li>Scroll down the page and click the link to <u>Pax6</u>.
+						<li>Scroll down the page and click the link to 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'target="blank">
+						Pax6</a>.
 					</ol>
 				</td>
 				<td valign=top>
@@ -147,7 +160,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 7>Click the link to <u>All GO classifications(44)</u> on the <b>Pax6 Gene Detail</b> page.
+						<li value = 7>Click the link to 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184'target="blank">					
+						All GO classifications(44)</a> 
+						on the <b>Pax6 Gene Detail</b> page.
 					</ol>
 				</td>
 				<td valign=top>
@@ -163,9 +179,15 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 8>On the Gene Ontology Classifications page, click the link to <u>Tabular View</u> to 
-							view a table of GO annotations for <i>Pax6</i>, or click the link to <u>GO Graph</u> 
-							to view three directed acyclic graphs containing all of the 44 terms annotated to <i>Pax6</i>. 
+						<li value = 8>The <b>Gene Ontology classifications</b> page 
+						supplies all classifications in text, 
+						table and graphical form. Click the link to 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184#tabular'target="blank">											
+						Tabular View</a> 
+						to view a table listing all classifications, or the link to 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOMarkerGraph&id=MGI:97490'target="blank">																	
+						GO Graph</a> 
+						to view a graph of all classifications.
 					</ol>
 				</td>
 				<td valign=top>
