@@ -48,7 +48,9 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'); return false;">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF' 
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'); 
+			return false;">
 			Genes and Markers Query Form</a>
 			in a new window. 
 		</td>
@@ -57,7 +59,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GM.jpg" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -98,7 +100,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_attr.jpg" width=757 height=660 alt="G&M QF Screen Shot">
+								<img src="Images/GM_attr.jpg" width=751 height=559 alt="G&M QF Screen Shot">
 							</td>
 						</tr>
 					</table>

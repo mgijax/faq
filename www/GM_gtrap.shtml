@@ -8,7 +8,8 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I search for all gene trap cell lines associated with a gene or marker?</span>
+ <span class="faqHeaderText">How do I search for all gene trap cell lines 
+ associated with a gene or marker?</span>
 </div>
 
 <style>
@@ -16,7 +17,8 @@
 </style>
 
 <br>
-<input type="button" value=" Print this page " onclick="window.print();return false;" />
+<input type="button" value=" Print " onclick="window.print();return false;" />
+<input type="button" value=" Close "onclick="window.close();return false;" />
 <br>
 
 <table border=0 cellpadding=0 cellspacing=7>
@@ -26,8 +28,10 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Phenotypes, Alleles and Disease Models Query Form to find alleles of a gene, alleles
-		associated with a specific phenotype, or alleles created by a specific type of mutation.
+		<td colspan=2 align=left>You can use the Phenotypes, Alleles 
+		and Disease Models Query Form to find alleles of a gene, alleles
+		associated with a specific phenotype, or alleles created by a 
+		specific type of mutation.
 		</td>
 	</tr>
 	<tr>
@@ -41,12 +45,16 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Phenotypes, Alleles and Disease Models Query Form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Phenotypes, Alleles 
+			and Disease Models Query Form from the Search menu as 
+			shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml')">
+			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml'); 
+			return false;">
 			Phenotypes, Alleles and Disease Models Query Form</a>
-			in a new window or tab. 
+			in a new window. 
 		</td>
 		
 		<td valign=top>
@@ -76,7 +84,8 @@
 					<ol>
 						<li>Type <i>Nrp2</i> in the <b>Gene/Marker</b> text box.
 						<p>
-						<li>Check the box next to <i>gene trapped</i> in the <b>Categories</b> section.
+						<li>Check the box next to <i>gene trapped</i> in 
+						the <b>Categories</b> section.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -98,7 +107,8 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click an allele symbol in the first column of the search results to view detail.
+						<li value = 4>Click an allele symbol in the first 
+						column of the search results to view detail.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
