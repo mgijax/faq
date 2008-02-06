@@ -117,8 +117,8 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click the 
-						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?start=105469735;stop=105499249;ref=2'target="blank">
-						MGI Mouse GBrowse</a> link or
+						<a href='http://Genome Browser.informatics.jax.org/cgi-bin/Genome Browser/mouse_current/?start=105469735;stop=105499249;ref=2'target="blank">
+						MGI Mouse Genome Browser</a> link or
 						thumbnail image on the <b>Pax6 Gene Detail</b> page.
 					</ol>
 				</td>
@@ -126,7 +126,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_gmodel1.jpg" width=733 height=312 alt="GBrowse Thumbnail">
+								<img src="Images/GM_gmodel1.jpg" width=733 height=312 alt="Genome Browser Thumbnail">
 							</td>
 						</tr>
 					</table>
@@ -136,7 +136,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Scroll down the <b>MGI Mouse GBrowse</b> page to the <b>Tracks</b> section.
+						<li value = 5>Scroll down the <b>MGI Mouse Genome Browser</b> page to the <b>Tracks</b> section.
 						<p>
 						<li>Check the boxes next to the following:
 						<dl>
@@ -156,7 +156,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_gmodel2.jpg" width=772 height=195 alt="GBrowse Tracks">
+								<img src="Images/GM_gmodel2.jpg" width=772 height=195 alt="Genome Browser Tracks">
 							</td>
 						</tr>
 					</table>
@@ -175,7 +175,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_gmodel3.jpg" width=942 height=566 alt="GBrowse Details">
+								<img src="Images/GM_gmodel3.jpg" width=942 height=566 alt="Genome Browser Details">
 							</td>
 						</tr>
 					</table>

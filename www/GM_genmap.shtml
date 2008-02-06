@@ -28,32 +28,32 @@
 	</tr>
 	<tr>
 		<td colspan=2 align=left>
-			Mouse GBrowse graphically displays genes, alleles, phenotypes, QTL and SNPs
+			Mouse Genome Browser graphically displays genes, alleles, phenotypes, QTL and SNPs
 			on mouse chromosomes.
 		</td>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Accessing Mouse GBrowse
+			Accessing Mouse Genome Browser
 		</td>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access Mouse GBrowse from the Search menu as shown 
+			On most MGI pages, you can access Mouse Genome Browser from the Search menu as shown 
 			in the image at right.
 			<p>
 			For this tutorial, open 
-			<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'
-			onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'); 
+			<a href='http://Genome Browser.informatics.jax.org/cgi-bin/Genome Browser/mouse_current'
+			onClick="javascript:openNewWindow('http://Genome Browser.informatics.jax.org/cgi-bin/Genome Browser/mouse_current'); 
 			return false;">
-			Mouse GBrowse</a>
+			Mouse Genome Browser</a>
 			in a new window. 
 		</td>
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=825 height=368 alt="Search Menu GBrowse Screen Shot">
+						<img src="Images/" width=825 height=368 alt="Search Menu Genome Browser Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -84,7 +84,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_genmap1.jpg" width=756 height=122 alt="GBrowse Overview">
+								<img src="Images/GM_genmap1.jpg" width=756 height=122 alt="Genome Browser Overview">
 							</td>
 						</tr>
 					</table>
@@ -127,7 +127,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_genmap2.jpg" width=772 height=466 alt="GBrowse Tracks">
+								<img src="Images/GM_genmap2.jpg" width=772 height=466 alt="Genome Browser Tracks">
 							</td>
 						</tr>
 					</table>
@@ -148,7 +148,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_genmap3.gif" width=842 height=540 alt="GBrowse Details">
+								<img src="Images/GM_genmap3.gif" width=842 height=540 alt="Genome Browser Details">
 							</td>
 						</tr>
 					</table>
