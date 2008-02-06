@@ -27,23 +27,23 @@
 	</tr>
 	<tr>
 		<td colspan=2 align=left>
-			Mouse Genome Browser graphically displays genes, alleles, phenotypes, QTL and SNPs
+			The Mouse Genome Browser graphically displays genes, alleles, phenotypes, QTL and SNPs
 			on mouse chromosomes.
 		</td>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Accessing Mouse Genome Browser
+			Accessing the Mouse Genome Browser
 		</td>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access Mouse Genome Browser from the Search menu as shown 
+			On most MGI pages, you can access the Mouse Genome Browser from the Search menu as shown 
 			in the image at right.
 			<p>
-			For this tutorial, open 
-			<a href='http://Genome Browser.informatics.jax.org/cgi-bin/Genome Browser/mouse_current'
-			onClick="javascript:openNewWindow('http://Genome Browser.informatics.jax.org/cgi-bin/Genome Browser/mouse_current'); 
+			For this tutorial, open the 
+			<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'
+			onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'); 
 			return false;">
 			Mouse Genome Browser</a>
 			in a new window. 
@@ -83,10 +83,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_genmap1.jpg" width=756 height=122 alt="Genome Browser 			<span><!--#include file='faq_toolbar.shtml'-->
-			Overview
-		</span>
-">
+								<img src="Images/GM_genmap1.jpg" width=756 height=122 alt="Genome Browser">
 							</td>
 						</tr>
 					</table>
