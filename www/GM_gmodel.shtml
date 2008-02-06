@@ -116,7 +116,7 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click the 
-						<a href='http://Genome Browser.informatics.jax.org/cgi-bin/Genome Browser/mouse_current/?start=105469735;stop=105499249;ref=2'target="blank">
+						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?start=105469735;stop=105499249;ref=2'target="blank">
 						MGI Mouse Genome Browser</a> link or
 						thumbnail image on the <b>Pax6 Gene Detail</b> page.
 					</ol>
