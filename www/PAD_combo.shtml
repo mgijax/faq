@@ -14,15 +14,14 @@
 	.outline { border: 2px solid #DFEFFF; }
 </style>
 
-<br>
-<input type="button" value=" Print " onclick="window.print();return false;" />
-<input type="button" value=" Close "onclick="window.close();return false;" />
-<br>
 
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
+		<span><!--#include file='faq_toolbar.shtml'-->
 			Overview
+		</span>
+
 		</td>
 	</tr>
 	<tr>
