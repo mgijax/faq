@@ -27,7 +27,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Protein Superfamily Browser to retrieve genes, sequences
+		<td colspan=2 align=left>You can use the Protein Superfamily Vocabulary Browser to retrieve genes, sequences
 			and human, rat and mouse orthologs for a given superfamily.
 		</td>
 	</tr>
@@ -35,18 +35,18 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Accessing the Protein Superfamily Browser
+		Accessing the Protein Superfamily Vocabulary Browser
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Protein Superfamily Browser from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Protein Superfamily Vocabulary Browser from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A'); return false;">
-			Protein Superfamily Browser</a>
+			Protein Superfamily Vocabulary Browser</a>
 			in a new window. 
 		</td>
 		
