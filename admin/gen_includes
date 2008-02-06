@@ -85,6 +85,8 @@ createIncludeFile('userdocs_url.html', config['USERDOCS_URL'])
 createIncludeFile('webshare_url.html', config['WEBSHARE_URL'])
 createIncludeFile('faq_url.html', config['FAQ_URL'])
 createIncludeFile('mgiversion.html', config['NAME'])
+createIncludeFile('homepages_url.html', config['HOMEPAGES_URL'])
+createIncludeFile('menus_url.html', config['MENUS_URL'])
 
 
 #####----- Template Include Files --------#####
