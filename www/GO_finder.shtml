@@ -45,8 +45,8 @@
 			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml'
-			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/homepage_mini_GO.shtml'); 
+			<a href='<!--#include file='include/homepages_url.html'-->function.shtml'
+			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->function.shtml'); 
 			return false;">
 			GO Functional Annotations</a>
 			page in a new window. 

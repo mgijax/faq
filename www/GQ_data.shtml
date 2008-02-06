@@ -47,8 +47,8 @@
 			shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->menus/allsubmitforms_menu.shtml' 
-			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->menus/allsubmitforms_menu.shtml'); 
+			<a href='<!--#include file='include/menus_url.html'-->submit.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/menus_url.html'-->submit.shtml'); 
 			return false;">
 			Submit Data</a>
 			page in a new window. 
