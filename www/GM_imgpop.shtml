@@ -56,7 +56,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>
+			<td><br>
 				This example image includes gene models from MGI, NCBI, Ensembl, 
 				and VEGA, and RefSeqs for the gene
 				<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=8795" target="_blank">
@@ -69,10 +69,11 @@
 		</tr>
 		<tr >
 			<td valign=top>
-				<table>
+			<br>
+			<table class="outline">
 					<tr>
 						<td>
-							<img src="http://firien.informatics.jax.org/mgihome/homepages/images/Gene_big.jpg">
+							<img src="<!--#include file='include/mgihome_url.html'-->homepages/images/Gene_big.jpg">
 						</td>
 					</tr>
 				</table>
@@ -81,9 +82,10 @@
 	</table>
 </td>
 </tr>
-
-	<tr><td>
-
+<tr>
+	<td>
+	<br>
+	<br>
 	<a name="images">
 		<table width="100%">
 			<tr>
@@ -93,6 +95,7 @@
 			</tr>
 			<tr >
 				<td>
+					<br>
 					Using MGI's sequence annotation display tool 
 					(Mouse Genome Browser) you can generate a graphical 
 					display of genome annotations for user-defined regions 
