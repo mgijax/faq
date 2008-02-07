@@ -108,7 +108,7 @@
 					(RGD) for rat.  For detailed instructions see the following:
 						<p>		
 						How do I view annotations for mouse/human/rat ortholog sets?
-     					<a href='javascript:openFaqWindow("GO_ortho.shtml")'>
+     					<a href='javascript:openFaqWindow("GO_ortho.shtml")'target="blank">
      					FAQ</a>
 						<li><b><i>MGI GO Annotation Graphs</i></b><br>
 						These graphs present GO annotations made to individual 
@@ -117,7 +117,7 @@
 						form. For detailed instructions see the following:
 						<p>
     					How do I find all GO annotations for a specific gene?
-    					<a href='javascript:openFaqWindow("GO_gene.shtml")'>
+    					<a href='javascript:openFaqWindow("GO_gene.shtml")'target="blank">
     					FAQ</a>
 					</ul>
 				</td>
