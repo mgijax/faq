@@ -77,14 +77,19 @@
 				<td>
 					<br>
 					Using the MouseCyc 
-					<a href="http://mousecyc.jax.org/expression.html" target="_blank">
+					<a href='http://mousecyc.jax.org/expression.html' 
+					onClick="javascript:openNewWindow('http://mousecyc.jax.org/expression.html'); 
+					return false;">
 					Omics Viewer</a> 
 					you can display your experimental data in the context of mouse 
 					biochemical pathways. For detailed instructions see the following:
 					<p>
 					How do I display my mouse gene expression data in the context 
 					of mouse pathways?
-					<a href='javascript:openFaqWindow("BP_expr.shtml")'>FAQ</a>
+					<a href="BP_expr.shtml" 
+					onClick="javascript:openNewWindow('BP_expr.shtml'); 
+					return false;">
+					FAQ</a>
 				</td>
 			</tr>
 		</table>

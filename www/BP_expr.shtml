@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Display Mouse Gene Expression Data</title>
+<title><!--#include file="include/mgiversion.html"--> Display Mouse Gene Expression Data</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -56,7 +56,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="BP Tab Header">
+						<img src="Images/BP_header.jpg" width=796 height=101 alt="BP Tab Header">
 					</td>
 				</tr>
 			</table>
@@ -77,7 +77,9 @@
 				<td valign=top>
 					<ol>
 						<li>Click the link to the 
-						<a href='http://ella.jax.org:8000/expression.html'target="blank">
+						<a href='http://mousecyc.jax.org/expression.html'
+						onClick="javascript:openNewWindow('http://mousecyc.jax.org/expression.html'); 
+						return false;">
 						Overlay experimental data onto the Pathway Tools Omics Viewer</a>.
 					</ol>
 				</td>

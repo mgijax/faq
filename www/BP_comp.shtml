@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Search MouseCyc for a Specific Compound</title>
+<title><!--#include file="include/mgiversion.html"--> Search MouseCyc for a Specific Compound</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -26,7 +26,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Biochemical Pathways page 
+		<td colspan=2 align=left>You can use the Pathway Tools Query Page 
 			to access mouse genetic and genomic data in the context of 
 			physiological and cellular processes.
 		</td>
@@ -35,28 +35,28 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Accessing the Biochemical Pathways page
+		Accessing the Pathway Tools Query Page
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Biochemical Pathways page 
-			by clicking the appropriate tab as shown in the image at right.
+			On most MGI pages, you can access the Pathway Tools Query Page 
+			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/homepages_url.html'-->pathways.shtml' 
-			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->pathways.shtml'); 
+			<a href='http://mousecyc.jax.org/' 
+			onClick="javascript:openNewWindow('http://mousecyc.jax.org/'); 
 			return false;">
-			Biochemical Pathways</a>
-			page in a new window. 
+			Pathway Tools Query Page</a>
+			in a new window. 
 		</td>		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="BP Tab Header">
+						<img src="Images/srchmenu_BP.jpg" width=803 height=415 alt="Search Menu Pathways">
 					</td>
 				</tr>
 			</table>
@@ -76,42 +76,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click the link to the 
-						<a href='http://ella.jax.org:8000/MOUSE/class-tree?object=Pathways'target="blank">
-						Browse the pathway ontology</a> 
-						in the MouseCyc database.
-					</ol>
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/BP_allpath1.jpg" width=451 height=317 alt="Access Data Box">
-							</td>
-						</tr>
-					</table>
-				</td>	
-			</tr>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value =2>Click the <b>Query Page</b> button.
-					</ol>
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/BP_comp1.jpg" width=627 height=212 alt="Pathways List">
-							</td>
-						</tr>
-					</table>
-				</td>	
-			</tr>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value =3>Select <i>Compound (by name)</i> from the 
+						<li>Select <i>Compound (by name)</i> from the 
 						<b>Query</b> drop-down menu.
 						<p>
 						<li>Type <i>ATP</i> into the text box.
@@ -123,7 +88,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/BP_comp2.jpg" width=537 height=124 alt="Query Page">
+								<img src="Images/BP_comp1.jpg" width=538 height=124 alt="Query Page">
 							</td>
 						</tr>
 					</table>
@@ -133,7 +98,9 @@
 				<td valign=top>
 					<ol>
 						<li value =6>Click the link to 
-						<a href='http://ella.jax.org:8000/MOUSE/NEW-IMAGE?type=COMPOUND&object=ATP'target="blank">
+						<a href='http://mousecyc.jax.org/MOUSE/NEW-IMAGE?type=COMPOUND&object=ATP'
+						onClick="javascript:openNewWindow('http://mousecyc.jax.org/MOUSE/NEW-IMAGE?type=COMPOUND&object=ATP'); 
+						return false;">
 						ATP</a>.
 					</ol>
 				</td>
@@ -141,7 +108,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/BP_comp3.jpg" width=384 height=135 alt="Search Results">
+								<img src="Images/BP_comp2.jpg" width=384 height=135 alt="Search Results">
 							</td>
 						</tr>
 					</table>
