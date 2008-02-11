@@ -1,5 +1,5 @@
 <!--#include file='include/templateHead.html'-->
-<title><!--#include file="include/mgiversion.html"--> - FAQ</title>
+<title><!--#include file="include/mgiversion.html"--> FAQ</title>
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
 
 <!--#include file='include/templateBodyStart.html'-->
@@ -77,7 +77,7 @@ Note that the list in each section is a definition list <dl> where the term
 							<dl class="linkedList">
 							    <dt>..  find an answer for a question not listed here? 
 				        		<a href="<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml" 
-				        		onClick='javascript:openFaqWindow('<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'); 
+				        		onClick='javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'); 
 								return false;'>User Support</a></dt>
                      			<dt>..  search for genes, QTL, or other features in a specific genome interval? 
 				        		<a href="GM_marker.shtml" onClick='javascript:openFaqWindow("GM_marker.shtml"); 
@@ -115,7 +115,10 @@ Note that the list in each section is a definition list <dl> where the term
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
-					<a href="<!--#include file='include/homepages_url.html'-->genes.shtml">Genes, Genome Features &amp Maps</a>
+					<a href='<!--#include file='include/homepages_url.html'-->genes.shtml'
+					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->genes.shtml'); 
+					return false;">
+					Genes, Genome Features &amp Maps</a>
 				</td>
 			</tr>
 			<tr >
@@ -171,7 +174,10 @@ Note that the list in each section is a definition list <dl> where the term
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
-					<a href="<!--#include file='include/homepages_url.html'-->phenotypes.shtml">Phenotypes, Alleles &amp Disease Models</a>
+					<a href='<!--#include file='include/homepages_url.html'-->phenotypes.shtml'
+					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->phenotypes.shtml'); 
+					return false;">
+					Phenotypes, Alleles &amp Disease Models</a>
 				</td>
 			</tr>
 			<tr >
@@ -221,7 +227,10 @@ Note that the list in each section is a definition list <dl> where the term
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
-					<a href="<!--#include file='include/homepages_url.html'-->expression.shtml">Gene Expression</a>
+					<a href="<!--#include file='include/homepages_url.html'-->expression.shtml"
+					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->expression.shtml'); 
+					return false;">
+					Gene Expression</a>
 				</td>
 			</tr>
 			<tr >
@@ -265,7 +274,10 @@ Note that the list in each section is a definition list <dl> where the term
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
-				<a href="<!--#include file='include/homepages_url.html'-->function.shtml">GO Functional Annotations</a>
+				<a href="<!--#include file='include/homepages_url.html'-->function.shtml"
+				onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->function.shtml'); 
+				return false;">
+				GO Functional Annotations</a>
 			</td>
 		</tr>
 		<tr >
@@ -309,7 +321,10 @@ Note that the list in each section is a definition list <dl> where the term
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
-				<a href="<!--#include file='include/homepages_url.html'-->pathways.shtml">Biochemical Pathways</a>
+				<a href="<!--#include file='include/homepages_url.html'-->pathways.shtml"
+				onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->pathways.shtml'); 
+				return false;">
+				Biochemical Pathways</a>
 			</td>
 		</tr>
 		<tr >
@@ -347,7 +362,10 @@ Note that the list in each section is a definition list <dl> where the term
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
-				<a href="<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml">Strains, SNPs &amp Polymorphisms</a>
+				<a href="<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml"
+				onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml'); 
+				return false;">
+				Strains, SNPs &amp Polymorphisms</a>
 			</td>
 		</tr>
 		<tr >
@@ -385,7 +403,10 @@ Note that the list in each section is a definition list <dl> where the term
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
-				<a href="<!--#include file='include/homepages_url.html'-->orthology.shtml">Mammalian Orthology</a>
+				<a href="<!--#include file='include/homepages_url.html'-->orthology.shtml"
+				onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->orthology.shtml'); 
+				return false;">
+				Mammalian Orthology</a>
 			</td>
 		</tr>
 		<tr >
