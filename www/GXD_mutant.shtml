@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Expression in Mouse Mutants</title>
+<title><!--#include file="include/mgiversion.html"--> Expression in Mouse Mutants</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -54,7 +54,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GXD.jpg" width=600 height=280 alt="Search Menu GXD QF Screen Shot">
+						<img src="Images/srchmenu_GXD.jpg" width=783 height=414 alt="Search Menu GXD QF Screen Shot">
 					</td>
 				</tr>
 			</table>

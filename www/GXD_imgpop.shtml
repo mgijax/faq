@@ -47,12 +47,17 @@
 					hybridization (left), immunohistochemically-stained sections 
 					(upper right), and RT-PCR assays (lower right).  The images 
 					in their entirety and links to the experimental details can be found at
-					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?10974' target="_blank">
+					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?10974'
+					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?10974'); 
+					return false;">
 					MGI:3500349</a>,
-					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?6726' target="_blank">
+					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?6726'
+					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?6726'); 
+					return false;">
 					MGI:2676207</a>,
-					and 
-					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?20423' target="_blank">
+					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?20423'
+					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?20423'); 
+					return false;">
 					MGI:3623377</a>
 					respectively.
 			</td>
@@ -102,12 +107,16 @@
 						When the image is available in the database, the label 
 						is a hyperlink to a page that contains that
 						image.  For detailed instructions on using the
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF' target="_blank">
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF'); 
+						return false;">
 						Gene Expression Data Query Form</a>
 						to query for data see the following:
 						<p>		
 				   		How do I find expression data for a specific gene and tissue?
-				    	<a href='javascript:openFaqWindow("GXD_GeneTissue.shtml")'>
+				    	<a href='GXD_GeneTissue.shtml'
+						onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml'); 
+						return false;">
 				    	FAQ</a>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
 						A summary of all the expression images for a gene can be accessed by
@@ -115,7 +124,9 @@
 						gene's detail page.  For detailed instructions see the following:
 						<p>
     					How do I find expression data for a specific gene? 
-    					<a href='javascript:openFaqWindow("GXD_Gene.shtml")'>
+    					<a href='GXD_Gene.shtml'
+						onClick="javascript:openFaqWindow('GXD_Gene.shtml'); 
+						return false;">
     					FAQ</a>
 					</ul>
 				</td>

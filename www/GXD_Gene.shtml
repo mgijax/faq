@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Expression In A Gene</title>
+<title><!--#include file="include/mgiversion.html"--> Find Expression In A Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -55,7 +55,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/.jpg" width=759 height=103 alt="MGI Header Screen Shot">
+						<img src="Images/header" width=774 height=103 alt="MGI Header Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -75,15 +75,15 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li>Type <i>pax6</i> into the search box.
+					<li>Type <i>pax6</i> into the Search Box.
 					<p>
-					<li>Click <b>Search</b>.
+					<li>Click <b>Quick Search</b>.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/" width=409 height=29 alt="Search Box Screen Shot">
+								<img src="Images/srchbox.jpg" width=392 height=22 alt="Search Box Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -97,7 +97,9 @@
 				<td valign=top><ol>
 					<li value = 3>The <b>Search Results</b> page lists symbols and names containing
 					<i>Pax6</i>. Click the link to 
-					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'target="blank">
+					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'
+					onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'); 
+					return false;">
 					Pax6</a>.
 				</td>
 				<td valign=top>

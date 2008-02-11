@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Shared Function for a List of Genes</title>
+<title><!--#include file="include/mgiversion.html"--> Find Shared Function for a List of Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -55,7 +55,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=763 height=102 alt="GO Tab Header">
+						<img src="Images/GO_header.jpg" width=795 height=102 alt="GO Tab Header">
 					</td>
 				</tr>
 			</table>
@@ -83,7 +83,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/" width=455 height=176 alt="Access Data Box">
+								<img src="Images/GO_finder1.jpg" width=365 height=261 alt="Access Data Box">
 							</td>
 						</tr>
 					</table>

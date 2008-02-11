@@ -58,11 +58,15 @@
 		<tr>
 			<td><br>
 				This example is a portion of the GO comparative graph 
-				of the GO annotations for
-				<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=32438" target="_blank">
+				of the experimental GO annotations for
+				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=32438'
+				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=32438'); 
+				return false;">
 				Slc22a6</a>
 				from mouse, human, and rat. View the
-				<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:892001" target="_blank">
+				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:892001'
+				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:892001'); 
+				return false;">
 				complete graph</a>.
 			</td>
 		</tr>
@@ -95,20 +99,22 @@
 			<tr >
 				<td>
 					<br>
-					GO graphs offer a visualization of GO annotations 
+					GO graphs offer a visualization of experimental GO annotations 
 					in a graphical context. Two types of GO graphs are 
 					available in MGI:
 					<ul>
 						<li><b><i>GO Comparative Graphs</i></b>
 						<br>
-					These graphs compare mouse-human-rat GO annotations 
-					to MGI curated orthology sets.  GO annotations
-					for genes are provided by: MGI for mouse, Gene Ontology 
-					Association @ EBI (GOA) for human, and Rat Genome Database 
-					(RGD) for rat.  For detailed instructions see the following:
+						These graphs compare mouse-human-rat experimental GO annotations 
+						to MGI curated orthology sets. GO annotations
+						for genes are provided by: MGI for mouse, Gene Ontology 
+						Association @ EBI (GOA) for human, and Rat Genome Database 
+						(RGD) for rat.  For detailed instructions see the following:
 						<p>		
 						How do I view annotations for mouse/human/rat ortholog sets?
-     					<a href='javascript:openFaqWindow("GO_ortho.shtml")'target="blank">
+						<a href='GO_ortho.shtml'
+						onClick="javascript:openFaqWindow('GO_ortho.shtml'); 
+						return false;">
      					FAQ</a>
 						<li><b><i>MGI GO Annotation Graphs</i></b><br>
 						These graphs present GO annotations made to individual 
@@ -117,7 +123,9 @@
 						form. For detailed instructions see the following:
 						<p>
     					How do I find all GO annotations for a specific gene?
-    					<a href='javascript:openFaqWindow("GO_gene.shtml")'target="blank">
+ 						<a href='GO_gene.shtml'
+						onClick="javascript:openNewWindow('GO_gene.shtml'); 
+						return false;">
     					FAQ</a>
 					</ul>
 				</td>

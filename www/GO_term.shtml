@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Genes Annotated to a GO Term</title>
+<title><!--#include file="include/mgiversion.html"--> Find Genes Annotated to a GO Term</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -57,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Search Menu GO Browser Screen Shot">
+						<img src="Images/srchmenu_GO.jpg" width=785 height=414 alt="Search Menu GO Browser Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -98,7 +98,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 3>Click the link to the term 
-						<a href='<!--#include file='include/wi_url.html'-->searches/GO.cgi?id=GO:0001764'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/GO.cgi?id=GO:0001764'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/GO.cgi?id=GO:0001764'); 
+						return false;">
 						neuron migration</a>.
 					</ol>
 				</td>
@@ -116,7 +118,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click the link to 
-						<a href='<!--#include file='include/wi_url.html'-->searches/GOannot_report.cgi?id=GO:0001764'target="blank">						
+						<a href='<!--#include file='include/wi_url.html'-->searches/GOannot_report.cgi?id=GO:0001764'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/GOannot_report.cgi?id=GO:0001764'); 
+						return false;">		
 						56 genes, 62 annotations</a> 
 						next to the term neuron migration [GO:0001764].
 					</ol>
@@ -142,7 +146,9 @@
 							to the references used to make these annotations. 
 						<p>
 						<li>Scroll down the page and click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'target="blank">
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'); 
+						return false;">
 						Pax6</a>.
 					</ol>
 				</td>
@@ -160,7 +166,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 7>Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184'target="blank">					
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184'); 
+						return false;">				
 						All GO classifications(44)</a> 
 						on the <b>Pax6 Gene Detail</b> page.
 					</ol>
@@ -181,10 +189,14 @@
 						<li value = 8>The <b>Gene Ontology classifications</b> page 
 						supplies all classifications in text, 
 						table and graphical form. Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184#tabular'target="blank">											
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184#tabular'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184#tabular'); 
+						return false;">									
 						Tabular View</a> 
 						to view a table listing all classifications, or the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOMarkerGraph&id=MGI:97490'target="blank">																	
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOMarkerGraph&id=MGI:97490'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=GOMarkerGraph&id=MGI:97490'); 
+						return false;">																
 						GO Graph</a> 
 						to view a graph of all classifications.
 					</ol>

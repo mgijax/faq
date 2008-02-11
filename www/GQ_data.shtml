@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Contribute Data to MGI</title>
+<title><!--#include file="include/mgiversion.html"--> Contribute Data to MGI</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -58,7 +58,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=757 height=107 alt="Navigation Bar Screen Shot">
+						<img src="Images/sbmtdata_header.jpg" width=797 height=102 alt="Navigation Bar Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -81,8 +81,10 @@
 				<td valign=top>
 					<ol>
 						<li>For new alleles, mutations, or transgenes, click the 
-							link to 
-							<a href="<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml"target = "blank">
+							link to
+							<a href='<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml' 
+							onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml'); 
+							return false;">
 							Allele Nomenclature</a>
 							to retrieve the <b>Mutation Submission Form</b>.
 							Use this form to describe spontaneous, induced, or 
@@ -92,13 +94,17 @@
 							<p>
 						<li>To submit phenotype information for mutations already 
 							in MGI, click the link to 
-							<a href="<!--#include file='include/mgihome_url.html'-->nomen/phenotype_data_form.shtml"target = "blank">
+							<a href='<!--#include file='include/mgihome_url.html'-->nomen/phenotype_data_form.shtml' 
+							onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/phenotype_data_form.shtml'); 
+							return false;">
 							Phenotype Data</a>
 							to retrieve the <b>Phenotype Data Submission Form</b>.
 							<p>
 						<li>To submit expression data, click the link to 
-							<a href="<!--#include file='include/mgihome_url.html'-->GXD/GEN/gxd_submission_guidelines.shtml"target = "blank">
-							Expression Data</a> 
+							<a href='<!--#include file='include/mgihome_url.html'-->GXD/GEN/gxd_submission_guidelines.shtml' 
+							onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->GXD/GEN/gxd_submission_guidelines.shtml'); 
+							return false;">
+							Expression Data</a>
 							to retrieve guidelines for <b>Submitting expression data 
 							to the Gene Expression Database (GXD)</b>.
 					</ol>

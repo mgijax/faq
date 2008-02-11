@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Download All Gene Ontology Annotations</title>
+<title><!--#include file="include/mgiversion.html"--> Download All Gene Ontology Annotations</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -60,7 +60,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=600 height=278 alt="Download Menu Screen Shot">
+						<img src="Images/dloadmenu.jpg" width=774 height=324 alt="Download Menu Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -81,7 +81,9 @@
 				<td valign=top>
 					<ol>
 						<li>Click the link to 
-						<a href='ftp://ftp.informatics.jax.org/pub/reports/index.html#go'target="blank">
+						<a href='ftp://ftp.informatics.jax.org/pub/reports/index.html#go'
+						onClick="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html#go'); 
+						return false;">
 						Gene Ontology Data</a> to move down the page.
 					</ol>
 				</td>

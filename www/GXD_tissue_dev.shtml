@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Expression in Tissues</title>
+<title><!--#include file="include/mgiversion.html"--> Expression in Tissues</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -57,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/srchmenu_AD.jpg" width=785 height=414 alt="Search Menu ADB Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -98,7 +98,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 3>Click on 
-						<a href='<!--#include file='include/wi_url.html'-->searches/anatdict.cgi?id=2167'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/anatdict.cgi?id=2167'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/anatdict.cgi?id=2167'); 
+						return false;">
 						heart</a> 
 						in <b>Theiler stage 17</b>.
 					</ol>
@@ -117,7 +119,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click on 
-						<a href='<!--#include file='include/wi_url.html'-->searches/expression_report.cgi?_Structure_key=2167&sort=Gene%20Symbol&returnType=assay%20results&substructures=substructures'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/expression_report.cgi?_Structure_key=2167&sort=Gene%20Symbol&returnType=assay%20results&substructures=substructures'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/expression_report.cgi?_Structure_key=2167&sort=Gene%20Symbol&returnType=assay%20results&substructures=substructures'); 
+						return false;">
 						show all</a> 
 						to see all expression results annotated to the 
 						heart and its substructures.
@@ -156,7 +160,9 @@
 						<li value = 6>To further refine your original query, click the back button 
 						on your browser to return to the page used in step 4. This time, click 
 						the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=ADRefiner&stage=17&structure=2167'target="blank">
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=ADRefiner&stage=17&structure=2167'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=ADRefiner&stage=17&structure=2167'); 
+						return false;">
 						refine search</a>.
 					</ol>
 				</td>
