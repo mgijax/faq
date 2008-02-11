@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: See a List of All Biochemical Pathways</title>
+<title><!--#include file="include/mgiversion.html"--> See a List of All Biochemical Pathways</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -56,7 +56,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="BP Tab Header">
+						<img src="Images/BP_header.jpg" width=796 height=101 alt="BP Tab Header">
 					</td>
 				</tr>
 			</table>
@@ -79,7 +79,9 @@
 				<td valign=top>
 					<ol>
 						<li>Click the link to the 
-						<a href='http://ella.jax.org:8000/MOUSE/class-tree?object=Pathways'target="blank">
+						<a href='http://mousecyc.jax.org/MOUSE/class-tree?object=Pathways'
+						onClick="javascript:openNewWindow('http://mousecyc.jax.org/MOUSE/class-tree?object=Pathways'); 
+						return false;">
 						Browse the pathway ontology</a> 
 						in the MouseCyc database.
 					</ol>
@@ -88,7 +90,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/BP_allpath1.jpg" width=451 height=317 alt="Access Data Box">
+								<img src="Images/BP_allpath1.jpg" width=448 height=317 alt="Access Data Box">
 							</td>
 						</tr>
 					</table>
