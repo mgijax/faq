@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Accession IDs for a List of Genes</title>
+<title><!--#include file="include/mgiversion.html"--> Find Accession IDs for a List of Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -62,7 +62,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Search Menu Batch Query Screen Shot">
+						<img src="Images/srchmenu_BQ.jpg" width=784 height=413 alt="Search Menu Batch Query Screen Shot">
 					</td>
 				</tr>
 			</table>

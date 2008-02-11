@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Gene Traps for a Gene</title>
+<title><!--#include file="include/mgiversion.html"--> Find Gene Traps for a Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -60,7 +60,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=600 height=284 alt="Search Menu PAD QF Screen Shot">
+						<img src="Images/srchmenu_PAD.jpg" width=783 height=413 alt="Search Menu PAD QF Screen Shot">
 					</td>
 				</tr>
 			</table>

@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Approved Nomenclature</title>
+<title><!--#include file="include/mgiversion.html"--> Find Approved Nomenclature</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -58,10 +58,10 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=600 height=264 alt="More Resources Menu Nomenclature Screen Shot">
+						<img src="Images/mresmenu_nomen.jpg" width=777 height=359 alt="More Resources Menu Nomenclature Screen Shot">
 					</td>
 				</tr>
-			</table>
+			</table>O
 		</td>
 	</tr>
 </table>
@@ -82,13 +82,19 @@
 			<h3>Submissions/Registrations</h3>
 			Submit data by clicking the links to:
 			<ul>
-				<li><a href='<!--#include file='include/mgihome_url.html'-->nomen/nomen_submit_form.shtml'target="blank">
+				<li><a href='<!--#include file='include/mgihome_url.html'-->nomen/nomen_submit_form.shtml'
+				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/nomen_submit_form.shtml'); 
+				return false;">
 				Submit</a>
-				 a Proposed Locus Symbol
-				<li><a href='<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml'target="blank">
+				a Proposed Locus Symbol
+				<li><a href='<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml'
+				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml'); 
+				return false;">				
 				Submit</a>
 				Mutant Allele Information
-				<li><a href='<!--#include file='include/mgihome_url.html'-->submissions/strains/index.shtml'target="blank">
+				<li><a href='<!--#include file='include/mgihome_url.html'-->submissions/strains/index.shtml'
+				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->submissions/strains/index.shtml'); 
+				return false;">
 				Register</a>
 				a new Mouse Strain Name
 			</ul>

@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Genomic or cDNA Clones</title>
+<title><!--#include file="include/mgiversion.html"--> Find Genomic or cDNA Clones</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -60,7 +60,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=600 height=280 alt="Search Menu P&C QF Screen Shot">
+						<img src="Images/srchmenu_clone.jpg" width=784 height=415 alt="Search Menu Clone Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -112,7 +112,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 5>Click the link to 
-						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?1030525'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?1030525'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/probe.cgi?1030525'); 
+						return false;">
 						MGI:2785018</a>.
 					</ol>
 				</td>
@@ -134,7 +136,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 6>Click the link to 
-						<a href='http://www.ncbi.nlm.nih.gov/genome/clone/query.cgi?EXPR=RP23-340H1'target="blank">
+						<a href='http://www.ncbi.nlm.nih.gov/genome/clone/query.cgi?EXPR=RP23-340H1'
+						onClick="javascript:openNewWindow('http://www.ncbi.nlm.nih.gov/genome/clone/query.cgi?EXPR=RP23-340H1'); 
+						return false;">
 						RPCI-23</a> 
 						on the page that follows.
 					</ol>
@@ -157,13 +161,18 @@
 				<td valign=top>
 					<ol>
 						<li value = 7>Click the link to 
-						<a href='http://www.ncbi.nlm.nih.gov/genome/clone/clname.cgi?stype=Id&list=597596&TransHist=0'target="blank">
+						<a href='http://www.ncbi.nlm.nih.gov/genome/clone/clname.cgi?stype=Id&list=597596&TransHist=0'
+						onClick="javascript:openNewWindow('http://www.ncbi.nlm.nih.gov/genome/clone/clname.cgi?stype=Id&list=597596&TransHist=0'); 
+						return false;">
 						RP23-340H1</a> 
 						on the NCBI Clone Registry page.
 						<p>
 						<li>Order this clone from  
-						<a href="http://bacpac.chori.org"target = "blank">BACPAC Resources</a>
-						 or e-mail BACPACorders@chori.org.
+						<a href='http://bacpac.chori.org'
+						onClick="javascript:openNewWindow('http://bacpac.chori.org'); 
+						return false;">
+						BACPAC Resources</a>
+						or e-mail BACPACorders@chori.org.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -197,7 +206,10 @@
 			<li>Detail pages for cDNA clones may contain direct links to 
 			IMAGE or RIKEN. To order RIKEN clones specifically,
 			visit 
-			<a href="http://www.dnaform.jp/products/clone_e.html"target = "blank">DNAForm</a>.
+			<a href='http://www.dnaform.jp/products/clone_e.html'
+			onClick="javascript:openNewWindow('http://www.dnaform.jp/products/clone_e.html'); 
+			return false;">
+			DNAForm</a>.
 		</td>
 	</tr>
 </table>

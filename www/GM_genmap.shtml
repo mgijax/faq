@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Create a Genome Map</title>
+<title><!--#include file="include/mgiversion.html"--> Create a Genome Map</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -52,7 +52,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=825 height=368 alt="Search Menu Genome Browser Screen Shot">
+						<img src="Images/srchmenu_mgb.jpg" width=804 height=434 alt="Search Menu Genome Browser Screen Shot">
 					</td>
 				</tr>
 			</table>

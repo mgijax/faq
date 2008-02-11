@@ -59,10 +59,14 @@
 			<td><br>
 				This example image includes gene models from MGI, NCBI, Ensembl, 
 				and VEGA, and RefSeqs for the gene
-				<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=8795" target="_blank">
+				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=8795'
+				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=8795'); 
+				return false;">
 				Fgfr3</a>.
 				View the full
-				<a href="http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?name=fgfr3" target="_blank">
+				<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?name=fgfr3'
+				onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?name=fgfr3'); 
+				return false;">
 				gene models</a>
 				in Mouse Genome Browser.
 			</td>
@@ -104,7 +108,9 @@
 					to view gene models in MGI.
 					<ul>
 						<li><b><i>Using 
-						<a href="http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current" target="_blank">
+						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'
+						onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'); 
+						return false;">
 						Mouse Genome Browser</a></i></b>
 						<br>
 						Enter the landmark (e.g., gene) or genome region 
@@ -113,8 +119,10 @@
 						For detailed instructions see the following:
 						<p>		
 						How do I create a genome map from a genomic interval?
-     					<a href='javascript:openFaqWindow("GM_genmap.shtml")'>
-     					FAQ</a>
+     					<a href="GM_genmap.shtml" 
+     					onClick='javascript:openFaqWindow("GM_genmap.shtml"); 
+						return false;'>
+						FAQ</a>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
 						The gene models of a gene can be displayed using 
 						Mouse Genome Browser via a link in the Sequence Map 

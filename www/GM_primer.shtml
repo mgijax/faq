@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Primer Sequence for a Gene</title>
+<title><!--#include file="include/mgiversion.html"--> Find Primer Sequence for a Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -60,7 +60,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=600 height=280 alt="Search Menu Clone Screen Shot">
+						<img src="Images/srchmenu_clone.jpg" width=784 height=415 alt="Search Menu Clone Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -110,7 +110,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click the link to 
-						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?35075'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?35075'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/probe.cgi?35075'); 
+						return false;">
 						MGI:6655</a> 
 						in the <b>Nucleotide Probe/Clone AccID</b> column to 
 						view details about primer sequences, alleles, relative 
@@ -127,100 +129,6 @@
 					</table>
 				</td>
 			</tr>
-		</td>
-	</tr>
-</table>
-<br>
-<table width="100%">
-	<tr>
-		<td class="enhance" colspan=2 align=left>
-			Example 2. Finding genotyping protocols for gene <i>Tub</i>
-		</td>
-	</tr>
-	<tr>
-		<td valign=top>
-			<ol>
-			<li>To find genotyping protocols including reaction components, cycling conditions and primers, visit
-			<a href="http://jaxmice.jax.org"target = "blank">JAX Mice & Services</a>.
-			<p>
-			<li>Click the link to 
-			<a href="http://jaxmice.jax.org/info/index.html"target = "blank">
-			Mouse Strain Information</a> 
-			beneath <b>JAX Mice & Services</b>.
-			</ol>
-		</td>
-		<td valign=top align = right colspan=2>
-			<table class="outline">
-				<tr>
-					<td>
-						<img src="Images/jaxmice1.jpg" width=202 height=93 alt="JAXMice Navbar Screen Shot">
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table>
-<table width="100%">
-	<tr>
-		<td valign=top>
-			<ol>
-			<li value = 3>Click the link to 
-			<a href="http://jaxmice.jax.org/pub-cgi/protocols/protocols.sh?objtype=prot_query_top&uclass=read"target = "blank">
-			Genotyping Protocols</a> in the lower right of the page.
-			</ol>
-		</td>
-		<td valign=top align = right colspan=2>
-			<table class="outline">
-				<tr>
-					<td>
-						<img src="Images/jaxmice2.jpg" width=193 height=243 alt="JAXMice Resources Screen Shot">
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table>
-<table width="100%">
-	<tr>
-		<td valign=top>
-			<ol>
-			<li value = 4>Type <i>tub</i> in the <b>Gene Symbol</b> text box.
-			<p>
-			<li>Click <b>Search</b>. 
-			</ol>
-		</td>
-		<td valign=top align = right colspan=2>
-			<table class="outline">
-				<tr>
-					<td>
-						<img src="Images/jaxmice3.jpg" width=296 height=171 alt="Genotyping Protocols Screen Shot">
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table>
-<table width="100%">
-	<tr>
-		<td valign=top>
-			<ol>
-			<li value = 6>Click the 
-			<a href="http://jaxmice.jax.org/pub-cgi/protocols/protocols.sh?objtype=protocol&protocol_id=143"target = "blank">
-			tub</a>
-			link in the <b>Protocol</b> column for detailed information.
-			<p>
-			<li>Scroll down the page below the gel image to view detailed reaction conditions.
-			For additional information please contact JAX Mice directly at micetech@jax.org or 800-422-MICE.
-			</ol>
-		</td>
-		<td valign=top align = right colspan=2>
-			<table class="outline">
-				<tr>
-					<td>
-						<img src="Images/jaxmice4.jpg" width=299 height=105 alt="Genotyping Search Results Screen Shot">
-					</td>
-				</tr>
-			</table>
 		</td>
 	</tr>
 </table>
