@@ -43,10 +43,14 @@
 		<tr>
 			<td><br>
 				The image shown here is of a mouse homozygous for the piebald 
-				spotting allele of endothelin receptor type B (
-				<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252" target="_blank">
+				spotting allele of endothelin receptor type B <br>(
+				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252' 
+				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252'); 
+				return false;">
 				Ednrb<sup>s</sup></a>
-				/<a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252" target="_blank">
+				/<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252' 
+				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252'); 
+				return false;">
 				Ednrb<sup>s</sup></a> ).
 			</td>
 		</tr>

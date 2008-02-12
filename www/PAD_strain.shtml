@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Strains With Mutations in a Specific Gene</title>
+<title><!--#include file="include/mgiversion.html"--> Find Strains With Mutations in a Specific Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -46,7 +46,9 @@
 			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="http://www.informatics.jax.org/imsr/index.jsp" onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp'); return false;">
+			<a href='http://www.informatics.jax.org/imsr/index.jsp' 
+			onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp'); 
+			return false;">
 			IMSR</a>
 			in a new window. 
 		</td>
@@ -55,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Navbar Screen Shot">
+						<img src="Images/imsr_header.jpg" width=776 height=103 alt="Navbar Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -78,7 +80,10 @@
 				<td valign=top>
 					<ol>
 						<li>Click 
-						<a href="http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp"target = "blank">Search IMSR</a>.
+						<a href='http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp' 
+						onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp'); 
+						return false;">
+						Search IMSR</a>.
 					</ol>					
 				</td>
 				<td valign=top>

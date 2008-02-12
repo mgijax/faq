@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Disease Models</title>
+<title><!--#include file="include/mgiversion.html"--> Disease Models</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -58,7 +58,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=600 height=284 alt="Search Menu HDV Browser Screen Shot">
+						<img src="Images/srchmenu_OMIM.jpg" width=784 height=413 alt="Search Menu HDV Browser Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -98,7 +98,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 3>Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=humanDisease&key=848093'target="blank">
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=humanDisease&key=848093'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=humanDisease&key=848093'); 
+						return false;">
 						Huntington Disease; HD</a>
 						from the list of results to view details about the mouse 
 						models associated with this disease.
@@ -120,11 +122,15 @@
 						<li value = 4>The <b>Human Disease and Mouse Model Detail</b> page lists mouse 
 						and human genes, transgenes and other mutations, and mouse models associated 
 						with Huntington Disease. For a detailed interpretation of this page, click
-						<a style="text-decoration:none" href="<!--#include file='include/userdocs_url.html'-->omim_detail_help.shtml"target="blank">
+						<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->omim_detail_help.shtml'
+						onClick="javascript:openNewWindow('<!--#include file='include/userdocs_url.html'-->omim_detail_help.shtml'); 
+						return false;">
 						<img src="Images/docu_img.jpg" align = top width=24 height=20 alt="Documentation Link"></a>.
 						<p>
 						Click on <b>OMIM ID:</b> 
-						<a href="http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=143100"target="blank">
+						<a href='http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=143100'
+						onClick="javascript:openNewWindow('http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=143100'); 
+						return false;">
 						143100</a>
 						to view the corresponding Huntington Disease entry in Online Mendelian 
 						Inheritance in Man (OMIM).			

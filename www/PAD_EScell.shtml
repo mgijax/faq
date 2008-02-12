@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find ES Cell Lines</title>
+<title><!--#include file="include/mgiversion.html"--> Find ES Cell Lines</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -57,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Navbar Screen Shot">
+						<img src="Images/imsr_header.jpg" width=776 height=103 alt="Navbar Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -80,7 +80,10 @@
 				<td valign=top>
 					<ol>
 						<li>Click 
-						<a href="http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp"target = "blank">Search IMSR</a>.
+						<a href='http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp' 
+						onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp'); 
+						return false;">
+						Search IMSR</a>.
 					</ol>					
 				</td>
 				<td valign=top>
@@ -164,16 +167,16 @@
 						MGI home page</a>
 						in a new window.
 						<p>
-						<li>Type <i>acadm</i> into the search box.
-						<p>
-						<li>Click <b>Search</b>.
+						<li>Type <i>acadm</i> into the Search Box.
+					<p>
+					<li>Click <b>Quick Search</b>.
 					</ol>					
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/" width=409 height=29 alt="Search Box Screen Shot">
+								<img src="Images/PAD_ESsrchbox.jpg" width=299 height=22 alt="Search Box Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -185,7 +188,10 @@
 						<td valign=top><ol>
 							<li value = 4>The <b>Search Results</b> page lists symbols and names containing
 							<i>acadm</i>. Click the link to 
-							<a href="<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=25"target = "blank">Acadm</a>.
+							<a href='<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=25' 
+							onClick="javascript:openNewWindow('<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=25'); 
+							return false;">
+							Acadm</a>.
 						</td>
 						<td valign=top>
 							<table class="outline">
@@ -205,7 +211,10 @@
 						<td valign=top><ol>
 							<li value = 5>Scroll down the <b>Acadm Gene Detail</b> page to the <b>Other 
 							database links</b> section. Click the link to 
-							<a href="<!--#include file="include/javawi_url.html"-->WIFetch?page=GTSummary&key=25"target = "blank">All 30...</a>
+							<a href='<!--#include file="include/javawi_url.html"-->WIFetch?page=GTSummary&key=25' 
+							onClick="javascript:openNewWindow('<!--#include file="include/javawi_url.html"-->WIFetch?page=GTSummary&key=25'); 
+							return false;">
+							All 30...</a>
 							to view a list of
 							all gene traps associated with <i>Acadm</i>.
 						</td>
