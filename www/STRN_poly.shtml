@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Polymorphisms Between Strains</title>
+<title><!--#include file="include/mgiversion.html"--> Find Polymorphisms Between Strains</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -46,7 +46,9 @@
 			Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml'); return false;">
+			<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml'); 
+			return false;">
 			RFLP/PCR Polymorphism Query Form</a>
 			in a new window. 
 		</td>
@@ -55,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Search Menu RFLP/PCR QF Screen Shot">
+						<img src="Images/srchmenu_poly.jpg" width=786 height=417 alt="Search Menu RFLP/PCR QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -96,7 +98,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 3>Click a 
-						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=18023'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=18023'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=18023'); 
+						return false;">
 						PCR</a> 
 						link in the <b>Type</b> column to view details 
 						about alleles, relative fragment sizes and strains.
@@ -116,12 +120,16 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click a link in the 
-						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?34750'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/probe.cgi?34750'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/probe.cgi?34750'); 
+						return false;">
 						<b>Probe</b></a> column to retrieve further details, 
 						including primer sequences in many cases.
 						<p>
 						<li>For RFLPs, return to step 3 above and click an 
-						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=1794'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=1794'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism.cgi?_RFLV_key=1794'); 
+						return false;">
 						RFLP</a> 
 						link in the <b>Type</b> column to view details.
 					</ol>

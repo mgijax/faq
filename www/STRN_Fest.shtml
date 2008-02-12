@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Strain Characteristics</title>
+<title><!--#include file="include/mgiversion.html"--> Find Strain Characteristics</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -48,7 +48,9 @@
 			shown in the image at right.
 			<p>
 			For this tutorial, open 
-			<a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi'); return false;">
+			<a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi' 
+			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi'); 
+			return false;">
 			Festing's <i>Inbred Strains of Mice and Rats</i></a>
 			in a new window. 
 		</td>
@@ -57,7 +59,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Search Menu Festing's Screen Shot">
+						<img src="Images/srchmenu_Fest.jpg" width=788 height=414 alt="Search Menu Festing's Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -99,9 +101,11 @@
 					<ol>
 						<li value =3>The results list all strains that include a reference to 
 						<i>C57BL/6</i> in their descriptions. Click the 
-						<a href="<!--#include file='include/wi_url.html'-->external/festing/mouse/docs/C57BL.shtml"target="blank">C57BL</a>
-						link for  
-						descriptions of C57BL substrains, including C57BL/6.
+						<a href='<!--#include file='include/wi_url.html'-->external/festing/mouse/docs/C57BL.shtml' 
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/mouse/docs/C57BL.shtml'); 
+						return false;">
+						C57BL</a>
+						link for descriptions of C57BL substrains, including C57BL/6.
 					</ol>
 				</td>
 				<td valign=top>

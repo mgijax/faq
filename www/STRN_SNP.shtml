@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Polymorphisms Between Strains</title>
+<title><!--#include file="include/mgiversion.html"--> Find Coding SNPs</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -47,7 +47,9 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF'); return false;">
+			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF' 
+			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF'); 
+			return false;">
 			Mouse SNP Query Form</a>
 			in a new window. 
 		</td>
@@ -56,7 +58,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Search Menu SNP QF Screen Shot">
+						<img src="Images/srchmenu_SNP.jpg" width=783 height=416 alt="Search Menu SNP QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -111,7 +113,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 6>Click any link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'target="blank">
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'); 
+						return false;">
 						MGI SNP Detail</a> 
 						in the <b>SNP ID</b> column to view flanking sequence for a SNP.
 					</ol>
