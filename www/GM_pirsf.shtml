@@ -102,8 +102,8 @@
 				<td valign=top>
 					<ol>
 						<li value = 3>Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3080825'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3080825'); 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3114030'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3114030'); 
 						return false;">
 						potassium channel protein Drk1</a> 
 						to view a list of genes in this superfamily, along with 
