@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: PIRSF Protein Superfamilies</title>
+<title><!--#include file="include/mgiversion.html"--> PIRSF Protein Superfamilies</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -54,7 +54,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=772 height=384 alt="Search Menu PIRSF Screen Shot">
+						<img src="Images/srchmenu_PIRSF.jpg" width=787 height=416 alt="Search Menu PIRSF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -98,7 +98,9 @@
 				<td valign=top>
 					<ol>
 						<li value = 3>Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3079644'target="blank">
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3112845'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3112845'); 
+						return false;">
 						zinc finger DHHC domain-containing protein 7</a> 
 						to view a list of genes in this superfamily, along with 
 						human and rat orthologs and protein sequence IDs.
@@ -132,7 +134,9 @@
 				<td valign=top>
 					<ol>
 						<li>Click the link to the letter 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=M'target="blank">
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=M'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=M'); 
+						return false;">
 						M</a> 
 						to retrieve all protein superfamily names starting 
 						with this character.

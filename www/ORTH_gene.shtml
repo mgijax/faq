@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: Find Orthologs for Mouse and Human Genes</title>
+<title><!--#include file="include/mgiversion.html"--> Find Orthologs for Mouse and Human Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -56,7 +56,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Search Menu Orth QF Screen Shot">
+						<img src="Images/srchmenu_ORTH.jpg" width=785 height=414 alt="Search Menu Orth QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -91,7 +91,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/ORTH_gene1.jpg" width=580 height=564 alt="Orthology QF">
+								<img src="Images/ORTH_gene1.jpg" width=595 height=564 alt="Orthology QF">
 							</td>
 						</tr>
 					</table>
@@ -104,7 +104,9 @@
 						accession identifiers, and evidence codes for human-mouse orthologs of gene MYO6.
 						<p>
 						<li>To download all human and mouse orthologs, visit the 
-						<a href="ftp://ftp.informatics.jax.org/pub/reports/index.html#orthology"target="blank">
+						<a href='ftp://ftp.informatics.jax.org/pub/reports/index.html#orthology'
+						onClick="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html#orthology'); 
+						return false;">
 						MGI Data and Statistical Reports</a> 
 						page located beneath the Download menu.
 					</ol>

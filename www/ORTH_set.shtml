@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: View Ortholog Set for Mouse Gene</title>
+<title><!--#include file="include/mgiversion.html"--> View Ortholog Set for Mouse Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -44,7 +44,9 @@
 			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/mgihome_url.html'-->homepages/index.shtml' onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); return false;">
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages/index.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
+			return false;">
 			MGI home page</a>
 			in a new window. 
 		</td>		
@@ -52,7 +54,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=759 height=103 alt="MGI Header Screen Shot">
+						<img src="Images/header" width=774 height=103 alt="MGI Header Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -72,15 +74,15 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li>Type <i>pax6</i> into the search box.
+					<li>Type <i>pax6</i> into the Search Box.
 					<p>
-					<li>Click <b>Search</b>.
+					<li>Click <b>Quick Search</b>.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/" width=409 height=29 alt="Search Box Screen Shot">
+								<img src="Images/srchbox.jpg" width=392 height=22 alt="Search Box Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -94,7 +96,9 @@
 				<td valign=top><ol>
 					<li value = 3>The <b>Search Results</b> page lists symbols and 
 					names containing <i>pax6</i>. Click the link to 
-					<a href="<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=12184"target = "blank">
+					<a href='<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=12184'
+					onClick="javascript:openNewWindow('<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=12184'); 
+					return false;">
 					Pax6</a>.
 				</td>
 				<td valign=top>
@@ -111,7 +115,9 @@
 				<td valign=top>
 				<ol>
 					<li value = 4>Click the link to 			
-					<a href="<!--#include file="include/wi_url.html"-->searches/homology_report.cgi?_Marker_key=12184"target = "blank">
+					<a href='<!--#include file="include/wi_url.html"-->searches/homology_report.cgi?_Marker_key=12184'
+					onClick="javascript:openNewWindow('<!--#include file="include/wi_url.html"-->searches/homology_report.cgi?_Marker_key=12184'); 
+					return false;">
 					Mammalian Orthology</a>.
 				</ol>
 			</td>
@@ -135,7 +141,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/ORTH_set3.jpg" width=770 height=378 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/ORTH_set3.jpg" width=799 height=380 alt="Pax6 Orthology Screen Shot">
 							</td>
 						</tr>
 					</table>

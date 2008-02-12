@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI_4.0 FAQ: View Orthology Map for Mouse and Human</title>
+<title><!--#include file="include/mgiversion.html"--> View Orthology Map for Mouse and Human</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css" href="homepage.css"/>
@@ -56,7 +56,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/" width=764 height=411 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/srchmenu_orthmap.jpg" width=784 height=415 alt="Search Menu Orthology Map">
 					</td>
 				</tr>
 			</table>
@@ -83,7 +83,9 @@
 						of a human chromosome. The length of the bar in a histogram 
 						indicates the number of human/mouse orthologies. 
 						Click on 
-						<a href='<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?format=compact&breadth=Selected%20Species&order=location&_Organism_key=1&cmp_Organism_key=2&primary_chromosome=1&cmp_chromosome=8'target="blank">
+						<a href='<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?format=compact&breadth=Selected%20Species&order=location&_Organism_key=1&cmp_Organism_key=2&primary_chromosome=1&cmp_chromosome=8'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?format=compact&breadth=Selected%20Species&order=location&_Organism_key=1&cmp_Organism_key=2&primary_chromosome=1&cmp_chromosome=8'); 
+						return false;">
 						human chromosome 8</a>.
 					</ol>
 				</td>
