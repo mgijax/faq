@@ -124,7 +124,7 @@
 						<p>
     					How do I find all GO annotations for a specific gene?
  						<a href='GO_gene.shtml'
-						onClick="javascript:openNewWindow('GO_gene.shtml'); 
+						onClick="javascript:openFaqWindow('GO_gene.shtml'); 
 						return false;">
     					FAQ</a>
 					</ul>
