@@ -96,7 +96,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Check the box next to <b>Pathways</b>.
+						<li value = 2>Check the box next to <b>Pathways</b>.
 						<p>
 						<li>Check boxes next to both <i>Homo sapiens</i> 
 						and <i>Mus musculus C57BL/6J</i>.
