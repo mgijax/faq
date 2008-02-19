@@ -9,7 +9,7 @@
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">How do I find all GO annotations 
- for a specific gene?</span>
+ for a specific mouse gene?</span>
 </div>
 
 <style>

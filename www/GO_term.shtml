@@ -8,7 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find all genes with shared 
+ <span class="faqHeaderText">How do I find all mouse genes with shared 
  annotation to a GO term?</span>
 </div>
 
