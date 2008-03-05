@@ -432,6 +432,9 @@ Note that the list in each section is a definition list <dl> where the term
                 				<dt>.. download all mouse and human orthologs? 
 				        		<a href="ORTH_dload.shtml" onClick='javascript:openFaqWindow("ORTH_dload.shtml"); 
 								return false;'>FAQ</a></dt>
+ 	              				<dt>.. view a mouse linkage map with human orthologs?
+				        		<a href="ORTH_lmap.shtml" onClick='javascript:openFaqWindow("ORTH_lmap.shtml"); 
+								return false;'>FAQ</a></dt>
                             </dl>
 						</td>
 					</tr>
