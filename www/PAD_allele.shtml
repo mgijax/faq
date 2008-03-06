@@ -3,7 +3,7 @@
 <title><!--#include file="include/mgiversion.html"--> Find Alleles Associated with Phenotypes or Diseases</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">

@@ -3,7 +3,7 @@
 <title><!--#include file="include/mgiversion.html"--> Find Mutations Causing a Combination of Phenotypes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">

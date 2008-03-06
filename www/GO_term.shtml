@@ -3,7 +3,7 @@
 <title><!--#include file="include/mgiversion.html"--> Find Genes Annotated to a GO Term</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 
 <div id="faqPageHeader">

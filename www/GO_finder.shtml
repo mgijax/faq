@@ -3,7 +3,7 @@
 <title><!--#include file="include/mgiversion.html"--> Find Shared Function for a List of Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 
 <div id="faqPageHeader">

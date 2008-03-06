@@ -3,7 +3,7 @@
 <title><!--#include file="include/mgiversion.html"--> Research Community E-Mail Lists</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 
 <div id="faqPageHeader">

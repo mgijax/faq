@@ -3,7 +3,7 @@
 <title><!--#include file="include/mgiversion.html"--> Find Mutations in a Gene</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 
 <div id="faqPageHeader">

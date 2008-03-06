@@ -3,7 +3,7 @@
 <title><!--#include file="include/mgiversion.html"--> Search MouseCyc for a Specific Compound</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 
 <div id="faqPageHeader">

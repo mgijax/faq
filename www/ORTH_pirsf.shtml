@@ -3,7 +3,7 @@
 <title><!--#include file="include/mgiversion.html"--> PIRSF Protein Superfamilies</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 
 <div id="faqPageHeader">
@@ -98,8 +98,8 @@
 				<td valign=top>
 					<ol>
 						<li value = 3>Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3112845'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3112845'); 
+						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3190723'
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=3190723'); 
 						return false;">
 						zinc finger DHHC domain-containing protein 7</a> 
 						to view a list of genes in this superfamily, along with 

@@ -2,7 +2,7 @@
 
 <title><!--#include file="include/mgiversion.html"--> Find Genes With Certain Attributes</title>
 <!--#include file='include/templateBlankBodyStart.html'-->
-<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<link rel="stylesheet" type="text/css"/>
 
 
 <div id="faqPageHeader">
