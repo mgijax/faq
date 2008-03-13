@@ -120,8 +120,8 @@
 						<p>		
 						How do I create a genome map from a genomic interval?
      					<a href="GM_genmap.shtml" 
-     					onClick='javascript:openFaqWindow("GM_genmap.shtml"); 
-						return false;'>
+     					onClick="javascript:openFaqWindow("GM_genmap.shtml"); 
+						return false;">
 						FAQ</a>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
 						The gene models of a gene can be displayed using 

@@ -55,16 +55,16 @@
 						<p>
 					    How do I view the ortholog set for a mouse gene?
 				        <a href="ORTH_set.shtml" 
-				        onClick='javascript:openFaqWindow("ORTH_set.shtml"); 
-						return false;'>FAQ</a>
+				        onClick="javascript:openFaqWindow("ORTH_set.shtml"); 
+						return false;">FAQ</a>
     					<p>
 						<li><b><i>Using comparative maps</i></b><br>
 						For detailed instructions see the following:
 						<p>		
 					    How do I view a comparative map of mouse and human chromosomes?
 				        <a href="ORTH_map.shtml" 
-				        onClick='javascript:openFaqWindow("ORTH_map.shtml"); 
-						return false;'>FAQ</a>
+				        onClick="javascript:openFaqWindow("ORTH_map.shtml"); 
+						return false;">FAQ</a>
 					</ul>
 			</td>
 		</tr>

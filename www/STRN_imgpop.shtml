@@ -112,8 +112,8 @@
 						How do I find characteristics of a specific strain in 
 						M. Festing's <i>Inbred Strain Characteristics</i>?
                 		<a href="STRN_Fest.shtml" 
-                		onClick='javascript:openFaqWindow("STRN_Fest.shtml"); 
-						return false;'>FAQ</a>
+                		onClick="javascript:openFaqWindow("STRN_Fest.shtml"); 
+						return false;">FAQ</a>
 						<li><b><i>Using the 
 						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml' 
 						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml'); 
@@ -127,8 +127,8 @@
     					How do I find strains with RFLP/PCR polymorphisms in a 
     					particular gene?
  				        <a href="STRN_poly.shtml" 
- 				        onClick='javascript:openFaqWindow("STRN_poly.shtml"); 
-						return false;'>FAQ</a>
+ 				        onClick="javascript:openFaqWindow("STRN_poly.shtml"); 
+						return false;">FAQ</a>
 					</ul>
 				</td>
 			</tr>
@@ -195,8 +195,8 @@
 						How do I find all known coding SNPs in a specific 
 						genomic location for one or more strains?
 				        <a href="STRN_SNP.shtml" 
-				        onClick='javascript:openFaqWindow("STRN_SNP.shtml"); 
-						return false;'>FAQ</a>
+				        onClick="javascript:openFaqWindow("STRN_SNP.shtml"); 
+						return false;">FAQ</a>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
 						A summary of all the SNPs within 2kb of a gene can be 
 						accessed via a link in the Polymorphism section of
