@@ -58,29 +58,29 @@ Note that the list in each section is a definition list <dl> where the term
 							<dl class="linkedList">
 							    <dt>..  find an answer for a question not listed here? 
 				        		<a href="<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml" 
-				        		onClick='javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'); 
-								return false;'>User Support</a></dt>
+				        		onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'); 
+								return false;">User Support</a></dt>
                      			<dt>..  search for genes, QTL, or other features in a specific genome interval? 
-				        		<a href="GM_marker.shtml" onClick='javascript:openFaqWindow("GM_marker.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_marker.shtml" onClick="javascript:openFaqWindow("GM_marker.shtml"); 
+								return false;">FAQ</a></dt>
 				        		<dt>..  use attributes such as genome location, disease association, phenotype, or function to find specific genes? 
-				        		<a href="GM_attr.shtml" onClick='javascript:openFaqWindow("GM_attr.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_attr.shtml" onClick="javascript:openFaqWindow("GM_attr.shtml"); 
+								return false;">FAQ</a></dt>
                        			<dt>..  find mutant alleles associated with specific phenotypes or human diseases? 
-				        		<a href="PAD_allele.shtml" onClick='javascript:openFaqWindow("PAD_allele.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_allele.shtml" onClick="javascript:openFaqWindow("PAD_allele.shtml"); 
+								return false;">FAQ</a></dt>
                        			<dt>..  find expression data for a tissue during development? 
-				        		<a href="GXD_tissue_dev.shtml" onClick='javascript:openFaqWindow("GXD_tissue_dev.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow("GXD_tissue_dev.shtml"); 
+								return false;">FAQ</a></dt>
  				     			<dt>..  create a genome map from a genomic interval? 
-				        		<a href="GM_genmap.shtml" onClick='javascript:openFaqWindow("GM_genmap.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_genmap.shtml" onClick="javascript:openFaqWindow("GM_genmap.shtml"); 
+								return false;">FAQ</a></dt>
  				     			<dt>..  contribute my data to MGI? 
-				        		<a href="GQ_data.shtml" onClick='javascript:openFaqWindow("GQ_data.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GQ_data.shtml" onClick="javascript:openFaqWindow("GQ_data.shtml"); 
+								return false;">FAQ</a></dt>
                      			<dt>..  join or unsubscribe from MGI-list and Phenome-list? 
-				        		<a href="GQ_list.shtml" onClick='javascript:openFaqWindow("GQ_list.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GQ_list.shtml" onClick="javascript:openFaqWindow("GQ_list.shtml"); 
+								return false;">FAQ</a></dt>
                 			</dl>
 						</td>
 					</tr>
@@ -111,35 +111,35 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
 								<dt>.. search for genes, QTL, or other features in a specific genome interval? 
-				        		<a href="GM_marker.shtml" onClick='javascript:openFaqWindow("GM_marker.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_marker.shtml" onClick="javascript:openFaqWindow("GM_marker.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. search for a gene using an Entrez, Ensembl, VEGA, or other accession ID? 
-				        		<a href="GM_ID.shtml" onClick='javascript:openFaqWindow("GM_ID.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_ID.shtml" onClick="javascript:openFaqWindow("GM_ID.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. search for genes sharing a specific protein domain? 
-				        		<a href="GM_pirsf.shtml" onClick='javascript:openFaqWindow("GM_pirsf.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_pirsf.shtml" onClick="javascript:openFaqWindow("GM_pirsf.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. search for all gene trap cell lines associated with a gene or marker? 
-				        		<a href="GM_gtrap.shtml" onClick='javascript:openFaqWindow("GM_gtrap.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_gtrap.shtml" onClick="javascript:openFaqWindow("GM_gtrap.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. retrieve Entrez, Ensembl, VEGA, or other IDs for a list of genes? 
-				        		<a href="GM_batch.shtml" onClick='javascript:openFaqWindow("GM_batch.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_batch.shtml" onClick="javascript:openFaqWindow("GM_batch.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. create a genome map from a genomic interval? 
-				        		<a href="GM_genmap.shtml" onClick='javascript:openFaqWindow("GM_genmap.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_genmap.shtml" onClick="javascript:openFaqWindow("GM_genmap.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. see different gene models along with the MGI-curated representative model? 
-				        		<a href="GM_gmodel.shtml" onClick='javascript:openFaqWindow("GM_gmodel.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_gmodel.shtml" onClick="javascript:openFaqWindow("GM_gmodel.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. find or obtain approved nomenclature for a gene, allele or strain? 
-				        		<a href="GM_nomen.shtml" onClick='javascript:openFaqWindow("GM_nomen.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_nomen.shtml" onClick="javascript:openFaqWindow("GM_nomen.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. find genomic or cDNA clones? 
-				        		<a href="GM_clone.shtml" onClick='javascript:openFaqWindow("GM_clone.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_clone.shtml" onClick="javascript:openFaqWindow("GM_clone.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. find primer sequence for a gene? 
-				        		<a href="GM_primer.shtml" onClick='javascript:openFaqWindow("GM_primer.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GM_primer.shtml" onClick="javascript:openFaqWindow("GM_primer.shtml"); 
+								return false;">FAQ</a></dt>
                 			</dl>
 						</td>
 					</tr>
@@ -170,29 +170,29 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
 								<dt>.. find mutations in a specific gene? 
-				        		<a href="PAD_gene.shtml" onClick='javascript:openFaqWindow("PAD_gene.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_gene.shtml" onClick="javascript:openFaqWindow("PAD_gene.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. find mouse models for a human disease or condition? 
-				        		<a href="PAD_disease.shtml" onClick='javascript:openFaqWindow("PAD_disease.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_disease.shtml" onClick="javascript:openFaqWindow("PAD_disease.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find mutations that cause a specific combination of phenotypes? 
-				        		<a href="PAD_combo.shtml" onClick='javascript:openFaqWindow("PAD_combo.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_combo.shtml" onClick="javascript:openFaqWindow("PAD_combo.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find all of one kind of allele (e.g. cre transgenes, LoxP/Frt-flanked alleles, etc.)? 
-				        		<a href="PAD_muttype.shtml" onClick='javascript:openFaqWindow("PAD_muttype.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_muttype.shtml" onClick="javascript:openFaqWindow("PAD_muttype.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find candidate genes for a given phenotype and a specific genome location? 
-				        		<a href="PAD_cand.shtml" onClick='javascript:openFaqWindow("PAD_cand.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_cand.shtml" onClick="javascript:openFaqWindow("PAD_cand.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. download all phenotype annotations in MGI? 
-				        		<a href="PAD_dload.shtml" onClick='javascript:openFaqWindow("PAD_dload.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_dload.shtml" onClick="javascript:openFaqWindow("PAD_dload.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find available strains carrying a mutation in a specific gene? 
-				        		<a href="PAD_strain.shtml" onClick='javascript:openFaqWindow("PAD_strain.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_strain.shtml" onClick="javascript:openFaqWindow("PAD_strain.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find an ES cell line? 
-				        		<a href="PAD_EScell.shtml" onClick='javascript:openFaqWindow("PAD_EScell.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="PAD_EScell.shtml" onClick="javascript:openFaqWindow("PAD_EScell.shtml"); 
+								return false;">FAQ</a></dt>
                 			</dl>
 						</td>
 					</tr>
@@ -223,23 +223,23 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
 								<dt>.. find expression data for a specific gene and tissue? 
-				        		<a href="GXD_GeneTissue.shtml" onClick='javascript:openFaqWindow("GXD_GeneTissue.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow("GXD_GeneTissue.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find expression data for a tissue during development? 
-				        		<a href="GXD_tissue_dev.shtml" onClick='javascript:openFaqWindow("GXD_tissue_dev.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow("GXD_tissue_dev.shtml"); 
+								return false;">FAQ</a></dt>
 	              				<dt>.. find genes expressed in one tissue but not another? 
-				        		<a href="GXD_comp_tissue.shtml" onClick='javascript:openFaqWindow("GXD_comp_tissue.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GXD_comp_tissue.shtml" onClick="javascript:openFaqWindow("GXD_comp_tissue.shtml"); 
+								return false;">FAQ</a></dt>
                  				<dt>.. find references that report expression data for a gene at a specific age? 
-				        		<a href="GXD_ref_age.shtml" onClick='javascript:openFaqWindow("GXD_ref_age.shtml"); 
-								return false;'>FAQ</a></dt></dt>
+				        		<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow("GXD_ref_age.shtml"); 
+								return false;">FAQ</a></dt></dt>
        							<dt>.. find expression data for a specific gene? 
-				        		<a href="GXD_Gene.shtml" onClick='javascript:openFaqWindow("GXD_Gene.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GXD_Gene.shtml" onClick="javascript:openFaqWindow("GXD_Gene.shtml"); 
+								return false;">FAQ</a></dt>
        							<dt>.. find expression data in mouse mutants? 
-				        		<a href="GXD_mutant.shtml" onClick='javascript:openFaqWindow("GXD_mutant.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GXD_mutant.shtml" onClick="javascript:openFaqWindow("GXD_mutant.shtml"); 
+								return false;">FAQ</a></dt>
                             </dl>
 						</td>
 					</tr>
@@ -270,23 +270,23 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
                 				<dt>.. download all mouse GO annotations? 
-				        		<a href="GO_dload.shtml" onClick='javascript:openFaqWindow("GO_dload.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GO_dload.shtml" onClick="javascript:openFaqWindow("GO_dload.shtml"); 
+								return false;">FAQ</a></dt>
          						<dt>.. find all GO annotations for a specific mouse gene? 
-				        		<a href="GO_gene.shtml" onClick='javascript:openFaqWindow("GO_gene.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GO_gene.shtml" onClick="javascript:openFaqWindow("GO_gene.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find all mouse genes with shared annotation to a GO term? 
-				        		<a href="GO_term.shtml" onClick='javascript:openFaqWindow("GO_term.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GO_term.shtml" onClick="javascript:openFaqWindow("GO_term.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. find shared function for a list of specific mouse genes? 
-				        		<a href="GO_finder.shtml" onClick='javascript:openFaqWindow("GO_finder.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GO_finder.shtml" onClick="javascript:openFaqWindow("GO_finder.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. view annotations for mouse/human/rat ortholog sets? 
-				        		<a href="GO_ortho.shtml" onClick='javascript:openFaqWindow("GO_ortho.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GO_ortho.shtml" onClick="javascript:openFaqWindow("GO_ortho.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. obtain FASTA sequence files for mouse genes with GO annotations in common? 
-				        		<a href="GO_seq.shtml" onClick='javascript:openFaqWindow("GO_seq.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="GO_seq.shtml" onClick="javascript:openFaqWindow("GO_seq.shtml"); 
+								return false;">FAQ</a></dt>
 							</dl>
 						</td>
 					</tr>
@@ -317,17 +317,17 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
          						<dt>.. see a list of all pathways in MouseCyc? 
-				        		<a href="BP_allpath.shtml" onClick='javascript:openFaqWindow("BP_allpath.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="BP_allpath.shtml" onClick="javascript:openFaqWindow("BP_allpath.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. search MouseCyc for a specific compound? 
-				        		<a href="BP_comp.shtml" onClick='javascript:openFaqWindow("BP_comp.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="BP_comp.shtml" onClick="javascript:openFaqWindow("BP_comp.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. display my mouse gene expression data in the context of mouse pathways? 
-				        		<a href="BP_expr.shtml" onClick='javascript:openFaqWindow("BP_expr.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="BP_expr.shtml" onClick="javascript:openFaqWindow("BP_expr.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. compare mouse pathways to human pathways? 
-				        		<a href="BP_path.shtml" onClick='javascript:openFaqWindow("BP_path.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="BP_path.shtml" onClick="javascript:openFaqWindow("BP_path.shtml"); 
+								return false;">FAQ</a></dt>
                             </dl>
 						</td>
 					</tr>
@@ -358,17 +358,17 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
                					<dt>.. find all known coding SNPs in a specific genomic location for one or more strains? 
-				        		<a href="STRN_SNP.shtml" onClick='javascript:openFaqWindow("STRN_SNP.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="STRN_SNP.shtml" onClick="javascript:openFaqWindow("STRN_SNP.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find strains with RFLP/PCR polymorphisms in a particular gene? 
-				        		<a href="STRN_poly.shtml" onClick='javascript:openFaqWindow("STRN_poly.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="STRN_poly.shtml" onClick="javascript:openFaqWindow("STRN_poly.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find characteristics of a specific strain in M. Festing's <i>Inbred Strains of Mice and Rats?</i> 
-                				<a href="STRN_Fest.shtml" onClick='javascript:openFaqWindow("STRN_Fest.shtml"); 
-								return false;'>FAQ</a></dt>
+                				<a href="STRN_Fest.shtml" onClick="javascript:openFaqWindow("STRN_Fest.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. find genomic sequence for a specific mouse strain? 
-				        		<a href="STRN_genom.shtml" onClick='javascript:openFaqWindow("STRN_genom.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="STRN_genom.shtml" onClick="javascript:openFaqWindow("STRN_genom.shtml"); 
+								return false;">FAQ</a></dt>
                             </dl>
 						</td>
 					</tr>
@@ -399,23 +399,23 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
 				        		<dt>.. view the ortholog set for a mouse gene? 
-				        		<a href="ORTH_set.shtml" onClick='javascript:openFaqWindow("ORTH_set.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="ORTH_set.shtml" onClick="javascript:openFaqWindow("ORTH_set.shtml"); 
+								return false;">FAQ</a></dt>
                					<dt>.. view a comparative map of mouse and human chromosomes? 
-				        		<a href="ORTH_map.shtml" onClick='javascript:openFaqWindow("ORTH_map.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="ORTH_map.shtml" onClick="javascript:openFaqWindow("ORTH_map.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes? 
-				        		<a href="ORTH_pirsf.shtml" onClick='javascript:openFaqWindow("ORTH_pirsf.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="ORTH_pirsf.shtml" onClick="javascript:openFaqWindow("ORTH_pirsf.shtml"); 
+								return false;">FAQ</a></dt>
 								<dt>.. find the mouse ortholog of a human gene? 
-				        		<a href="ORTH_gene.shtml" onClick='javascript:openFaqWindow("ORTH_gene.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="ORTH_gene.shtml" onClick="javascript:openFaqWindow("ORTH_gene.shtml"); 
+								return false;">FAQ</a></dt>
                 				<dt>.. download all mouse and human orthologs? 
-				        		<a href="ORTH_dload.shtml" onClick='javascript:openFaqWindow("ORTH_dload.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="ORTH_dload.shtml" onClick="javascript:openFaqWindow("ORTH_dload.shtml"); 
+								return false;">FAQ</a></dt>
  	              				<dt>.. view a mouse linkage map with human orthologs?
-				        		<a href="ORTH_lmap.shtml" onClick='javascript:openFaqWindow("ORTH_lmap.shtml"); 
-								return false;'>FAQ</a></dt>
+				        		<a href="ORTH_lmap.shtml" onClick="javascript:openFaqWindow("ORTH_lmap.shtml"); 
+								return false;">FAQ</a></dt>
                             </dl>
 						</td>
 					</tr>
