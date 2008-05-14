@@ -100,7 +100,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click on a link in the <b>Result Details</b> column to view 
+						<li value = 5>Click on a data link in the <b>Result Details</b> column to view 
 						details from assays that examined <i>Ptch1</i> expression in the 
 						brain.
 					</ol>
@@ -109,7 +109,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue2.jpg" width=600 height=263 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_GeneTissue2.jpg" width=795 height=224 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
