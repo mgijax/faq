@@ -1,4 +1,0 @@
-<div style="float: right; margin-right: 10px;">
-<input value=" Print " onclick="window.print();return false;" type="button">
-<input value=" Close " onclick="window.close();return false;" type="button">
-</div>
