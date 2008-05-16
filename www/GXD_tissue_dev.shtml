@@ -140,8 +140,9 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click on a data link in the <b>Result Details</b> column to 
-						view details from assays that examined expression in the heart in Theiler stage 17.
+						<li value = 5>Click <u>data</u> in the <b>Result Details</b> column to 
+						view details from assays that examined expression in the 
+						heart in Theiler stage 17.
 					</ol>
 				</td>
 				<td valign=top>
@@ -179,13 +180,14 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 7>On the <b>Anatomical Dictionary Browser Query Refiner</b> page, select <i>RNA in situ</i>
-						from the <b>Assay type(s)</b> pick list.
+						<li value = 7>On the <b>Anatomical Dictionary Browser Query Refiner</b> 
+						page, select <i>RNA in situ</i> from the <b>Assay type(s)</b> pick list.
 						<p>
 						<li>Click the <b>Search</b> button.
 						<p>
-						<li>As in step 5 above, click on any data link in the <b>Result Details</b> column 
-						to view details from RNA in situ assays that examined expression in the heart in Theiler stage 17.
+						<li>As in step 5 above, click <u>data</u> in the <b>Result Details</b> 
+						column to view details from RNA in situ assays that examined 
+						expression in the heart in Theiler stage 17.
 					</ol>
 				</td>
 				<td valign=top>

@@ -101,7 +101,7 @@
 						<li><b><i>Using GXD query forms</i></b>
 						<br>
 						Gene expression queries return data summaries that, 
-						in turn, lead to expression assay detail pages.
+						in turn, lead to results detail pages.
 						The image field of the results detail page reports which 
 						publication figure illustrates the results.
 						When the image is available in the database, the label 

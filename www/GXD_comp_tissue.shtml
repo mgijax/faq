@@ -103,8 +103,12 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click a data link in the <b>Result Details</b> column to view assay details. Each gene may 
-						be listed more than once, since the structures you have searched for may appear in more than one assay.
+						<li value = 4>Click <u>data</u> in the <b>Result Details</b> 
+						column to view assay details. Each gene may 
+						be listed more than once, since the structures 
+						you have searched for may appear in more than one assay.
+						The camera icon indicates that images are available 
+						from the results details page.
 					</ol>
 				</td>
 				<td valign=top colspan=2>

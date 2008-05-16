@@ -128,11 +128,12 @@
 							<li>by Tissue;
 							<li>by Assay Type.
 						</ul>
-
 					For each Assay Type, the number of results and number of assays is supplied. 
-					The <b>Expression</b> section 
-					also lists images, references, and cDNA clones 
+					The <b>Expression</b> section also lists images associated with 
+					expression results, references, and cDNA clones 
 					associated with <i>Pax6</i>. Click any numerical link to view data.
+					External Resources link to <i>Pax6</i> expression information
+					in databases other than MGI.
 				</td>
 				<td valign=top>
 					<table class="outline">

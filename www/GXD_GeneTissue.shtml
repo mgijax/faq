@@ -100,9 +100,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click on a data link in the <b>Result Details</b> column to view 
-						details from assays that examined <i>Ptch1</i> expression in the 
-						brain.
+						<li value = 5>Click <u>data</u> in the <b>Result Details</b> column 
+						to view details from assays that examined <i>Ptch1</i> expression 
+						in the brain. The camera icon indicates that images are available 
+						from the results details page.
 					</ol>
 				</td>
 				<td valign=top>
