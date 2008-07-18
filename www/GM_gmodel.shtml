@@ -51,7 +51,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
 			return false;">
 			MGI home page</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
 			<table class="outline">
@@ -129,7 +129,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_gmodel1.jpg" width=733 height=312 alt="Genome Browser Thumbnail">
+								<img src="Images/GM_gmodel1.jpg" width=766 height=309 alt="Genome Browser Thumbnail">
 							</td>
 						</tr>
 					</table>

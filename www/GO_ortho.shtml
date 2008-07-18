@@ -50,7 +50,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
 			return false;">
 			MGI home page</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
 			<table class="outline">
@@ -127,7 +127,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho2.jpg" width=770 height=372 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/GO_ortho2.jpg" width=767 height=375 alt="Pax6 Orthology Screen Shot">
 							</td>
 						</tr>
 					</table>

@@ -49,7 +49,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
 			return false;">
 			MGI home page</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
 			<table class="outline">
@@ -139,7 +139,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_Gene2.jpg" width=782 height=202 alt="Pax6 Expression Screen Shot">
+								<img src="Images/GXD_Gene2.jpg" width=760 height=201 alt="Pax6 Expression Screen Shot">
 							</td>
 						</tr>
 					</table>
