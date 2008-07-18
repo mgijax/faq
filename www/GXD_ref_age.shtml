@@ -53,7 +53,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/gxdindex_form.shtml'); 
 			return false;">
 			Gene Expression Literature Query Form</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>

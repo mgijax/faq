@@ -50,7 +50,7 @@
 			onClick="javascript:openNewWindow('<!--#include file="include/mgihome_url.html"-->/lists/lists.shtml'); 
 			return false;">
 			MGI E-mail List Service</a>
-			page in a new window. 
+			page in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>

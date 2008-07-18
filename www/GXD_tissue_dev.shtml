@@ -50,7 +50,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/anatdict_form.shtml'); 
 			return false;">
 			Mouse Anatomical Dictionary Browser</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>

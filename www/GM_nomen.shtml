@@ -51,7 +51,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/index.shtml'); 
 			return false;">
 			Mouse Nomenclature Home Page</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>

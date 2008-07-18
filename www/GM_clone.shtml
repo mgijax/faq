@@ -53,7 +53,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF'); 
 			return false;">
 			Molecular Probes and Clones Query Form</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>

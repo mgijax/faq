@@ -51,7 +51,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/menus_url.html'-->submit.shtml'); 
 			return false;">
 			Submit Data</a>
-			page in a new window. 
+			page in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>

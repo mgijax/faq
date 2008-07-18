@@ -50,7 +50,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->pathways.shtml'); 
 			return false;">
 			Biochemical Pathways</a>
-			page in a new window. 
+			page in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
 			<table class="outline">

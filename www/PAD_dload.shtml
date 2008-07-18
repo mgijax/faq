@@ -51,7 +51,7 @@
 			onClick="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html'); 
 			return false;">
 			MGI Data and Statistical Reports Page</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
 			<table class="outline">

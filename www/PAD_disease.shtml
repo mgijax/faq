@@ -51,7 +51,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=omimVocab&subset=A'); 
 			return false;">
 			Human Disease Vocabulary Browser</a>
-			in a new window.
+			in a new window. Scroll down this page for further instructions.
 		</td>
 		
 		<td valign=top>

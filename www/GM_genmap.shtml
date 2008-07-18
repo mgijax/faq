@@ -46,7 +46,7 @@
 			onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'); 
 			return false;">
 			Mouse Genome Browser</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>
 		<td valign=top>
 			<table class="outline">

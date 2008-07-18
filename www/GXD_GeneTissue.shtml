@@ -49,7 +49,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF'); 
 			return false;">
 			Gene Expression Data Query Form</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
 			<table class="outline">

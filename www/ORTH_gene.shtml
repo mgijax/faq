@@ -49,7 +49,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/homology_form.shtml'); 
 			return false;">
 			Mammalian Orthology Query Form</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>

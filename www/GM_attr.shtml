@@ -51,7 +51,7 @@
 			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'); 
 			return false;">
 			Genes and Markers Query Form</a>
-			in a new window. 
+			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>
