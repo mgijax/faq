@@ -51,12 +51,12 @@
 	</tr>
 	<tr>
 		<td><br>
-			Welcome to the re-designed MGI allele detail page. Phenotype information is now 
-			displayed in two ways. The new  <b>Phenotype Summary</b> matrix allows easy 
-			comparison of phenotypes across genotypes. The <b>Phenotypic Data by Genotype</b> 
+			Phenotype information is now displayed in two ways. The new 
+			<b>Phenotype Summary</b> matrix allows easy comparison of 
+			phenotypes across genotypes. The <b>Phenotypic Data by Genotype</b> 
 			table preserves the original display format allowing you to focus 
 			on the details of a specific genotype. See the figures below for 
-			a quick tour and explanation of the changes.
+			a quick tour.
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +76,7 @@
 							<tr>
 								<td valign=top>
 									<ol>
-										<li>Click <b>show</b> to reveal all mammalian phenotype terms linked 
+										<li>Click <b>show</b> to display all mammalian phenotype terms linked 
 											to at least one genotype.
 										<p>
 										<li>Click on a genotype abbreviation, <i>e.g.</i> hm1, to open a new window 
@@ -84,7 +84,7 @@
 											This information is repeated below in the <b>Phenotypic Data by Genotype</b> 
 											section.
 										<p>
-										<li>Click on a right arrow next to an affected system to reveal
+										<li>Click on a right arrow next to an affected system to display
 											all mammalian phenotype terms in that system linked to at least one genotype.
 									</ol>
 								</td>
@@ -121,10 +121,12 @@
 							<tr>
 								<td valign=top>
 									<ol>
-										<li>Click <b>show</b> to display all annotations for all genotypes.
+										<li>Click <b>show</b> to display all phenotype and 
+										disease model annotations for all genotypes.
 										<p>
-										<li>Click on the right arrow next to a genotype to reveal 
-											detailed phenotypic annotation.
+										<li>Click on the right arrow next to a genotype to 
+										display all phenotype and disease model annotations 
+										for that genotype.
 										<p>
 										</ol>
 									For more information see 
