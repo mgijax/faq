@@ -41,7 +41,7 @@
 				<tr>
 					<td>
 						<ul>
-							<li><a href=""#Phenosummary">Phenotype Summary</a> | </li>
+							<li><a href="#Phenosummary">Phenotype Summary</a> | </li>
 							<li><a href="#Phenogeno">Phenotypic Data by Genotype</a></li>
 						</ul>
 					</td>
