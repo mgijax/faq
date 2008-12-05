@@ -1,0 +1,261 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"--> Using Quick Search</title>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css"/>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I use Quick Search? A Work Very Much In Progress</span>
+</div>
+
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
+<table width="75%" cellpadding="2" align="center">
+	<tr><td>
+		<!-- TOC table -->
+		<table class="toc" width="100%">
+			<tr>
+				<td>
+					<ul>
+						<li><a href="#about">Finding data associated with a list of genes or identifiers</a> | </li>
+						<li><a href="#images">Using wildcards to search for genes</a></li>
+						<li><a href="#about">Finding data associated with vitamin D binding</a> | </li>
+						<li><a href="#images">Using quotes to narrow search results</a></li>
+						<li><a href="#images">Finding data associated with anatomical structures</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</td></tr>
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		<span><!--#include file='faq_toolbar.shtml'-->
+			Overview
+		</span>
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use Quick Search to find genes by function, 
+			disease, phenotype, identifier or other types of data in MGI. 
+			Quick Search returns a list of genome features, terms, or other 
+			search results that match your entry.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Accessing Quick Search
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can find Quick Search in the upper 
+			right corner.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages/index.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
+			return false;">
+			MGI home page</a>
+			in a new window and locate Quick Search at the top center of 
+			the page. Scroll down this page for further instructions. 
+		</td>		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/header.jpg" width=774 height=103 alt="MGI Header Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding data associated with a list of genes or identifiers
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<ol>
+			<li>Type <i>17222948, P32921, Pax3</i> into the text box.
+			<p>
+			<li>Click <b>Quick Search</b>.
+			</ol>
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/search_tool.jpg" width=390 height=34 alt="Quick Search Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<ol>
+				<li value = 3>The <b>Quick Search Results</b> rank genome features, vocabulary terms, 
+					and other results matching your entries by relevance. 
+					<p>
+				</li>
+				<li>Click <b>Get More Data</b> for genome features 1 through 5 to retrieve associated 
+					data such as gene function, phenotype, allele or disease data.
+				</li>
+			</ol>
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GM_search2.jpg" width=924 height=357 alt="Search Results Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<ol>
+				<li value = 5>Select the radio button next to Human Disease (OMIM) to retrieve
+					human diseases associated with mouse genes <i>Wars</i> and <i>Pax3</i>, Cre transgenes
+					<i>Tg(Pax3-cre)1Joe</i> and <i>Tg(Pax3-cre)2Joe</i>, and gene trap <i>Gt(ROSA)26Sor</i>.
+				</li>
+				<p>
+				<li>Click <b>Search Again</b>.
+				</li>
+			</ol>
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GM_search3.jpg" width=803 height=326 alt="MGI Batch Query">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 2. Finding data associated with vitamin D binding
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+					<li>Type <i>vitamin D binding</i> into the text box.</li>
+					<p>
+					<li>Click <b>Quick Search</b>.
+					</ol>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+					<li value = 3>The <b>Quick Search Results</b> rank genome features, vocabulary terms, 
+					and other results containing <i>vitamin D binding</i> by relevance to this phrase, or
+					any individual word in this phrase. 
+					<br><br>
+					Click the link to <i>and 10 more...</i> in the <b>Best Match</b> column. This lists
+					related matches (<i>i.e.</i> protein domains, diseases) associated with gene <i>Gc</i>.
+					<br><br>
+					See 
+					<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'
+					onClick="javascript:openNewWindow('<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'); 
+					return false;">
+					Using the Quick Search Tool</a> for more information and examples.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_search4.jpg" width=794 height=682 alt="Search Results Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign=top><ol>
+					<li value = 4>Type <i>"vitamin D"</i> binding, including the quotes, into the text box.
+					Quotes require search results in which the phrase "vitamin D" appears exactly.</li>
+					<p>
+					<li>Click <b>Search Again</b>.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_search2.jpg" width=494 height=31 alt="Quick Search Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign=top><ol>
+					<li value = 6>More specific search results.</li>
+					<p>
+					<li>What now?.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_search2.jpg" width=494 height=31 alt="Quick Search Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 3. Finding data associated with anatomical structures
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<ol>
+			<li>Type <i>hypothalamus</i> into the text box.
+			<p>
+			<li>Click <b>Quick Search</b>.
+								See 
+					<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'
+					onClick="javascript:openNewWindow('<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'); 
+					return false;">
+					Using the Quick Search Tool</a> for more information and examples.
+
+		</td>
+	</tr>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'-->
