@@ -26,7 +26,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Search Box to find 
+		<td colspan=2 align=left>You can use Quick Search to find 
 			information about genes, markers or accession identifiers 
 			in MGI. The Search Box returns a list of genes, 
 			markers, or accession IDs that contain your entry.
@@ -36,14 +36,14 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Accessing the Search Box
+		Accessing Quick Search
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can find the Search Box in the upper 
+			On most MGI pages, you can find Quick Search in the upper 
 			right corner, as shown in the image.
 			<p>
 			For this tutorial, open the 
@@ -78,7 +78,7 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li>Type <i>18505</i> into the Search Box.
+					<li>Type <i>18505</i> into Quick Search.
 					<p>
 					<li>Click <b>Quick Search</b>.
 				</td>
