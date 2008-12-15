@@ -45,9 +45,8 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the MGI Data and 
-			Statistical Reports Page from the Search menu as shown 
-			in the image at right.
+			On most MGI pages, you can access the MGI Data and Statistical 
+			Reports Page from the Download menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='ftp://ftp.informatics.jax.org/pub/reports/index.html' 
@@ -60,7 +59,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/reports_toc.jpg" width=617 height=434 alt="Reports TOC Screen Shot">
+						<img src="Images/dloadmenu.jpg" width=774 height=324 alt="Download Menu Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -91,7 +90,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/reports_toc.jpg" width=615 height=453 alt="Reports TOC Screen Shot">
+								<img src="Images/reports_toc.jpg" width=617 height=434 alt="Reports TOC Screen Shot">
 							</td>
 						</tr>
 					</table>
