@@ -40,9 +40,7 @@ Note that the list in each section is a definition list <dl> where the term
 			</tr>
 		</table>
 	</td></tr>
-
 <tr><td>
-
 <a name="general">
 	<table class="outline" width="100%">
 		<tr>
@@ -60,26 +58,14 @@ Note that the list in each section is a definition list <dl> where the term
 				        		<a href="<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml" 
 				        		onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'); 
 								return false;">User Support</a></dt>
-                     			<dt>..  search for genes, QTL, or other features in a specific genome interval? 
-				        		<a href="GM_marker.shtml" onClick="javascript:openFaqWindow('GM_marker.shtml'); 
-								return false;">FAQ</a></dt>
-				        		<dt>..  use attributes such as genome location, disease association, phenotype, or function to find specific genes? 
-				        		<a href="GM_attr.shtml" onClick="javascript:openFaqWindow('GM_attr.shtml'); 
-								return false;">FAQ</a></dt>
-                       			<dt>..  find mutant alleles associated with specific phenotypes or human diseases? 
-				        		<a href="PAD_allele.shtml" onClick="javascript:openFaqWindow('PAD_allele.shtml'); 
-								return false;">FAQ</a></dt>
-                       			<dt>..  find expression data for a tissue during development? 
-				        		<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml'); 
-								return false;">FAQ</a></dt>
- 				     			<dt>..  create a genome map from a genomic interval? 
-				        		<a href="GM_genmap.shtml" onClick="javascript:openFaqWindow('GM_genmap.shtml'); 
-								return false;">FAQ</a></dt>
- 				     			<dt>..  contribute my data to MGI? 
+   				     			<dt>..  contribute my data to MGI? 
 				        		<a href="GQ_data.shtml" onClick="javascript:openFaqWindow('GQ_data.shtml'); 
 								return false;">FAQ</a></dt>
-                     			<dt>..  join or unsubscribe from MGI-list and Phenome-list? 
+                     			<dt>..  join or unsubscribe from MGI List or MGI Technical List? 
 				        		<a href="GQ_list.shtml" onClick="javascript:openFaqWindow('GQ_list.shtml'); 
+								return false;">FAQ</a></dt>
+								<dt>..  cite MGI? 
+				        		<a href="GQ_cite.shtml" onClick="javascript:openFaqWindow('GQ_cite.shtml'); 
 								return false;">FAQ</a></dt>
                 			</dl>
 						</td>
@@ -89,9 +75,7 @@ Note that the list in each section is a definition list <dl> where the term
 		</tr>
 	</table>
 </td></tr>
-
-	<tr><td>
-
+<tr><td>
 	<a name="marker">
 		<table class="outline" width="100%">
 			<tr>
@@ -103,7 +87,7 @@ Note that the list in each section is a definition list <dl> where the term
 				</td>
 			</tr>
 			<tr >
-				<td>
+			<td>
 		<tr >
 			<tr >
 				<td>
@@ -114,7 +98,7 @@ Note that the list in each section is a definition list <dl> where the term
 				        		<a href="GM_marker.shtml" onClick="javascript:openFaqWindow('GM_marker.shtml'); 
 								return false;">FAQ</a></dt>
 								<dt>.. search for a gene using an Entrez, Ensembl, VEGA, or other accession ID? 
-				        		<a href="GM_ID.shtml" onClick="javascript:openFaqWindow('GM_ID.shtml'); 
+				        		<a href="GM_search.shtml" onClick="javascript:openFaqWindow('GM_search.shtml'); 
 								return false;">FAQ</a></dt>
 								<dt>.. search for genes sharing a specific protein domain? 
 				        		<a href="GM_pirsf.shtml" onClick="javascript:openFaqWindow('GM_pirsf.shtml'); 
@@ -148,9 +132,7 @@ Note that the list in each section is a definition list <dl> where the term
 		</tr>
 	</table>
 </td></tr>
-
-	<tr><td>
-			
+<tr><td>			
 	<a name="pheno">
 		<table class="outline" width="100%">
 			<tr>
@@ -161,9 +143,6 @@ Note that the list in each section is a definition list <dl> where the term
 					Phenotypes, Alleles &amp Disease Models</a>
 				</td>
 			</tr>
-			<tr >
-				<td>
-		<tr >
 			<tr >
 				<td>
 					<tr >
@@ -234,10 +213,7 @@ Note that the list in each section is a definition list <dl> where the term
                  				<dt>.. find references that report expression data for a gene at a specific age? 
 				        		<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow('GXD_ref_age.shtml'); 
 								return false;">FAQ</a></dt></dt>
-       							<dt>.. find expression data for a specific gene? 
-				        		<a href="GXD_Gene.shtml" onClick="javascript:openFaqWindow('GXD_Gene.shtml'); 
-								return false;">FAQ</a></dt>
-       							<dt>.. find expression data in mouse mutants? 
+        						<dt>.. find expression data in mouse mutants? 
 				        		<a href="GXD_mutant.shtml" onClick="javascript:openFaqWindow('GXD_mutant.shtml'); 
 								return false;">FAQ</a></dt>
                             </dl>

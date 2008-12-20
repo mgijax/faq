@@ -8,7 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I join or unsubscribe from MGI-list and Phenome-list?</span>
+ <span class="faqHeaderText">How do I join or unsubscribe from MGI list or MGI Technical List?</span>
 </div>
 
 <style>
@@ -26,7 +26,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can subscribe to MGI-list and Phenome-list from the MGI
+		<td colspan=2 align=left>You can subscribe to MGI list and MGI Technical List from the MGI
 		website. Once you have subscribed, you can submit questions and receive responses
 		from other members of the list.
 		</td>

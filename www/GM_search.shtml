@@ -8,7 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I use Quick Search? A Work Very Much In Progress</span>
+ <span class="faqHeaderText">How do I use Quick Search?</span>
 </div>
 
 <style>
@@ -21,11 +21,11 @@
 			<tr>
 				<td>
 					<ul>
-						<li><a href="#about">Finding data associated with a list of genes or identifiers</a> | </li>
-						<li><a href="#images">Using wildcards to search for genes</a></li>
-						<li><a href="#about">Finding data associated with vitamin D binding</a> | </li>
-						<li><a href="#images">Using quotes to narrow search results</a></li>
-						<li><a href="#images">Finding data associated with anatomical structures</a></li>
+						<li><a href="#ids">Using a list of gene symbols or identifiers</a> | </li>
+						<li><a href="#vitd">Using phrases like vitamin D binding</a> | </li>
+						<li><a href="#quotes">Narrowing search results with double quotes </a> | </li>
+						<li><a href="#wild">Expanding a search with wildcards</a> | </li>
+						<li><a href="#adv">Advanced searches using query forms</a></li>
 					</ul>
 				</td>
 			</tr>
@@ -81,10 +81,11 @@
 	</tr>
 </table>
 <br>
+<a name="ids">
 <table width="100%">
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding data associated with a list of genes or identifiers
+			Example 1. Using a list of gene symbols or identifiers
 		</td>
 	</tr>
 	<tr>
@@ -108,12 +109,17 @@
 	<tr>
 		<td valign=top>
 			<ol>
-				<li value = 3>The <b>Quick Search Results</b> rank genome features, vocabulary terms, 
-					and other results matching your entries by relevance. 
+				<li value = 3>The 
+					<a href='<!--#include file='include/searchtool_url.html'-->Search.do?query=17222948%2C+P32921%2C+Pax3+' 
+					onClick="javascript:openNewWindow('<!--#include file='include/searchtool_url.html'-->Search.do?query=17222948%2C+P32921%2C+Pax3+'); 
+					return false;">
+					<b>Quick Search Results</b></a> rank genome features, vocabulary terms, 
+					and other results by relevance. 
 					<p>
 				</li>
 				<li>Click <b>Get More Data</b> for genome features 1 through 5 to retrieve associated 
-					data such as gene function, phenotype, allele or disease data.
+					data such as gene function, phenotype, allele or disease data. This button leads to
+					the MGI Batch Query, a tool to retrieve data about many genes in MGI simultaneously.
 				</li>
 			</ol>
 		</td>
@@ -151,12 +157,13 @@
 	</tr>
 </table>
 <br>
+<a name="vitd">
 <table width="100%">
 	<tr>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 2. Finding data associated with vitamin D binding
+			Example 2. Using phrases like vitamin D binding
 		</td>
 	</tr>
 	<tr>
@@ -169,6 +176,15 @@
 					<li>Click <b>Quick Search</b>.
 					</ol>
 				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/search_tool_vdb.jpg" width=390 height=31 alt="Quick Search Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
 			</tr>
 		</td>
 	</tr>
@@ -177,57 +193,19 @@
 			<tr>
 				<td valign=top>
 					<ol>
-					<li value = 3>The <b>Quick Search Results</b> rank genome features, vocabulary terms, 
-					and other results containing <i>vitamin D binding</i> by relevance to this phrase, or
-					any individual word in this phrase. 
-					<br><br>
-					Click the link to <i>and 10 more...</i> in the <b>Best Match</b> column. This lists
-					related matches (<i>i.e.</i> protein domains, diseases) associated with gene <i>Gc</i>.
-					<br><br>
-					See 
-					<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'
-					onClick="javascript:openNewWindow('<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'); 
+					<li value = 3>The 					
+					<a href='<!--#include file='include/searchtool_url.html'-->Search.do?query=vitamin+D+binding'
+					onClick="javascript:openNewWindow('<!--#include file='include/searchtool_url.html'-->Search.do?query=vitamin+D+binding'); 
 					return false;">
-					Using the Quick Search Tool</a> for more information and examples.
+					<b>Quick Search Results</b></a> rank genome features, vocabulary terms, 
+					and other results containing <i>vitamin D binding</i> by relevance to 
+					this phrase, and to any individual word in this phrase. 
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_search4.jpg" width=794 height=682 alt="Search Results Screen Shot">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td valign=top><ol>
-					<li value = 4>Type <i>"vitamin D"</i> binding, including the quotes, into the text box.
-					Quotes require search results in which the phrase "vitamin D" appears exactly.</li>
-					<p>
-					<li>Click <b>Search Again</b>.
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GM_search2.jpg" width=494 height=31 alt="Quick Search Screen Shot">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td valign=top><ol>
-					<li value = 6>More specific search results.</li>
-					<p>
-					<li>What now?.
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GM_search2.jpg" width=494 height=31 alt="Quick Search Screen Shot">
+								<img src="Images/GM_search4.jpg" width=783 height=539 alt="Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -237,24 +215,178 @@
 	</tr>
 </table>
 <br>
+<a name="quotes">
 <table width="100%">
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 3. Finding data associated with anatomical structures
+			Example 3. Narrowing search results with double quotes 
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li>Type double quotes around the phrase <i>"vitamin D."</i>
+					Double quotes require search results in which the entire phrase 
+					"vitamin D" appears exactly.</li>
+					<p>
+					<li>Click <b>Search Again</b>.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_search5.jpg" width=370 height=19 alt="Quick Search Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign=top><ol>
+					<li value = 3>The 					
+					<a href='<!--#include file='include/searchtool_url.html'-->Search.do?query=%22vitamin+D%22+binding' 
+					onClick="javascript:openNewWindow('<!--#include file='include/searchtool_url.html'-->Search.do?query=%22vitamin+D%22+binding'); 
+					return false;">
+					<b>Quick Search Results</b></a> are similar to those above. However, 
+					the lower scoring genome features and vocabulary terms are different
+					and are quite specifically associated with vitamin D. For example,
+					<i>Vdr</i>, the vitamin D receptor, now ranks among the top 10 genome features.
+					And vocabulary terms <i>response to vitamin D</i> and <i>vitamin D biosynthetic process</i>
+					now rank among the top 10 instead of more general terms such as <i>vitamin binding</i>.
+					<p>
+					<li>Click the link to 
+					<a href='<!--#include file='include/searchtool_url.html'-->Search.do?query=%22vitamin+D%22+binding&page=markerDetails&markerKey=9028'
+					onClick="javascript:openNewWindow('<!--#include file='include/searchtool_url.html'-->Search.do?query=%22vitamin+D%22+binding&page=markerDetails&markerKey=9028'); 
+					return false;">
+					<i>and 9 more...</i></a> corresponding to gene <i>Gc</i> in the 
+					<b>Best Match</b> column.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_search6.jpg" width=777 height=526 alt="Search Results Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 5>The best matches for <i>"vitamin D" binding</i> for gene <i>Gc</i>
+					include synonyms, orthologs, functions, protein families and 
+					domains containing <i>vitamin D</i> and <i>binding</i> together, 
+					separately, or having <i>bind</i> as a root word.
+					</li>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_search7.jpg" width=795 height496 alt="All Matches">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+<br>
+<a name="wild">
+<table width="100%">
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 4. Expanding a search with wildcards
 		</td>
 	</tr>
 	<tr>
 		<td valign=top>
 			<ol>
-			<li>Type <i>hypothalamus</i> into the text box.
+			<li>Type <i>thalam*</i> into the text box.</li>
 			<p>
-			<li>Click <b>Quick Search</b>.
-								See 
-					<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'
-					onClick="javascript:openNewWindow('<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'); 
-					return false;">
-					Using the Quick Search Tool</a> for more information and examples.
-
+			<li>Click <b>Quick Search</b>.</li>
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GM_search8.jpg" width=298 height=23 alt="Quick Search Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top><ol>
+			<li value = 3>The 					
+			<a href='<!--#include file='include/searchtool_url.html'-->Search.do?query=thalam*' 
+			onClick="javascript:openNewWindow('<!--#include file='include/searchtool_url.html'-->Search.do?query=thalam*'); 
+			return false;">
+			<b>Quick Search Results</b></a> identify genes and expression results for the
+			<i>thalam</i>us, dorsal <i>thalam</i>us, and medial <i>thalam</i>ic group. Each 
+			of these terms or phrases contains the prefix <i>thalam</i>. Quick Search will not
+			identify terms containing <i>thalam</i>, such as hypothalamus
+			or epithalamus. At present, the wildcard character * supports prefix searches only,
+			and can only be used at the end of a search entry. For example, <i>*thalam</i> will
+			not find the terms hypothalamus or epithalamus. These and related terms can be found using
+			<i>hypothal*</i> or <i>epithal*</i>.
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GM_search9.jpg" width=778 height=565 alt="Search Results Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<a name="adv">
+<table width="100%">
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 5. Advanced searches using query forms
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			MGI query forms are the best option for answering very specific questions, especially those	
+			that combine queries across major data content areas such as function and expression, phenotype
+			and genomic location, and so on. To view examples, click a FAQ link below.
+			<dl class="linkedList">
+				<dt>How do I find expression data for a specific gene and tissue? 
+				<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml'); 
+				return false;">FAQ</a></dt>
+	            <dt>How do I find genes expressed in one tissue but not another? 
+				<a href="GXD_comp_tissue.shtml" onClick="javascript:openFaqWindow('GXD_comp_tissue.shtml'); 
+				return false;">FAQ</a></dt>
+ 				<dt>How do I search for genes, QTL, or other features in a specific genome interval? 
+				<a href="GM_marker.shtml" onClick="javascript:openFaqWindow('GM_marker.shtml'); 
+				return false;">FAQ</a></dt>
+ 				<dt>How do I find candidate genes for a given phenotype and a specific genome location? 
+				<a href="PAD_cand.shtml" onClick="javascript:openFaqWindow('PAD_cand.shtml'); 
+				return false;">FAQ</a></dt>
+                <dt>How do I find mutations that cause a specific combination of phenotypes? 
+				<a href="PAD_combo.shtml" onClick="javascript:openFaqWindow('PAD_combo.shtml'); 
+				return false;">FAQ</a></dt>
+				<br>
+				<dt>For additional examples, see 
+				<a style="text-decoration:none" href="FAQ.shtml" onClick="javascript:openFaqWindow('FAQ.shtml'); 
+				return false;">Frequently Asked Questions.</a></dt>
+				Also see 
+				<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'
+				onClick="javascript:openNewWindow('<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'); 
+				return false;">
+				Using the Quick Search Tool</a> for more information.
+            </dl>
 		</td>
 	</tr>
 </table>
