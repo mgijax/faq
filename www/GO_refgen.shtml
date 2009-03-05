@@ -111,7 +111,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 2>Click the link to <u>gene_association.mgi</u> to download a plain text file containing all
+						<li value = 2>Click the link to <u>go_ref_genome.mgi</u> to download a plain text file containing all
 						GO Consortium Reference Genome Project mouse genes in MGI.
 					</ol>
 

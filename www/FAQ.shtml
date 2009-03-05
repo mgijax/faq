@@ -45,8 +45,8 @@ Note that the list in each section is a definition list <dl> where the term
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
-				<a href='<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'
-				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'); 
+				<a href='<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml'
+				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml'); 
 				return false;">
 				General Questions</a>
 			</td>
@@ -58,8 +58,8 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
 							    <dt>..  find an answer for a question not listed here? 
-				        		<a href='<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'
-				        		onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/tjl_inbox.shtml'); 
+				        		<a href='<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml'
+				        		onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml'); 
 								return false;">User Support</a></dt>
    				     			<dt>..  contribute my data to MGI? 
 				        		<a href="GQ_data.shtml" onClick="javascript:openFaqWindow('GQ_data.shtml'); 
