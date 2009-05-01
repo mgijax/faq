@@ -31,7 +31,7 @@
 <table width="75%" cellpadding="2" align="center">
 <tr><td><br><br>
 
-<a name="about">
+<a name="about"></a>
 	<table width="100%">
 		<tr>
 			<td class="enhance" colspan=2 align=left>
@@ -42,28 +42,28 @@
 		</tr>
 		<tr>
 			<td><br>
-				MGI provides a curated set of mammalian orthologs from 
+				MGI provides a curated set of mammalian orthologs from
 				sequenced mammalian genomes (e.g., human, rat, dog, chimp).
 				Major ways to access orthology data include:
 					<ul>
 						<br>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
-						A summary of organisms with orthologs for a mouse 
-						gene can be accessed by clicking on the Mammalian Orthology 
-						link in the Mammalian homology section of that gene's 
+						A summary of organisms with orthologs for a mouse
+						gene can be accessed by clicking on the Mammalian Orthology
+						link in the Mammalian homology section of that gene's
 						detail page.  For detailed instructions see the following:
 						<p>
 					    How do I view the ortholog set for a mouse gene?
-				        <a href="ORTH_set.shtml" 
-				        onClick="javascript:openFaqWindow('ORTH_set.shtml'); 
+				        <a href="ORTH_set.shtml"
+				        onClick="javascript:openFaqWindow('ORTH_set.shtml');
 						return false;">FAQ</a>
     					<p>
 						<li><b><i>Using comparative maps</i></b><br>
 						For detailed instructions see the following:
-						<p>		
+						<p>
 					    How do I view a comparative map of mouse and human chromosomes?
-				        <a href="ORTH_map.shtml" 
-				        onClick="javascript:openFaqWindow('ORTH_map.shtml'); 
+				        <a href="ORTH_map.shtml"
+				        onClick="javascript:openFaqWindow('ORTH_map.shtml');
 						return false;">FAQ</a>
 					</ul>
 			</td>

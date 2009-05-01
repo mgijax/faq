@@ -53,14 +53,14 @@
 	</tr>
 	<tr>
 		<td><br>
-			The MGI website and navigation tools have been redesigned. 
+			The MGI website and navigation tools have been redesigned.
 			Look at the figures below for a quick tour of the changes.
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<br>
-			<a name="QuickSearch">
+			<a name="QuickSearch"></a>
 			<table width="100%">
 				<tr>
 					<td class="enhance" colspan=2 align=left>
@@ -77,15 +77,15 @@
 								</td>
 							</tr>
 						</table>
-					</td>	
+					</td>
 				</tr>
 			</table>
-		</td>	
+		</td>
 	</tr>
 	<tr>
 		<td>
 			<br>
-			<a name="Tabs">
+			<a name="Tabs"></a>
 			<table width="100%">
 				<tr>
 					<td class="enhance" colspan=2 align=left>
@@ -102,15 +102,15 @@
 								</td>
 							</tr>
 						</table>
-					</td>	
+					</td>
 				</tr>
 			</table>
-		</td>	
+		</td>
 	</tr>
 	<tr>
 		<td>
 			<br>
-			<a name="FAQ">
+			<a name="FAQ"></a>
 			<table width="100%">
 				<tr>
 					<td class="enhance" colspan=2 align=left>
@@ -127,15 +127,15 @@
 								</td>
 							</tr>
 						</table>
-					</td>	
+					</td>
 				</tr>
 			</table>
-		</td>	
+		</td>
 	</tr>
 	<tr>
 		<td>
 			<br>
-			<a name="Menus">
+			<a name="Menus"></a>
 			<table width="100%">
 				<tr>
 					<td class="enhance" colspan=2 align=left>
@@ -152,10 +152,10 @@
 								</td>
 							</tr>
 						</table>
-					</td>	
+					</td>
 				</tr>
 			</table>
-		</td>	
+		</td>
 	</tr>
 </td></tr>
 </td>

@@ -31,7 +31,7 @@
 <table width="75%" cellpadding="2" align="center">
 <tr><td><br><br>
 
-<a name="about">
+<a name="about"></a>
 	<table width="100%">
 		<tr>
 			<td class="enhance" colspan=2 align=left>
@@ -42,8 +42,8 @@
 		</tr>
 		<tr>
 			<td><br>
-				This image was created using the MouseCyc pathway glyphs for 
-				&beta;-alanine biosynthesis I and Very Long Chain Fatty Acid 
+				This image was created using the MouseCyc pathway glyphs for
+				&beta;-alanine biosynthesis I and Very Long Chain Fatty Acid
 				(VLCFA) biosynthesis colorized with experimental data.
 			</td>
 		</tr>
@@ -57,7 +57,7 @@
 						</td>
 					</tr>
 				</table>
-			</td>	
+			</td>
 		</tr>
 	</table>
 </td>
@@ -66,7 +66,7 @@
 	<td>
 	<br>
 	<br>
-	<a name="images">
+	<a name="images"></a>
 		<table width="100%">
 			<tr>
 				<td class="enhance">
@@ -76,18 +76,18 @@
 			<tr >
 				<td>
 					<br>
-					Using the MouseCyc 
-					<a href='http://mousecyc.jax.org/expression.html' 
-					onClick="javascript:openNewWindow('http://mousecyc.jax.org/expression.html'); 
+					Using the MouseCyc
+					<a href='http://mousecyc.jax.org/expression.html'
+					onClick="javascript:openNewWindow('http://mousecyc.jax.org/expression.html');
 					return false;">
-					Omics Viewer</a> 
-					you can display your experimental data in the context of mouse 
+					Omics Viewer</a>
+					you can display your experimental data in the context of mouse
 					biochemical pathways. For detailed instructions see the following:
 					<p>
-					How do I display my mouse gene expression data in the context 
+					How do I display my mouse gene expression data in the context
 					of mouse pathways?
-					<a href="BP_expr.shtml" 
-					onClick="javascript:openNewWindow('BP_expr.shtml'); 
+					<a href="BP_expr.shtml"
+					onClick="javascript:openNewWindow('BP_expr.shtml');
 					return false;">
 					FAQ</a>
 				</td>

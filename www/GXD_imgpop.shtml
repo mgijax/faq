@@ -31,7 +31,7 @@
 <table width="75%" cellpadding="2" align="center">
 <tr><td><br><br>
 
-<a name="about">
+<a name="about"></a>
 	<table width="100%">
 		<tr>
 			<td class="enhance" colspan=2 align=left>
@@ -42,21 +42,21 @@
 		</tr>
 		<tr>
 			<td><br>
-					This image is a compilation illustrating some of the various 
-					assay types available in GXD: whole-mount RNA in situ 
-					hybridization (left), immunohistochemically-stained sections 
-					(upper right), and RT-PCR assays (lower right).  The images 
+					This image is a compilation illustrating some of the various
+					assay types available in GXD: whole-mount RNA in situ
+					hybridization (left), immunohistochemically-stained sections
+					(upper right), and RT-PCR assays (lower right).  The images
 					in their entirety and links to the experimental details can be found at
 					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?10974'
-					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?10974'); 
+					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?10974');
 					return false;">
 					MGI:3500349</a>,
 					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?6726'
-					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?6726'); 
+					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?6726');
 					return false;">
 					MGI:2676207</a>,
 					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?20423'
-					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?20423'); 
+					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?20423');
 					return false;">
 					MGI:3623377</a>
 					respectively.
@@ -72,7 +72,7 @@
 						</td>
 					</tr>
 				</table>
-			</td>	
+			</td>
 		</tr>
 	</table>
 </td>
@@ -81,7 +81,7 @@
 	<td>
 	<br>
 	<br>
-	<a name="images">
+	<a name="images"></a>
 		<table width="100%">
 			<tr>
 				<td class="enhance">
@@ -91,41 +91,41 @@
 			<tr >
 				<td>
 					<br>
-					Whenever possible, the text annotations of expression 
+					Whenever possible, the text annotations of expression
 					results in GXD are complemented by images of
-					the original expression data.  Expression images come 
-					from journal articles (used with the publisher's permission) 
-					or are submitted by contributors.  There are two ways to 
+					the original expression data.  Expression images come
+					from journal articles (used with the publisher's permission)
+					or are submitted by contributors.  There are two ways to
 					find expression images in MGI:
 					<ul>
 						<li><b><i>Using GXD query forms</i></b>
 						<br>
-						Gene expression queries return data summaries that, 
+						Gene expression queries return data summaries that,
 						in turn, lead to results detail pages.
-						The image field of the results detail page reports which 
+						The image field of the results detail page reports which
 						publication figure illustrates the results.
-						When the image is available in the database, the label 
+						When the image is available in the database, the label
 						is a hyperlink to a page that contains that
 						image.  For detailed instructions on using the
 						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF'); 
+						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF');
 						return false;">
 						Gene Expression Data Query Form</a>
 						to query for data see the following:
-						<p>		
+						<p>
 				   		How do I find expression data for a specific gene and tissue?
 				    	<a href='GXD_GeneTissue.shtml'
-						onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml'); 
+						onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml');
 						return false;">
 				    	FAQ</a>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
 						A summary of all the expression images for a gene can be accessed by
-						clicking on the Images link in the Expression section of that 
+						clicking on the Images link in the Expression section of that
 						gene's detail page.  For detailed instructions see the following:
 						<p>
-    					How do I find expression data for a specific gene? 
+    					How do I find expression data for a specific gene?
     					<a href='GXD_Gene.shtml'
-						onClick="javascript:openFaqWindow('GXD_Gene.shtml'); 
+						onClick="javascript:openFaqWindow('GXD_Gene.shtml');
 						return false;">
     					FAQ</a>
 					</ul>
