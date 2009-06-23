@@ -106,7 +106,9 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click an allele symbol in the first 
+						<li value = 4>Search results are ordered by state, with 
+						alleles present in live mice appearing first and alleles 
+						present in cell lines last. Click an allele symbol in the first 
 						column of the search results to view detail.
 					</ol>
 				</td>
@@ -114,7 +116,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_gtrap2.jpg" width=809 height=140 alt="PAD Summary Screen Shot">
+								<img src="Images/GM_gtrap2.jpg" width=925 height=301 alt="PAD Summary Screen Shot">
 							</td>
 						</tr>
 					</table>

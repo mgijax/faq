@@ -103,7 +103,9 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click an allele symbol in the first column of the 
+						<li value = 4>Search results are ordered by state, with alleles present in 
+						live mice appearing first and alleles present in cell lines last. 
+						Click an allele symbol in the first column of the 
 						search results to view details.
 					</ol>
 				</td>

@@ -1,20 +1,5 @@
-TAG: faq-4-0-1-x (2,3)
-Date: 3/13/08
-STAFF: mhall
-RELEASE: 4.01 main release tags, bugfix
-
-TAG: faq-4-0-1-x (1,2)
-Date: 3/13/08
-STAFF: pf
-RELEASE: 4.01 main release tags
-
-TAG: faq-4-0-0-8
-DATE: 2/12/08
-STAFF: pf
-RELEASE: public MGI 4.0 release
-
-TAG: faq-4-0-0-x (1 -> 5)
-DATE: 2/7/08 (latest)
+TAG: faq-4-0-0-x (1 -> 4)
+DATE: 1/31/08 (latest)
 STAFF: pf
 RELEASE: 4.0 alpha and beta build tags
 
