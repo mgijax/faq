@@ -172,13 +172,8 @@ Note that the list in each section is a definition list <dl> where the term
                 				<dt>.. find available strains carrying a mutation in a specific gene?
 				        		<a href="PAD_strain.shtml" onClick="javascript:openFaqWindow('PAD_strain.shtml');
 								return false;">FAQ</a></dt>
-<<<<<<< FAQ.shtml
                 				<dt>.. find a mutant ES cell line? 
 				        		<a href="PAD_EScell.shtml" onClick="javascript:openFaqWindow('PAD_EScell.shtml'); 
-=======
-                				<dt>.. find an ES cell line?
-				        		<a href="PAD_EScell.shtml" onClick="javascript:openFaqWindow('PAD_EScell.shtml');
->>>>>>> 1.29
 								return false;">FAQ</a></dt>
                 			</dl>
 						</td>
@@ -189,15 +184,8 @@ Note that the list in each section is a definition list <dl> where the term
 	</table>
 </td>
 </tr>
-
-<<<<<<< FAQ.shtml
 <tr><td>			
 	<a name="gxd">
-=======
-	<tr><td>
-
-	<a name="expression"></a>
->>>>>>> 1.29
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
