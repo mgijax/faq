@@ -29,12 +29,12 @@ Note that the list in each section is a definition list <dl> where the term
 					<ul>
 						<li><a href="#general">General Questions</a> | </li>
 						<li><a href="#marker">Genes, Genome Features &amp Maps</a> | </li>
-						<li><a href="#pheno">Phenotypes, Alleles &amp Disease Models</a> | </li>
-						<li><a href="#expression">Gene Expression</a> | </li>
+						<li><a href="#pad">Phenotypes, Alleles &amp Disease Models</a> | </li>
+						<li><a href="#gxd">Gene Expression</a> | </li>
 						<li><a href="#go">GO Functional Annotations</a> | </li>
-						<li><a href="#path">Biochemical Pathways</a> | </li>
+						<li><a href="#pathways">Biochemical Pathways</a> | </li>
 						<li><a href="#strain">Strains, SNPs &amp Polymorphisms</a> | </li>
-						<li><a href="#orthology">Mammalian Orthology</a></li>
+						<li><a href="#ortho">Mammalian Orthology</a></li>
 					</ul>
 				</td>
 			</tr>
@@ -136,7 +136,7 @@ Note that the list in each section is a definition list <dl> where the term
 	</table>
 </td></tr>
 <tr><td>
-	<a name="pheno"></a>
+	<a name="pad"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -172,8 +172,13 @@ Note that the list in each section is a definition list <dl> where the term
                 				<dt>.. find available strains carrying a mutation in a specific gene?
 				        		<a href="PAD_strain.shtml" onClick="javascript:openFaqWindow('PAD_strain.shtml');
 								return false;">FAQ</a></dt>
+<<<<<<< FAQ.shtml
+                				<dt>.. find a mutant ES cell line? 
+				        		<a href="PAD_EScell.shtml" onClick="javascript:openFaqWindow('PAD_EScell.shtml'); 
+=======
                 				<dt>.. find an ES cell line?
 				        		<a href="PAD_EScell.shtml" onClick="javascript:openFaqWindow('PAD_EScell.shtml');
+>>>>>>> 1.29
 								return false;">FAQ</a></dt>
                 			</dl>
 						</td>
@@ -182,11 +187,17 @@ Note that the list in each section is a definition list <dl> where the term
 			</tr>
 		</tr>
 	</table>
-</td></tr>
+</td>
+</tr>
 
+<<<<<<< FAQ.shtml
+<tr><td>			
+	<a name="gxd">
+=======
 	<tr><td>
 
 	<a name="expression"></a>
+>>>>>>> 1.29
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -280,7 +291,7 @@ Note that the list in each section is a definition list <dl> where the term
 
 <tr><td>
 
-<a name="path"></a>
+<a name="pathways"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
@@ -362,7 +373,7 @@ Note that the list in each section is a definition list <dl> where the term
 
 <tr><td>
 
-<a name="orthology"></a>
+<a name="ortho"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
