@@ -34,7 +34,7 @@ Note that the list in each section is a definition list <dl> where the term
 						<li><a href="#go">GO Functional Annotations</a> | </li>
 						<li><a href="#pathways">Biochemical Pathways</a> | </li>
 						<li><a href="#strain">Strains, SNPs &amp Polymorphisms</a> | </li>
-						<li><a href="#ortho">Mammalian Orthology</a></li>
+						<li><a href="#mammortho">Mammalian Orthology</a></li>
 					</ul>
 				</td>
 			</tr>
@@ -185,7 +185,7 @@ Note that the list in each section is a definition list <dl> where the term
 </td>
 </tr>
 <tr><td>			
-	<a name="gxd">
+	<a name="gxd"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -361,7 +361,7 @@ Note that the list in each section is a definition list <dl> where the term
 
 <tr><td>
 
-<a name="ortho"></a>
+<a name="mammortho"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
