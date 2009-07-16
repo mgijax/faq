@@ -186,7 +186,7 @@
 				<td> 
 					<tr>
 						<td valign=top><ol>
-							<li value = 4>The <b>Quick Search Results</b> page lists genome features and
+							<li value = 4>The <b>Quick Search Results</b> list genome features and
 							other results associated with identifier
 							<i>OST263303</i>. Click the link to 
 							<a href='<!--#include file="include/javawi_url.html"-->WIFetch?page=alleleDetail&key=42754' 
