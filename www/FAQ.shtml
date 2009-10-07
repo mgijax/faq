@@ -31,6 +31,7 @@ Note that the list in each section is a definition list <dl> where the term
 						<li><a href="#marker">Genes, Genome Features &amp Maps</a> | </li>
 						<li><a href="#pad">Phenotypes, Alleles &amp Disease Models</a> | </li>
 						<li><a href="#gxd">Gene Expression</a> | </li>
+						<li><a href="#cre">Recombinases</a> | </li>
 						<li><a href="#go">GO Functional Annotations</a> | </li>
 						<li><a href="#pathways">Biochemical Pathways</a> | </li>
 						<li><a href="#strain">Strains, SNPs &amp Polymorphisms</a> | </li>
@@ -226,7 +227,48 @@ Note that the list in each section is a definition list <dl> where the term
 		</tr>
 	</table>
 </td></tr>
-
+<tr><td>			
+	<a name="cre"></a>
+		<table class="outline" width="100%">
+			<tr>
+				<td class="enhance">
+					<a href="<!--#include file='include/homepages_url.html'-->expression.shtml"
+					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->expression.shtml');
+					return false;">
+					Recombinases</a>
+				</td>
+			</tr>
+			<tr >
+				<td>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+								<dt>.. find existing recombinase-expressing transgenes/knock-ins that have a given promoter (driver)?
+				        		<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml');
+								return false;">FAQ</a></dt>
+                				<dt>.. find the promoter (driver) that I am looking for if it is not on the selection list?
+				        		<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml');
+								return false;">FAQ</a></dt>
+	              				<dt>.. find a recombinase-expressing transgene or knock-in that is expressed in a specific tissue?
+				        		<a href="GXD_comp_tissue.shtml" onClick="javascript:openFaqWindow('GXD_comp_tissue.shtml');
+								return false;">FAQ</a></dt>
+                 				<dt>.. et a full list of all transgenes and knock-ins that express recombinase?
+				        		<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow('GXD_ref_age.shtml');
+								return false;">FAQ</a></dt></dt>
+        						<dt>.. order mice with a desired recombinase construct?
+				        		<a href="GXD_mutant.shtml" onClick="javascript:openFaqWindow('GXD_mutant.shtml');
+								return false;">FAQ</a></dt>
+                            </dl>
+						</td>
+					</tr>
+				</td>
+			</tr>
+		</tr>
+	</table>
+</td></tr>
 <tr><td>
 
 <a name="go"></a>

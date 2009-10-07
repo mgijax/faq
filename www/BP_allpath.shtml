@@ -1,4 +1,4 @@
-sm<!--#include file='include/templateHead.html'-->
+<!--#include file='include/templateHead.html'-->
 
 <title><!--#include file="include/mgiversion.html"--> See a List of All Biochemical Pathways</title>
 
