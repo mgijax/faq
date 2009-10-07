@@ -31,7 +31,7 @@
 <table width="75%" cellpadding="2" align="center">
 <tr><td><br><br>
 
-<a name="about"></a>
+<a name="about">
 	<table width="100%">
 		<tr>
 			<td class="enhance" colspan=2 align=left>
@@ -42,14 +42,14 @@
 		</tr>
 		<tr>
 			<td><br>
-				The image shown here is of a mouse homozygous for the piebald
+				The image shown here is of a mouse homozygous for the piebald 
 				spotting allele of endothelin receptor type B <br>(
-				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252'
-				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252');
+				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252' 
+				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252'); 
 				return false;">
 				Ednrb<sup>s</sup></a>
-				/<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252'
-				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252');
+				/<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252' 
+				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252'); 
 				return false;">
 				Ednrb<sup>s</sup></a> ).
 			</td>
@@ -64,7 +64,7 @@
 						</td>
 					</tr>
 				</table>
-			</td>
+			</td>	
 		</tr>
 	</table>
 </td>
@@ -73,7 +73,7 @@
 	<td>
 	<br>
 	<br>
-	<a name="images"></a>
+	<a name="images">
 		<table width="100%">
 			<tr>
 				<td class="enhance">
@@ -83,11 +83,11 @@
 			<tr >
 				<td>
 					<br>
-					Whenever possible the text annotations of phenotypes
+					Whenever possible the text annotations of phenotypes 
 					in MGI are complemented by images illustrating
-					the phenotype (photographs, histology, x-rays, etc.).
-					Images may be found on the relevant allele detail page(s).
-					Phenotype images come either from journal articles
+					the phenotype (photographs, histology, x-rays, etc.). 
+					Images may be found on the relevant allele detail page(s). 
+					Phenotype images come either from journal articles 
 					(with permission of the journal) or through contributed submissions.
 				</td>
 			</tr>
