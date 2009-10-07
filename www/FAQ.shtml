@@ -58,10 +58,9 @@ Note that the list in each section is a definition list <dl> where the term
 					<tr >
 						<td>	How do I ...
 							<dl class="linkedList">
-							    <dt>..  find an answer for a question not listed here?
-				        		<a href='<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml'
-				        		onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml');
-								return false;">User Support</a></dt>
+                				<dt>.. find available strains carrying a mutation in a specific gene?
+				        		<a href="PAD_strain.shtml" onClick="javascript:openFaqWindow('PAD_strain.shtml');
+								return false;">FAQ</a></dt>
    				     			<dt>..  contribute my data to MGI?
 				        		<a href="GQ_data.shtml" onClick="javascript:openFaqWindow('GQ_data.shtml');
 								return false;">FAQ</a></dt>
@@ -71,6 +70,10 @@ Note that the list in each section is a definition list <dl> where the term
 								<dt>..  cite MGI?
 				        		<a href="GQ_cite.shtml" onClick="javascript:openFaqWindow('GQ_cite.shtml');
 								return false;">FAQ</a></dt>
+							    <dt>..  find an answer for a question not listed here?
+				        		<a href='<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml'
+				        		onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml');
+								return false;">User Support</a></dt>
                 			</dl>
 						</td>
 					</tr>
