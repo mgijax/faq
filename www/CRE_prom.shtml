@@ -1,0 +1,156 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"--> Find transgenes/knock-ins 
+with a given promoter</title>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css"/>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find existing recombinase-expressing 
+ transgenes/knock-ins that have a given promoter (driver)?</span>
+</div>
+
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
+
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		<span><!--#include file='faq_toolbar.shtml'-->
+			Overview
+		</span>
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the tools listed under 
+		"Access Data" to find transgenes that express recombinase.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Find Alleles
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Recombinase (cre) Specificity page  
+			from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml'); 
+			return false;">
+			Recombinase (cre) Specificity page</a>
+			in a new window. Scroll down this page for further instructions. 
+			The "Find Alleles" section allows you to search for in a specified tissue 
+			or under the control of a given gene.
+		</td>
+		
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/PulldownCre.jpg" width=734 height=279 alt="Search Menu">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding a transgene expressing recombinase under the control of <I>Nes</I>.
+		</td>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Select <I>Nes</I> From the <B>Recombinase driven by</B> selection list.
+						<p>
+						<li>Click <B>Go</B>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/CreDrivenBy.jpg" width=544 height=151 alt="Recombinase driven by">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 3>In the summary page that appears, click an allele symbol to go to the Transgene Detail page for more information.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/NesAllele.jpg" width=935 height=383 alt="Nes Allele results summary">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 4>On the Transgene Detail page, go to the <B>Recombinase specificity</B> section and click one of the anatomical systems for more information.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/NesTranDetail.jpg" width=795 height=504 alt="Nes Allele Recombinase Specificity">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 5>This returns a page summarizing recombinase expression under the control of <I>Nes</I> in the cardiovascular system.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/NesCardio.jpg" width=864 height=702 alt="Nes Cardiovascular System Specificity">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'-->

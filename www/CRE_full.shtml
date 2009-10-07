@@ -1,0 +1,166 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"--> Find all recombinase transgenes and knock-ins</title>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css"/>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I get a full list of all transgenes and knock-ins 
+ that express recombinase?</span>
+</div>
+
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
+
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		<span><!--#include file='faq_toolbar.shtml'-->
+			Overview
+		</span>
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the tools listed under 
+		"Access Data" to find transgenes that express recombinase.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Retrieve All Alleles
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Recombinase (cre) Specificity page  
+			from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml'); 
+			return false;">
+			Recombinase (cre) Specificity page</a>
+			in a new window. Scroll down this page for further instructions. 
+			The <B>Retrieve All Alleles</B> section gives you access to HTML and 
+			tab-delimited lists of all recombinase strains present in the database.
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/PulldownCre.jpg" width=734 height=279 alt="Search Menu">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. HTML version
+		</td>
+	</tr>
+
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+					<li>Click the link to <B>HTML version.</B>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/Access1.jpg" width=542 height=126 alt="HTML list">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>	<ol>				
+					<li value = 2>In the page that appears, click an allele symbol to go to the 
+					Transgene Detail page for more information.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/HTML.jpg" width=905 height=487 alt="HTML report">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 2. Tab-delimited version
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click the link to <B>Tab-delimited version</B>.					
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/Access2.jpg" width=542 height=126 alt="HTML list">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+					<li value = 2>A tab-delimited version of the list appears.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/tabdelimited.jpg" width=876 height=296 alt="HTML report">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'-->
