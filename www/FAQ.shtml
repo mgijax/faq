@@ -232,8 +232,8 @@ Note that the list in each section is a definition list <dl> where the term
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
-					<a href="<!--#include file='include/homepages_url.html'-->expression.shtml"
-					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->expression.shtml');
+					<a href="<!--#include file='include/homepages_url.html'-->recombinase.shtml"
+					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml');
 					return false;">
 					Recombinases</a>
 				</td>
@@ -247,19 +247,19 @@ Note that the list in each section is a definition list <dl> where the term
 						<td>	How do I ...
 							<dl class="linkedList">
 								<dt>.. find existing recombinase-expressing transgenes/knock-ins that have a given promoter (driver)?
-				        		<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml');
+				        		<a href="CRE_prom.shtml" onClick="javascript:openFaqWindow('CRE_prom.shtml');
 								return false;">FAQ</a></dt>
                 				<dt>.. find the promoter (driver) that I am looking for if it is not on the selection list?
-				        		<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml');
+				        		<a href="CRE_nolist.shtml" onClick="javascript:openFaqWindow('CRE_nolist.shtml');
 								return false;">FAQ</a></dt>
 	              				<dt>.. find a recombinase-expressing transgene or knock-in that is expressed in a specific tissue?
-				        		<a href="GXD_comp_tissue.shtml" onClick="javascript:openFaqWindow('GXD_comp_tissue.shtml');
+				        		<a href="CRE_tissue.shtml" onClick="javascript:openFaqWindow('CRE_tissue.shtml');
 								return false;">FAQ</a></dt>
-                 				<dt>.. et a full list of all transgenes and knock-ins that express recombinase?
-				        		<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow('GXD_ref_age.shtml');
+                 				<dt>.. get a full list of all transgenes and knock-ins that express recombinase?
+				        		<a href="CRE_full.shtml" onClick="javascript:openFaqWindow('CRE_full.shtml');
 								return false;">FAQ</a></dt></dt>
         						<dt>.. order mice with a desired recombinase construct?
-				        		<a href="GXD_mutant.shtml" onClick="javascript:openFaqWindow('GXD_mutant.shtml');
+				        		<a href="CRE_mice.shtml" onClick="javascript:openFaqWindow('CRE_mice.shtml');
 								return false;">FAQ</a></dt>
                             </dl>
 						</td>
