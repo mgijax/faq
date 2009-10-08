@@ -51,18 +51,18 @@
 	</tr>
 	<tr>
 		<td><br>
-			Phenotype information is now displayed in two ways. The new
-			<b>Phenotype Summary</b> matrix allows easy comparison of
-			phenotypes across genotypes. The <b>Phenotypic Data by Genotype</b>
-			table preserves the original display format allowing you to focus
-			on the details of a specific genotype. See the figures below for
+			Phenotype information is now displayed in two ways. The new 
+			<b>Phenotype Summary</b> matrix allows easy comparison of 
+			phenotypes across genotypes. The <b>Phenotypic Data by Genotype</b> 
+			table preserves the original display format allowing you to focus 
+			on the details of a specific genotype. See the figures below for 
 			a quick tour.
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<br>
-			<a name="Phenosummary"></a>
+			<a name="Phenosummary">
 			<table cellpadding=0>
 				<tr>
 					<td class="enhance" colspan=2 align=left>
@@ -76,12 +76,12 @@
 							<tr>
 								<td valign=top>
 									<ol>
-										<li>Click <b>show</b> to display all mammalian phenotype terms linked
+										<li>Click <b>show</b> to display all mammalian phenotype terms linked 
 											to at least one genotype.
 										<p>
-										<li>Click on a genotype abbreviation, <i>e.g.</i> hm1, to open a new window
-											that contains phenotype and disease model information for this genotype.
-											This information is repeated below in the <b>Phenotypic Data by Genotype</b>
+										<li>Click on a genotype abbreviation, <i>e.g.</i> hm1, to open a new window 
+											that contains phenotype and disease model information for this genotype. 
+											This information is repeated below in the <b>Phenotypic Data by Genotype</b> 
 											section.
 										<p>
 										<li>Click on a right arrow next to an affected system to display
@@ -99,15 +99,15 @@
 								</td>
 							</tr>
 						</table>
-					</td>
+					</td>	
 				</tr>
 			</table>
-		</td>
+		</td>	
 	</tr>
 	<tr>
 		<td>
 			<br>
-			<a name="Phenogeno"></a>
+			<a name="Phenogeno">
 			<table width="100%">
 				<tr>
 					<td class="enhance" colspan=2 align=left>
@@ -121,17 +121,17 @@
 							<tr>
 								<td valign=top>
 									<ol>
-										<li>Click <b>show</b> to display all phenotype and
+										<li>Click <b>show</b> to display all phenotype and 
 										disease model annotations for all genotypes.
 										<p>
-										<li>Click on the right arrow next to a genotype to
-										display all phenotype and disease model annotations
+										<li>Click on the right arrow next to a genotype to 
+										display all phenotype and disease model annotations 
 										for that genotype.
 										<p>
 										</ol>
-									For more information see
+									For more information see 
 									<a href='http://www.informatics.jax.org/userdocs/allele_detail_report.shtml'
-									onClick="javascript:openNewWindow('http://www.informatics.jax.org/userdocs/allele_detail_report.shtml');
+									onClick="javascript:openNewWindow('http://www.informatics.jax.org/userdocs/allele_detail_report.shtml'); 
 									return false;">
 									Understanding Phenotypic Allele Detail Pages</a>.
 								</td>
@@ -146,10 +146,10 @@
 								</td>
 							</tr>
 						</table>
-					</td>
+					</td>	
 				</tr>
 			</table>
-		</td>
+		</td>	
 	</tr>
 </td>
 </tr>
