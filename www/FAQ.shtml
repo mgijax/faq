@@ -27,22 +27,22 @@ Note that the list in each section is a definition list <dl> where the term
 			<tr>
 				<td>
 					<ul>
-						<li><a href="#general">General Questions</a> | </li>
-						<li><a href="#marker">Genes, Genome Features &amp Maps</a> | </li>
-						<li><a href="#pad">Phenotypes, Alleles &amp Disease Models</a> | </li>
-						<li><a href="#gxd">Gene Expression</a> | </li>
-						<li><a href="#cre">Recombinases</a> | </li>
-						<li><a href="#go">GO Functional Annotations</a> | </li>
-						<li><a href="#pathways">Biochemical Pathways</a> | </li>
-						<li><a href="#strain">Strains, SNPs &amp Polymorphisms</a> | </li>
-						<li><a href="#mammortho">Mammalian Orthology</a></li>
+						<li><a href="#faq_general">General Questions</a> | </li>
+						<li><a href="#faq_marker">Genes, Genome Features &amp Maps</a> | </li>
+						<li><a href="#faq_pad">Phenotypes, Alleles &amp Disease Models</a> | </li>
+						<li><a href="#faq_gxd">Gene Expression</a> | </li>
+						<li><a href="#faq_cre">Recombinases</a> | </li>
+						<li><a href="#faq_go">GO Functional Annotations</a> | </li>
+						<li><a href="#faq_pathways">Biochemical Pathways</a> | </li>
+						<li><a href="#faq_strain">Strains, SNPs &amp Polymorphisms</a> | </li>
+						<li><a href="#faq_mammortho">Mammalian Orthology</a></li>
 					</ul>
 				</td>
 			</tr>
 		</table>
 	</td></tr>
 <tr><td>
-<a name="general"></a>
+<a name="faq_general"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
@@ -83,7 +83,7 @@ Note that the list in each section is a definition list <dl> where the term
 	</table>
 </td></tr>
 <tr><td>
-	<a name="marker"></a>
+	<a name="faq_marker"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -140,7 +140,7 @@ Note that the list in each section is a definition list <dl> where the term
 	</table>
 </td></tr>
 <tr><td>
-	<a name="pad"></a>
+	<a name="faq_pad"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -189,7 +189,7 @@ Note that the list in each section is a definition list <dl> where the term
 </td>
 </tr>
 <tr><td>			
-	<a name="gxd"></a>
+	<a name="faq_gxd"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -231,7 +231,7 @@ Note that the list in each section is a definition list <dl> where the term
 	</table>
 </td></tr>
 <tr><td>			
-	<a name="cre"></a>
+	<a name="faq_cre"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -274,7 +274,7 @@ Note that the list in each section is a definition list <dl> where the term
 </td></tr>
 <tr><td>
 
-<a name="go"></a>
+<a name="faq_go"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
@@ -324,7 +324,7 @@ Note that the list in each section is a definition list <dl> where the term
 
 <tr><td>
 
-<a name="pathways"></a>
+<a name="faq_pathways"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
@@ -365,7 +365,7 @@ Note that the list in each section is a definition list <dl> where the term
 
 <tr><td>
 
-<a name="strain"></a>
+<a name="faq_strain"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
@@ -406,7 +406,7 @@ Note that the list in each section is a definition list <dl> where the term
 
 <tr><td>
 
-<a name="mammortho"></a>
+<a name="faq_mammortho"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
