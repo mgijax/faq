@@ -35,7 +35,7 @@ with a given promoter</title>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Find Alleles
+		Find Recombinases-Carrying Alleles
 		</td>
 	</tr>
 	<tr>
@@ -51,7 +51,7 @@ with a given promoter</title>
 			return false;">
 			Recombinase (cre) Specificity page</a>
 			in a new window. Scroll down this page for further instructions. 
-			The "Find Alleles" section allows you to search for in a specified tissue 
+			The "Find Recombinases-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
 			or under the control of a given gene.
 		</td>
 		
@@ -90,7 +90,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy.jpg" width=544 height=151 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy.jpg" width=545 height=109 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -102,13 +102,13 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 3>In the summary page that appears, click an allele symbol to go to the Transgene Detail page for more information.
+					<li value = 3>In the summary page that appears, click the link to "(phenotype data)" below an allele symbol to go to the detail page for more information.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesAllele.jpg" width=935 height=383 alt="Nes Allele results summary">
+								<img src="Images/NesAllele.jpg" width=927 height=397 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -126,7 +126,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesTranDetail.jpg" width=795 height=504 alt="Nes Allele Recombinase Specificity">
+								<img src="Images/NesTranDetail.jpg" width=804 height=454 alt="Nes Allele Recombinase Specificity">
 							</td>
 						</tr>
 					</table>
@@ -144,7 +144,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesCardio.jpg" width=864 height=702 alt="Nes Cardiovascular System Specificity">
+								<img src="Images/NesCardio.jpg" width=885 height=668 alt="Nes Cardiovascular System Specificity">
 							</td>
 						</tr>
 					</table>

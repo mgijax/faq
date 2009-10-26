@@ -34,7 +34,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Find Alleles
+		Find Recombinases-Carrying Alleles
 		</td>
 	</tr>
 	<tr>
@@ -50,7 +50,7 @@
 			return false;">
 			Recombinase (cre) Specificity page</a>
 			in a new window. Scroll down this page for further instructions. 
-			The "Find Alleles" section allows you to search for in a specified tissue 
+			The "Find Recombinases-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
 			or under the control of a given gene.
 		</td>
 		
@@ -91,7 +91,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy2.jpg" width=541 height=249 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy2.jpg" width=543 height=273 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -112,7 +112,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/AlleleQuery.jpg" width=866 height=643 alt="Allele Query Form">
+								<img src="Images/AlleleQuery.jpg" width=946 height=646 alt="Allele Query Form">
 							</td>
 						</tr>
 					</table>
@@ -131,7 +131,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/AlleleSummary1.jpg" width=840 height=277 alt="Allele Summary">
+								<img src="Images/AlleleSummary1.jpg" width=753 height=274 alt="Allele Summary">
 							</td>
 						</tr>
 					</table>

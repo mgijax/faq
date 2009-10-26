@@ -33,7 +33,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Find Alleles
+		Find Recombinases-Carrying Alleles
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +49,7 @@
 			return false;">
 			Recombinase (cre) Specificity page</a>
 			in a new window. Scroll down this page for further instructions. 
-			<P>The "Find Alleles" section allows you to search for in a specified tissue 
+			The "Find Recombinases-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
 			or under the control of a given gene.
 		</td>
 		<td valign=top>
@@ -85,7 +85,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy.jpg" width=544 height=151 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy.jpg" width=545 height=109 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -104,7 +104,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/IMSR1.jpg" width=935 height=407 alt="Nes Allele results summary">
+								<img src="Images/IMSR1.jpg" width=989 height=477 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -125,7 +125,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/IMSR2.jpg" width=936 height=421 alt="Nes Allele results summary">
+								<img src="Images/IMSR2.jpg" width=983 height=366 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -144,7 +144,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/IMSR3.jpg" width=919 height=473 alt="Nes Allele IMSR summary">
+								<img src="Images/IMSR3.jpg" width=921 height=467 alt="Nes Allele IMSR summary">
 							</td>
 						</tr>
 					</table>

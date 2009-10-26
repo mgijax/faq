@@ -34,7 +34,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Find Alleles
+		Find Recombinases-Carrying Alleles
 		</td>
 	</tr>
 	<tr>
@@ -50,7 +50,7 @@
 			return false;">
 			Recombinase (cre) Specificity page</a>
 			in a new window. Scroll down this page for further instructions. 
-			The "Find Alleles" section allows you to search for in a specified tissue 
+			The "Find Recombinases-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
 			or under the control of a given gene.
 		</td>
 		
@@ -80,7 +80,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-					<li>Select <B>cardiovascular system</B> From the <B>Recombinase specificity in</B> selection list.
+					<li>Select <B>cardiovascular system</B> from the <B>Recombinase specificity in</B> selection list.
 					<p>
 					<li>Click <B>Go</B>.
 				</td>
@@ -88,7 +88,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSelect.jpg" width=546 height=120 alt="cardiovascular">
+								<img src="Images/CardioSelect.jpg" width=550 height=159 alt="cardiovascular">
 							</td>
 						</tr>
 					</table>
@@ -100,14 +100,13 @@
 		<td> 
 			<tr>
 				<td valign=top>	<ol>				
-					<li value = 3>In the summary page that appears, click an allele symbol to go 
-					to the Transgene Detail page for more information.
+					<li value = 3>In the summary page that appears, click the link to "(phenotype data)" below an allele symbol to go to the detail page for more information.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSummary.jpg" width=934 height=472 alt="cardiovascular results summary">
+								<img src="Images/CardioSummary.jpg" width=757 height=365 alt="cardiovascular results summary">
 							</td>
 						</tr>
 					</table>
@@ -127,7 +126,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/Nkx2-5.jpg" width=877 height=494 alt="Nkx2-5">
+								<img src="Images/Nkx2-5.jpg" width=916 height=496 alt="Nkx2-5">
 							</td>
 						</tr>
 					</table>
@@ -146,7 +145,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/Nkx2-5Cardio.jpg" width=1074 height=734 alt="Nes Cardiovascular System Specificity">
+								<img src="Images/Nkx2-5Cardio.jpg" width=1022 height=688 alt="Nes Cardiovascular System Specificity">
 							</td>
 						</tr>
 					</table>
