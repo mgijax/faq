@@ -155,51 +155,6 @@
 					</table>
 				</td>	
 			</tr>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value = 6>To further refine your original query, click the back button 
-						on your browser to return to the page used in step 4. This time, click 
-						the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=ADRefiner&stage=17&structure=2167'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=ADRefiner&stage=17&structure=2167'); 
-						return false;">
-						refine search</a>.
-					</ol>
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GXD_tissue_dev5.jpg" width=543 height=321 alt="AD Browser Term Detail">
-							</td>
-						</tr>
-					</table>
-				</td>	
-			</tr>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value = 7>On the <b>Anatomical Dictionary Browser Query Refiner</b> 
-						page, select <i>RNA in situ</i> from the <b>Assay type(s)</b> pick list.
-						<p>
-						<li>Click the <b>Search</b> button.
-						<p>
-						<li>As in step 5 above, click <u>data</u> in the <b>Result Details</b> 
-						column to view details from RNA in situ assays that examined 
-						expression in the heart in Theiler stage 17.
-					</ol>
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GXD_tissue_dev6.jpg" width=818 height=145 alt="AD Query Refiner Page">
-							</td>
-						</tr>
-					</table>
-				</td>	
-			</tr>
 		</td>
 	</tr>
 </table>
