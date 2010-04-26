@@ -107,9 +107,6 @@ Note that the list in each section is a definition list <dl> where the term
 								<dt>.. search for a gene using an Entrez, Ensembl, VEGA, or other accession ID?
 				        		<a href="GM_search.shtml" onClick="javascript:openFaqWindow('GM_search.shtml');
 								return false;">FAQ</a></dt>
-								<dt>.. search for genes sharing a specific protein domain?
-				        		<a href="GM_pirsf.shtml" onClick="javascript:openFaqWindow('GM_pirsf.shtml');
-								return false;">FAQ</a></dt>
 								<dt>.. search for all gene trap cell lines associated with a gene or marker?
 				        		<a href="GM_gtrap.shtml" onClick="javascript:openFaqWindow('GM_gtrap.shtml');
 								return false;">FAQ</a></dt>
@@ -389,9 +386,6 @@ Note that the list in each section is a definition list <dl> where the term
                 				<dt>.. find strains with RFLP/PCR polymorphisms in a particular gene?
 				        		<a href="STRN_poly.shtml" onClick="javascript:openFaqWindow('STRN_poly.shtml');
 								return false;">FAQ</a></dt>
-                				<dt>.. find characteristics of a specific strain in M. Festing's <i>Inbred Strains of Mice and Rats?</i>
-                				<a href="STRN_Fest.shtml" onClick="javascript:openFaqWindow('STRN_Fest.shtml');
-								return false;">FAQ</a></dt>
                 				<dt>.. find genomic sequence for a specific mouse strain?
 				        		<a href="STRN_genom.shtml" onClick="javascript:openFaqWindow('STRN_genom.shtml');
 								return false;">FAQ</a></dt>
@@ -429,9 +423,6 @@ Note that the list in each section is a definition list <dl> where the term
 								return false;">FAQ</a></dt>
                					<dt>.. view a comparative map of mouse and human chromosomes?
 				        		<a href="ORTH_map.shtml" onClick="javascript:openFaqWindow('ORTH_map.shtml');
-								return false;">FAQ</a></dt>
-                				<dt>.. search or browse PIRSF protein superfamilies mapped to mouse, human, and rat genes?
-				        		<a href="ORTH_pirsf.shtml" onClick="javascript:openFaqWindow('ORTH_pirsf.shtml');
 								return false;">FAQ</a></dt>
 								<dt>.. find the mouse ortholog of a human gene?
 				        		<a href="ORTH_gene.shtml" onClick="javascript:openFaqWindow('ORTH_gene.shtml');

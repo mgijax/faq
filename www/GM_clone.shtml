@@ -26,41 +26,36 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Molecular Probes and 
-		Clones Query Form to identify probes or clones for a 
-		specific gene or region of the mouse genome. This form may 
-		be used to retrieve data about genomic or cDNA clones or primer
-		sequences, and to identify suppliers of genomic or cDNA clones.
+		<td colspan=2 align=left>You can use the Search Box to find information about genes,
+			markers or accession identifiers in MGI. The Search Box returns a list of genes, 
+			markers, or accession IDs that contain your entry.
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Accessing the Molecular Probes and Clones Query Form
+		Accessing the Search Box
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Molecular Probes 
-			and Clones Query Form from the Search menu as shown in 
-			the image at right.
+			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF' 
-			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF'); 
+			<a href='<!--#include file='include/mgihome_url.html'-->homepages/index.shtml' 
+			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
 			return false;">
-			Molecular Probes and Clones Query Form</a>
+			MGI home page</a>
 			in a new window. Scroll down this page for further instructions. 
-		</td>
-		
+		</td>		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_clone.jpg" width=784 height=415 alt="Search Menu Clone Screen Shot">
+						<img src="Images/header.jpg" width=795 height=99 alt="MGI Header Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -68,6 +63,7 @@
 	</tr>
 </table>
 <br>
+
 <table width="100%">
 	<tr>
 	</tr>
@@ -76,33 +72,68 @@
 			Example 1. Finding genomic clones for gene <i>Whrn</i>
 		</td>
 	</tr>
-
 	<tr>
 		<td> 
 			<tr>
-				<td valign=top>
-					<ol>
-						<li>Change <i>contains</i> to <i>=</i> in the drop-down 
-						menu beneath <b>Gene/Marker Symbol/Name</b>.
-						<p>
-						<li>Type <i>Whrn</i> in the text box.
-						<p>
-						<li>Select <i>genomic</i> from the <b>Sequence Type</b> 
-						drop-down menu. 
-						<p>
-						<li>Click <b>Search</b>.
-						<p>
-					</ol>
+				<td valign=top><ol>
+					<li>Type <i>whrn</i> into the Search Box.
+					<p>
+					<li>Click <b>Quick Search</b>.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_clone.jpg" width=753 height=414 alt="Search Menu Clone Screen Shot">
+								<img src="Images/srchbox.jpg" width=390 height=33 alt="Search Box Screen Shot">
 							</td>
 						</tr>
 					</table>
-				</td>	
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 3>Click the link to 
+					<a href='<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=94311'
+					onClick="javascript:openNewWindow('<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=94311'); 
+					return false;">
+					Whrn</a>.
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_clone1.jpg" width=786 height=90 alt="Quick Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 4>Locate the <b>Molecular Reagents</b> section near the bottom of the 
+						page. Click the link to Genomic 
+						<a href='<!--#include file='include/wi_url.html'-->searches/probe_report.cgi?_Marker_key=12184&DNAtypes=genomic'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/probe.cgi?1030525'); 
+						return false;">
+						(3)</a> to view a list of 3 genomic clones containing <i>Whrn</i>.
+					</ol>
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GM_clone2.jpg" width=376 height=37 alt="Molecular Reagents Section">
+							</td>
+						</tr>
+					</table>
+				</td>
 			</tr>
 		</td>
 	</tr>
@@ -122,7 +153,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/probesummary.jpg" width=733 height=138 alt="Probes Summary Screen Shot">
+								<img src="Images/GM_clone3.jpg" width=762 height=171 alt="Whrn Clone List">
 							</td>
 						</tr>
 					</table>
@@ -147,7 +178,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/clonedetail.jpg" width=327 height=236 alt="Clone Detail Screen Shot">
+								<img src="Images/clonedetail.jpg" width=339 height=197 alt="Clone Detail">
 							</td>
 						</tr>
 					</table>
@@ -179,7 +210,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/clonereg.jpg" width=606 height=196 alt="NCBI Clone Registry Screen Shot">
+								<img src="Images/clonereg.jpg" width=604 height=187 alt="NCBI Clone Registry">
 							</td>
 						</tr>
 					</table>
@@ -199,7 +230,7 @@
 		<td valign=top>
 			<ol>
 			<li>Follow the steps detailed in Example 1 above, but select 
-			<i>cDNA</i> instead of <i>genomic</i> for step 3.
+			cDNA (36) instead of genomic (11) for step 4.
 			<p>
 			<li>Click <b>Search</b>.
 			<p>
