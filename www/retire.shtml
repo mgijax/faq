@@ -33,7 +33,7 @@
 <br/>
 <br/>
 
-<table class="b0p0s7"><!-- KLF replaced border=0 cellpadding=0 cellspacing=7 with CSS style -->
+<table class="b0p0s7">
     <tr>
         <td align=left>
         <span><div style="float: right; margin-right: 10px;">
@@ -47,7 +47,7 @@
     <tr>
         <td align=left>
           MGI is remodeling its website. In preparation, we will be retiring  rarely-used pages. 
-          <p>As always, please  feel free to <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" target="_blank">contact User Support</a> for alternative ways to obtain information, to request custom data reports, or to comment on the changes. Thank you for your patience while we make improvements for you. </p>
+          <p>As always, please  feel free to contact <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" target="_blank">User Support</a> for alternative ways to obtain information, to request custom data reports, or to comment on the changes. Thank you for your patience while we make improvements for you. </p>
 
           </td>
     </tr>
@@ -81,8 +81,10 @@
 
       <div class="Change_Image"> 
       <em>Retiring:</em> <span class="small"></span><br />
-      <a href="Images/AccIDQF.jpg" target="_blank"><img src="Images/AccIDQF.jpg" alt="Accession ID Query Form" width="300px" /></a> </div>
-      <h4>Accession IDs <a href="<!--#include file='include/wi_url.html'-->searches/accession_form.shtml" target="_blank">query form</a></h4>
+      <a href="javascript:openNewWindowNoMenu('Images/AccIDQF.jpg')">
+      <img src="Images/AccIDQF.jpg" alt="Accession ID Query Form" width="300px" /></a> </div>
+      <h4>Accession IDs Query Form</h4> 
+      <a href="<!--#include file='include/wi_url.html'-->searches/accession_form.shtml" target="_blank">(see existing page here)</a>
       <br />
       <em>Description:</em>&nbsp;&nbsp;Searches all accession IDs.<br />
 
@@ -92,9 +94,8 @@
     <div class="Change_alternative">
       <div class="ChangeAlt_Image"> 
         <em>Use&nbsp;instead:</em><br />
-        <a href="Images/HomepageSearch_blur.jpg" target="_blank"><img src="Images/HomepageSearch_blur.jpg" alt="Homepage Search" width="300px" ></a><br />
-
-        <a href="Images/SearchBox_blur.jpg" target="_blank"><img src="Images/SearchBox_blur.jpg" alt="Quick Search Box" width="300px" ></a> <br />
+        <a href="javascript:openNewWindowNoMenu('Images/SearchBox.jpg')">
+        <img src="Images/SearchBox.jpg" alt="Quick Search Box" width="300px" ></a> <br />
         </div>
       <div class="text">Alternative(s):</div>
       <em class="AltText">Page:</em>&nbsp;&nbsp;Any MGI page<br />
@@ -116,30 +117,10 @@
             <div name="Existing" class="Existing">
                         <div class="Change_Image">
       <em>Retiring:</em><br />
-                        <a href="Images/ADTerm_TreeView_Title.jpg" target="_blank"><img src="Images/ADTerm_TreeView_Title.jpg" alt="Anatomical Dictionary Hierarchy View, Title" width="300px" border="0"  /></a><br />
-                        <a href="Images/ADTerm_TreeView.jpg" target="_blank"><img src="Images/ADTerm_TreeView.jpg" alt="Anatomical Dictionary Hierarchy View, Term" width="300px" border="0"  /></a><br />
-                        <a href="Images/ADTermDetail_Hierarchy.jpg" target="_blank"><img src="Images/ADTermDetail_Hierarchy.jpg" alt="AD Hierarchy Access from Term Detail" width="300px" border="0" /></a> </div>
-                    <H4>Anatomical Dictionary Hierarchy &quot;Tree&quot; View <a href="http://prodwww.informatics.jax.org/wi/searches/anatdictTree.cgi?structureKey=4045&stage=20#TOP" target="_blank">(example)</a></H4><br />     
-                    <em>Description:</em>&nbsp;&nbsp;Displays the selected term in the context of the full, hierarchical vocabulary for a given Theiler Stage. Accessed via an Anatomical Dictionary Browser Term Detail Page <a href="<!--#include file='include/wi_url.html'-->searches/anatdict.cgi?id=4045" target="_blank">(example)</a><br />
-
-                    <em>Changes:</em>&nbsp;&nbsp;To be retired.<br />
-<!-- ALTERNATIVE, IF ANY -->
-<!-- THERE IS NO ALTERNATIVE CURRENTLY PROPOSED -->
-            </div>
-        </div>
-            <p>&nbsp;</p>
-
-
-<!-- NEXT PAGE TO BE REMODELED OR RETIRED -->
-        <div class="ChangePage">
-
-<!-- THE EXISTING SITUATION -->
-            <div name="Existing" class="Existing">
-                        <div class="Change_Image">
-      <em>Retiring:</em><br />
-                          <a href="Images/cDNA_QF.jpg" target="_blank"><img src="Images/cDNA_QF.jpg" alt="cDNA Clones Query Form" width="300px" border="0"  /></a></div>
-                    <H4>cDNA Clone <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=cDNAQF" target="_blank">Query Form</a></H4><br />       
-                    <em>Description:</em>&nbsp;&nbsp;Searches for cDNA clones used in assaying gene expression.<br />
+                          <a href="javascript:openNewWindowNoMenu('Images/cDNA_QF.jpg')">
+                          <img src="Images/cDNA_QF.jpg" alt="cDNA Clones Query Form" width="300px" border="0"  /></a></div>
+                    <H4>cDNA Clone Query Form</H4> <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=cDNAQF" target="_blank">(see existing page here)</a><br />       
+                    <em>Description:</em>&nbsp;&nbsp;Searches for expression information based on tissue or cell-line origin of cDNAs.<br />
 
                     <em>Changes:</em>&nbsp;&nbsp;To be retired.<br />
             </div>
@@ -147,12 +128,13 @@
                 <div class="Change_alternative">
                     <div class="ChangeAlt_Image">
                     <em>Use&nbsp;instead:</em><br />
-                    <a href="Images/cDNA_new.jpg" target="_blank"><img src="Images/cDNA_new.jpg" alt="cDNA Clone Link on Marker Detail Page" width="300px" border="0" /></a><br />
+                    <a href="javascript:openNewWindowNoMenu('Images/cDNA_new.jpg')">
+                    <img src="Images/cDNA_new.jpg" alt="cDNA Clone Link on Marker Detail Page" width="300px" border="0" /></a><br />
 
                     </div>
                 <div class="text">Alternative(s):</div>
                 <em>Page:</em>&nbsp;&nbsp;Detail Page for a Gene or Genome Feature<br />
-                <em>Description:</em>&nbsp;&nbsp;cDNA source data for assays used for a particular gene or genome feature are available via a link from the &quot;Expression&quot; section of the Detail Page for a gene or genome feature.<br />
+                <em>Description:</em>&nbsp;&nbsp;cDNA source data for a particular gene are available via a link from the &quot;Expression&quot; section of the Gene Detail Page.<br />
                 </div>
 
         </div>
@@ -171,8 +153,9 @@
             <div name="Existing" class="Existing">
                         <div class="Change_Image">
       <em>Retiring:</em><br />
-                          <a href="Images/DNAmappingPanel.jpg" target="_blank"><img src="Images/DNAmappingPanel.jpg" alt="Mapping Panels Query Form" width="300px" border="0"  /></a></div>
-                    <H4>DNA Mapping Panel Data Sets <a href="<!--#include file='include/wi_url.html'-->searches/crossdata_form.shtml" target="_blank">Query Form</a></H4><br />     
+                          <a href="javascript:openNewWindowNoMenu('Images/DNAmappingPanel.jpg')">
+                          <img src="Images/DNAmappingPanel.jpg" alt="Mapping Panels Query Form" width="300px" border="0"  /></a></div>
+                    <H4>DNA Mapping Panel Data Sets</H4> <a href="<!--#include file='include/wi_url.html'-->searches/crossdata_form.shtml" target="_blank">(see existing page here)</a><br />     
                     <em>Description:</em>&nbsp;&nbsp;Displays a table of the results of a genetic cross in HTML or tab-delimited format for user-selected mapping panel and chromosome.<br />
 
                     <em>Changes:</em>&nbsp;&nbsp;To be retired.<br />
@@ -181,7 +164,8 @@
                 <div class="Change_alternative">
                     <div class="ChangeAlt_Image">
         <em>Use&nbsp;instead:</em><br />
-                      <a href="Images/MappingDataNew.jpg" target="_blank"><img src="Images/MappingDataNew.jpg" alt="Download menu for FTP site" width="300px" border="0" /></a> </div>
+                      <a href="javascript:openNewWindowNoMenu('Images/MappingDataNew.jpg')">
+                      <img src="Images/MappingDataNew.jpg" alt="Download menu for FTP site" width="300px" border="0" /></a> </div>
 
                 <div class="text">Alternative(s):</div>
               <em>Page:</em>&nbsp;&nbsp;<a href="<!--#include file='include/ftp_url.html'-->index.html" target="_blank">Public Reports</a> on MGI's FTP server<br />
@@ -205,8 +189,9 @@
             <div name="Existing" class="Existing">
                         <div class="Change_Image">
                         <em>Retiring:</em><br />
-                        <a href="Images/ProbesClones_QFtitle.jpg" target="_blank"><img src="Images/ProbesClones_QFtitle.jpg" alt="Probes and Clones Query Form" width="300px" border="0"  /></a>    </div>
-                    <H4>Probes and Clones <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF" target="_blank">Query Form</a></H4><br />       
+                        <a href="javascript:openNewWindowNoMenu('Images/ProbesClones_QFtitle.jpg')">
+                        <img src="Images/ProbesClones_QFtitle.jpg" alt="Probes and Clones Query Form" width="300px" border="0"  /></a>    </div>
+                    <H4>Probes and Clones Query Form</H4> <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF" target="_blank">(see existing page here)</a><br />       
                     <em>Description:</em>&nbsp;&nbsp;Searches for probes, clones, primers, BACs, YACs and STSs in MGI's database.<br />
 
                     <em>Changes:</em>&nbsp;&nbsp;To be retired.<br />
@@ -215,9 +200,11 @@
                 <div class="Change_alternative">
                     <div class="ChangeAlt_Image">
         <em>Use&nbsp;instead:</em><br />
-                    <a href="Images/ProbesClones_new.jpg" target="_blank"><img src="Images/ProbesClones_new.jpg" alt="Probes and Clones Links from Marker" width="300px" border="0" /></a><br />
+                    <a href="javascript:openNewWindowNoMenu('Images/ProbesClones_new.jpg')">
+                    <img src="Images/ProbesClones_new.jpg" alt="Probes and Clones Links from Marker" width="300px" border="0" /></a><br />
 
-                    <a href="Images/ProbesClones_RefDetCircled.jpg" target="_blank"><img src="Images/ProbesClones_RefDetCircled.jpg" alt="Probes and Clones Links from Reference" width="300px" border="0" /></a>   </div>
+                    <a href="javascript:openNewWindowNoMenu('Images/ProbesClones_RefDetCircled.jpg')">
+                    <img src="Images/ProbesClones_RefDetCircled.jpg" alt="Probes and Clones Links from Reference" width="300px" border="0" /></a>   </div>
                 <div class="text">Alternative(s):</div>
               <em>Page:</em>&nbsp;&nbsp;Detail Page for a gene or genome feature, or Detail Page for a reference<br />
               <em>Description:</em>&nbsp;&nbsp;Molecular reagents (probes, clones, primers, antibodies, etc.) associated with MGI's data for a gene or genome feature are available via a link from the &quot;Molecular Reagents&quot; section of the Detail Page for a gene or genome feature.  The molecular reagents identifed in MGI's curated references are available via a link from the Detail Page for a reference.<br />
@@ -239,8 +226,9 @@
             <div name="Existing" class="Existing">
                         <div class="Change_Image">
                         <em>Retiring:</em><br />
-                        <a href="Images/OrthQF.jpg" target="_blank"><img src="Images/OrthQF.jpg" alt="Orthology Query Form" width="300px" border="0" /></a></div>
-                    <H4>Orthology <a href="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml" target="_blank">Query Form</a></H4><br />        
+                        <a href="javascript:openNewWindowNoMenu('Images/OrthQF.jpg')">
+                        <img src="Images/OrthQF.jpg" alt="Orthology Query Form" width="300px" border="0" /></a></div>
+                    <H4>Orthology Query Form</H4> <a href="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml" target="_blank">(see existing page here)</a><br />        
                     <em>Description:</em>&nbsp;&nbsp;Searches for orthologies between two or more mammalian species.<br />
 
                     <em>Changes:</em>&nbsp;&nbsp;To be retired.<br />
@@ -249,10 +237,13 @@
                 <div class="Change_alternative">
                   <div class="ChangeAlt_Image">
                     <em>Use&nbsp;instead:</em><br />
-                    <a href="Images/Orthology_new.jpg" target="_blank"><img src="Images/Orthology_new.jpg" alt="Marker Detail Page link to Orthology Summary" width="300px" border="0" /></a><br />
+                    <a href="javascript:openNewWindowNoMenu('Images/Orthology_new.jpg')">
+                    <img src="Images/Orthology_new.jpg" alt="Marker Detail Page link to Orthology Summary" width="300px" border="0" /></a><br />
 
-                    <a href="Images/RefDetail_Orth.jpg" target="_blank"><img src="Images/RefDetail_Orth.jpg" alt="Reference Detail Page link to Orthology Data" width="300px" border="0" /></a><br />
-                    <a href="Images/QS_Orth_new.jpg" target="_blank"><img src="Images/QS_Orth_new.jpg" alt="Quick Search showing Ortholog" width="300px" border="0" /></a> </div>
+                    <a href="javascript:openNewWindowNoMenu('Images/RefDetail_c.jpg')">
+                    <img src="Images/RefDetail_c.jpg" alt="Reference Detail Page link to Orthology Data" width="300px" border="0" /></a><br />
+                    <a href="javascript:openNewWindowNoMenu('Images/QS_Orth_new.jpg')">
+                    <img src="Images/QS_Orth_new.jpg" alt="Quick Search showing Ortholog" width="300px" border="0" /></a> </div>
                 <div class="text">Alternative(s):</div>
               <em>Page:</em>&nbsp;&nbsp;Detail Page for a gene or genome feature, or Detail Page for a reference, or Quick Search results when  using a non-mouse gene's accession ID.<br />
               <em>Description:</em>&nbsp;&nbsp;Orthologous genes associated with a mouse gene or genome feature are available via a link from the &quot;Mammalian Homology&quot; section of the Detail Page for a gene or genome feature.  Orthologs identified in MGI's curated references are available via a link from the Detail Page for a reference.  Performing a Quick Search using a non-mouse gene or sequence accession ID returns a link to Orthology Summary page.<br />
@@ -270,15 +261,24 @@
               <div class="Change_Image">
         <em>Retiring:</em><br />
 
-                        <a href="Images/OxfordGridQF.jpg" target="_blank"><img src="Images/OxfordGridQF.jpg" alt="Oxford Grid Query Form" width="300px" border="0"  /></a><br />
-                        <a href="Images/OxfordGrid.jpg" target="_blank"><img src="Images/OxfordGrid.jpg" alt="Mouse-Human Oxford Grid" width="300px" border="0"  /></a> </div>
-                    <H4>Oxford Grid and <a href="<!--#include file='include/wi_url.html'-->searches/oxfordgrid_form.shtml" target="_blank"> Query Form</a></H4><br />       
+                        <a href="javascript:openNewWindowNoMenu('Images/OxfordGridQF.jpg')">
+                        <img src="Images/OxfordGridQF.jpg" alt="Oxford Grid Query Form" width="300px" border="0"  /></a><br />
+                        <a href="javascript:openNewWindowNoMenu('Images/OxfordGrid.jpg')">
+                        <img src="Images/OxfordGrid.jpg" alt="Mouse-Human Oxford Grid" width="300px" border="0"  /></a> </div>
+                    <H4>Oxford Grid</H4> <a href="<!--#include file='include/wi_url.html'-->searches/oxfordgrid_form.shtml" target="_blank">(see existing page here)</a></H4><br />       
                     <em>Description:</em>&nbsp;&nbsp;Creates an Oxford Grid for user-selected organisms.<br />
                     <em>Changes:</em>&nbsp;&nbsp;To be retired.<br />
+                    <br/><br/><br/>
+                 <div class="text">Alternative(s):</div>    
+              <em>Page:</em>&nbsp;&nbsp;Public Reports on MGI's FTP server<br />
+              <em>Description:</em>&nbsp;&nbsp;Various orthology reports are available in tab-delimited format on MGI's FTP server. These include reports for human-mouse; rat-mouse; 
+              rat-human; chimp-mouse; and dog-mouse. Reach these reports via the "Download" item on the menu bar.<br />
+                    
+                    
 
             </div>
 <!-- ALTERNATIVE, IF ANY -->
-<!-- THERE IS NO ALTERNATIVE FOR THIS PAGE -->
+
         </div>
             <p>&nbsp;</p>
 <!-- END -->
@@ -291,8 +291,9 @@
 
               <div class="Change_Image">
                         <em>Retiring:</em><br />
-                        <a href="Images/PIRSFbrowser.jpg" target="_blank"><img src="Images/PIRSFbrowser.jpg" alt="PIRSF First Page" width="300px" border="0"  /></a></div>
-                    <H4>Protein Information Super Family (PIRSF) <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A" target="_blank">Query Form/Browser</a></H4><br />        
+                        <a href="javascript:openNewWindowNoMenu('Images/PIRSFbrowser.jpg')">
+                        <img src="Images/PIRSFbrowser.jpg" alt="PIRSF First Page" width="300px" border="0"  /></a></div>
+                    <H4>Protein Information Super Family (PIRSF) Browser</H4> <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A" target="_blank">(see existing page here)</a><br />        
                     <em>Description:</em>&nbsp;&nbsp;Searches for or allows browsing to PIRSF terms and displays links to the Super Family pages listing genes or genome features associated with that family.<br />
                     <em>Changes:</em>&nbsp;&nbsp;To be retired.<br />
 
@@ -301,8 +302,10 @@
                 <div class="Change_alternative">
                   <div class="ChangeAlt_Image">
                     <em>Use&nbsp;instead:</em><br />
-                    <a href="Images/ProteinSupFam_new.jpg" target="_blank"><img src="Images/ProteinSupFam_new.jpg" alt="PIRSF Link on Gene Detail Page" width="300px" border="0" /></a><br />
-                    <a href="Images/PIRSF_QS.jpg" target="_blank"><img src="Images/PIRSF_QS.jpg" alt="PIRSF Quick Search Result" width="300px" border="0" /></a> </div>
+                    <a href="javascript:openNewWindowNoMenu('Images/ProteinSupFam_new.jpg')">
+                    <img src="Images/ProteinSupFam_new.jpg" alt="PIRSF Link on Gene Detail Page" width="300px" border="0" /></a><br />
+                    <a href="javascript:openNewWindowNoMenu('Images/PIRSF_QS.jpg')">
+                    <img src="Images/PIRSF_QS.jpg" alt="PIRSF Quick Search Result" width="300px" border="0" /></a> </div>
                 <div class="text">Alternative(s):</div>
 
               <em>Page:</em>&nbsp;&nbsp;Detail Page for a gene or genome feature, or Quick Search results when searching using a PIRSF term or accession ID<br />
@@ -326,17 +329,18 @@
 
               <div class="Change_Image">
       <em>Retiring:</em><br />
-                <a href="Images/NomenHistory.jpg" target="_blank"><img src="Images/NomenHistory.jpg" alt="Nomenclature History Page" width="300px" /></a> </div>
-                    <H4>Nomenclature History Page <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerHistory&key=12184" target="_blank">(example)</a></H4><br />        
+                <a href="javascript:openNewWindowNoMenu('Images/NomenHistory.jpg')">
+                <img src="Images/NomenHistory.jpg" alt="Nomenclature History Page" width="300px" /></a> </div>
+                    <H4>Nomenclature History</H4> <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerHistory&key=12184" target="_blank">(see existing page here)</a><br />        
                     <em>Description:</em>&nbsp;&nbsp;Provides a history of nomenclature changes for a gene or genome feature.<br />
                     <em>Changes:</em>&nbsp;&nbsp;To be retired.<br />
+                    
+                    <br/><br/><br/>
+                    <div class="text">Alternative(s):</div>    
+                    Contact <a href="<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml" target="_blank">User Support</a> for a custom data report.<br />
 
             </div>
-<!-- ALTERNATIVE, IF ANY -->
-                <!--<div class="Change_alternative">
-                <div class="text">Alternative(s):</div>
-              <em>Description:</em>&nbsp;&nbsp;Nomenclature searches include old and revised nomenclature.<br />
-                </div>-->
+
             <p>&nbsp;</p>
 <!-- END  -->
     </div>
@@ -345,6 +349,13 @@
 </table>
 <br>
 <br>
+
+<script type="text/javascript">
+	function openNewWindowNoMenu(url)
+	{
+	    window.open(url,'new','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+	};
+</script>
 
 <!--#include file='include/templateBlankBodyStop.html'-->
 
