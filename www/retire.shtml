@@ -84,7 +84,6 @@
       <a href="javascript:openNewWindowNoMenu('Images/AccIDQF.jpg')">
       <img src="Images/AccIDQF.jpg" alt="Accession ID Query Form" width="300px" /></a> </div>
       <h4>Accession IDs Query Form</h4> 
-      <a href="<!--#include file='include/wi_url.html'-->searches/accession_form.shtml" target="_blank">(see existing page here)</a>
       <br />
       <em>Description:</em>&nbsp;&nbsp;Searches all accession IDs.<br />
 
@@ -119,7 +118,8 @@
       <em>Retired:</em><br />
                           <a href="javascript:openNewWindowNoMenu('Images/cDNA_QF.jpg')">
                           <img src="Images/cDNA_QF.jpg" alt="cDNA Clones Query Form" width="300px" border="0"  /></a></div>
-                    <H4>cDNA Clone Query Form</H4> <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=cDNAQF" target="_blank">(see existing page here)</a><br />       
+                    <H4>cDNA Clone Query Form</H4>
+                    <br />       
                     <em>Description:</em>&nbsp;&nbsp;Searches for expression information based on tissue or cell-line origin of cDNAs.<br />
 
                     <em>Changes:</em>&nbsp;&nbsp;Retired.<br />
@@ -155,7 +155,8 @@
       <em>Retired:</em><br />
                           <a href="javascript:openNewWindowNoMenu('Images/DNAmappingPanel.jpg')">
                           <img src="Images/DNAmappingPanel.jpg" alt="Mapping Panels Query Form" width="300px" border="0"  /></a></div>
-                    <H4>DNA Mapping Panel Data Sets</H4> <a href="<!--#include file='include/wi_url.html'-->searches/crossdata_form.shtml" target="_blank">(see existing page here)</a><br />     
+                    <H4>DNA Mapping Panel Data Sets</H4>
+                    <br />     
                     <em>Description:</em>&nbsp;&nbsp;Displays a table of the results of a genetic cross in HTML or tab-delimited format for user-selected mapping panel and chromosome.<br />
 
                     <em>Changes:</em>&nbsp;&nbsp;Retired.<br />
@@ -169,7 +170,7 @@
 
                 <div class="text">Alternative(s):</div>
               <em>Page:</em>&nbsp;&nbsp;<a href="<!--#include file='include/ftp_url.html'-->index.html" target="_blank">Public Reports</a> on MGI's FTP server<br />
-              <em>Description:</em>&nbsp;&nbsp;Reports for each mapping panel and chromosome will be available in tab-delimited format on MGI's FTP server. Reach these reports via the &quot;Download&quot; item on the menu bar.<br />
+              <em>Description:</em>&nbsp;&nbsp;Reports for each mapping panel and chromosome are available in tab-delimited format on MGI's FTP server. Reach these reports via the &quot;Download&quot; item on the menu bar.<br />
                 </div>
 
         </div>
@@ -191,7 +192,8 @@
                         <em>Retired:</em><br />
                         <a href="javascript:openNewWindowNoMenu('Images/ProbesClones_QFtitle.jpg')">
                         <img src="Images/ProbesClones_QFtitle.jpg" alt="Probes and Clones Query Form" width="300px" border="0"  /></a>    </div>
-                    <H4>Probes and Clones Query Form</H4> <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=probeQF" target="_blank">(see existing page here)</a><br />       
+                    <H4>Probes and Clones Query Form</H4>
+                    <br />       
                     <em>Description:</em>&nbsp;&nbsp;Searches for probes, clones, primers, BACs, YACs and STSs in MGI's database.<br />
 
                     <em>Changes:</em>&nbsp;&nbsp;Retired.<br />
@@ -228,7 +230,8 @@
                         <em>Retired:</em><br />
                         <a href="javascript:openNewWindowNoMenu('Images/OrthQF.jpg')">
                         <img src="Images/OrthQF.jpg" alt="Orthology Query Form" width="300px" border="0" /></a></div>
-                    <H4>Orthology Query Form</H4> <a href="<!--#include file='include/wi_url.html'-->searches/homology_form.shtml" target="_blank">(see existing page here)</a><br />        
+                    <H4>Orthology Query Form</H4>
+                    <br />        
                     <em>Description:</em>&nbsp;&nbsp;Searches for orthologies between two or more mammalian species.<br />
 
                     <em>Changes:</em>&nbsp;&nbsp;Retired.<br />
@@ -265,7 +268,8 @@
                         <img src="Images/OxfordGridQF.jpg" alt="Oxford Grid Query Form" width="300px" border="0"  /></a><br />
                         <a href="javascript:openNewWindowNoMenu('Images/OxfordGrid.jpg')">
                         <img src="Images/OxfordGrid.jpg" alt="Mouse-Human Oxford Grid" width="300px" border="0"  /></a> </div>
-                    <H4>Oxford Grid</H4> <a href="<!--#include file='include/wi_url.html'-->searches/oxfordgrid_form.shtml" target="_blank">(see existing page here)</a></H4><br />       
+                    <H4>Oxford Grid</H4>
+                    <br />       
                     <em>Description:</em>&nbsp;&nbsp;Creates an Oxford Grid for user-selected organisms.<br />
                     <em>Changes:</em>&nbsp;&nbsp;Retired.<br />
                     <br/><br/><br/>
@@ -293,7 +297,8 @@
                         <em>Retired:</em><br />
                         <a href="javascript:openNewWindowNoMenu('Images/PIRSFbrowser.jpg')">
                         <img src="Images/PIRSFbrowser.jpg" alt="PIRSF First Page" width="300px" border="0"  /></a></div>
-                    <H4>Protein Information Super Family (PIRSF) Browser</H4> <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A" target="_blank">(see existing page here)</a><br />        
+                    <H4>Protein Information Super Family (PIRSF) Browser</H4>
+                    <br />        
                     <em>Description:</em>&nbsp;&nbsp;Searches for or allows browsing to PIRSF terms and displays links to the Super Family pages listing genes or genome features associated with that family.<br />
                     <em>Changes:</em>&nbsp;&nbsp;Retired.<br />
 
@@ -331,7 +336,8 @@
       <em>Retired:</em><br />
                 <a href="javascript:openNewWindowNoMenu('Images/NomenHistory.jpg')">
                 <img src="Images/NomenHistory.jpg" alt="Nomenclature History Page" width="300px" /></a> </div>
-                    <H4>Nomenclature History</H4> <a href="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerHistory&key=12184" target="_blank">(see existing page here)</a><br />        
+                    <H4>Nomenclature History</H4>
+                    <br />        
                     <em>Description:</em>&nbsp;&nbsp;Provides a history of nomenclature changes for a gene or genome feature.<br />
                     <em>Changes:</em>&nbsp;&nbsp;Retired.<br />
                     
