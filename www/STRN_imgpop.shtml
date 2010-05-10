@@ -93,32 +93,11 @@
 			<tr >
 				<td>
 					<br>
-					Strain data in MGI include descriptions of strain
-					characteristics as well as data on strain specific
-					molecular polymorphisms.
-					<ul>
-						<li><b><i>Viewing
-						<a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi'
-						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi');
-						return false;">
-						Inbred Strain Characteristics</a></i></b>
-						<br>
-						The descriptions of the inbred strains of mice and rats
-						compiled by Dr. Michael FW Festing (MRC Toxicology Unit)
-						can be accessed to find general overviews of specific strains
-						along with links to references. For detailed instructions
-						see the following:
-						<p>
-						How do I find characteristics of a specific strain in
-						M. Festing's <i>Inbred Strain Characteristics</i>?
-                		<a href="STRN_Fest.shtml"
-                		onClick="javascript:openFaqWindow('STRN_Fest.shtml');
-						return false;">FAQ</a>
-						<li><b><i>Using the
+						Use the
 						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml'
 						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml');
 						return false;">
-						RFLP/PCR Polymorphism Query Form</a></i></b><br>
+						RFLP/PCR Polymorphism Query Form</a></i></b>.<br>
 						Queries allow selection of the strains and genes or genomic
 						regions of interest and allow designation of
 						a reference strain for same/different comparisons.
@@ -129,7 +108,6 @@
  				        <a href="STRN_poly.shtml"
  				        onClick="javascript:openFaqWindow('STRN_poly.shtml');
 						return false;">FAQ</a>
-					</ul>
 				</td>
 			</tr>
 		</table>
