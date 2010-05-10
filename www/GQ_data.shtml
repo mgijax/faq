@@ -80,25 +80,13 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>For new alleles, mutations, or transgenes, click the 
+						<li>To describe spontaneous, induced, or genetically engineered mutations,
+							to register new mouse strains, or to describe phenotypes, click the 
 							link to
-							<a href='<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml' 
-							onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml'); 
+							<a href='<!--#include file='include/mgihome_url.html'-->submissions/amsp_submission.cgi' 
+							onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->submissions/amsp_submission.cgi'); 
 							return false;">
-							Allele Nomenclature</a>
-							to retrieve the <b>Mutation Submission Form</b>.
-							Use this form to describe spontaneous, induced, or 
-							genetically engineered mutations. MGI staff will help 
-							you assign correct nomenclature and provide an MGI 
-							accession identifier.
-							<p>
-						<li>To submit phenotype information for mutations already 
-							in MGI, click the link to 
-							<a href='<!--#include file='include/mgihome_url.html'-->nomen/phenotype_data_form.shtml' 
-							onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/phenotype_data_form.shtml'); 
-							return false;">
-							Phenotype Data</a>
-							to retrieve the <b>Phenotype Data Submission Form</b>.
+							Allele, Strain & Phenotype Data</a>.
 							<p>
 						<li>To submit expression data, click the link to 
 							<a href='<!--#include file='include/mgihome_url.html'-->GXD/GEN/gxd_submission_guidelines.shtml' 
@@ -113,7 +101,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GQ_data1.jpg" width=601 height=338 alt="Submit Page Screen Shot">
+								<img src="Images/GQ_data1.jpg" width=593 height=237 alt="Submit Page Screen Shot">
 							</td>
 						</tr>
 					</table>
