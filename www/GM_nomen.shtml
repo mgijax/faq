@@ -87,23 +87,23 @@
 				return false;">
 				Submit</a>
 				a Proposed Locus Symbol
-				<li><a href='<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml'
-				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->nomen/allmut_form.shtml'); 
+				<li><a href='<!--#include file='include/mgihome_url.html'-->submissions/amsp_submission.cgi'
+				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->submissions/amsp_submission.cgi'); 
 				return false;">				
 				Submit</a>
-				Mutant Allele Information
-				<li><a href='<!--#include file='include/mgihome_url.html'-->submissions/strains/index.shtml'
-				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->submissions/strains/index.shtml'); 
+				Allele, Strain or Phenotype Information or
+				<li><a href='<!--#include file='include/mgihome_url.html'-->submissions/amsp_submission_examples.shtml'
+				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->submissions/amsp_submission_examples.shtml'); 
 				return false;">
-				Register</a>
-				a new Mouse Strain Name
+				Submitting Data Files</a>
+				
 			</ul>
 		</td>
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GM_nomen1.jpg" width=726 height=413 alt="Mouse Nomen Screen Shot">
+						<img src="Images/GM_nomen1.jpg" width=636 height=481 alt="Mouse Nomen Page">
 					</td>
 				</tr>
 			</table>
