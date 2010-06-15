@@ -73,7 +73,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/header.jpg" width=795 height=99 alt="MGI Header Screen Shot">
+						<img src="Images/header.jpg" width=795 height=99 alt="MGI Header">
 					</td>
 				</tr>
 			</table>
@@ -91,7 +91,7 @@
 	<tr>
 		<td valign=top>
 			<ol>
-			<li>Type <i>17222948, P32921, Pax3</i> into the text box.
+			<li>Type <i>MGI:2687297, P32921, 17222948</i> into the text box.
 			<p>
 			<li>Click <b>Quick Search</b>.
 			</ol>
@@ -100,7 +100,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/search_tool.jpg" width=390 height=34 alt="Quick Search Screen Shot">
+						<img src="Images/search_tool.jpg" width=305 height=26 alt="Quick Search">
 					</td>
 				</tr>
 			</table>
@@ -117,7 +117,7 @@
 					and other results by relevance.
 					<p>
 				</li>
-				<li>Click <b>Get More Data</b> for genome features 1 through 5 to retrieve associated
+				<li>Click <b>Get More Data</b> for genome features 1 through 2 to retrieve associated
 					data such as gene function, phenotype, allele or disease data. This button leads to
 					the MGI Batch Query, a tool to retrieve data about many genes in MGI simultaneously.
 				</li>
@@ -127,7 +127,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GM_search2.jpg" width=924 height=357 alt="Search Results Screen Shot">
+						<img src="Images/GM_search2.jpg" width=763 height=340 alt="Search Results">
 					</td>
 				</tr>
 			</table>
@@ -137,8 +137,7 @@
 		<td valign=top>
 			<ol>
 				<li value = 5>Select the radio button next to Human Disease (OMIM) to retrieve
-					human diseases associated with mouse genes <i>Wars</i> and <i>Pax3</i>, Cre transgenes
-					<i>Tg(Pax3-cre)1Joe</i> and <i>Tg(Pax3-cre)2Joe</i>, and gene trap <i>Gt(ROSA)26Sor</i>.
+					human diseases associated with mouse genes <i>Wars</i> and <i>Pax3</i>.
 				</li>
 				<p>
 				<li>Click <b>Search Again</b>.
@@ -149,7 +148,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GM_search3.jpg" width=803 height=326 alt="MGI Batch Query">
+						<img src="Images/GM_search3.jpg" width=790 height=364 alt="MGI Batch Query">
 					</td>
 				</tr>
 			</table>
@@ -180,7 +179,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/search_tool_vdb.jpg" width=390 height=31 alt="Quick Search Screen Shot">
+								<img src="Images/search_tool_vdb.jpg" width=390 height=31 alt="Quick Search">
 							</td>
 						</tr>
 					</table>
@@ -205,7 +204,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_search4.jpg" width=783 height=539 alt="Search Results Screen Shot">
+								<img src="Images/GM_search4.jpg" width=783 height=539 alt="Search Results">
 							</td>
 						</tr>
 					</table>
@@ -236,7 +235,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_search5.jpg" width=370 height=19 alt="Quick Search Screen Shot">
+								<img src="Images/GM_search5.jpg" width=370 height=19 alt="Quick Search">
 							</td>
 						</tr>
 					</table>
@@ -266,7 +265,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_search6.jpg" width=777 height=526 alt="Search Results Screen Shot">
+								<img src="Images/GM_search6.jpg" width=777 height=526 alt="Search Results">
 							</td>
 						</tr>
 					</table>
@@ -316,7 +315,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GM_search8.jpg" width=298 height=23 alt="Quick Search Screen Shot">
+						<img src="Images/GM_search8.jpg" width=298 height=23 alt="Quick Search">
 					</td>
 				</tr>
 			</table>
@@ -341,7 +340,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GM_search9.jpg" width=778 height=565 alt="Search Results Screen Shot">
+						<img src="Images/GM_search9.jpg" width=778 height=565 alt="Search Results">
 					</td>
 				</tr>
 			</table>
