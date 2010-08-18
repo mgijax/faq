@@ -54,7 +54,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/header.jpg" width=795 height=99 alt="MGI Header Screen Shot">
+						<img src="Images/header.jpg" width=795 height=99 alt="MGI Header">
 					</td>
 				</tr>
 			</table>
@@ -82,7 +82,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/srchbox.jpg" width=390 height=33 alt="Search Box Screen Shot">
+								<img src="Images/srchbox.jpg" width=390 height=33 alt="Search Box">
 							</td>
 						</tr>
 					</table>
@@ -105,7 +105,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_Gene1.jpg" width=795 height=152 alt="Search Results Screen Shot">
+								<img src="Images/GXD_Gene1.jpg" width=643 height=135 alt="Search Results">
 							</td>
 						</tr>
 					</table>
@@ -125,7 +125,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho2.jpg" width=767 height=375 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/GO_ortho2.jpg" width=767 height=375 alt="Pax6 Orthology">
 							</td>
 						</tr>
 					</table>
@@ -141,7 +141,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/ORTH_set3.jpg" width=799 height=380 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/ORTH_set3.jpg" width=799 height=380 alt="Pax6 Orthology">
 							</td>
 						</tr>
 					</table>

@@ -57,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GM.jpg" width=782 height=413 alt="Search Menu G&M QF Screen Shot">
+						<img src="Images/srchmenu_GM.jpg" width=782 height=413 alt="Search Menu G&M QF">
 					</td>
 				</tr>
 			</table>
@@ -70,7 +70,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding genes associated with homeostasis and/or metabolism on Chromosome 7 between 130 and 140 Mbp
+			Example 1. Finding genes associated with metabolism on Chromosome 7 between 130 and 140 Mbp
 		</td>
 	</tr>
 	<tr>
@@ -78,7 +78,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select <i>Gene</i> from the <b>Type</b> drop-down menu. 
+						<li>Check the box for <i>gene</i> in the <b>Feature Type</b> section. 
 						<p>
 						<li>Select <i>7</i> from the <b>Chromosome(s)</b> list.
 						<p>
@@ -86,11 +86,7 @@
 						<p>
 						<li>Change <i>bp</i> to <i>Mbp</i> in the drop-down menu near <b>Genome Coordinates</b>.
 						<p>
-						<li>Click the link to <u>Anatomical Systems Affected by Phenotypes</u> beneath the <b>Phenotype/Human Disease</b> text box.
-						<p>
-						<li>Select <i>homeostasis/metabolism</i> from the pick list. 
-						<p>
-						<li>Click <b>Add to Query</b>.
+						<li>Type <i>metabolism</i> in the text box beneath <b>Phenotype/Human Disease</b>.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -99,7 +95,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_cand.jpg" width=754 height=651 alt="G&M QF Screen Shot">
+								<img src="Images/PAD_cand.jpg" width=720 height=610 alt="G&M QF">
 							</td>
 						</tr>
 					</table>

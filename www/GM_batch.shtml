@@ -113,15 +113,15 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value =5>Click on an MGI ID in the <b>MGI Gene/Marker ID</b> 
-						column to retrieve the corresponding <b>Gene Detail</b> page.
+						<li value =5>Click on a gene symbol to retrieve the 
+						corresponding <b>Gene Detail</b> page.
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_batch2.jpg" width=729 height=161 alt="Batch Query Search Results">
+								<img src="Images/GM_batch2.jpg" width=713 height=81 alt="Batch Query Search Results">
 							</td>
 						</tr>
 					</table>
