@@ -9,15 +9,6 @@
  <span class="titleBarMainTitle">Frequently Asked Questions</span>
 </div> <!--titleBar-->
 
-
-<!-- this file is an example template to be used to create a page in the
-"All X" format, similar to the "All Search Tools" page.  To use this template
-simply add anchor links to the sections your page contains in the toc table,
-then create each section to contain the appropriate anchor link and content.
-Note that the links in the toc are a list <ul> where each link is a <li> item.
-Note that the list in each section is a definition list <dl> where the term
-<dt> is the heading, and the definition <dd> is the descriptive text.  -->
-
 <!-- main body table -->
 <table width="75%" cellpadding="2" align="center">
 
@@ -27,7 +18,6 @@ Note that the list in each section is a definition list <dl> where the term
 			<tr>
 				<td>
 					<ul>
-						<li><a href="#faq_general">General Questions</a> | </li>
 						<li><a href="#faq_marker">Genes, Genome Features &amp Maps</a> | </li>
 						<li><a href="#faq_pad">Phenotypes, Alleles &amp Disease Models</a> | </li>
 						<li><a href="#faq_gxd">Gene Expression</a> | </li>
@@ -41,47 +31,6 @@ Note that the list in each section is a definition list <dl> where the term
 			</tr>
 		</table>
 	</td></tr>
-<tr><td>
-<a name="faq_general"></a>
-	<table class="outline" width="100%">
-		<tr>
-			<td class="enhance">
-				<a href='<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml'
-				onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml');
-				return false;">
-				General Questions</a>
-			</td>
-		</tr>
-		<tr >
-			<tr >
-				<td>
-					<tr >
-						<td>	How do I ...
-							<dl class="linkedList">
-                				<dt>.. find available strains carrying a mutation in a specific gene?
-				        		<a href="PAD_strain.shtml" onClick="javascript:openFaqWindow('PAD_strain.shtml');
-								return false;">FAQ</a></dt>
-   				     			<dt>..  contribute my data to MGI?
-				        		<a href="GQ_data.shtml" onClick="javascript:openFaqWindow('GQ_data.shtml');
-								return false;">FAQ</a></dt>
-                     			<dt>..  join or unsubscribe from MGI List or MGI Technical List?
-				        		<a href="GQ_list.shtml" onClick="javascript:openFaqWindow('GQ_list.shtml');
-								return false;">FAQ</a></dt>
-								<dt>..  cite MGI?
-				        		<a href="GQ_cite.shtml" onClick="javascript:openFaqWindow('GQ_cite.shtml');
-								return false;">FAQ</a></dt>
-							    <dt>..  find an answer for a question not listed here?
-				        		<a href='<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml'
-				        		onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->support/mgi_inbox.shtml');
-								return false;">User Support</a></dt>
-                			</dl>
-						</td>
-					</tr>
-				</td>
-			</tr>
-		</tr>
-	</table>
-</td></tr>
 <tr><td>
 	<a name="faq_marker"></a>
 		<table class="outline" width="100%">
@@ -118,12 +67,6 @@ Note that the list in each section is a definition list <dl> where the term
 								return false;">FAQ</a></dt>
 								<dt>.. see different gene models along with the MGI-curated representative model?
 				        		<a href="GM_gmodel.shtml" onClick="javascript:openFaqWindow('GM_gmodel.shtml');
-								return false;">FAQ</a></dt>
-								<dt>.. find or obtain approved nomenclature for a gene, allele or strain?
-				        		<a href="GM_nomen.shtml" onClick="javascript:openFaqWindow('GM_nomen.shtml');
-								return false;">FAQ</a></dt>
-								<dt>.. find genomic or cDNA clones?
-				        		<a href="GM_clone.shtml" onClick="javascript:openFaqWindow('GM_clone.shtml');
 								return false;">FAQ</a></dt>
 								<dt>.. find primer sequence for a gene?
 				        		<a href="GM_primer.shtml" onClick="javascript:openFaqWindow('GM_primer.shtml');
