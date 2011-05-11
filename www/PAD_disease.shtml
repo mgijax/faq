@@ -128,8 +128,8 @@
 						<img src="Images/docu_img.jpg" align = top width=24 height=20 alt="Documentation Link"></a>.
 						<p>
 						Click on <b>OMIM ID:</b> 
-						<a href='http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=143100'
-						onClick="javascript:openNewWindow('http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=143100'); 
+						<a href='http://www.omim.org/entry/143100'
+						onClick="javascript:openNewWindow('http://www.omim.org/entry/143100'); 
 						return false;">
 						143100</a>
 						to view the corresponding Huntington Disease entry in Online Mendelian 
