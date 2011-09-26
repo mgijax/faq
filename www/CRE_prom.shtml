@@ -20,46 +20,30 @@ with a given promoter</title>
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		<span><!--#include file='faq_toolbar.shtml'-->
-			Overview
-		</span>
-
-		</td>
-	</tr>
-	<tr>
-		<td colspan=2 align=left>You can use the tools listed under 
-		"Access Data" to find transgenes that express recombinase.
-		</td>
-	</tr>
-	<tr>
-	</tr>
-	<tr>
-		<td class="enhance" colspan=2 align=left>
-		Find Recombinases-Carrying Alleles
+		Find Recombinase-Carrying Alleles
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Recombinase (cre) Specificity page  
+			On most MGI pages, you can access the Recombinase (cre) Activity page  
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
 			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml'); 
 			return false;">
-			Recombinase (cre) Specificity page</a>
+			Recombinase (cre) Activity page</a>
 			in a new window. Scroll down this page for further instructions. 
-			The "Find Recombinases-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
+			The Access Data section allows you to search for recombinase expression in a specified tissue 
 			or under the control of a given gene.
-		</td>
-		
+		</td>		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=734 height=279 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=211 height=257 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -81,7 +65,7 @@ with a given promoter</title>
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select <I>Nes</I> From the <B>Recombinase driven by</B> selection list.
+						<li>Select <I>Nes</I> from the <B>Recombinase driven by</B> selection list.
 						<p>
 						<li>Click <B>Go</B>.
 					</ol>
@@ -102,7 +86,8 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 3>In the summary page that appears, click the link to "(phenotype data)" below an allele symbol to go to the detail page for more information.
+					<li value = 3>In the summary page that appears, click the link to phenotype data
+					below an allele symbol to go to the detail page for more information.
 				</td>
 				<td valign=top>
 					<table class="outline">
@@ -120,7 +105,9 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 4>On the Transgene Detail page, go to the <B>Recombinase specificity</B> section and click one of the anatomical systems for more information.
+					<li value = 4>On the Transgene Detail page, go to the 
+					<B>Recombinase specificity</B> section and click one of the anatomical systems 
+					for more information.
 				</td>
 				<td valign=top>
 					<table class="outline">
@@ -138,7 +125,8 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 5>This returns a page summarizing recombinase expression under the control of <I>Nes</I> in the cardiovascular system.
+					<li value = 5>This returns a page summarizing recombinase expression under 
+					the control of the <I>Nes</I> promoter in the cardiovascular system.
 				</td>
 				<td valign=top>
 					<table class="outline">

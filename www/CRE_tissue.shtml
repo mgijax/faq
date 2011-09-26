@@ -19,46 +19,30 @@
 <table border=0 cellpadding=0 cellspacing=7>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		<span><!--#include file='faq_toolbar.shtml'-->
-			Overview
-		</span>
-
-		</td>
-	</tr>
-	<tr>
-		<td colspan=2 align=left>You can use the tools listed under 
-		"Access Data" to find transgenes that express recombinase.
+		Find Recombinase-Carrying Alleles
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
-		<td class="enhance" colspan=2 align=left>
-		Find Recombinases-Carrying Alleles
-		</td>
-	</tr>
-	<tr>
-	</tr>
-	<tr>
-		<td valign=top>
-			On most MGI pages, you can access the Recombinase (cre) Specificity page  
+		<td valign=top >
+			On most MGI pages, you can access the Recombinase (cre) Activity page  
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
 			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml'); 
 			return false;">
-			Recombinase (cre) Specificity page</a>
+			Recombinase (cre) Activity page</a>
 			in a new window. Scroll down this page for further instructions. 
-			The "Find Recombinases-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
+			The Access Data section allows you to search for recombinase expression in a specified tissue 
 			or under the control of a given gene.
 		</td>
-		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=734 height=279 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=211 height=257 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -71,10 +55,9 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding a transgene expressing recombinase in cardiovascular system.
+			Example 1. Finding a transgene expressing recombinase in the cardiovascular system.
 		</td>
 	</tr>
-
 	<tr>
 		<td> 
 			<tr>
@@ -88,7 +71,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSelect.jpg" width=550 height=159 alt="cardiovascular">
+								<img src="Images/CardioSelect.jpg" width=535 height=140 alt="cardiovascular">
 							</td>
 						</tr>
 					</table>
@@ -100,13 +83,14 @@
 		<td> 
 			<tr>
 				<td valign=top>	<ol>				
-					<li value = 3>In the summary page that appears, click the link to "(phenotype data)" below an allele symbol to go to the detail page for more information.
+					<li value = 3>In the summary page that appears, click the link to phenotype data
+					below an allele symbol to go to the detail page for more information.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSummary.jpg" width=757 height=365 alt="cardiovascular results summary">
+								<img src="Images/CardioSummary.jpg" width=737 height=294 alt="cardiovascular results summary">
 							</td>
 						</tr>
 					</table>
@@ -126,26 +110,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/Nkx2-5.jpg" width=916 height=496 alt="Nkx2-5">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</td>
-	</tr>
-	<tr>
-		<td> 
-			<tr>
-				<td valign=top><ol>
-					<li value = 5>This returns a page summarizing recombinase expression under 
-					the control of <I>Nkx2-5</I> in the cardiovascular system.
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/Nkx2-5Cardio.jpg" width=1022 height=688 alt="Nes Cardiovascular System Specificity">
+								<img src="Images/Nkx2-5.jpg" width=774 height=481 alt="Acan">
 							</td>
 						</tr>
 					</table>
