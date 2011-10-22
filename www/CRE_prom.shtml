@@ -43,7 +43,7 @@ with a given promoter</title>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=211 height=257 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=614 height=228 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -74,7 +74,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy.jpg" width=545 height=109 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy.jpg" width=448 height=81 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -93,7 +93,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesAllele.jpg" width=927 height=397 alt="Nes Allele results summary">
+								<img src="Images/NesAllele.jpg" width=622 height=422 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -106,33 +106,14 @@ with a given promoter</title>
 			<tr>
 				<td valign=top><ol>
 					<li value = 4>On the Transgene Detail page, go to the 
-					<B>Recombinase specificity</B> section and click one of the anatomical systems 
+					<B>Recombinase activity</B> section and click one of the anatomical systems 
 					for more information.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesTranDetail.jpg" width=804 height=454 alt="Nes Allele Recombinase Specificity">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</td>
-	</tr>
-	<tr>
-		<td> 
-			<tr>
-				<td valign=top><ol>
-					<li value = 5>This returns a page summarizing recombinase expression under 
-					the control of the <I>Nes</I> promoter in the cardiovascular system.
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/NesCardio.jpg" width=885 height=668 alt="Nes Cardiovascular System Specificity">
+								<img src="Images/NesTranDetail.jpg" width=1119 height=446 alt="Nes Allele Recombinase Specificity">
 							</td>
 						</tr>
 					</table>

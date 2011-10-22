@@ -158,10 +158,14 @@
 								return false;">FAQ</a></dt>
                  				<dt>.. find references that report expression data for a gene at a specific age?
 				        		<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow('GXD_ref_age.shtml');
-								return false;">FAQ</a></dt></dt>
+								return false;">FAQ</a></dt>
         						<dt>.. find expression data in mouse mutants?
 				        		<a href="GXD_mutant.shtml" onClick="javascript:openFaqWindow('GXD_mutant.shtml');
 								return false;">FAQ</a></dt>
+								<dt>.. How do I find and download expression data using BioMart?
+								<a href="GXD_biomart.shtml" onClick="javascript:openFaqWindow('GXD_biomart.shtml');
+								return false;">FAQ</a></dt>
+
                             </dl>
 						</td>
 					</tr>

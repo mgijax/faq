@@ -38,11 +38,11 @@
 			The Access Data section allows you to search for recombinase expression in a specified tissue 
 			or under the control of a given gene.
 		</td>
-		<td valign=top>
+		<td valign=top colspan=2 align=left>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=211 height=257 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=614 height=228 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -63,7 +63,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-					<li>Select <B>cardiovascular system</B> from the <B>Recombinase specificity in</B> selection list.
+					<li>Select <B>cardiovascular system</B> from the <B>Recombinase activity in</B> selection list.
 					<p>
 					<li>Click <B>Go</B>.
 				</td>
@@ -71,7 +71,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSelect.jpg" width=535 height=140 alt="cardiovascular">
+								<img src="Images/CardioSelect.jpg" width=529 height=131 alt="cardiovascular">
 							</td>
 						</tr>
 					</table>
@@ -103,14 +103,14 @@
 			<tr>
 				<td valign=top><ol>
 					<li value = 4>In the Targeted Allele Detail page that appears, go to the 
-					<B>Recombinase specificity</B> section and click <B>cardiovascular system</B> 
+					<B>Recombinase activity</B> section and click <B>cardiovascular system</B> 
 					for more information.
 					</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/Nkx2-5.jpg" width=774 height=481 alt="Acan">
+								<img src="Images/Nkx2-5.jpg" width=804 height=544 alt="Acan">
 							</td>
 						</tr>
 					</table>
