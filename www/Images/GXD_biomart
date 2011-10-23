@@ -1,0 +1,155 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"--> Compare Expression Between Tissues</title>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css"/>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find and download expression data using BioMart?</span>
+</div>
+
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
+
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		<span><!--#include file='faq_toolbar.shtml'-->
+			Overview
+		</span>
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=left>You can use the GXD BioMart to search for detailed expression using
+		a variety of parameters and then export these data for use in further analyses in your lab.
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		Accessing the GXD BioMart
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			Click on the Expression tab as shown at right.
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/Exp_tab.jpg" width=439 height=109 alt="Expression Tab">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			Click on GXD BioMart in the lower left corner of the Gene Expression Database (GXD) page.
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GXD_biomart1.jpg" width=749 height=602 alt="GXD page">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding and downloading expression data that demonstrate gene expression
+			in the midbrain
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click <b>Filters</b> at upper left.
+						<p>
+						<li>Check the box next to <b>Anatomical Structure</b> and type 
+						midbrain in the text box.
+						<p>
+						<li>Check the box next to <b>Expression</b> and leave the default 
+						menu selection as Detected.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_biomart2.jpg" width=756 height=448 
+								alt="GXD BioMart">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 4>Click <b>Count</b> at upper left to obtain a count of 
+						the number of records to be returned by the search.
+					</ol>
+					<p>
+						<li>Click <b>Results</b> to retrieve data.
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_biomart3.jpg" width=790 height=238 alt="GXD Summary Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 6>The results will show only the first 10 records retrieved. 
+						To view all output in HTML, change 10 to All rows as HTML in the 
+						drop-down menus. You can also change the output from HTML to 
+						tab-separated values (TSV), and can then copy and paste text into Excel. 
+						Notice that you can also export results as a file or have them 
+						e-mailed to you.
+					</ol>
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_biomart4.jpg" width=790 height=238 alt="GXD Summary Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'-->
