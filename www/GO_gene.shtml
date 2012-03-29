@@ -117,11 +117,11 @@
 			</tr>
 			<tr>
 				<td valign=top><ol>
-					<li value = 4>Click the link to 
-					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184'
-					onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184'); 
-					return false;">		
-					All GO classifications(44)</a> 
+					<li value = 4>Click the link to All GO classifications:
+						<a href='<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490'
+						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490'); 
+						return false;">				
+						(112 annotations)</a> 
 					on the <b>Pax6 Gene Detail</b> page.
 				</ol>
 			</td>
@@ -129,7 +129,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_gene2.jpg" width=742 height=80 alt="Pax6 GO Screen Shot">
+								<img src="Images/GO_gene2.jpg" width=653 height=79 alt="Pax6 GO Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -145,8 +145,8 @@
 					<li value = 5>The <b>Gene Ontology classifications</b> page 
 						supplies all classifications in text, 
 						table and graphical form. Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184#tabular'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerGO&key=12184#tabular'); 
+						<a href='<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490#tabular'
+						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490#tabular'); 
 						return false;">									
 						Tabular View</a> 
 						to view a table listing all classifications, or the link to 
