@@ -46,8 +46,8 @@
 			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='http://www.informatics.jax.org/imsr/index.jsp' 
-			onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp'); 
+			<a href='<!--#include file='include/imsr_home_url.html' 
+			onClick="javascript:openNewWindow('<!--#include file='include/imsr_home_url.html'); 
 			return false;">
 			IMSR</a>
 			in a new window. Scroll down this page for further instructions. 
@@ -79,18 +79,14 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click 
-						<a href='http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp' 
-						onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp'); 
-						return false;">
-						Search IMSR</a>.
+						<li>Type <i>rag2</i> in the <b>Search for:</b> text box..
 					</ol>					
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_EScell1.jpg" width=662 height=373 alt="IMSR Screen Shot">
+								<img src="Images/PAD_EScell1.jpg" width=447 height=183 alt="IMSR Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -99,28 +95,12 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value =2>Uncheck boxes next to: 
-							<dl>
-								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved Ovaries
-								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved Embryos
-								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved/Freeze-Dried Sperm
-							</dl>
-						<li>Check the box next to:
-							<dl>
-								<dt><dd><img src="Images/check_box.jpg"> Live Mice
-							</dl>
-						<p>
-						<li>Type <i>rag2</i> in the <b>Gene or Allele Symbol/Name</b> text box.
+						<li value =2>Select <b>live</b> for the Strain State.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>					
 				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/PAD_strain2.jpg" width=781 height=580 alt="IMSR Search Form">
-							</td>
+				
 						</tr>
 					</table>
 				</td>	
@@ -128,7 +108,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value =6>Click on a link in the <b>Strain/Stock Designation</b> 
+						<li value =4>Click on a link in the <b>Provider</b> 
 						column to request a specific strain from the holder.
 					</ol>					
 				</td>
@@ -136,7 +116,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_strain3.jpg" width=771 height=474 alt="IMSR Search Results">
+								<img src="Images/PAD_strain3.jpg" width=1065 height=298 alt="IMSR Search Results">
 							</td>
 						</tr>
 					</table>
