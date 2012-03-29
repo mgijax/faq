@@ -46,8 +46,8 @@
 			as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='http://www.informatics.jax.org/imsr/index.jsp' 
-			onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/index.jsp'); 
+			<a href='<!--#include file='include/imsr_home_url.html' 
+			onClick="javascript:openNewWindow('<!--#include file='include/imsr_home_url.html'); 
 			return false;">
 			IMSR</a>
 			in a new window. Scroll down this page for further instructions. 
@@ -79,65 +79,34 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click 
-						<a href='http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp' 
-						onClick="javascript:openNewWindow('http://www.informatics.jax.org/imsr/IMSRSearchForm.jsp'); 
-						return false;">
-						Search IMSR</a>.
+						<li>Type <i>acadm</i> in the <b>Search for:</b> text box..</li>
+						<li>Select <b>ES Cell</b> for the Strain State. 
+						<li>Click <b>Search</b></li>
 					</ol>					
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_EScell1.jpg" width=662 height=373 alt="IMSR Screen Shot">
+								<img src="Images/PAD_EScell2.jpg" width=366 height=143 alt="IMSR Search Form">
 							</td>
 						</tr>
 					</table>
 				</td>	
 			</tr>
+			
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value =2>Uncheck boxes next to: 
-							<dl>
-								<dt><dd><img src="Images/check_box_blank.jpg"> Live Mice
-								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved Ovaries
-								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved Embryos
-								<dt><dd><img src="Images/check_box_blank.jpg"> Cryopreserved/Freeze-Dried Sperm
-							</dl>
-						<li>Check the box next to:
-							<dl>
-								<dt><dd><img src="Images/check_box.jpg"> ES cell lines
-							</dl>
-						<p>
-						<li>Type <i>acadm</i> in the <b>Gene or Allele Symbol/Name</b> text box.
-						<p>
-						<li>Click <b>Search</b>.
+						<li value =4>Click on a link in the <b>Provider</b> 
+						column to request a specific ES cell line from the stock holder.
 					</ol>					
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_EScell2.jpg" width=709 height=579 alt="IMSR Search Form">
-							</td>
-						</tr>
-					</table>
-				</td>	
-			</tr>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value =6>Click on a link in the <b>Strain/Stock Designation</b> 
-						column to request a specific ES cell line from the holder.
-					</ol>					
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/PAD_EScell3.jpg" width=661 height=311 alt="IMSR Search Results">
+								<img src="Images/PAD_EScell3.jpg" width=1025 height=189 alt="IMSR Search Results">
 							</td>
 						</tr>
 					</table>
