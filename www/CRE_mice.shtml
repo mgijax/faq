@@ -97,14 +97,13 @@
 		<td> 
 			<tr>
 				<td valign=top>	<ol>				
-					<li value = 3>In the summary page that appears, click one of the arrows 
-					at the top of the <B>IMSR</B> column to sort alleles by this column.
+					<li value = 3>In the summary page that appears, click the arrow at the top of the <B>Find Mice (IMSR)</B> column to sort alleles by this column.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/IMSR1.jpg" width=989 height=477 alt="Nes Allele results summary">
+								<img src="Images/IMSR1.jpg" width=786 height=355 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -125,7 +124,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/IMSR2.jpg" width=983 height=366 alt="Nes Allele results summary">
+								<img src="Images/IMSR2.jpg" width=790 height=378 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -137,8 +136,8 @@
 		<td> 
 			<tr>
 				<td valign=top>	<ol>				
-					<li value = 5>In the summary page that appears, click the link in the 
-					<B>Holder Site</B> column for more information.
+					<li value = 5>In the summary page that appears, click a link in the 
+					<B>Provider</B> column for more information.
 				</td>
 				<td valign=top>
 					<table class="outline">
