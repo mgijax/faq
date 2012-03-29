@@ -93,21 +93,9 @@
 			<tr >
 				<td>
 					<br>
-						Use the
-						<a href='<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml'
-						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/polymorphism_form.shtml');
-						return false;">
-						RFLP/PCR Polymorphism Query Form</a></i></b>.<br>
-						Queries allow selection of the strains and genes or genomic
-						regions of interest and allow designation of
-						a reference strain for same/different comparisons.
-						For detailed instructions see the following:
-						<p>
-    					How do I find strains with RFLP/PCR polymorphisms in a
-    					particular gene?
- 				        <a href="STRN_poly.shtml"
- 				        onClick="javascript:openFaqWindow('STRN_poly.shtml');
-						return false;">FAQ</a>
+						Read summaries of the <a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi'
+						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi');
+						return false;">Characteristics of Inbred Strains</a> of Mice and Rats by M. Festing.
 				</td>
 			</tr>
 		</table>
