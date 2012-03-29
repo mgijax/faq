@@ -95,13 +95,13 @@
 					<br>
 						Read summaries of the <a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi'
 						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi');
-						return false;">Characteristics of Inbred Strains</a> of Mice and Rats by M. Festing.<br>
+						return false;">Characteristics of Inbred Strains</a> of Mice and Rats by M. Festing. <br>
 				</td>
 			</tr>
 		</table>
 <a name="snp_about"></a>
 	<table width="100%">
-		<tr>
+		<tr><br>
 			<td class="enhance">
 				About SNP Image
 			</td>
