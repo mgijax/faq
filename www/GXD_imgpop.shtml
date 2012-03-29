@@ -47,16 +47,16 @@
 					hybridization (left), immunohistochemically-stained sections
 					(upper right), and RT-PCR assays (lower right).  The images
 					in their entirety and links to the experimental details can be found at
-					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?10974'
-					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?10974');
+					<a href='<!--#include file='include/fewi_url.html'-->accession/MGI:3500349'
+					onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->accession/MGI:3500349');
 					return false;">
 					MGI:3500349</a>,
-					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?6726'
-					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?6726');
+					<a href='<!--#include file='include/fewi_url.html'-->accession/MGI:2676207'
+					onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->accession/'MGI:2676207);
 					return false;">
 					MGI:2676207</a>,
-					<a href='<!--#include file='include/wi_url.html'-->searches/image.cgi?20423'
-					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/image.cgi?20423');
+					<a href='<!--#include file='include/fewi_url.html'-->accession/MGI:3623377'
+					onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->accession/MGI:3623377');
 					return false;">
 					MGI:3623377</a>
 					respectively.
