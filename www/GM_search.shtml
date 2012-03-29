@@ -381,8 +381,8 @@
 				<a style="text-decoration:none" href="FAQ.shtml" onClick="javascript:openFaqWindow('FAQ.shtml');
 				return false;">Frequently Asked Questions.</a></dt>
 				Also see
-				<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml'
-				onClick="javascript:openNewWindow('<!--#include file='include/userdocs_url.html'-->searchtool_help.shtml');
+				<a style="text-decoration:none" href='<!--#include file='include/userhelp_url.html'-->QUICK_SEARCH_help.shtml'
+				onClick="javascript:openNewWindow('<!--#include file='include/userhelp_url.html'-->QUICK_SEARCH_help.shtml');
 				return false;">
 				Using the Quick Search Tool</a> for more information.
             </dl>
