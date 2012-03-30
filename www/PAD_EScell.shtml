@@ -94,27 +94,19 @@
 					</table>
 				</td>	
 			</tr>
-			
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value =4>Click on a link in the <b>Provider</b> 
-						column to request a specific ES cell line from the stock holder.
-					</ol>					
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/PAD_EScell3.jpg" width=1025 height=189 alt="IMSR Search Results">
-							</td>
-						</tr>
-					</table>
-				</td>	
+			</td>	
 			</tr>
 		</td>
 	</tr>
 </table>
+			
+	<ol>
+	<li value =4>Click on a link in the <b>Provider</b> 
+	column to request a specific ES cell line from the stock holder.
+	</ol>					
+	<p>		
+	<img src="Images/PAD_EScell3.jpg" width=1025 height=189 alt="IMSR Search Results"></p>
+	
 <table width="100%">
 	<tr>
 	</tr>
