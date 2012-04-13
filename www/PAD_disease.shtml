@@ -79,16 +79,14 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Type <b>Huntington</b> in the text box.
-						<p>
-						<li>Click <b>Search</b>.
+						<li>Click on the letter <i>H</i>.
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_disease1.jpg" width=815 height=209 alt="HDV Browser Screen Shot">
+								<img src="Images/PAD_disease1.jpg" width=760 height=179 alt="HDV Browser Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -97,7 +95,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click the link to 
+						<li value = 2>Click the link to 
 						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=humanDisease&key=848093'
 						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=humanDisease&key=848093'); 
 						return false;">
@@ -119,7 +117,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>The <b>Human Disease and Mouse Model Detail</b> page lists mouse 
+						<li value = 3>The <b>Human Disease and Mouse Model Detail</b> page lists mouse 
 						and human genes, transgenes and other mutations, and mouse models associated 
 						with Huntington Disease. For a detailed interpretation of this page, click
 						<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->omim_detail_help.shtml'
