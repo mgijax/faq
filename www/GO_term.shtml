@@ -146,8 +146,8 @@
 							to the references used to make these annotations. 
 						<p>
 						<li>Scroll down the page and click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12184'); 
+						<a href='<!--#include file='include/fewi_url.html'-->marker/MGI:97490'
+						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->marker/MGI:97490'); 
 						return false;">
 						Pax6</a>.
 					</ol>

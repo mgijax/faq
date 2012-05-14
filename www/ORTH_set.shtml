@@ -96,8 +96,8 @@
 				<td valign=top><ol>
 					<li value = 3>The <b>Search Results</b> page lists symbols and 
 					names containing <i>pax6</i>. Click the link to 
-					<a href='<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=12184'
-					onClick="javascript:openNewWindow('<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=12184'); 
+					<a href='<!--#include file='include/fewi_url.html'-->marker/MGI:97490'
+					onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->marker/MGI:97490'); 
 					return false;">
 					Pax6</a>.
 				</td>
