@@ -97,8 +97,8 @@
 			<tr>
 				<td valign=top><ol>
 					<li value = 3>Click the link to 
-					<a href='<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=94311'
-					onClick="javascript:openNewWindow('<!--#include file="include/javawi_url.html"-->WIFetch?page=markerDetail&key=94311'); 
+					<a href='<!--#include file='include/fewi_url.html'-->marker/MGI:2682003'
+					onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->marker/MGI:2682003'); 
 					return false;">
 					Whrn</a>.
 				</td>
