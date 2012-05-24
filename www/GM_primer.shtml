@@ -117,7 +117,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Locate the <b>Molecular Reagents</b> section near the bottom of the 
+						<li value = 4>Locate the <b>Molecular Reagents</b> section near the middle of the 
 						page. Click the link to Primer pair 
 						<a href='<!--#include file='include/wi_url.html'-->searches/probe_report.cgi?_Marker_key=12184&DNAtypes=genomic'
 						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/probe.cgi?1030525'); 
@@ -166,7 +166,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>The following page provides details about primer sequences.
+						<li value = 6>The following page provides details about primer sequences.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
