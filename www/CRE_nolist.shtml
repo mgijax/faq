@@ -41,14 +41,14 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Recombinase (cre) Specificity page  
+			On most MGI pages, you can access the Recombinase (cre) Activity page  
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
 			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml'); 
 			return false;">
-			Recombinase (cre) Specificity page</a>
+			Recombinase (cre) Activity page</a>
 			in a new window. Scroll down this page for further instructions. 
 			The "Find Recombinases-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
 			or under the control of a given gene.

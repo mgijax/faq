@@ -41,14 +41,14 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Recombinase (cre) Specificity page  
+			On most MGI pages, you can access the Recombinase (cre) Activity page  
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
 			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml'); 
 			return false;">
-			Recombinase (cre) Specificity page</a>
+			Recombinase (cre) Activity page</a>
 			in a new window. Scroll down this page for further instructions. 
 			The <B>Retrieve All Alleles</B> section gives you access to HTML and 
 			tab-delimited lists of all recombinase strains present in the database.
