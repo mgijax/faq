@@ -109,7 +109,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev2.jpg" width=592 height=649 alt="AD Browser Search Results">
+								<img src="Images/GXD_tissue_dev2.jpg" width=336 height=385 alt="AD Browser Search Results">
 							</td>
 						</tr>
 					</table>
@@ -118,20 +118,14 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click on 
-						<a href='<!--#include file='include/wi_url.html'-->searches/expression_report.cgi?_Structure_key=2167&sort=Gene%20Symbol&returnType=assay%20results&substructures=substructures'
-						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/expression_report.cgi?_Structure_key=2167&sort=Gene%20Symbol&returnType=assay%20results&substructures=substructures'); 
-						return false;">
-						show all</a> 
-						to see all expression results annotated to the 
-						heart and its substructures.
+						<li value = 4>Click on <u>show all</u> to see all expression results annotated to the heart and its substructures.
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev3.jpg" width=553 height=378 alt="AD Browser Term Detail">
+								<img src="Images/GXD_tissue_dev3.jpg" width=586 height=420 alt="AD Browser Term Detail">
 							</td>
 						</tr>
 					</table>
@@ -149,7 +143,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev4.jpg" width=829 height=107 alt="GXD Summary">
+								<img src="Images/GXD_tissue_dev4.jpg" width=778 height=228 alt="GXD Summary">
 							</td>
 						</tr>
 					</table>
