@@ -26,29 +26,27 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Gene Expression Data Query Form to search 
-		for detailed expression data of greatest interest to you using a variety of query parameters.
+		<td colspan=2 align=left>You can use the Gene Expression Data Search Form to find detailed expression data of greatest interest to you using a variety of query parameters.
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Accessing the Gene Expression Data Query Form
+			Accessing the Gene Expression Data Search Form
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Gene Expression Data Query Form 
-			from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Gene Expression Data Search Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF'
-			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF'); 
+			<a href='<!--#include file='include/fewi_url.html'-->gxd'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
 			return false;">
-			Gene Expression Data Query Form</a>
+			Gene Expression Data Search Form</a>
 			in a new window. Scroll down this page for further instructions.
 		<td valign=top>
 			<table class="outline">
@@ -75,11 +73,8 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Type <i>shh</i> into the <b>Mutated Gene</b> text box.
-						<p>
-						<li>Change the <b>Return data type</b> button to Assay Results.
-						<p>
-						<li>Click <b>Search</b>.
+						<li>Type <i>shh</i> into the <b>Mutant / wild type</b> text box.</li>
+						<li>Click <b>Search</b>.</li>
 						<p>
 					</ol>
 				</td>
@@ -87,7 +82,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_mutant1.jpg" width=780 height=229 alt="GXD QF Screen Shot">
+								<img src="Images/GXD_mutant1.jpg" width=521 height=230 alt="GXD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -96,24 +91,22 @@
 			<tr>
 				<td colspan=2>
 					<ol>
-						<li value = 4>Click on any data link in the <b>Result Details</b> column to view details 
-						for a specific assay.
+						<li value = 3>Click on any data link in the <b>Result Details</b> column to view details 
+						for a specific assay.</li>
 					</ol>
 				</td>
 			</tr>
 			<tr>
 				<td valign=top>
 						The results summary will list assays using <i>Shh</i> mutants. The specific 
-						allele used to obtain each result will be listed in the <b>Mutant Allele(s)</b> 
-						column.  If you don't see the <b>Mutant Allele(s)</b> column, 
-						return to the Gene Expression Data Query Form and select the Assay Results 
-						button as described in step 2.				
+						allele(s) used to obtain each result will be listed in the <b>Mutant Allele(s)</b> 
+						column.			
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_mutant2.jpg" width=855 height=207 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_mutant2.jpg" width=876 height=287 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
