@@ -76,14 +76,11 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Type <i>ptch1</i> into the <b>Gene/Marker Symbol/Name</b> 
-						text box.
+						<li>Type <i>ptch1</i> into the <b>Genes</b> 
+						 nomenclature text box.
 						<p>
-						<li>Type <i>brain</i> into the <b>Anatomical Structure(s)</b>
-						 text box.
-						<p>
-						<li>Change the <b>Return data type</b> button to Assay Results.
-						<p>
+						<li>Type <i>brai</i> into the <b>Anatomical Structures</b>
+						 text box and select brain from the list that appears.
 						<li>Click <b>Search</b>.
 					</ol>
 				</td>
@@ -91,7 +88,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue1.jpg" width=724 height=737 alt="GXD QF Screen Shot">
+								<img src="Images/GXD_GeneTissue1.jpg" width=724 height=492 alt="GXD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -100,17 +97,16 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click <u>data</u> in the <b>Result Details</b> column 
+						<li value = 4>Click <u>data</u> in the <b>Result Details</b> column 
 						to view details from assays that examined <i>Ptch1</i> expression 
-						in the brain. The camera icon indicates that images are available 
-						from the results details page.
+						in the brain.
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue2.jpg" width=795 height=224 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_GeneTissue2.jpg" width=774 height=332 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
