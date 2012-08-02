@@ -107,10 +107,10 @@
 						When the image is available in the database, the label
 						is a hyperlink to a page that contains that
 						image.  For detailed instructions on using the
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQF');
-						return false;">
-						Gene Expression Data Query Form</a>
+						<a href='<!--#include file='include/fewi_url.html'-->gxd'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
+			return false;">
+			Gene Expression Data Search Form</a>
 						to query for data see the following:
 						<p>
 				   		How do I find expression data for a specific gene and tissue?
