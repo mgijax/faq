@@ -22,12 +22,12 @@
 		<span><!--#include file='faq_toolbar.shtml'-->
 			Overview
 		</span>
-
+<br>
 		</td>
 	</tr>
 	<tr>
 		<td colspan=2 align=left>You can use the Gene Expression Data Search Form to search 
-		for detailed expression data of greatest interest to you using a variety of query parameters.
+		for detailed expression data of specific interest to you using a variety of query parameters.
 		</td>
 	</tr>
 	<tr>
@@ -41,21 +41,20 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Gene Expression Data Search Form 
-			from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the "Gene Expression Data Query" form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/fewi_url.html'-->gxd'
 			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
 			return false;">
 			Gene Expression Data Search Form</a>
-			in a new window. Scroll down this page for further instructions. 
+			in a new window. 
 		</td>		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GXD.jpg" width=783 height=414 alt="Search Menu GXD QF Screen Shot">
+						<img src="Images/srchmenu_GXD.jpg" width=675 height=352 alt="Search Menu GXD QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -68,7 +67,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding expression assays in brain for gene <i>Ptch1</i>
+			Example 1. Finding expression data in the mouse brain for gene <i>Ptch1</i>
 		</td>
 	</tr>
 	<tr>
@@ -76,11 +75,14 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Type <i>ptch1</i> into the <b>Genes</b> 
+						<li>Type <i>Ptch1</i> into the <b>Genes</b> 
 						 nomenclature text box.
 						<p>
-						<li>Type <i>brai</i> into the <b>Anatomical Structures</b>
+						<li>Type <i>brain</i> into the <b>Anatomical Structures</b>
 						 text box and select brain from the list that appears.
+						 <p>
+						 <li>If desired, select other options such as wildtype or mutant specific expression, and preferred assay type(s). </li>
+						 <p>
 						<li>Click <b>Search</b>.
 					</ol>
 				</td>
@@ -88,7 +90,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue1.jpg" width=724 height=492 alt="GXD QF Screen Shot">
+								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=540 alt="GXD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -106,7 +108,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue2.jpg" width=774 height=332 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=242 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
