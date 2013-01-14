@@ -59,7 +59,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_PAD.jpg" width=783 height=413 alt="Search Menu PAD QF Screen Shot">
+						<img src="Images/srchmenu_PAD.jpg" width=500 height=259 alt="Search Menu PAD QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -93,7 +93,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_muttype1.jpg" width=812 height=410 alt="PAD QF Screen Shot">
+								<img src="Images/GM_muttype1.jpg" width=500 height=212 alt="PAD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -114,7 +114,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_muttype2.jpg" width=851 height=189 alt="PAD Summary Screen Shot">
+								<img src="Images/PAD_muttype2.jpg" width=500 height=178 alt="PAD Summary Screen Shot">
 							</td>
 						</tr>
 					</table>
