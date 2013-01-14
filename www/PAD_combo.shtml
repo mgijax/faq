@@ -56,7 +56,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_PAD.jpg" width=783 height=413 alt="Search Menu PAD QF Screen Shot">
+						<img src="Images/srchmenu_PAD.jpg" width=500 height=259 alt="Search Menu PAD QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -78,7 +78,7 @@
 				<td valign=top>
 					<ol>
 						<li>Type <i>hyperglycemia AND glucosuria</i> in the 
-						<b>Phenotype/Disease</b> text box.
+						<b>Phenotype/Disease</b> text box. Searches can be restricted to a defined genetic region if desired.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -87,7 +87,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_combo1.jpg" width=560 height=290 alt="PAD QF Screen Shot">
+								<img src="Images/PAD_combo1.jpg" width=500 height=239 alt="PAD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -102,7 +102,7 @@
 					<ol>
 						<li value = 3>Click on an allele symbol in the first column of the 
 							search results to view greater detail about the selected allele, 
-							including descriptions of phenotypes and any associated diseases. 
+							including descriptions of phenotypes, mouse genetic background and any associated diseases. 
 							Note that the precise search terms entered may not appear in the 
 							phenotype descriptions for an allele. These search terms may have
 							been captured as synonyms during the search, and be represented 
@@ -113,7 +113,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_combo2.jpg" width=784 height=421 alt="PAD Summary Screen Shot">
+								<img src="Images/PAD_combo2.jpg" width=500 height=259 alt="PAD Summary Screen Shot">
 							</td>
 						</tr>
 					</table>
