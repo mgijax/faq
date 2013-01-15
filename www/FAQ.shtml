@@ -365,9 +365,9 @@
 					<tr >
 						<td>	How do I ...
 							<dl class="linkedList">
-				        		<dt>.. view the ortholog set for a mouse gene?
+				        		<!--<dt>.. view the ortholog set for a mouse gene?
 				        		<a href="ORTH_set.shtml" onClick="javascript:openFaqWindow('ORTH_set.shtml');
-								return false;">FAQ</a></dt>
+								return false;">FAQ</a></dt>-->
                					<!--<dt>.. view a comparative map of mouse and human chromosomes?
 				        		<a href="ORTH_map.shtml" onClick="javascript:openFaqWindow('ORTH_map.shtml');
 								return false;">FAQ</a></dt>-->
