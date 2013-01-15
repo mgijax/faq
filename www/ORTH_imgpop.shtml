@@ -47,24 +47,28 @@
 				Major ways to access orthology data include:
 					<ul>
 						<br>
-						<li><b><i>Using the link on gene detail pages</i></b><br>
+						<li><b>View comparative maps using the link on gene detail pages</b>
+						<br>
+						On a gene detail page, click the hyperlink next to "Comparative Map" 
+						reading (Human/Mouse GeneName) in the "Mammalian Homology" row to view the 
+						mouse chromosome and list of genes in the human syntenic region side by side.</li>
+						<br>
+						<li><b>Find gene orthologs in other species</b>
+						<br>
 						A summary of organisms with orthologs for a mouse
 						gene can be accessed by clicking on the Mammalian Orthology
 						link in the Mammalian homology section of that gene's
-						detail page.  For detailed instructions see the following:
-						<p>
-					    How do I view the ortholog set for a mouse gene?
-				        <a href="ORTH_set.shtml"
-				        onClick="javascript:openFaqWindow('ORTH_set.shtml');
+						detail page. Genomic, transcript or protein sequences can be downloaded in FASTA format or selected and forwarded to MouseBLAST to generate a multiple species alignment.
+						<p>For detailed instructions see the following: 
+						<i>How do I find a gene ortholog</i>?
+				        <a href="ORTH_gene.shtml"
+				        onClick="javascript:openFaqWindow('ORTH_gene.shtml');
 						return false;">FAQ</a>
     					<p>
-						<li><b><i>Using comparative maps</i></b><br>
-						For detailed instructions see the following:
-						<p>
-					    How do I view a comparative map of mouse and human chromosomes?
-				        <a href="ORTH_map.shtml"
+						<!--How do I view a comparative map of mouse and human chromosomes?</p>-->
+					    <!--<a href="ORTH_map.shtml"
 				        onClick="javascript:openFaqWindow('ORTH_map.shtml');
-						return false;">FAQ</a>
+						return false;">FAQ</a>-->
 					</ul>
 			</td>
 		</tr>
