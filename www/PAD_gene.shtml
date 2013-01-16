@@ -57,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_PAD.jpg" width=783 height=413 alt="Search Menu PAD QF Screen Shot">
+						<img src="Images/srchmenu_PAD.jpg" width=500 height=259 alt="Search Menu PAD QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -90,7 +90,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_gene1.jpg" width=859 height=417 alt="PAD QF Screen Shot">
+								<img src="Images/PAD_gene1.jpg" width=500 height=239 alt="PAD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -103,17 +103,18 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Search results are ordered by state, with alleles present in 
-						live mice appearing first and alleles present in cell lines last. 
+						<li value = 4><p>Search results are ordered by state, with alleles present in 
+						live mice appearing first and alleles present in cell lines last. Alleles may be spontaneous mutations, chemically or radiation induced, targeted null alleles (knock-out), targeted knock-ins, conditional alleles (Targeted, Floxed/Frt), or gene trapped reporters. </p>
+						<p>If the allele has been used to model a human disease, a link to the OMIM entry will be included in the "Human Diseases" column.
 						Click an allele symbol in the first column of the 
-						search results to view details.
+						search results to view details.</p>
 					</ol>
 				</td>
 				<td valign=top colspan=2>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_gene2.jpg" width=829 height=185 alt="PAD Summary Screen Shot">
+								<img src="Images/PAD_gene2.jpg" width=500 height=291 alt="PAD Summary Screen Shot">
 							</td>
 						</tr>
 					</table>
