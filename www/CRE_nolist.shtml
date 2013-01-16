@@ -41,8 +41,9 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Recombinase (cre) Activity page  
-			from the Search menu as shown in the image at right.
+			<p>On most MGI pages, you can access the Recombinase (cre) Activity page  
+			from the Search menu as shown in the image at right. </p>
+			<p>You can also access the recombinase portal by clicking the hyperlinked <b>Recombinase (cre)</b> header or icon on MGI's home page.</p> 
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
@@ -50,15 +51,15 @@
 			return false;">
 			Recombinase (cre) Activity page</a>
 			in a new window. Scroll down this page for further instructions. 
-			The "Find Recombinases-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
-			or under the control of a given gene.
+			The "Find Recombinase-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
+			or under the control of a given gene.</p>
 		</td>
 		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=563 height=181 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=500 height=287 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -91,7 +92,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy2.jpg" width=543 height=273 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy2.jpg" width=500 height=510 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -112,7 +113,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/AlleleQuery.jpg" width=946 height=646 alt="Allele Query Form">
+								<img src="Images/AlleleQuery.jpg" width=500 height=282 alt="Allele Query Form">
 							</td>
 						</tr>
 					</table>
@@ -124,14 +125,16 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 6>Note that several <I>cre</I>-expressing transgenes are listed that have <I>ACTA1</I> as a promoter. 
-					<I>ACTA1</I> is the approved symbol for the gene; <I>HSA</I> is a synonym.</LI>
-				</td>
+					<li value = 6>Note that several <i>cre</i>-expressing transgenes are listed that have <I>ACTA1</I> as a promoter. 
+					<I>ACTA1</I> is the approved symbol for the gene; <I>HSA</I> is a synonym.</li>
+					<br>
+					Clicking on the hyperlinked allele name in th
+					</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/AlleleSummary1.jpg" width=753 height=274 alt="Allele Summary">
+								<img src="Images/AlleleSummary1.jpg" width=500 height=259 alt="Allele Summary">
 							</td>
 						</tr>
 					</table>
