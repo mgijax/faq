@@ -27,23 +27,23 @@ with a given promoter</title>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Recombinase (cre) Activity page  
-			from the Search menu as shown in the image at right.
-			<p>
-			For this tutorial, open the 
+			<p>On most MGI pages, you can access the <b>Recombinase (cre) Activity page </b> 
+			from the Search menu as shown in the image at right. From the homepage, you can also access this page by clicking on the "Recombinases (cre)" header or icon.</p>
+			 
+			<p>For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
 			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml'); 
 			return false;">
 			Recombinase (cre) Activity page</a>
-			in a new window. Scroll down this page for further instructions. 
-			The Access Data section allows you to search for recombinase expression in a specified tissue 
-			or under the control of a given gene.
+			in a new window. Scroll down this page for further instructions. </p>
+			<p>The Access Data section allows you to search for recombinase expression in a specified tissue 
+			or under the control of a given gene.<p>
 		</td>		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=563 height=181 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=500 height=287 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -74,7 +74,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy.jpg" width=448 height=81 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy.jpg" width=500 height=510 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -87,13 +87,17 @@ with a given promoter</title>
 			<tr>
 				<td valign=top><ol>
 					<li value = 3>In the summary page that appears, click the link to phenotype data
-					below an allele symbol to go to the detail page for more information.
-				</td>
+					below an allele symbol to go to the detail page for more information. By default, alleles are listed alphabetically according to Allele Symbol, but clicking the column headers will re-sort the table.
+					<br>
+					<ul><p>
+					- To obtain commercially available mice carrying this transgene, follow the hyperlinked numbers in the <b>Find Mice (IMSR)</b> column indicated with an arrow which will link out to the <a href="http://www.findmice.org">International Mouse Strain Resource</a>.
+					</p></ul>
+					</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesAllele.jpg" width=622 height=422 alt="Nes Allele results summary">
+								<img src="Images/NesAllele.jpg" width=600 height=368 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -107,13 +111,36 @@ with a given promoter</title>
 				<td valign=top><ol>
 					<li value = 4>On the Transgene Detail page, go to the 
 					<B>Recombinase activity</B> section and click one of the anatomical systems 
-					for more information.
+					for more information <i>(see below)</i>. Toggle the arrow in the <b>Transgene Description</b> row to expand the genetic details.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesTranDetail.jpg" width=1119 height=446 alt="Nes Allele Recombinase Specificity">
+								<img src="Images/NesTranDetail.jpg" width=600 height=215 alt="Nes Allele Recombinase Specificity">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top><ol>
+					<li value = 5><p>Within the <b>Recombinase Activity Detail</b> page, you can find links to comprehensive data on recombinase gene expression and activity. You can also easily locate:
+					</p><ul> (a) links to other cre alleles with activity in the selected tissue or organ</ul>
+					<ul> (b) dynamic figures displaying experimental reporter data for the allele</ul>
+					<ul> (c) level of cre activity within a given tissue or organ</ul><br>
+					<br>
+					Sort the table by clicking on column headers. 
+					</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/RecombActiveDetail.jpg" width=600 height=361 alt="Nes Allele Recombinase Activity">
 							</td>
 						</tr>
 					</table>
