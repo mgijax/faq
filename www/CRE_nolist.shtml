@@ -126,10 +126,11 @@
 			<tr>
 				<td valign=top><ol>
 					<li value = 6>Note that several <i>cre</i>-expressing transgenes are listed that have <I>ACTA1</I> as a promoter. 
-					<I>ACTA1</I> is the approved symbol for the gene; <I>HSA</I> is a synonym.</li>
+					<I>ACTA1</I> is the approved symbol for the gene; <I>HSA</I> is a synonym.
 					<br>
-					Clicking on the hyperlinked allele name in th
-					</td>
+					<br>
+					Clicking on the hyperlinked allele name in the first column will bring you to the <b>Transgene Detail</b> page which contains information about cre activity distribution across tissues and organ systems, models which have made use of this transgene, and transgene genetic information.
+					</li></td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
