@@ -27,7 +27,7 @@
 	<tr>
 		<td valign=top >
 			On most MGI pages, you can access the Recombinase (cre) Activity page  
-			from the Search menu as shown in the image at right.
+			from the Search menu as shown in the image at right. From the homepage, you can also access this page by clicking on the "Recombinases (cre)" header or icon.</p>
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
@@ -42,7 +42,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=563 height=181 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=500 height=287 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -71,7 +71,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSelect.jpg" width=529 height=131 alt="cardiovascular">
+								<img src="Images/CardioSelect.jpg" width=500 height=155 alt="cardiovascular">
 							</td>
 						</tr>
 					</table>
@@ -90,7 +90,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSummary.jpg" width=737 height=294 alt="cardiovascular results summary">
+								<img src="Images/CardioSummary.jpg" width=600 height=250 alt="cardiovascular results summary">
 							</td>
 						</tr>
 					</table>
@@ -102,15 +102,18 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 4>In the Targeted Allele Detail page that appears, go to the 
-					<B>Recombinase activity</B> section and click <B>cardiovascular system</B> 
-					for more information.
+					<li value = 4>In the <b>Targeted Allele Detail</b> page that appears, you can find detailed information about this allele including:
+					<ul><p> (a) evidence for presence, absence and/or distribution of cre activity within selected organ systems by following the links in the <b>Recombinase Activity</b> row.</p></ul>
+					<ul><p> (b) phenotypes that have been observed in mice carrying this allele. 
+					<br>
+					<br>
+					Phenotypes associated with orange homozygous ("hm") genoytpes refers to the transgene alone; in cases where the cre allele has been used to drive a tissue specific conditional knockout, the genotype will be indicated as conditional ("cn"). Phenotypes associated with conditional genotypes are generally due to the effect of deleting the targeted exons. </p></ul>
 					</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/Nkx2-5.jpg" width=804 height=544 alt="Acan">
+								<img src="Images/Nkx2-5.jpg" width=600 height=406 alt="Acan">
 							</td>
 						</tr>
 					</table>
