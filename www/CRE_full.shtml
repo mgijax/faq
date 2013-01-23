@@ -28,6 +28,8 @@
 	<tr>
 		<td colspan=2 align=left>You can use the tools listed under 
 		"Access Data" to find transgenes that express recombinase.
+		<br>
+		<br>
 		</td>
 	</tr>
 	<tr>
@@ -41,9 +43,9 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Recombinase (cre) Activity page  
-			from the Search menu as shown in the image at right.
-			<p>
+			<p>On most MGI pages, you can access the Recombinase (cre) Activity page  
+			from the Search menu as shown in the image at right. From the homepage, you can also access this page by clicking on the "Recombinases (cre)" header or icon.
+			</p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
 			onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml'); 
@@ -57,7 +59,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=563 height=181 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=500 height=287 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
