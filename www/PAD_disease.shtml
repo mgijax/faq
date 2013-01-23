@@ -58,7 +58,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_OMIM.jpg" width=784 height=413 alt="Search Menu HDV Browser Screen Shot">
+						<img src="Images/srchmenu_OMIM.jpg" width=500 height=259 alt="Search Menu HDV Browser Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -79,14 +79,31 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click on the letter <i>H</i>.
+						<li>Click on the letter <i>H</i> and search or scroll through the Human Disease Vocabulary Browser.</li>
+						<p>Select "Huntington Disease; HD" from the list and click the hyperlink to view details about the mouse models associated with this disease.</p>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_disease1.jpg" width=760 height=179 alt="HDV Browser Screen Shot">
+								<img src="Images/PAD_disease1.jpg" width=500 height=233 alt="HDV Browser Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ul>
+						<li>Alternatively, you may begin by typing the name of the disease or keywords into the <b>Quick Search</b> bar where the <b>Vocabulary Terms</b> section at the bottom of the page also indexes OMIM disease terms.</li>
+					</ul>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/PAD_disease2.jpg" width=500 height=163 alt="HDV Search Results">
 							</td>
 						</tr>
 					</table>
@@ -95,29 +112,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 2>Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=humanDisease&key=848093'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=humanDisease&key=848093'); 
-						return false;">
-						Huntington Disease; HD</a>
-						from the list of results to view details about the mouse 
-						models associated with this disease.
-					</ol>
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/PAD_disease2.jpg" width=718 height=179 alt="HDV Search Results">
-							</td>
-						</tr>
-					</table>
-				</td>	
-			</tr>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value = 3>The <b>Human Disease and Mouse Model Detail</b> page lists mouse 
+						<li value = 2>The <b>Human Disease and Mouse Model Detail</b> page lists mouse 
 						and human genes, transgenes and other mutations, and mouse models associated 
 						with Huntington Disease. For a detailed interpretation of this page, click
 						<a style="text-decoration:none" href='<!--#include file='include/userdocs_url.html'-->omim_detail_help.shtml'
@@ -138,7 +133,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_disease3.jpg" width=796 height=628 alt="HD & MM Detail Page">
+								<img src="Images/PAD_disease3.jpg" width=500 height=743 alt="HD & MM Detail Page">
 							</td>
 						</tr>
 					</table>
