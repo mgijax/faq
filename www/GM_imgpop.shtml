@@ -64,7 +64,7 @@
 				return false;">
 				Fgfr3</a>.
 				View the full
-				<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?name=fgfr3'
+				<a href='http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/?start=33721724;stop=33737067;ref=5;label=MGI_Genome_Features-MGI_NCBI-MGI_VEGA-MGI_ENSEMBL-UCSC_CYTOBAND%3Aoverview'
 				onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?name=fgfr3');
 				return false;">
 				gene models</a>
@@ -77,7 +77,46 @@
 			<table class="outline">
 					<tr>
 						<td>
-							<img src="<!--#include file='include/mgihome_url.html'-->homepages/images/Gene_big.jpg">
+							<img src="Images/GM_imgpop1.jpg" width=400 height=221 alt="Gene track image for Fgfr3">
+						</td>
+					</tr>					
+			</table>
+			<br>
+			</td>
+		</tr>
+	</table>
+	<table class="enhance" colspan=2 align=left>
+		<tr>
+			<td valign=top>
+				<ol>
+					<li>Use the <i>Select Tracks</i> tab near the top of the page to customize the information which is viewable in the browser. Available tracks include mutant alleles, gene traps, annotated phenotypes and more. You can also upload custom tracks using the adjacent <i>Custom Tracks</i> tab.
+					</li>
+				<ol>
+			</td>
+			<td valign=top colspan=2>
+				<table class="outline">
+					<tr>
+						<td>
+						<img src="Images/GM_imgpop2.jpg" width=400 height=113 alt="tracks">
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+		</tr>
+		<br>
+		<tr>
+			<td>
+				<ol>
+				<li value=2>Use the drop-down menu under <b>File</b> to save images from the browser or download FASTA sequences.
+				</li>
+				</ol>
+			</td>
+			<td valign=top colspan=2>
+				<table class="outline">
+					<tr>
+						<td>
+						<img src="Images/GM_imgpop3.jpg" width=400 height=101 alt="dropdown menu">
 						</td>
 					</tr>
 				</table>
@@ -108,8 +147,8 @@
 					to view gene models in MGI.
 					<ul>
 						<li><b><i>Using
-						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'
-						onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current');
+						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/'
+						onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/');
 						return false;">
 						Mouse Genome Browser</a></i></b>
 						<br>
