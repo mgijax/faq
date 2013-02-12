@@ -118,7 +118,7 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click the 
-						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?start=105469735;stop=105499249;ref=2'
+						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/'
 						onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?start=105469735;stop=105499249;ref=2'); 
 						return false;">
 						MGI Mouse Genome Browser</a> 
