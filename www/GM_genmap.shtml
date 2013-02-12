@@ -43,7 +43,7 @@
 			<p>
 			For this tutorial, open the 
 			<a href='http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/'
-			onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current'); 
+			onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/'); 
 			return false;">
 			Mouse Genome Browser</a>
 			in a new window. Scroll down this page for further instructions. 

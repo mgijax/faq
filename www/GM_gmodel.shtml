@@ -119,8 +119,7 @@
 					<ol>
 						<li value = 4>Click the 
 						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/'
-						onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?start=105469735;stop=105499249;ref=2'); 
-						return false;">
+						onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/">
 						MGI Mouse Genome Browser</a> 
 						link or thumbnail image on the <b>Pax6 Gene Detail</b> page.
 					</ol>
