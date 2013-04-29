@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title><!--#include file="include/mgiversion.html"--> Find Orthologs for Mouse and Human Genes</title>
+<title><!--#include file="include/mgiversion.html"--> Find Homologs for Mouse and Human Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css"/>
@@ -8,7 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find the mouse ortholog of a human gene?</span>
+ <span class="faqHeaderText">How do I find the mouse homolog of a human gene?</span>
 </div>
 
 <style>
@@ -68,7 +68,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding orthologs for human gene <i>PAX6</i>
+			Example 1. Finding homologs for the human gene <i>PAX6</i>
 		</td>
 	</tr>
 	<tr>
@@ -106,7 +106,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_Gene1.jpg" width=643 height=135 alt="Search Results">
+								<img src="Images/GXD_Gene1.jpg" width=601 height=128 alt="Search Results for Pax6">
 							</td>
 						</tr>
 					</table>
@@ -115,18 +115,18 @@
 			<tr>
 				<td valign=top>
 				<ol>
-					<li value = 4>Click the link to 			
+					<li value = 4>Click the link in the Vertebrate Homology row for			
 					<a href='<!--#include file="include/wi_url.html"-->searches/homology_report.cgi?_Marker_key=12184'
 					onClick="javascript:openNewWindow('<!--#include file="include/wi_url.html"-->searches/homology_report.cgi?_Marker_key=12184'); 
 					return false;">
-					Mammalian Orthology</a>.
+					<b>Vertebrate Homology Class</b></a>.
 				</ol>
 			</td>
 			<td valign=top>
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho2.jpg" width=751 height=353 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/GO_ortho2.jpg" width=601 height=243 alt="Pax6 Orthology Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -134,15 +134,14 @@
 			</tr>
 			<tr>
 				<td valign=top><ol>
-					<li value = 5>The table includes genomic location, accession identifiers, 
-					and evidence codes used to establish <i>Pax6</i> orthology in the species listed.
+					<li value = 5>The table includes genomic location and accession identifiers for <i>Pax6</i> homologs in the species listed.
 				</ol>
 			</td>
 			<td valign=top>
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/ORTH_set3.jpg" width=799 height=380 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/ORTH_set3.jpg" width=601 height=326 alt="Pax6 Orthology Screen Shot">
 							</td>
 						</tr>
 					</table>
