@@ -81,7 +81,7 @@
 						<a href='ftp://ftp.informatics.jax.org/pub/reports/index.html#pheno'
 						onClick="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html#pheno'); 
 						return false;">
-						Phenotypic Data</a> 
+						Alleles and Phenotypes</a> 
 						to move down the page.
 					</ol>
 				</td>
@@ -113,7 +113,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_dload.jpg" width=579 height=264 alt="PAD Reports">
+								<img src="Images/PAD_dload.jpg" width=607 height=449 alt="PAD Reports">
 							</td>
 						</tr>
 					</table>
