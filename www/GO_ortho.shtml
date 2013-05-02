@@ -8,7 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I view annotations for mouse/human/rat ortholog sets?</span>
+ <span class="faqHeaderText">How do I view annotations for mouse/human/rat homolog sets?</span>
 </div>
 
 <style>
@@ -69,14 +69,14 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding orthologs for gene <i>Pax6</i>
+			Example 1. Finding rat and human homologs for gene <i>Pax6</i>
 		</td>
 	</tr>
 	<tr>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li>Type <i>pax6</i> into the Search Box.
+					<li>Type <i>Pax6</i> into the Search Box.
 					<p>
 					<li>Click <b>Quick Search</b>.
 				</td>
@@ -119,7 +119,7 @@
 					<a href='<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?_Marker_key=12184'
 					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?_Marker_key=12184'); 
 					return false;">
-					Mammalian Orthology</a> 
+					Vertebrate Homology Class</a> 
 					on the <b>Pax6 Gene Detail</b> page.
 				</ol>
 			</td>
@@ -127,7 +127,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho2.jpg" width=751 height=353 alt="Pax6 Orthology">
+								<img src="Images/GO_ortho2.jpg" width=601 height=243 alt="Pax6 Orthology">
 							</td>
 						</tr>
 					</table>
@@ -140,20 +140,20 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 5>The <b>Mammalian Orthology</b> page supplies 
-					a table of <i>Pax6</i> orthologs in human, mouse and rat. 
-					To view a graph of Gene Ontology annotations for these 
-					orthologs, click the link to 
+					<li value = 5>The <b>Vertebrate Homology Class</b> page supplies 
+					a table of <i>Pax6</i> homologs across multiple vertebrate species. 
+					To view a graph of Gene Ontology annotations for human, mouse and rat 
+					homologs, click the link to 
 					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:97490'
 					onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:97490'); 
 					return false;">			
-					Mouse-Human-Rat Comparative GO Graph</a>.
+					Comparative GO Graph </a> (human, mouse, rat).
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho3.jpg" width=797 height=503 alt="Mammalian Orthology">
+								<img src="Images/GO_ortho3.jpg" width=601 height=326 alt="Mammalian Orthology">
 							</td>
 						</tr>
 					</table>
