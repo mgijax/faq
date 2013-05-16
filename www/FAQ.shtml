@@ -25,7 +25,7 @@
 						<li><a href="#faq_go">GO Functional Annotations</a> | </li>
 						<li><a href="#faq_pathways">Biochemical Pathways</a> | </li>
 						<li><a href="#faq_strain">Strains, SNPs &amp Polymorphisms</a> | </li>
-						<li><a href="#faq_mammortho">Mammalian Orthology</a></li>
+						<li><a href="#faq_mammortho">Vertebrate Homology/a></li>
 					</ul>
 				</td>
 			</tr>
@@ -354,7 +354,7 @@
 				<a href="<!--#include file='include/homepages_url.html'-->orthology.shtml"
 				onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->orthology.shtml');
 				return false;">
-				Mammalian Orthology</a>
+				Vertebrate Homology</a>
 			</td>
 		</tr>
 		<tr >
@@ -371,10 +371,10 @@
                					<!--<dt>.. view a comparative map of mouse and human chromosomes?
 				        		<a href="ORTH_map.shtml" onClick="javascript:openFaqWindow('ORTH_map.shtml');
 								return false;">FAQ</a></dt>-->
-								<dt>.. find the mouse ortholog of a human gene?
+								<dt>.. find the mouse homolog of a human gene?
 				        		<a href="ORTH_gene.shtml" onClick="javascript:openFaqWindow('ORTH_gene.shtml');
 								return false;">FAQ</a></dt>
-                				<dt>.. download all mouse and human orthologs?
+                				<dt>.. download all mouse and human homologs?
 				        		<a href="ORTH_dload.shtml" onClick="javascript:openFaqWindow('ORTH_dload.shtml');
 								return false;">FAQ</a></dt>
  	              				<!--<dt>.. view a mouse linkage map with human orthologs?
