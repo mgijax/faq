@@ -8,7 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find expression data for a tissue during development?</span>
+ <span class="faqHeaderText">How do I find expression data for a whole tissue during development?</span>
 </div>
 
 <style>
@@ -26,7 +26,8 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use The Mouse Anatomical Dictionary Browser to find 
+		<td colspan=2 align=left>
+		<p>You can use The Mouse Anatomical Dictionary Browser to find 
 			anatomical terms of most interest to you, either by browsing the hierarchy of 
 			anatomical structures or by searching for specific terms.  You can then use 
 			the links provided to find the expression results associated with those terms.
@@ -57,7 +58,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_AD.jpg" width=785 height=414 alt="Search Menu ADB Screen Shot">
+						<img src="Images/srchmenu_AD.jpg" width=675 height=317 alt="Search Menu ADB Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -79,16 +80,23 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Type <i>heart</i> into the <b>Query</b> text box.
+						<li>
+						<p>Type <i>heart</i> into the <b>Query</b> text box.</li>
 						<p>
-						<li>Click the <b>Search</b> button. 
+						<li>Select <b>TS 17 (10.0-11.25 dpc)</b> (Theiler Stage 17, days post conception - 
+						browse the anatomical dictionary below for term details) from the <b>Developmental 
+						Stage(s)</b> box. 
+						<p>Hold the <i>Shift</i> or <i>Ctrl</i> key to select multiple 
+						stages simultaneously.</li>
+						<p>
+						<li>Click the <b>Search</b> button. </li>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev1.jpg" width=812 height=282 alt="AD Browser Screen Shot">
+								<img src="Images/GXD_tissue_dev1.jpg" width=675 height=400 alt="AD Browser Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -97,15 +105,15 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click on <u>heart</u>
-						in <b>Theiler stage 17</b>.
+						<li value = 4>
+						<p>Click on <u>heart</u> from the results to see heart-associated expression results.
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev2.jpg" width=336 height=385 alt="AD Browser Search Results">
+								<img src="Images/GXD_tissue_dev2.jpg" width=675 height=231 alt="AD Browser Search Results">
 							</td>
 						</tr>
 					</table>
@@ -114,14 +122,14 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click on <u>show all</u> to see all expression results annotated to the heart and its substructures.
+						<li value = 5>Click on <u>show all</u> to see all expression results annotated to the heart and its substructures.
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev3.jpg" width=586 height=420 alt="AD Browser Term Detail">
+								<img src="Images/GXD_tissue_dev3.jpg" width=675 height=365 alt="AD Browser Term Detail">
 							</td>
 						</tr>
 					</table>
@@ -130,16 +138,45 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click <u>data</u> in the <b>Result Details</b> column to 
+						<li value = 5>
+						<p>The Results table indicates the genes for which data is 
+						returned, assays (independent experiments with references), assay 
+						results and images in the tabs along the top.
+						<p>
+						<li>Sort data by clicking on the column headers and/or export 
+						using the buttons above the table.</li>
+						<p>
+						<li>Click the <u>data</u> hyperlink in the <b>Result Details</b> column  to 
 						view details from assays that examined expression in the 
-						heart in Theiler stage 17.
+						heart in Theiler stage 17.</li>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev4.jpg" width=778 height=228 alt="GXD Summary">
+								<img src="Images/GXD_tissue_dev4.jpg" width=675 height=270 alt="GXD Summary">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 8>
+						<p>
+						The <b>Images</b> tab allows you to quickly view expression images
+						for the selected genes and tissues.
+						<p>
+						Click on <b>Result Details</b> to see assay details, figure legends and associated reference for each image.</li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_tissue_dev5.jpg" width=675 height=351 alt="GXD images tab">
 							</td>
 						</tr>
 					</table>

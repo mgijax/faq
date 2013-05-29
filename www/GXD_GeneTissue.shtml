@@ -26,35 +26,47 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Gene Expression Data Search Form to search 
-		for detailed expression data of specific interest to you using a variety of query parameters.
+		<td valign=top>
+		<p>
+		<p>You can find all expression data for a given gene from 
+		the <b>Expression</b> row on the <b>Gene Detail</b> page, or use the <b>Gene Expression Data 
+		Query</b> to run a search of specific interest to you using customizable parameters.
+		</td>
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+					<img src="Images/GXD_ExpressionDetail.jpg" width=675 height=263 alt="Gene Detail Page, Expression row">
+					</td>
+				</tr>
+			</table>
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Accessing the Gene Expression Data Search Form
+			Accessing the Gene Expression Data Query Form
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the "Gene Expression Data Query" form from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the <b>Gene Expression Data Query</b> form from the Search dropdown menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/fewi_url.html'-->gxd'
 			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
 			return false;">
-			Gene Expression Data Search Form</a>
+			Gene Expression Data Query form</a>
 			in a new window. 
 		</td>		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GXD.jpg" width=675 height=352 alt="Search Menu GXD QF Screen Shot">
+						<img src="Images/srchmenu_GXD.jpg" width=675 height=318 alt="Search Menu GXD QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -81,7 +93,14 @@
 						<li>Type <i>brain</i> into the <b>Anatomical Structures</b>
 						 text box and select brain from the list that appears.
 						 <p>
-						 <li>If desired, select other options such as wildtype or mutant specific expression, and preferred assay type(s). </li>
+						 <li>If desired, also select other options such as restricting to 
+						 a particular developmental stage, wildtype or mutant specific 
+						 expression, and preferred assay type(s). 
+						 <p>To run a search for expression in a set of tissues and/or 
+						 during a particular developmental stage and <i>not</i> in others, use 
+						 the <b>Differential Expression Search</b> tab. See 
+			 <a href="http://www.informatics.jax.org/faq/GXD_comp_tissue.shtml">here</a> 
+			 for more on the Differential Expression search. </li>
 						 <p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -90,7 +109,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=540 alt="GXD QF Screen Shot">
+								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=637 alt="GXD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -99,21 +118,53 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click <u>data</u> in the <b>Result Details</b> column 
-						to view details from assays that examined <i>Ptch1</i> expression 
-						in the brain.
+					<p>
+					<p>
+						<li value =4>The Results table indicates the genes for which data is 
+						returned, assays (independent experiments with references), assay 
+						results and images in the tabs along the top.</li>
+						<p>
+						<li>Sort the table by clicking on the arrows in the headers. Note 
+						that both "Detected" and "Not Detected" results will appear 
+						unless specified in the <b>Anatomical structure or stage</b> section
+						of the query. To change the search parameters, use the <b>Click to modify 
+						search</b> button which remains at the top of the page.</li>
+						<p>
+						<li>Click the <u>data</u> hyperlink in the <b>Result Details</b> column on the 
+						<b>Assay results</b> tab to view details from assays that examined <i>Ptch1</i> expression 
+						in the brain.</li>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=242 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=326 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
 				</td>
 			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+					<p>
+					<p>
+					<p>
+					<li value=7>The <b>Images</b> tab allows you to quickly view expression images
+					 for the selected genes and tissues.</li>
+					 </ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=489 alt="GXD Images">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>					
 		</td>
 	</tr>
 </table>
