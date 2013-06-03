@@ -60,7 +60,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_LI.jpg" width=557 height=363 alt="Search Menu GEL QF Screen Shot">
+						<img src="Images/srchmenu_LI.jpg" width=675 height=346 alt="Search Menu GEL QF Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -73,7 +73,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding literature assaying <i>Fgf8</i> expression 
+			Example. Finding literature assaying <i>Fgf8</i> expression 
 			at 10.5 days post-conception
 		</td>
 	</tr>
@@ -83,18 +83,25 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Type <i>fgf8</i> into the <b>Gene Symbol/Name</b> text box.
+						<li>Type <i>fgf8</i> into the <b>Gene Symbol/Name</b> text box.</li>
 						<p>
-						<li>Select <i>10.5</i> from the Age pick list.
+						<li>Select the <b>Assay type(s)</b> you would like to return. <i>Ctrl</i> + 
+						click to select multiple items (default is "ANY" which includes all assay types). To follow along this example, select "in situ protein (section)" and "in situ protein (whole mount)"</li>
 						<p>
-						<li>Click <b>Search</b>.
+						<li>Select "10.5" from the <b>Age</b> pick list.
+						<p>
+						Alternatively, enter free form text to search publication titles 
+						and abstracts for matches (may not return records where Gene Symbol synonyms are 
+						used rather than official nomenclature; searching by Gene Symbol in the top field will cross-reference for them). 
+						<p>
+						<li>Click <b>Search</b>.</li>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_ref_age1.jpg" width=616 height=248 alt="GEL QF Screen Shot">
+								<img src="Images/GXD_ref_age1.jpg" width=675 height=458 alt="GEL QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -103,28 +110,87 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>The search results list references that examined <i>Fgf8</i> expression 
+						<li value = 5>The search results list references that examined <i>Fgf8</i> expression 
 						at embryonic day 10.5 (E10.5) as well as the assay types used in these studies.
 						<p>
 						<li>The <b>Summary by Age and Assay</b> table at the top of the page groups the references by developmental 
-						stage analyzed and assay type used.  You can click a numerical link to retrieve a 
+						stage analyzed and assay type used. You can click the numerical link to pull out a 
 						list of these references.
 						<p>
-						<li>Scroll down the page.  The <b>Summary by Gene and Reference</b> table 
-						lists references that 
+						<li>The <b>Summary by Gene and Reference</b> table 
+						lists all matching references that 
 						analyze <i>Fgf8</i> expression.  The numerical links indicate the number 
-						of results for each reference.  Numerical links that are followed by 
-						an asterisk indicate that detailed assay results from that reference 
-						have been entered into the database. You can click a numerical link to view 
-						a table that summarizes which ages were analyzed and which assay 
-						types were used to examine expression of that gene in that reference.
+						of results for each reference that match the chosen search criteria, click for more information and a direct link to the publication. 
+						An asterisk is used to indicate that detailed results from that reference have been curated in MGI.
+						<p>
+						<li>Click the <b><i><u>2*</u></i></b> hyperlink next to the MacArthur et al. (1995) reference to go to the reference summary matrix.</li>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_ref_age2.jpg" width=659 height=591 alt="GEL Search Results">
+								<img src="Images/GXD_ref_age2.jpg" width=675 height=412 alt="GEL Search Results">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 9>The <b>Gene Expression Literature Detail</b> page displays 
+						a table that summarizes which ages were analyzed and which assay 
+						types were used to examine expression of that gene in that reference. 
+						Assays included in the reference that did not meet the original search 
+						criteria will also be shown (in this case, ages E11.5, E12.5, E14.5, 
+						in situ RNA and RNAse protection).</li>
+						<p>
+						<li>Click <b>21 <u>results</u></b> to see Gene Expression data. 
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ref_age3.jpg" width=675 height=459 alt="Reference detail matrix">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 11>The <b>Gene Expression Data</b> page organizes data into four tabs along the top: <b>Genes</b>, <b>Assays</b>, <b>Assay Results</b> and direct links to <b>Images</b>.
+						Tables can be sorted by clicking column headers containing arrows, and/or exported as .txt or Excel files.</li>
+						
+						<p>
+						<li>Click <b><u>data</u></b> under <b>Result Details</b> to specimen and assay details. 
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ref_age4.jpg" width=675 height=225 alt="Gene Expression table">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 12>This page contains metadata details about the assay 
+						displayed, including which antibody or probe was used, the genetic background of the mice (including mutant alleles where applicable), and annotated anatomy terms. </li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ref_age5.jpg" width=675 height=640 alt="Result details">
 							</td>
 						</tr>
 					</table>
