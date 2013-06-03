@@ -41,13 +41,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			Click on the Expression tab as shown at right.
+			Click the <b>Expression</b> icon on the MGI homepage to go to the <a href="http://www.informatics.jax.org/expression.shtml"><b>Gene Expression Database.</b></a>
 		</td>
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/Exp_tab.jpg" width=439 height=109 alt="Expression Tab">
+						<img src="Images/Exp_tab.jpg" width=675 height=413 alt="Expression homepage">
 					</td>
 				</tr>
 			</table>
@@ -62,7 +62,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_biomart1.jpg" width=749 height=602 alt="GXD page">
+						<img src="Images/GXD_biomart1.jpg" width=675 height=418 alt="GXD page highlight BioMart">
 					</td>
 				</tr>
 			</table>
@@ -82,45 +82,29 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click <b>Filters</b> at upper left.
+						<li>Click <b>Filters</b> at upper left to display filtering options.
 						<p>
 						<li>Check the box next to <b>Anatomical Structure</b> and type 
-						midbrain in the text box.
+						<i>midbrain</i> in the text box.
 						<p>
-						<li>Check the box next to <b>Expression</b> and leave the default 
-						menu selection as Detected.
+						<li>Check and select "1" from the drop down menu next to <b>Expression</b> to 
+						specify results where expression is detected. Select "0" for results where expression was 
+						not detected, and leave the box unchecked for either.</li>
+						<p>
+						<li>Select a specific expression level by checking the <b>Level</b> box and selecting 
+						an option from the scroll down list.</li>
+						<p>
+						<li>Specify other parameters as desired, then click the <b>Results</b> button at the 
+						top of the page to return data. You can use the <b>Count</b> button to obtain
+						the number of records that will be returned by your search.</li>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_biomart2.jpg" width=756 height=448 
+								<img src="Images/GXD_biomart2.jpg" width=675 height=550 
 								alt="GXD BioMart">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value = 4>Click <b>Count</b> at upper left to obtain a count of 
-						the number of records to be returned by the search.
-						<p>
-						<li>Click <b>Results</b> to retrieve data.
-					</ol>
-				</td>
-				<td valign=top colspan=2>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GXD_biomart3.jpg" width=242 height=198 
-								alt="Biomart Count">
 							</td>
 						</tr>
 					</table>
@@ -135,15 +119,16 @@
 					<ol>
 						<li value = 6>By default only the first 10 records will be shown. 
 						To view all output in HTML, change 10 to All rows as HTML in the 
-						drop-down menus. You can also change the output from HTML to 
-						tab-separated values (TSV), and can then copy and paste text into Excel.
+						drop-down menus. </li>
+						<p>
+						<li>Export the table in HTML, CSV, TSV, or XLS using the options at the top of the page (box).</li>
 					</ol>
 				</td>
 				<td valign=top colspan=2>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_biomart4.jpg" width=698 height=403 
+								<img src="Images/GXD_biomart4.jpg" width=675 height=350 
 								alt="BioMart Results">
 							</td>
 						</tr>
