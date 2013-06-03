@@ -46,10 +46,10 @@
 			Query form from the Search drop down menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded'
-			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded'); 
+			<a href='<!--#include file='include/fewi_url.html'-->gxd'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
 			return false;">
-			Gene Expression Data Query Form</a>
+			Gene Expression Data Query form</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>
 
@@ -57,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GXD.jpg" width=675 height=318 alt="Search Menu GXD EQF Screen Shot">
+						<img src="Images/srchmenu_GXD.jpg" width=675 height=318 alt="Search Menu GXD data query">
 					</td>
 				</tr>
 			</table>
