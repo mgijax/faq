@@ -98,40 +98,34 @@
 					or are submitted by contributors.  There are two ways to
 					find expression images in MGI:
 					<ul>
+						<li><b><i>Using the link on gene detail pages</i></b><br>
+						A summary of all the expression data and images for a gene can be accessed by
+						clicking on the <b>Images</b> link in the <b>Expression</b> row of that
+						gene's detail page.
+						<p>
 						<li><b><i>Using GXD query forms</i></b>
 						<br>
-						Gene expression queries return data summaries that,
-						in turn, lead to results detail pages.
-						The image field of the results detail page reports which
-						publication figure illustrates the results.
-						When the image is available in the database, the label
-						is a hyperlink to a page that contains that
-						image.  For detailed instructions on using the
-						<a href='<!--#include file='include/fewi_url.html'-->gxd'
-			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
-			return false;">
-			Gene Expression Data Search Form</a>
-						to query for data see the following:
-						<p>
-				   		How do I find expression data for a specific gene and tissue?
+						Gene expression data queries using the <a href="http://www.informatics.jax.org/gxd/">customizable search form</a> 
+						allow users to retrieve gene expression data by gene symbol, 
+						functional annotation, tissue, developmental stage, etc., or a 
+						combination of factors. This form can be accessed via the
+						<a href="http://www.informatics.jax.org/expression.shtml">Gene 
+						Expression Database main page</a>, or
+						from the <b>Search</b> drop down menu in the dark blue bar at the 
+						top of any MGI page, following the field for <b>Expression</b> to 
+						the <b>Gene Expression Data Query</b>. All images meeting the defined
+						search parameters can be found in the <b>Images</b> tab above the results
+						table.
+						</li>
+					</ul>
+					For additional information see:<br>
+					How do I find expression data for a specific gene and tissue?
 				    	<a href='GXD_GeneTissue.shtml'
 						onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml');
 						return false;">
 				    	FAQ</a>
-						<li><b><i>Using the link on gene detail pages</i></b><br>
-						A summary of all the expression images for a gene can be accessed by
-						clicking on the Images link in the Expression section of that
-						gene's detail page.  For detailed instructions see the following:
-						<p>
-    					How do I find expression data for a specific gene?
-    					<a href='GXD_Gene.shtml'
-						onClick="javascript:openFaqWindow('GXD_Gene.shtml');
-						return false;">
-    					FAQ</a>
-					</ul>
 				</td>
 			</tr>
-		</table>
 </td></tr>
 </td>
 </tr>
