@@ -83,8 +83,8 @@
 						<li>
 						<p>Type <i>heart</i> into the <b>Query</b> text box.</li>
 						<p>
-						<li>Select <b>TS 17 (10.0-11.25 dpc)</b> (Theiler Stage 17, days post conception - 
-						browse the anatomical dictionary below for term details) from the <b>Developmental 
+						<li>Select <b>TS 17 (10.0-11.25 dpc)</b> (Theiler Stage 17, 10.0-11.25 days post conception. 
+						Browse the anatomical dictionary below for term details) from the <b>Developmental 
 						Stage(s)</b> box. 
 						<p>Hold the <i>Shift</i> or <i>Ctrl</i> key to select multiple 
 						stages simultaneously.</li>
@@ -138,7 +138,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>
+						<li value = 6>
 						<p>The Results table indicates the genes for which data is 
 						returned, assays (independent experiments with references), assay 
 						results and images in the tabs along the top.
@@ -164,12 +164,12 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 8>
+						<li value = 9>
 						<p>
 						The <b>Images</b> tab allows you to quickly view expression images
 						for the selected genes and tissues.
 						<p>
-						Click on <b>Result Details</b> to see assay details, figure legends and associated reference for each image.</li>
+						Click on <b>Result Details</b> to see assay details, annotations, and associated reference for each image.</li>
 					</ol>
 				</td>
 				<td valign=top>

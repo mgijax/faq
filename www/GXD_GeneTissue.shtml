@@ -120,7 +120,7 @@
 					<ol>
 					<p>
 					<p>
-						<li value =4>The Results table indicates the genes for which data is 
+						<li value =5>The Results table indicates the genes for which data is 
 						returned, assays (independent experiments with references), assay 
 						results and images in the tabs along the top.</li>
 						<p>
@@ -151,7 +151,7 @@
 					<p>
 					<p>
 					<p>
-					<li value=7>The <b>Images</b> tab allows you to quickly view expression images
+					<li value=8>The <b>Images</b> tab allows you to quickly view expression images
 					 for the selected genes and tissues.</li>
 					 </ol>
 				</td>
