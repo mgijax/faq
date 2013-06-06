@@ -54,12 +54,16 @@
 			in a new window. Scroll down this page for further instructions. 
 			The <B>Retrieve All Alleles</B> section gives you access to HTML and 
 			tab-delimited lists of all recombinase strains present in the database.
+			<p>
+			To find cre recombinase transgenes under the control of a specific promoter, see <a href="www.informatics.jax.org/faq/CRE_prom.shtml">here</a>.
+			<p>
+			To find cre recombinase transgenes expressed in a specific tissue, structure or organ system <a href="www.informatics.jax.org/faq/CRE_tissue.shtml">here</a>.
 		</td>
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=500 height=287 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=675 height=375 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -72,7 +76,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. HTML version
+			Example 1. HTML version with clickable links
 		</td>
 	</tr>
 
@@ -81,13 +85,13 @@
 			<tr>
 				<td valign=top>
 					<ol>
-					<li>Click the link to <B>HTML version.</B>
+					<li>Click the <u>MGI Recombinase Alleles Report</u> to open the HTML version in a new tab.
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/Access1.jpg" width=583 height=108 alt="HTML list">
+								<img src="Images/CRE_full1.jpg" width=675 height=463 alt="HTML list">
 							</td>
 						</tr>
 					</table>
@@ -99,19 +103,48 @@
 		<td> 
 			<tr>
 				<td valign=top>	<ol>				
-					<li value = 2>In the page that appears, click an allele symbol to go to the 
-					Transgene Detail page for more information.
+					<li value = 2>The MGI recombinase alleles report will appear, sorted alphabetically by <b>Driver</b> in
+					the first column. This indicates the promoter used to drive cre expression.</li>
+					<p>
+					<li>Click the allele symbol (second column) to see the allele detail page, and use the links in the IMSR column
+					to see purchasing information for strains that have been deposited for commercial distribution with repositories indexed
+					by the <a href="http://www.findmice.org/">International Mouse Strain Resource</a>.</li>
+					<p>
+					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/HTML.jpg" width=1101 height=492 alt="HTML report">
+								<img src="Images/HTML.jpg" width=675 height=354 alt="HTML report">
 							</td>
 						</tr>
 					</table>
 				</td>
 			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value=4>The allele detail page includes mutation information and a summary of reported
+					recombinase activity. Click the triangles next to row and table features 
+					to expand if they are not visible, or for greater detail. Clicking individual check marks
+					will open Recombinase Activity detail pages which display images (where available), patterns of expression,
+					 methodology and references associated with each annotation.</li>
+					<p>
+					<li>If you have used this recombinase and have evidence for activity (or no activity) which is not represented
+					in the table, please submit it to MGI using the form located at the <b>Your Observations Welcome</b> button.</li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/CRE_full2.jpg" width=675 height=445 alt="Allele detail recombinase">
+							</td>
+						</tr>
+					</table>
+				</td>
+			<tr>	
 		</td>
 	</tr>
 </table>
@@ -129,33 +162,15 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click the link to <B>Tab-delimited version</B>.					
+						<li>Click the link to <u>Tab-delimited version</u> or right-click and <i>Save Link As</i> to view
+						or download a list of all recombinase alleles.					
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/Access2.jpg" width=583 height=108 alt="tab-delimited list">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<tr>
-				<td valign=top>
-					<ol>
-					<li value = 2>A tab-delimited version of the list appears.
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/tabdelimited.jpg" width=1093 height=638 alt="tab-delimited report">
+								<img src="Images/Access2.jpg" width=675 height=463 alt="tab-delimited list">
 							</td>
 						</tr>
 					</table>
