@@ -35,7 +35,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Accessing the Gene Expression Data Expanded Query Form
+		Accessing the Gene Expression Data Query Form
 		</td>
 	</tr>
 	<tr>
@@ -116,7 +116,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>
+						<li value = 6>
 						<p>The Results table indicates the genes for which data is 
 						returned, assays (independent experiments with references), assay 
 						results and images in the tabs along the top.</li>
@@ -130,7 +130,7 @@
 						<b>Assay results</b> tab to view details from assays that examined gene expression 
 						in the endocrine system. Each gene may be listed more than once in 
 						the Assays, Assay results and Images tabs, as the structure may have 
-						appeared in more than one assay, or multiple "child" structures of 
+						appeared in more than one assay, be examined in multiple specimens, or multiple "child" structures of 
 						<i>endocrine system</i> may be individually annotated.</li>
 					</ol>
 				</td>
