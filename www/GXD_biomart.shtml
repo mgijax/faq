@@ -114,8 +114,7 @@
 				<td valign=top>
 					<ol>
 						<li value = 5>By default only the first 10 records will be shown. 
-						To view all output in HTML, change 10 to All rows as HTML in the 
-						drop-down menus. </li>
+						Use the drop down menu next to <b>View</b> to display more. </li>
 						<p>
 						<li>Export the table in HTML, CSV, TSV, or XLS using the options at the top of the page (box).</li>
 					</ol>
