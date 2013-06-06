@@ -87,12 +87,8 @@
 						<li>Check the box next to <b>Anatomical Structure</b> and type 
 						<i>midbrain</i> in the text box.
 						<p>
-						<li>Check and select "1" from the drop down menu next to <b>Expression</b> to 
-						specify results where expression is detected. Select "0" for results where expression was 
-						not detected, and leave the box unchecked for either.</li>
-						<p>
-						<li>Select a specific expression level by checking the <b>Level</b> box and selecting 
-						an option from the scroll down list.</li>
+						<li>Check and select "detected" from the drop down menu next to <b>Expression</b> to 
+						specify results where expression is detected. Leave the box unchecked to return both detected and not detected results.</li>
 						<p>
 						<li>Specify other parameters as desired, then click the <b>Results</b> button at the 
 						top of the page to return data. You can use the <b>Count</b> button to obtain
@@ -103,7 +99,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_biomart2.jpg" width=675 height=550 
+								<img src="Images/GXD_biomart2.jpg" width=675 height=455 
 								alt="GXD BioMart">
 							</td>
 						</tr>
@@ -117,7 +113,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>By default only the first 10 records will be shown. 
+						<li value = 5>By default only the first 10 records will be shown. 
 						To view all output in HTML, change 10 to All rows as HTML in the 
 						drop-down menus. </li>
 						<p>
@@ -128,7 +124,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_biomart4.jpg" width=675 height=350 
+								<img src="Images/GXD_biomart4.jpg" width=675 height=256 
 								alt="BioMart Results">
 							</td>
 						</tr>
