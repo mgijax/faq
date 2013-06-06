@@ -43,7 +43,7 @@ with a given promoter</title>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=500 height=287 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=675 height=375 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -74,7 +74,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy.jpg" width=500 height=510 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy.jpg" width=675 height=477 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -86,18 +86,28 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 3>In the summary page that appears, click the link to phenotype data
-					below an allele symbol to go to the detail page for more information. By default, alleles are listed alphabetically according to Allele Symbol, but clicking the column headers will re-sort the table.
-					<br>
-					<ul><p>
-					- To obtain commercially available mice carrying this transgene, follow the hyperlinked numbers in the <b>Find Mice (IMSR)</b> column indicated with an arrow which will link out to the <a href="http://www.findmice.org">International Mouse Strain Resource</a>.
-					</p></ul>
+					<li value = 3>A summary table reporting all cre transgenes driven by the <i>Nes</i>
+					promoter will appear. Different transgenes may be experimentally characterized
+					to different degrees, and/or background effects and molecular details may
+					have an impact on recombinase activity within certain tissues. Both
+					 <b>Recombinase Activity Detected</b> and <b>Recombinase Activity Not 
+					 Detected</b> are indicated where reported. Sort results by clicking on
+					 column headers.</li>
+					<p>
+					<li>References that have used a given transgene can be found in the <b>References</b> 
+					column at the far right of the table, and links to purchasing information 
+					can be found by clicking the hyperlinked numbers in the <b>Find Mice (IMSR)</b> column
+					for strains that have been deposited for commercial distribution in repositories
+					indexed by the <a href="www.findmice.org">International Mouse Strain Resource</a>.</li>
+					<p>
+					<li>Click the Allele Symbol to go to the <b>Transgene Detail Page</b></li>
+					</ol>
 					</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesAllele.jpg" width=600 height=368 alt="Nes Allele results summary">
+								<img src="Images/NesAllele.jpg" width=675 height=331 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -109,15 +119,27 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 4>On the Transgene Detail page, go to the 
-					<B>Recombinase activity</B> section and click one of the anatomical systems 
-					for more information <i>(see below)</i>. Toggle the arrow in the <b>Transgene Description</b> row to expand the genetic details.
-				</td>
+					<li value = 4>The Transgene Detail page will describe the <b>Mutation Details</b> and
+					summarize the reported <b>Recombinase Activity</b> for the allele. Click the 
+					triangles next to row or table features to expand (circles).</li>
+					<p>
+					<li>Click an individual check mark within the table to open <b>Recombinase Activity detail</b>pages, 
+					which display images (where available), patterns of expression, methodology and 
+					references associated with each annotation.</li>
+					<p>
+					<li>Below the <b>Recombinase activity</b> row is a summary table of observed
+					phenotypes for various floxed alleles which have been crossed to the Tg(Nes-cre)1Atp transgene (<i>not shown</i>). See <b>Allelic
+					Composition</b> in the <b>Genotypes</b> table for details.</li>
+					<p>
+					<li>If you have used this recombinase and have evidence for activity (or no activity) which is not represented
+					in the Recombinase activity table, please submit it to MGI using the form located at the <b>Your Observations Welcome</b> button (arrow).</li>
+					</ol>
+					</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesTranDetail.jpg" width=600 height=215 alt="Nes Allele Recombinase Specificity">
+								<img src="Images/NesTranDetail.jpg" width=675 height=483 alt="Nes Allele Recombinase Specificity">
 							</td>
 						</tr>
 					</table>
@@ -129,18 +151,20 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 5><p>Within the <b>Recombinase Activity Detail</b> page, you can find links to comprehensive data on recombinase gene expression and activity. You can also easily locate:
-					</p><ul> (a) links to other cre alleles with activity in the selected tissue or organ</ul>
-					<ul> (b) dynamic figures displaying experimental reporter data for the allele</ul>
-					<ul> (c) level of cre activity within a given tissue or organ</ul><br>
-					<br>
-					Sort the table by clicking on column headers. 
+					<li value = 5>The <b>Recombinase Activity Detail</b> page is specific to the selected organ system. In it,
+					 you can find links to more detailed data on recombinase gene expression and activity such as level of
+					 activity, pattern of expression, assay type used to determine activity and images (where available). The table can be sorted
+					 by clicking on column headers.
+					 </li><p>
+					 <li>To view images, click on a corner, hold the mouse down, and drag to resize. The <b>Reset Images</b> button will return them 
+					 to thumbnails.</li>
+					 </ol>
 					</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/RecombActiveDetail.jpg" width=600 height=361 alt="Nes Allele Recombinase Activity">
+								<img src="Images/RecombActiveDetail.jpg" width=675 height=399 alt="Nes Allele Recombinase Activity">
 							</td>
 						</tr>
 					</table>
