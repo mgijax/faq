@@ -59,7 +59,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=500 height=287 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=675 height=375 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -85,14 +85,15 @@
 					Note that <I>HSA</I> is not listed on the <B>Recombinase driven by</B> selection list. 
 					Either <I>HSA</I> is not an approved symbol, or there are no recombinase-expressing transgenes that use this gene as a driver.
 					</LI>
-					<P><P><li>Click the link to the <B>Phenotypes, Alleles & Disease Models Query</B>.</LI></OL>
+					<P><P><li>Click the link to the <B>Phenotypes, Alleles & Disease Models Query</B>. This allows
+					searching of synonyms.</LI></OL>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy2.jpg" width=500 height=510 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy2.jpg" width=675 height=394 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -113,7 +114,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/AlleleQuery.jpg" width=500 height=282 alt="Allele Query Form">
+								<img src="Images/AlleleQuery.jpg" width=675 height=488 alt="Allele Query Form">
 							</td>
 						</tr>
 					</table>
@@ -129,13 +130,16 @@
 					<I>ACTA1</I> is the approved symbol for the gene; <I>HSA</I> is a synonym.
 					<br>
 					<br>
-					Clicking on the hyperlinked allele name in the first column will bring you to the <b>Transgene Detail</b> page which contains information about cre activity distribution across tissues and organ systems, models which have made use of this transgene, and transgene genetic information.
+					Clicking on the hyperlinked allele name in the first column will bring 
+					you to the <b>Transgene Detail</b> page which contains information about 
+					cre activity distribution across tissues and organ systems, models which 
+					have made use of this transgene, and transgene genetic information.
 					</li></td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/AlleleSummary1.jpg" width=500 height=259 alt="Allele Summary">
+								<img src="Images/AlleleSummary1.jpg" width=675 height=277 alt="Allele Summary">
 							</td>
 						</tr>
 					</table>
