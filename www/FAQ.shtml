@@ -193,7 +193,7 @@
 					<tr >
 						<td>	How do I ...
 							<dl class="linkedList">
-								<dt>.. find existing recombinase-expressing transgenes/knock-ins that have a given promoter (driver)?
+								<dt>.. find and/or obtain mice expressing cre recombinase under the control of a specific known promoter (driver)?
 				        		<a href="CRE_prom.shtml" onClick="javascript:openFaqWindow('CRE_prom.shtml');
 								return false;">FAQ</a></dt>
                 				<dt>.. find the promoter (driver) that I am looking for if it is not on the selection list?
@@ -205,9 +205,9 @@
                  				<dt>.. get a full list of all transgenes and knock-ins that express recombinase?
 				        		<a href="CRE_full.shtml" onClick="javascript:openFaqWindow('CRE_full.shtml');
 								return false;">FAQ</a></dt></dt>
-        						<dt>.. order mice with a desired recombinase construct?
+        						<!--<dt>.. order mice with a desired recombinase construct?
 				        		<a href="CRE_mice.shtml" onClick="javascript:openFaqWindow('CRE_mice.shtml');
-								return false;">FAQ</a></dt>
+								return false;">FAQ</a></dt>-->
                             </dl>
 						</td>
 					</tr>
