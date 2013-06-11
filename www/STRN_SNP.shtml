@@ -58,7 +58,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_SNP.jpg" width=420 height=287 alt="Search Menu SNP QF">
+						<img src="Images/srchmenu_SNP.jpg" width=675 height=427 alt="Search Menu SNP QF">
 					</td>
 				</tr>
 			</table>
@@ -71,7 +71,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding coding SNPs between genes <i>Slc10a5</i> and <i>Car3</i>
+			Example 1. Finding coding SNPs in <i>Slc10a5</i> 
 			for strains 129X1/SvJ, C57BL/6J and DBA/2J
 		</td>
 	</tr>
@@ -80,21 +80,34 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select the following strains from the Available Strains list:
+						<li>Select the following strains from the <b>Available Strains</b> list by highlighting them
+						and clicking the <b>Add</b> key (box) to move them into the <b>Selected
+						Strains</b> window. Select multiple entries at the same time 
+						by holding down &#8984; (Mac) or <i>CTRL</i> (PC). Adjust the display
+						order of strains using the arrows to the right.
 						<p>
 						<ul>
 							<li>129X1/SvJ
-							<li>C57BL/6J
 							<li>DBA/2J
+							<li>C57BL/6J
 						</ul>
 						<p>
-						<li>Click the <b>Add</b> button to move strains to the Selected Strains list.
+						<li><i>Optional:</i> Choose one strain (in this example, C57BL/6J) as the reference
+						strain by clicking the lower <b>Add</b> button next to the <b>Reference Strain</b> window. This will
+						allow you to display alleles as <b>S</b> (same) or <b>D</b> (different).
+						<p>
+						<li>Choose to return SNPs which are the same between selected strains, 
+						different, or both using the drop down menu.
 						<p>
 						<li>Select <i>Coding-NonSynonymous</i> and <i>Coding-Synonymous</i> from the <b>dbSNP 
 						Function Class</b> pick list.
 						<p>
-						<li>Type <i>Slc10a5</i> in the first <b>Marker range</b> text box, and 
-						<i>Car3</i> in the second.
+						<li>Type <i>Slc10a5</i> in the text box in the <b>Associated Gene(s)</b> row. Alternatively, you
+						could search by position (GRCm38/mm10 coordinates), or by a marker range (use official gene symbols, rsID numbers
+						are not supported). 
+						<p>			
+						<li>Select additional output options and specify whether output should be displayed
+						on the web (as here), or downloaded.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -103,7 +116,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/STRN_SNP1.jpg" width=767 height=593 alt="SNP QF Screen Shot">
+								<img src="Images/STRN_SNP1.jpg" width=675 height=750 alt="SNP QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -112,7 +125,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>Click any link to 
+						<li value = 8>Click any link to 
 						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'
 						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'); 
 						return false;">
@@ -124,7 +137,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/STRN_SNP2.jpg" width=686 height=216 alt="SNP Search Results">
+								<img src="Images/STRN_SNP2.jpg" width=675 height=427 alt="SNP Search Results">
 							</td>
 						</tr>
 					</table>
