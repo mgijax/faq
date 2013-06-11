@@ -330,7 +330,10 @@
                					<dt>.. find all known coding SNPs in a specific genomic location for one or more strains?
 				        		<a href="STRN_SNP.shtml" onClick="javascript:openFaqWindow('STRN_SNP.shtml');
 								return false;">FAQ</a></dt>
-                				<!--<dt>.. find strains with RFLP/PCR polymorphisms in a particular gene?
+								<dt>.. find genotyping polymorphisms between two strains?
+								<a href="STRN_geno.shtml" onClick="javascript:openFaqWindow('STRN_geno.shtml');
+								return false;">FAQ</a></dt>								
+								<!--<dt>.. find strains with RFLP/PCR polymorphisms in a particular gene?
 				        		<a href="STRN_poly.shtml" onClick="javascript:openFaqWindow('STRN_poly.shtml');
 								return false;">FAQ</a></dt>-->
                 				<!--<dt>.. find genomic sequence for a specific mouse strain?
