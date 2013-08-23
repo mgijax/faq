@@ -55,9 +55,9 @@
 			The <B>Retrieve All Alleles</B> section gives you access to HTML and 
 			tab-delimited lists of all recombinase strains present in the database.
 			<p>
-			To find cre recombinase transgenes under the control of a specific promoter, see <a href="www.informatics.jax.org/faq/CRE_prom.shtml">here</a>.
+			To find cre recombinase transgenes under the control of a specific promoter, see <a href="CRE_prom.shtml">here</a>.
 			<p>
-			To find cre recombinase transgenes expressed in a specific tissue, structure or organ system <a href="www.informatics.jax.org/faq/CRE_tissue.shtml">here</a>.
+			To find cre recombinase transgenes expressed in a specific tissue, structure or organ system <a href="CRE_tissue.shtml">here</a>.
 		</td>
 		<td valign=top>
 			<table class="outline">
