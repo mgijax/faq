@@ -149,17 +149,15 @@
 						<td valign=top><ol>
 							<li value = 4>The <b>Quick Search Results</b> list genome features and
 							other results associated with identifier
-							<i>OST263303</i>. Click the link to 
-							<a href='<!--#include file="include/javawi_url.html"-->WIFetch?page=alleleDetail&key=42754' 
-							onClick="javascript:openNewWindow('<!--#include file="include/javawi_url.html"-->WIFetch?page=alleleDetail&key=42754'); 
-							return false;">
-							Allele</a> beneath <b>Other Results by ID</b>.
+							<i>OST263303</i>. Click the hyperlinked  
+							<a href="www.informatics.jax.org/allele/MGI:3623141">
+							Allele Symbol</a> (or "Sequence" beneath <b>Other Results by ID</b>).
 						</td>
 						<td valign=top>
 							<table class="outline">
 								<tr>
 									<td>
-										<img src="Images/PAD_EScell4.jpg" width=759 height=265 alt="Search Results Screen Shot">
+										<img src="Images/PAD_EScell4.jpg" width=600 height=225 alt="Search Results Screen Shot">
 									</td>
 								</tr>
 							</table>
