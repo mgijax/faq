@@ -41,10 +41,7 @@
 			On most MGI pages, you can access the Genes and Markers Query Form from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'
-			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerQF'); 
-			return false;">
-			Genes and Markers Query Form</a>
+			<a href="<!--#include file='include/fewi_url.html'-->marker/">Genes and Markers Query Form</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
@@ -89,7 +86,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_marker.jpg" width=675 height=430 alt="G&M QF">
+								<img src="Images/GM_marker.jpg" width=600 height=421 alt="G&M QF">
 							</td>
 						</tr>
 					</table>
