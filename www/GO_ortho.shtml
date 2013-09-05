@@ -116,9 +116,7 @@
 			<tr>
 				<td valign=top><ol>
 					<li value = 4>Click the link to 
-					<a href='<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?_Marker_key=12184'
-					onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/homology_report.cgi?_Marker_key=12184'); 
-					return false;">
+					<a href="http://www.informatics.jax.org/homology/1212">
 					Vertebrate Homology Class</a> 
 					on the <b>Pax6 Gene Detail</b> page.
 				</ol>
