@@ -98,7 +98,10 @@ with a given promoter</title>
 					column at the far right of the table, and links to purchasing information 
 					can be found by clicking the hyperlinked numbers in the <b>Find Mice (IMSR)</b> column
 					for strains that have been deposited for commercial distribution in repositories
-					indexed by the <a href="http://www.findmice.org">International Mouse Strain Resource</a>.</li>
+					indexed by the <a href='<!--#include file='include/imsr_home_url.html'-->' 
+			onClick="javascript:openNewWindow('<!--#include file='include/imsr_home_url.html'-->'); 
+			return false;">
+			International Mouse Strain Repository</a>.</li>
 					<p>
 					<li>Click the Allele Symbol to go to the <b>Transgene Detail Page</b></li>
 					</ol>
