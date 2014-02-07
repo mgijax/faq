@@ -124,6 +124,9 @@
 						returned, assays (independent experiments with references), assay 
 						results and images in the tabs along the top.</li>
 						<p>
+						<li>If desired, add filters using the buttons indicated above the 
+						results table.</li>
+						<p> 
 						<li>Sort the table by clicking on the arrows in the headers. Note 
 						that both "Detected" and "Not Detected" results will appear 
 						unless specified in the <b>Anatomical structure or stage</b> section
@@ -139,7 +142,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=326 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=381 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -159,7 +162,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=489 alt="GXD Images">
+							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=390 alt="GXD Images">
 							</td>
 						</tr>
 					</table>
