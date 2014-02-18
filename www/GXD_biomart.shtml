@@ -41,13 +41,17 @@
 	</tr>
 	<tr>
 		<td valign=top>
-			Click the <b>Expression</b> icon on the MGI homepage to go to the <a href="http://www.informatics.jax.org/expression.shtml"><b>Gene Expression Database.</b></a>
+			Click the <b>Gene Expression Database (GXD)</b> button on the MGI homepage to 
+			go to the <a href="http://www.informatics.jax.org/expression.shtml">
+			<b>Gene Expression Database.</b></a> Alternatively, begin with the BioMart by 
+			navigating from the drop down menu or the Batch Data and Analysis Tools. This 
+			tutorial begins from GXD.
 		</td>
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/Exp_tab.jpg" width=675 height=413 alt="Expression homepage">
+						<img src="Images/Exp_tab.jpg" width=500 height=423 alt="Expression homepage">
 					</td>
 				</tr>
 			</table>
@@ -62,7 +66,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_biomart1.jpg" width=675 height=418 alt="GXD page highlight BioMart">
+						<img src="Images/GXD_biomart1.jpg" width=675 height=401 alt="GXD page highlight BioMart">
 					</td>
 				</tr>
 			</table>
