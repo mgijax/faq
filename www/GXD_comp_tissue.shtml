@@ -103,7 +103,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_EQFanat.jpg" width=675 height=270 alt="Search Menu GXD EQF Anatomical Structure Screen Shot">
+								<img src="Images/GXD_EQFanat.jpg" width=675 height=295 alt="Search Menu GXD EQF Anatomical Structure Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -120,6 +120,7 @@
 						<p>The Results table indicates the genes for which data is 
 						returned, assays (independent experiments with references), assay 
 						results and images in the tabs along the top.</li>
+						<li>Apply filters to refine your results if desired.</li>
 						<p>
 						<li>Sort the table by clicking on the arrows in the headers. To 
 						change the search parameters, use the <b>Click to modify 
@@ -138,7 +139,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_comp_tissue2.jpg" width=675 height=381 alt="GXD Summary Screen Shot">
+								<img src="Images/GXD_comp_tissue2.jpg" width=675 height=345 alt="GXD Summary Screen Shot">
 							</td>
 						</tr>
 					</table>
