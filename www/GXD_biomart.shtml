@@ -30,17 +30,15 @@
 		a variety of parameters and then export these data for use in further analyses in your lab.
 		</td>
 	</tr>
-	<tr>
-	</tr>
+	<p>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
 		Accessing the GXD BioMart
 		</td>
 	</tr>
+	<p>
 	<tr>
-	</tr>
-	<tr>
-		<td valign=top>
+		<td valign=top><br>
 			Click the <b>Gene Expression Database (GXD)</b> button on the MGI homepage to 
 			go to the <a href="http://www.informatics.jax.org/expression.shtml">
 			<b>Gene Expression Database.</b></a> Alternatively, begin with the BioMart by 
