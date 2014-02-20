@@ -90,9 +90,8 @@
 						<p>
 						<li>Select "10.5" from the <b>Age</b> pick list.
 						<p>
-						Alternatively, enter free form text to search publication titles 
-						and abstracts for matches (may not return records where Gene Symbol synonyms are 
-						used rather than official nomenclature; searching by Gene Symbol in the top field will cross-reference for them). 
+						Alternatively (or additionally), enter text in the final 
+						box to search publication titles and abstracts for matches. 
 						<p>
 						<li>Click <b>Search</b>.</li>
 					</ol>
@@ -190,7 +189,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_ref_age5.jpg" width=675 height=519 alt="Result details">
+								<img src="Images/GXD_ref_age5.jpg" width=675 height=647 alt="Result details">
 							</td>
 						</tr>
 					</table>
