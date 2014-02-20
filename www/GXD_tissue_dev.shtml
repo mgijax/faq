@@ -8,7 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find expression data for a whole tissue during development?</span>
+ <span class="faqHeaderText">How do I find expression data for a tissue during development?</span>
 </div>
 
 <style>
@@ -27,7 +27,7 @@
 	</tr>
 	<tr>
 		<td colspan=2 align=left>
-		<p>You can use The Mouse Anatomical Dictionary Browser to find 
+		<p>You can use The Mouse Developmental Anatomy Browser to find 
 			anatomical terms of most interest to you, either by browsing the hierarchy of 
 			anatomical structures or by searching for specific terms.  You can then use 
 			the links provided to find the expression results associated with those terms.
@@ -36,14 +36,14 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Accessing the Mouse Anatomical Dictionary Browser
+		Accessing the Mouse Developmental Anatomy Browser
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Mouse Developmental Anatomy Browser from 
+			<p>On most MGI pages, you can access the Mouse Developmental Anatomy Browser from 
 			the Search menu as shown in the image at right. Alternatively, the browser can be 
 			accessed via a link on the Gene Expression Database (GXD) homepage.
 			<p>
@@ -102,12 +102,14 @@
 						<li>Once selected, the left pane will update with a list indicating 
 						the selected structure along with a stage range for when that structure appears 
 						during development. These values can range from <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/theiler_stages.html">
-						Theiler Stage</a> 1 <i>(1-cell embryo)</i> to TS28 <i>(postnatal mouse)</i>. Closely 
-						related options will also appear below.
+						Theiler Stage</a> 1 <i>(1-cell embryo)</i> to TS28 <i>(postnatal mouse)</i>. 
+						Other terms that contain your search term also appear below.
 						<p>The top right "<b>Anatomical Term Detail</b>" pane will update 
-						with details of the selected term including stages, a unique <a href="http://www.jbiomedsem.com/content/4/1/15">
-						EMAPA</a> (EMAP-anatomy) identifier and the structure parent terms. A drop down list 
-						also allows you to restrict results to a specific developmental stage.
+						with details of the selected term including stages, a unique identifier 
+						and the structure parent terms. (See 
+						<a href="http://www.jbiomedsem.com/content/4/1/15">
+						here</a> for more on EMAP/EMAPA). A drop down list 
+						also allows you to view stage-specific instances of the term.
 							<ul>
 								<li>Select <b><i>TS 17 (10-11.25 dpc)</i></b>. This will update the 
 								number of expression results displayed in the tree view, and 
@@ -161,10 +163,9 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>To get detail level data, click on <u>data</u> in the 
+						<li value = 4>To get detailed data, click on <u>data</u> in the 
 						<b>Result Details</b> column. This will link to specifics of the reference, 
-						experimental assay, specimen, gene expression results and images 
-						(when available).
+						experimental assay, specimen, gene expression results and available images.
 				<td valign=top>
 					<table class="outline">
 						<tr>
