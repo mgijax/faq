@@ -81,9 +81,6 @@
 						mutated in gene:</b> option and type <i>shh</i> in the text box. This will return
 						a list of expression assays done in mice which carry mutant <i>Shh</i> alleles. 
 						<p>
-						To restrict the output to the <i>Shh</i> gene only, enter <i>shh</i> in the
-						<b>Genes</b> text box at the top of the page as well.
-						<p>
 						<li>Click <b>Search</b>.</li>
 						<p>
 					</ol>
