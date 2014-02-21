@@ -25,6 +25,8 @@
 
 		</td>
 	</tr>
+	<p>
+	<p>
 	<tr>
 		<td colspan=2 align=left>You can use the <b>Gene Expression Data 
 		Query</b> Form to query for genes expressed in some anatomical structures
@@ -124,15 +126,12 @@
 						<p>
 						<li>Sort the table by clicking on the arrows in the headers. To 
 						change the search parameters, use the <b>Click to modify 
-						search</b> button which remains at the top of the page, or export 
-						results using the buttons just above the table.</li>
+						search</b> button at the top of the page.</li>
 						<p>
-						<li>Click the <u>data</u> hyperlink in the <b>Result Details</b> column on the 
-						<b>Assay results</b> tab to view details from assays that examined gene expression 
-						in the endocrine system. Each gene may be listed more than once in 
-						the Assays, Assay results and Images tabs, as the structure may have 
-						appeared in more than one assay, be examined in multiple specimens, or multiple "child" structures of 
-						<i>endocrine system</i> may be individually annotated.</li>
+						<li>On the <b>Genes</b> tab, use the export buttons to download 
+						the gene list in either text or Excel formats, or forward to 
+						<a href="http://www.informatics.jax.org/batch">MGI 
+						Batch Query</a> for further analysis.</li>
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -140,6 +139,31 @@
 						<tr>
 							<td>
 								<img src="Images/GXD_comp_tissue2.jpg" width=675 height=345 alt="GXD Summary Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+    <tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 10>
+						<p>Use the <b>Click to modify search</b> button at the top of the 
+						page to expand the Batch Query search options.</li>
+						<li>The gene list from the previous search will be automatically 
+						loaded into the <b>Input</b>. Select <b>Gene Attributes</b> and/or 
+						<b>Additional Information</b> to add new data columns to the output.</li>
+					</ol>
+				</td>
+				<td valign=top colspan=2>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_comp_tissue3.jpg" width=675 height=387 alt="Batch query">
 							</td>
 						</tr>
 					</table>
