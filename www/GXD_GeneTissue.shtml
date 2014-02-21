@@ -133,9 +133,6 @@
 						of the query. To change the search parameters, use the <b>Click to modify 
 						search</b> button which remains at the top of the page.</li>
 						<p>
-						<li>Click the <u>data</u> hyperlink in the <b>Result Details</b> column on the 
-						<b>Assay results</b> tab to view details from assays that examined <i>Ptch1</i> expression 
-						in the brain.</li>
 					</ol>
 				</td>
 				<td valign=top>
@@ -152,17 +149,17 @@
 				<td valign=top>
 					<ol>
 					<p>
-					<p>
-					<p>
-					<li value=8>The <b>Images</b> tab allows you to quickly view expression images
-					 for the selected genes and tissues.</li>
+					<li value=8>Click the <u>data</u> hyperlink in the <b>Result Details</b> column on the 
+						<b>Assay results</b> tab to view details from assays that examined <i>Ptch1</i> expression 
+						in the brain.<p></li>
+						<li>Click on the triangle toggles to expand specimen details.</li>
 					 </ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=390 alt="GXD Images">
+							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=570 alt="GXD Images">
 							</td>
 						</tr>
 					</table>
