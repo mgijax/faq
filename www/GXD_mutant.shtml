@@ -100,15 +100,19 @@
 					<ol>
 						<li value = 4>The results summary lists expression assays that have 
 						been done on mice carrying <i>Shh</i> mutant alleles. The specific 
-						allele used in obtaining each result will be listed in the <b>Mutant Allele(s)</b> column. To refine or change search parameters,
+						allele used in obtaining each result will be listed in the <b>Mutant 
+						Allele(s)</b> column. To refine or change search parameters,
 						click the <b>Click to modify search</b> button at the top of the page.</li>
 						<p>
 						<li>Use the tabs along the top of the table to navigate to a list of unique 
 						genes with expression results, assays, or to view images (box).</li>
 						<p>
-						<li>Sort the table by clicking on column headers, apply filters and/or download as a text or Excel file using the buttons just above the table (arrow).</li>
+						<li>Sort the table by clicking on column headers, apply filters 
+						and/or download as a text or Excel file using the buttons just above 
+						the table (arrow).</li>
 						<p>
-						<li>Click on any <u>data</u> link in the <b>Result Details</b> column to more pattern and level of gene expression, images, and details 
+						<li>Click on any <u>data</u> link in the <b>Result Details</b> 
+						column to view more pattern and level of gene expression, images, and details 
 						of the specific assay, including mouse specimen details and antibodies or probes used.</li>
 					</ol>
 				</td>
