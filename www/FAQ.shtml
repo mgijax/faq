@@ -96,7 +96,7 @@
 						<td>	How do I ...
 							<dl class="linkedList">
 								<dt>.. find mutations in a specific gene?
-				        		<a href="PAD_gene.shtml" onClick="javascript:openFaqWindow('PAD_gene.shtml');
+				        		<a href="GM_gtrap.shtml" onClick="javascript:openFaqWindow('GM_gtrap.shtml');
 								return false;">FAQ</a></dt>
 								<dt>.. find mouse models for a human disease or condition?
 				        		<a href="PAD_disease.shtml" onClick="javascript:openFaqWindow('PAD_disease.shtml');
