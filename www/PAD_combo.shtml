@@ -69,7 +69,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding alleles associated with both hyperglycemia AND glucosuria
+			Example: Finding alleles associated with both hyperglycemia AND glucosuria
 		</td>
 	</tr>
 	<tr>
@@ -78,7 +78,15 @@
 				<td valign=top>
 					<ol>
 						<li>Type <i>hyperglycemia AND glucosuria</i> in the 
-						<b>Phenotype/Disease</b> text box. Searches can be restricted to a defined genetic region if desired.
+						<b>Phenotype/Disease</b> text box. <p></li>
+						<li>Boolean keywords such as "AND", "OR", and "AND NOT" (case 
+						sensitive) are supported to allow precise custom searching, or use 
+						structured vocabulary from the <a href="<!--#include file='include/mgihome_url.html'-->../searches/MP_form.shtml">
+						Mammalian Phenotype (MP) ontology</a><p></li>
+						<li>
+						Searches can be restricted to a defined genetic region if desired 
+						by entering coordinates into the section below, or limited to 
+						certain allele categories or collections.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -87,7 +95,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_combo1.jpg" width=500 height=239 alt="PAD QF Screen Shot">
+								<img src="Images/PAD_combo1.jpg" width=500 height=368 alt="PAD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -100,20 +108,22 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click on an allele symbol in the first column of the 
+						<li value = 5>A list of alleles that have been annotated to both 
+						phenotypes will be returned along with information about the type of 
+						allele (see "Category"), other affected systems and associated diseases 
+						where this allele is annotated as a model.<p></li>
+						<li>Sort using the arrows in header rows.<p></li>
+						<li>Click on an allele symbol in the first column of the 
 							search results to view greater detail about the selected allele, 
-							including descriptions of phenotypes, mouse genetic background and any associated diseases. 
-							Note that the precise search terms entered may not appear in the 
-							phenotype descriptions for an allele. These search terms may have
-							been captured as synonyms during the search, and be represented 
-							by different terms than those originally entered.
+							including descriptions of phenotypes, mouse genetic background 
+							and any associated diseases. </li>							
 					</ol>
 				</td>
 				<td valign=top colspan=2>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/PAD_combo2.jpg" width=500 height=259 alt="PAD Summary Screen Shot">
+								<img src="Images/PAD_combo2.jpg" width=500 height=294 alt="PAD Summary Screen Shot">
 							</td>
 						</tr>
 					</table>
