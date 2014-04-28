@@ -56,7 +56,7 @@
 								<dt>.. search for a gene using an Entrez, Ensembl, VEGA, or other accession ID?
 				        		<a href="GM_search.shtml" onClick="javascript:openFaqWindow('GM_search.shtml');
 								return false;">FAQ</a></dt>
-								<dt>.. search for all gene trap cell lines associated with a gene or marker?
+								<dt>.. search for all targeted or spontaneous alleles associated with a gene or marker?
 				        		<a href="GM_gtrap.shtml" onClick="javascript:openFaqWindow('GM_gtrap.shtml');
 								return false;">FAQ</a></dt>
 								<dt>.. retrieve Entrez, Ensembl, VEGA, or other IDs for a list of genes?
