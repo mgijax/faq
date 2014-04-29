@@ -42,7 +42,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=675 height=375 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=500 height=326 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -77,7 +77,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSelect.jpg" width=675 height=396 alt="cardiovascular">
+								<img src="Images/CardioSelect.jpg" width=500 height=518 alt="cardiovascular">
 							</td>
 						</tr>
 					</table>
@@ -90,21 +90,23 @@
 			<tr>
 				<td valign=top>	<ol>				
 					<li value = 3>A summary table will appear which lists all alleles with
-					cre recombinase activity detected in the heart. 
-					<p>The third and fourth columns indicate
-					organ systems where recombinase activity has been reported as present or absent (respectively). 
+					cre recombinase activity assayed in the heart.</li> 
+					<li><p>Gene driver (promoter) appears in the first column, and the third 
+					and fourth columns indicate organ systems where recombinase 
+					activity has been reported as present or absent (respectively) with the 
+					organ system containing your search term bolded.<p> 
 					Activity <b>detected</b> or <b>not detected</b> may only apply to certain structures within 
 					those organ systems, please click on the allele symbol for full details.
 					If the column is blank, or an organ system does not appear in either column, no
 					information has been reported.</li>
 					<p>
-					References which have used each specific transgene are listed in the <b>References</b>
+					<li>References which have used each specific transgene are listed in the <b>References</b>
 					column at the far right, and a link to purchasing information will appear in the <b>Find Mice (IMSR)</b>
 					column if a mouse carrying this transgene has been deposited
 					for commercial or public distribution with the <a href='<!--#include file='include/imsr_home_url.html'-->' 
 			onClick="javascript:openNewWindow('<!--#include file='include/imsr_home_url.html'-->'); 
 			return false;">
-			International Mouse Strain Repository</a>.
+			International Mouse Strain Repository</a>. Click on headers to sort by column.
 					</li>
 					<p>
 					<li>Click the allele symbol <u>1700009P17Rik</u><sup>tm1.1(icre)Heli</sup> to go to the <b>Allele Detail Page</b>.
@@ -113,7 +115,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CardioSummary.jpg" width=675 height=304 alt="cardiovascular results summary">
+								<img src="Images/CardioSummary.jpg" width=500 height=349 alt="cardiovascular results summary">
 							</td>
 						</tr>
 					</table>
@@ -127,7 +129,8 @@
 				<td valign=top><ol>
 					<li value = 5>In the <b>Targeted Allele Detail</b> page that appears, you can find detailed information about this allele including:<p>
 						<ul>
-						<li>Molecular details. Click the triangle next to <b>Mutation</b> to expand.</li>
+						<li>Molecular details. Click the triangle next to <b>Mutation</b> to expand.
+						The original article describing this recombinase is linked by the J:#</li>
 						<p>
 						<li>A tabled summary of reported cre recombinase activity within organ systems and across developmental
 						stages. Click the triangle next to each organ system to expand to more specific structures.</li>
@@ -135,7 +138,7 @@
 						<li>Direct links to <b>images</b> providing evidence for recombinase activity annotations, if available.</li>
 						<p>
 						<li>If you have used this recombinase and have evidence for activity (or no activity) which is not represented
-					in the table, please submit it to MGI using the form located at the <b>Your Observations Welcome</b> button (arrow).</li>
+					in the table, please submit it to MGI using the form located at the <b>Your Observations Welcome</b> button.</li>
 						</ul>
 					<li><p>Click on one of the check marks to go to a <b>Recombinase Activity Detail</b> page.</li>
 					</td>
@@ -143,7 +146,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CRE_tissue1.jpg" width=675 height=377 alt="Targeted Allele Recombinase activity">
+								<img src="Images/CRE_tissue1.jpg" width=500 height=314 alt="Targeted Allele Recombinase activity">
 							</td>
 						</tr>
 					</table>
@@ -155,12 +158,14 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 6>The <b>Recombinase Activity Detail</b> page is specific to the selected organ system. In it,
-					 you can find links to more detailed data on recombinase gene expression and activity such as level of
-					 activity, pattern of expression, assay type used to determine activity and images (where available). The table can be sorted
-					 by clicking on column headers.
+					<li value = 6>The <b>Recombinase Activity Detail</b> page is specific 
+					to the selected organ system. In it, you can find links to more detailed 
+					data on recombinase gene expression and activity such as level of activity, 
+					pattern of expression, assay type used to determine activity and images 
+					(where available). The table can be sorted by clicking on column headers.
 					 </li><p>
-					 <li>To view images, click on a corner, hold the mouse down, and drag to resize. The <b>Reset Images</b> button will return them 
+					 <li>To view images, click on a corner, hold the mouse down, and drag 
+					 to resize. The <b>Reset Images</b> button will return them 
 					 to thumbnails.</li>
 					 </ol>
 					</td>
@@ -168,7 +173,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CRE_tissue2.jpg" width=675 height=293 alt="Nes Allele Recombinase Activity">
+								<img src="Images/CRE_tissue2.jpg" width=500 height=194 alt="Nes Allele Recombinase Activity">
 							</td>
 						</tr>
 					</table>
