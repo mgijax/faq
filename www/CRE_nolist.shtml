@@ -26,15 +26,15 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the tools listed under 
-		"Access Data" to find transgenes that express recombinase.
+		<td colspan=2 align=left>You can use the tools from the <b>Recombinase (cre)</b>
+		 mini homepage to access recombinase-expressing transgenes.
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-		Find Recombinases-Carrying Alleles
+		Find Recombinase-expressing Alleles
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +43,8 @@
 		<td valign=top>
 			<p>On most MGI pages, you can access the Recombinase (cre) Activity page  
 			from the Search menu as shown in the image at right. </p>
-			<p>You can also access the recombinase portal by clicking the hyperlinked <b>Recombinase (cre)</b> header or icon on MGI's home page.</p> 
+			<p>You can also access the recombinase portal by clicking the <b>Recombinase (cre)</b> 
+			button on MGI's home page.</p> 
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
@@ -51,15 +52,16 @@
 			return false;">
 			Recombinase (cre) Activity page</a>
 			in a new window. Scroll down this page for further instructions. 
-			The "Find Recombinase-Carrying Alleles" section allows you to search for recombinase expression in a specified tissue 
-			or under the control of a given gene.</p>
+			The "Find Recombinase-Carrying Alleles" section on the left allows you to search for 
+			recombinase expression in a specified tissue or under the control of a given 
+			promoter.</p>
 		</td>
 		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=675 height=375 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=500 height=326 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -72,7 +74,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding a transgene expressing recombinase under the control of <I>HSA</I>.
+			Example: Finding a transgene expressing recombinase under the control of <I>HSA</I>.
 		</td>
 	</tr>
 
@@ -82,8 +84,9 @@
 				<td valign=top>
 					<ol>
 					<LI>
-					Note that <I>HSA</I> is not listed on the <B>Recombinase driven by</B> selection list. 
-					Either <I>HSA</I> is not an approved symbol, or there are no recombinase-expressing transgenes that use this gene as a driver.
+					Note that <I>HSA</I> is not listed on the <B>Recombinase driven by</B> 
+					selection list. Either <I>HSA</I> is not an approved symbol, or there 
+					are no recombinase-expressing transgenes that use this gene as a driver.
 					</LI>
 					<P><P><li>Click the link to the <B>Phenotypes, Alleles & Disease Models Query</B>. This allows
 					searching of synonyms.</LI></OL>
@@ -93,7 +96,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy2.jpg" width=675 height=394 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy2.jpg" width=500 height=417 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -105,8 +108,10 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 3>Enter <i>hsa</i> in the <B>Gene/Marker</B> field as shown in the image on the right.</LI>
-					<P><LI>Check the box next to <B>Transgenic (Cre/Flp)</B>.</LI>
+					<li value = 3>Enter <i>hsa</i> in the <B>Gene/Marker or Allele</B> field 
+					as shown in the image on the right.</LI>
+					<P><LI>Check the box next to <B>Recombinase</B> in the <b>Allele attributes</b>
+					 section.</LI>
 					<P><LI>Click <B>Search</B>.</LI>
 					</ol>
 				</td>
@@ -114,7 +119,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/AlleleQuery.jpg" width=675 height=488 alt="Allele Query Form">
+								<img src="Images/AlleleQuery.jpg" width=500 height=368 alt="Allele Query Form">
 							</td>
 						</tr>
 					</table>
@@ -126,10 +131,37 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 6>Note that several <i>cre</i>-expressing transgenes are listed that have <I>ACTA1</I> as a promoter. 
-					<I>ACTA1</I> is the approved symbol for the gene; <I>HSA</I> is a synonym.
-					<br>
-					<br>
+					<li value = 6>Note that several <i>cre</i>-expressing transgenes are 
+					listed that have <I>ACTA1</I> as a promoter. <I>ACTA1</I> is the 
+					approved symbol for the gene; <I>HSA</I> is a synonym.
+					<p>
+					Recombinase nomenclature takes one of two forms:
+					<ul>
+						<li><b>For randomly inserted transgenes</b>
+						<br>Tg(Promoter-Expressed sequence)SerialNumberLabcode where 
+							<ul>
+								<li><i>Tg</i> indicates "transgene" (insertion of foreign DNA)</li>
+								<li><i>Promoter</i> controls expression of the following sequence and takes the syntax 
+									of the species of origin (ex. ACTA1 for human, Acta1 for mouse)</li>
+								<li>the <i>expressed protein</i> follows the dash (cre or flp for 
+								the most common recombinases in mouse)</li>
+								<li><i>serial number</i> indicates the line this allele 
+									was derived from</li>
+								<li><i>lab code</i> indicates the research laboratory or 
+									institutional project which generated this allele.</li>
+							</ul>
+						<p>	
+						<li><b>For targeted transgenes</b>
+						<br>TargetedLocus<sup>tmSerialNumber(expressed sequence)Labcode</sup> where 
+							<ul>
+								<li><i>targeted locus</i> is an endogenous mouse gene (disrupted), typically 
+									lending its promoter to the expressed sequence that's been introduced</li>
+								<li><i>tm</i> indicates "targeted mutation"</li>
+								<li>and expressed protein, serial number and lab code are as above.</li><p>
+							</ul>
+					</ul>		
+					</li>
+					<li>
 					Clicking on the hyperlinked allele name in the first column will bring 
 					you to the <b>Transgene Detail</b> page which contains information about 
 					cre activity distribution across tissues and organ systems, models which 
@@ -139,7 +171,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/AlleleSummary1.jpg" width=675 height=277 alt="Allele Summary">
+								<img src="Images/AlleleSummary1.jpg" width=500 height=267 alt="Allele Summary">
 							</td>
 						</tr>
 					</table>
