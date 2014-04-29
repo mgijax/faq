@@ -28,7 +28,8 @@ with a given promoter</title>
 	<tr>
 		<td valign=top>
 			<p>On most MGI pages, you can access the <b>Recombinase (cre) Activity page </b> 
-			from the Search menu as shown in the image at right. From the homepage, you can also access this page by clicking on the "Recombinases (cre)" header or icon.</p>
+			from the Search menu as shown in the image at right. From the homepage, 
+			you can also access this page by clicking on the "Recombinases (cre)" button.</p>
 			 
 			<p>For this tutorial, open the 
 			<a href='<!--#include file='include/homepages_url.html'-->recombinase.shtml' 
@@ -43,7 +44,7 @@ with a given promoter</title>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/PulldownCre.jpg" width=675 height=375 alt="Search Menu">
+						<img src="Images/PulldownCre.jpg" width=500 height=326 alt="Search Menu">
 					</td>
 				</tr>
 			</table>
@@ -74,7 +75,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy.jpg" width=675 height=477 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy.jpg" width=500 height=538 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -87,9 +88,41 @@ with a given promoter</title>
 			<tr>
 				<td valign=top><ol>
 					<li value = 3>A summary table reporting all cre transgenes driven by the <i>Nes</i>
-					promoter will appear. Different transgenes may be experimentally characterized
+					promoter will appear.
+						<ul>
+							<li><i>Note:</i> Transgenes may be experimentally characterized
 					to different degrees, and/or background effects and molecular details may
-					have an impact on recombinase activity within certain tissues. Both
+					have an impact on recombinase activity within certain tissues.<p></li>
+						</ul>
+					</li>
+					<li>
+					Recombinase nomenclature takes one of two forms:
+					<ul>
+						<li><b>For randomly inserted transgenes</b>
+						<br>Tg(Promoter-Expressed sequence)SerialNumberLabcode where 
+							<ul>
+								<li><i>Tg</i> indicates "transgene" (insertion of foreign DNA)</li>
+								<li><i>Promoter</i> controls expression of the following sequence and takes the syntax 
+									of the species of origin (ex. ACTA1 for human, Acta1 for mouse)</li>
+								<li>the <i>expressed protein</i> follows the dash (cre or flp for 
+								the most common recombinases in mouse)</li>
+								<li><i>serial number</i> indicates the line this allele 
+									was derived from</li>
+								<li><i>lab code</i> indicates the research laboratory or 
+									institutional project which generated this allele.</li>
+							</ul>
+						<p>	
+						<li><b>For targeted transgenes</b>
+						<br>TargetedLocus<sup>tmSerialNumber(expressed sequence)Labcode</sup> where 
+							<ul>
+								<li><i>targeted locus</i> is an endogenous mouse gene (disrupted), typically 
+									lending its promoter to the expressed sequence (cre or flp recombinase)
+									 that's been introduced</li>
+								<li><i>tm</i> indicates "targeted mutation"</li>
+								<li>and expressed protein, serial number and lab code are as above.</li><p>
+							</ul>
+					</ul></li>		
+					<li>Both
 					 <b>Recombinase Activity Detected</b> and <b>Recombinase Activity Not 
 					 Detected</b> are indicated where reported. Sort results by clicking on
 					 column headers.</li>
@@ -110,7 +143,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesAllele.jpg" width=675 height=331 alt="Nes Allele results summary">
+								<img src="Images/NesAllele.jpg" width=500 height=582 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -142,7 +175,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesTranDetail.jpg" width=675 height=483 alt="Nes Allele Recombinase Specificity">
+								<img src="Images/NesTranDetail.jpg" width=500 height=347 alt="Nes Allele Recombinase Specificity">
 							</td>
 						</tr>
 					</table>
@@ -154,12 +187,14 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 5>The <b>Recombinase Activity Detail</b> page is specific to the selected organ system. In it,
-					 you can find links to more detailed data on recombinase gene expression and activity such as level of
-					 activity, pattern of expression, assay type used to determine activity and images (where available). The table can be sorted
-					 by clicking on column headers.
+					<li value = 8>The <b>Recombinase Activity Detail</b> page is specific 
+					to the selected organ system. In it, you can find links to more detailed 
+					data on recombinase gene expression and activity such as level of activity, 
+					pattern of expression, assay type used to determine activity and 
+					images (where available). The table can be sorted by clicking on column headers.
 					 </li><p>
-					 <li>To view images, click on a corner, hold the mouse down, and drag to resize. The <b>Reset Images</b> button will return them 
+					 <li>To view images, click on a corner, hold the mouse down, and drag 
+					 to resize. The <b>Reset Images</b> button will return them 
 					 to thumbnails.</li>
 					 </ol>
 					</td>
@@ -167,7 +202,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/RecombActiveDetail.jpg" width=675 height=399 alt="Nes Allele Recombinase Activity">
+								<img src="Images/RecombActiveDetail.jpg" width=500 height=307 alt="Nes Allele Recombinase Activity">
 							</td>
 						</tr>
 					</table>
