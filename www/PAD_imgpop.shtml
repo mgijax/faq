@@ -42,16 +42,13 @@
 		</tr>
 		<tr>
 			<td><br>
-				The image shown here is of a mouse homozygous for the piebald
-				spotting allele of endothelin receptor type B <br>(
-				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252'
-				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252');
-				return false;">
-				Ednrb<sup>s</sup></a>
-				/<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252'
-				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=252');
-				return false;">
-				Ednrb<sup>s</sup></a> ).
+				The image shown here is of a two littermate mice where the right is homozygous for 
+				the spontaneous "obese" allele of leptin (<a href="<!--#include file='include/fewi_url.html'-->accession/MGI:1856424">
+				Lep<sup>ob</sup></a>
+				/<a href="<!--#include file='include/fewi_url.html'-->accession/MGI:1856424">Lep<sup>ob</sup></a>).<br>
+				Leptin is a hormone which regulates body fat as well as the sensation of 
+				hunger, and mice with homozygous loss-of-function alleles are hyperphagic, 
+				obese, and susceptible to diabetes and other complications. 
 			</td>
 		</tr>
 		<tr >
@@ -60,7 +57,7 @@
 			<table class="outline">
 					<tr>
 						<td>
-							<img src="<!--#include file='include/mgihome_url.html'-->homepages/images/Pheno.jpg">
+							<img src="<!--#include file='include/mgihome_url.html'-->homepages/images/Pheno.png">
 						</td>
 					</tr>
 				</table>
