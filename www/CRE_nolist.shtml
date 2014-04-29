@@ -155,7 +155,8 @@
 						<br>TargetedLocus<sup>tmSerialNumber(expressed sequence)Labcode</sup> where 
 							<ul>
 								<li><i>targeted locus</i> is an endogenous mouse gene (disrupted), typically 
-									lending its promoter to the expressed sequence that's been introduced</li>
+									lending its promoter to the expressed sequence (cre or flp recombinase)
+									 that's been introduced</li>
 								<li><i>tm</i> indicates "targeted mutation"</li>
 								<li>and expressed protein, serial number and lab code are as above.</li><p>
 							</ul>
