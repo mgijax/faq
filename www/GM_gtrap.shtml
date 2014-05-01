@@ -22,9 +22,9 @@
 <br>
 <br>
 <p>For a single gene search, you can easily retrieve all alleles (or all 
-<a href="<!--#include file='include/mgihome_url.html'-->glossary/transgenic_mouse">transgenic</a>,
- all <a href="<!--#include file='include/mgihome_url.html'-->glossary/targeted_mutation">
-targeted</a>, all <a href="<!--#include file='include/mgihome_url.html'-->glossary/gene_trap">
+<a href="<!--#include file='include/mgihome_url.html'-->../glossary/transgenic_mouse">transgenic</a>,
+ all <a href="<!--#include file='include/mgihome_url.html'-->../glossary/targeted_mutation">
+targeted</a>, all <a href="<!--#include file='include/mgihome_url.html'-->../glossary/gene_trap">
 gene trapped</a>, etc.) by going to the gene detail (ex. <a href="<!--#include file='include/fewi_url.html'-->accession/MGI:1100492">
 Nrp2</a>) page and clicking on the appropriate 
 hyperlink in the <i>Alleles and phenotypes</i> row.<br></p>
