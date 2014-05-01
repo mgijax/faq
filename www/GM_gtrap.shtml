@@ -33,9 +33,11 @@ hyperlink in the <i>Alleles and phenotypes</i> row.<br></p>
 </p>
 <p>For more customizable options, to search multiple markers simultaneously, or find alleles 
 of any gene associated with a specific phenotype use the 
-<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' 
-onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml'); 
-return false;">Phenotypes, Alleles and Diseases Query Form</a>.
+<a href='<!--#include file='include/fewi_url.html'-->allele'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->allele'); 
+			return false;">
+			Phenotypes, Alleles and Diseases query form.</a>
+
 
 <table border=0 cellpadding=0 cellspacing=7>
 
@@ -54,10 +56,10 @@ return false;">Phenotypes, Alleles and Diseases Query Form</a>.
 			&amp; Mutant Alleles</b>.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' 
-			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml'); 
+			<a href='<!--#include file='include/fewi_url.html'-->allele'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->allele'); 
 			return false;">
-			Phenotypes, Alleles and Disease Models Query Form</a>
+			Phenotypes, Alleles and Diseases query form.</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
