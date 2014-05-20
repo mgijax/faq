@@ -15,23 +15,6 @@
 	.outline { border: 2px solid #DFEFFF; }
 </style>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-</script>
-
-<script>
-function showHide(question_1){
-$(".hide_"+question_1).click(function(){
-          	$(".question_"+question_number).hide();
-        });
-            $(".show_"+question_number).click(function(){
-            $(".question_"+question_number).show();
-                });
-}
-
-for(i=1, i>=22, i++)
-                {showHide(i);}
-
-</script>
 
 <style type="text/css">
 
@@ -77,7 +60,7 @@ multiple choice questions follow each section.<br>
 May 22, 2014, though ongoing curation may cause some numbers to shift slightly as data is 
 constantly added.</p>
 
-<div id="index" class="enhance">Index</div>
+<div id="index" class="enhance"><h2>Index</h2></div>
 <ol>
 	<li><a href=#intro>Introduction to Mouse Genome Informatics</a></li>
 	<li><a href=#cre>cre-lox and cre recombinases in MGI</a></li>
@@ -111,11 +94,6 @@ or window and navigate to answer the following questions.</P>
 		<li> Chr 19</li>
 		<li> Chr X</li>
 	</ol>
-	<br>
-	<block class="question_1"><b>Answer:</b> a. Chr 1</block>
-<button class="hide_1" id="hide_1">Hide</button>
-<button class="show_1" id="show_1">Show</button>
-	<br>
 	<br>
 </li>
 <li>How many phenotypic alleles have been described for this gene?
@@ -443,7 +421,8 @@ correction, what is the associated p-value for the MEDIC term: &ldquo;DNA Repair
  		<li> none</li>
  	</ol>
  	<br>
- </li>Exit the list analysis tools and return to MouseMine Home.<br>
+ </li>
+ <li>Exit the list analysis tools and return to MouseMine Home.<br>
   Find the template for <b>Homology: &ldquo;Genes &#8594; Homologs&rdquo;</b>. Enter &ldquo;pxn&rdquo; into the search box, 
   leaving the Organism dropdown menu at the default <i>M. musculus</i> for mouse.<br> 
   What is the <b>Homolog symbol</b> corresponding to the <b>Homolog Organism: <i>Saccharomyces cerevisiae</i></b>?
