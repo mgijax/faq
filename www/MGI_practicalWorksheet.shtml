@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title><!--#include file="include/mgiversion.html"--> MGI Practical Worksheet</title>
+<title>MGI Practical Worksheet</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css"/>
@@ -86,7 +86,8 @@ marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1
 </tr>
 <table>
 
-<p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new tab or window and navigate to answer the following questions.</P>
+<p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new tab 
+or window and navigate to answer the following questions.</P>
 <b>Introductory Module Questions</b>
 <p>
 <ol>
@@ -223,8 +224,8 @@ in the respiratory system.</p>
 	</ol>
 	<br>
 </li> 
-<li>How many cre transgenes have recombinase activity results annotated to the "stomach glandular 
-epithelium"?
+<li>How many cre transgenes have recombinase activity results annotated to the <i>stomach glandular 
+epithelium</i>?
 	<ol type="a">
 		<li> none</li>
 		<li> 6</li>
@@ -234,9 +235,9 @@ epithelium"?
 	</ol>
 	<br>
 </li>
-<li>Of the following, which transgene best matches recombinase activity "detected in: alimentary 
-system" (which contains <i>stomach glandular epithelium</i> and recombinase activity known 
-to be "not detected in: respiratory system".<br>
+<li>Of the following, which transgene best matches recombinase activity &ldquo;detected in: alimentary 
+system&rdquo; (which contains <i>stomach glandular epithelium</i> and recombinase activity known 
+to be &ldquo;not detected in: respiratory system&rdquo;.<br>
 <b><i>Hint:</b></i> Begin your cre/recombinases search from stomach glandular epithelium.
 	<ol type="a">
 		<li> Tg(Atp4b-cre)1Jig)</li>
@@ -333,7 +334,7 @@ system</i> phenotype)?
 	</ol>
 	<br>
 </li>
-<li>Which of these genes has variants associated with <b>Myasthenic Syndrom, Congenital, 
+<li>Which of these genes has variants associated with <b>Myasthenic Syndrome, Congenital, 
 Associated with Episodic Apnea</b> in human patients?
 	<ol type="a">
 		<li> <i>ACOX1</i></li>
@@ -378,17 +379,17 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 </table>
 <p>Then, open <a href="http://www.mousemine.org/mousemine/begin.do" target="_blank">
 MouseMine</a> in a new tab or window and navigate to answer the following questions.</P>
-<b>Human-Mouse: Disease Connection Module Questions</b>
+<b>MouseMine Module Questions</b>
 <p>You are a researcher working on DNA repair and have generated a list of 321 mouse genes 
 based on functional annotations. This list is pre-loaded into MouseMine – go to the 
-“Lists” tab, “View” and click on “Mouse DNA repair genes 2013-01-06”.</p>
+&ldquo;Lists&rdquo; tab, &ldquo;View&rdquo; and click on &ldquo;Mouse DNA repair genes 2013-01-06&rdquo;.</p>
 <p>Be sure to scroll down the page to find Enrichment widgets and Template queries.</p>
 <p><i>** Please note that the content in these worksheets is accurate as of 16 May 2014. 
-Updates to the data may cause some numbers to shift slightly. **</i><p>
+Updates to the data may cause some numbers to shift slightly.**</i><p>
 
 <ol start="19">
 <li>At the top of the page in list analysis tools, use <b>Manage Columns</b> (may compress 
-to "<b>Columns</b>" in smaller windows) to add a column for "<b>NCBI Gene Number</b>" to 
+to <b>Columns</b> in smaller windows) to add a column for &ldquo;<b>NCBI Gene Number</b>&rdquo; to 
 the list of 321 DNA repair genes. What is the NCBI Gene Number for <i>Hmga2</i>?
 	<ol type="a">
 		<li> 15368</li>
@@ -400,7 +401,7 @@ the list of 321 DNA repair genes. What is the NCBI Gene Number for <i>Hmga2</i>?
 	<br>
 </li>
 <li>In the Human Disease Enrichment widget, using the default of Holm-Bonferroni test 
-correction, what is the associated p-value for the MEDIC term: "DNA Repair Deficiency Disorders"?
+correction, what is the associated p-value for the MEDIC term: &ldquo;DNA Repair Deficiency Disorders&rdquo;?
 	<ol type="a">
 		<li> 2.641253e-84 with 62 genes matched</li>
 		<li> 5.148577e-27 with 23 genes matched</li>
@@ -411,10 +412,10 @@ correction, what is the associated p-value for the MEDIC term: "DNA Repair Defic
 	<br>
 </li>
 <li>Scroll further down the page below the Enrichment Widgets to the <b>Template Results</b>
- for this list. Locate the table for <b>Function: “Mouse Features → Functions (GO terms)”</b>. 
+ for this list. Locate the table for <b>Function: &ldquo;Mouse Features &#8594; Functions (GO terms)&rdquo;</b>. 
  Expand, if necessary, by clicking on the name of the template.<br> 
- According to the column summary for “<b>Code</b>”, how many functional annotations have 
- the evidence code “<b>IMP</b>” which corresponds to “Inferred from Mutant Phenotype”?
+ According to the column summary for <b>Code</b>, how many functional annotations have 
+ the evidence code <b>IMP</b> which corresponds to “Inferred from Mutant Phenotype”?
  	<ol type="a">
  		<li> 9062</li>
  		<li> 1214</li>
@@ -424,7 +425,7 @@ correction, what is the associated p-value for the MEDIC term: "DNA Repair Defic
  	</ol>
  	<br>
  </li>Exit the list analysis tools and return to MouseMine Home.<br>
-  Find the template for <b>Homology: “Genes -> Homologs”</b>. Enter “pxn” into the search box, 
+  Find the template for <b>Homology: &ldquo;Genes &#8594; Homologs&rdquo;</b>. Enter &ldquo;pxn&rdquo; into the search box, 
   leaving the Organism dropdown menu at the default <i>M. musculus</i> for mouse.<br> 
   What is the <b>Homolog symbol</b> corresponding to the <b>Homolog Organism: <i>Saccharomyces cerevisiae</i></b>?
   	<ol type="a">
