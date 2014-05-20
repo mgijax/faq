@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title>MGI Practical Worksheet</title>
+<title>MGI Worksheet</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css"/>
@@ -8,14 +8,30 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">MGI Practical Worksheet</span>
+ <span class="faqHeaderText">MGI Practical Worksheet </span>
 </div>
 
 <style>
 	.outline { border: 2px solid #DFEFFF; }
 </style>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
 
+<script>
+function showHide(question_1){
+$(".hide_"+question_1).click(function(){
+          	$(".question_"+question_number).hide();
+        });
+            $(".show_"+question_number).click(function(){
+            $(".question_"+question_number).show();
+                });
+}
+
+for(i=1, i>=22, i++)
+                {showHide(i);}
+
+</script>
 
 <style type="text/css">
 
@@ -31,12 +47,8 @@ h2 {color:#002255;
 
 </style>
 
-<!--#include file='include/templateBodyStart.html'-->
-
-<title>MGI Practical Worksheet</title>
 <p>
 
-<h1>MGI Practical Worksheet</h1>
 <div id="top">
 
 <p>Mouse Genome Informatics (MGI) is the international database for genetic, genomic, 
@@ -65,7 +77,7 @@ multiple choice questions follow each section.<br>
 May 22, 2014, though ongoing curation may cause some numbers to shift slightly as data is 
 constantly added.</p>
 
-<h2>Index</h2>
+<div id="index" class="enhance">Index</div>
 <ol>
 	<li><a href=#intro>Introduction to Mouse Genome Informatics</a></li>
 	<li><a href=#cre>cre-lox and cre recombinases in MGI</a></li>
@@ -73,12 +85,12 @@ constantly added.</p>
 	<li><a href=#mousemine>MouseMine computational access to MGI data</a></li>
 </ol>
 <br>
-<div id=intro>
-<h2>Module 1: An Introduction to Mouse Genome Informatics</h2>
+<div id=intro class="enhance">
+Module 1: An Introduction to Mouse Genome Informatics</div>
 
-Begin with the video below. <br>
-Download slides (if desired) by clicking the SlideShare footer from the frame on the right.<br>
-<table>
+<p>Begin with the video below. <br>
+Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
+<table cellpadding="5">
  <tr>
 	<td><iframe width="560" height="315" src="//www.youtube.com/embed/9hFuuSGIeeg" frameborder="2" allowfullscreen></iframe></td>
 	<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34867838" width="378" height="315" frameborder="0" marginwidth="0" 
@@ -99,6 +111,11 @@ or window and navigate to answer the following questions.</P>
 		<li> Chr 19</li>
 		<li> Chr X</li>
 	</ol>
+	<br>
+	<block class="question_1"><b>Answer:</b> a. Chr 1</block>
+<button class="hide_1" id="hide_1">Hide</button>
+<button class="show_1" id="show_1">Show</button>
+	<br>
 	<br>
 </li>
 <li>How many phenotypic alleles have been described for this gene?
@@ -173,14 +190,14 @@ craniorachischisis?
 <p>See complete answer explanations for An Introduction to Mouse Genome Informatics: 
 <a href="Images/Module1Answers.pdf" target="_blank">pdf</a> 
 </p>
-</div>
 
-<div id=cre>
-<h2>Module 2: cre-lox and cre recombinases in MGI</h2>
 
-Begin with the video below.<br>
-Download slides (if desired) by clicking the SlideShare footer from the frame on the right.<br>
-<table>
+<div id=cre class="enhance">
+Module 2: cre-lox and cre recombinases in MGI</div>
+
+<p>Begin with the video below.<br>
+Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
+<table cellpadding="5">
 	<tr>
 		<td><iframe width="560" height="315" src="//www.youtube.com/embed/M-HNHLPpODs" 
 		frameborder="1" allowfullscreen></iframe></td>
@@ -240,7 +257,7 @@ system&rdquo; (which contains <i>stomach glandular epithelium</i> and recombinas
 to be &ldquo;not detected in: respiratory system&rdquo;.<br>
 <b><i>Hint:</b></i> Begin your cre/recombinases search from stomach glandular epithelium.
 	<ol type="a">
-		<li> Tg(Atp4b-cre)1Jig)</li>
+		<li> Tg(Atp4b-cre)1Jig</li>
 		<li> <i>Mnx1<sup>tm4(cre)Tmj</sup></i></li>
 		<li> Tg(Csht4-cre)1Hkwa</li>
 		<li> Any/all of the above</li>
@@ -259,7 +276,7 @@ to be &ldquo;not detected in: respiratory system&rdquo;.<br>
 	<br>
 </li>
 <li>Which tissues, structures or substructures of the renal and urinary system were examined 
-for cre recombinase activity in Tg(Atp4b-cre))1Jig? Was recombinase activity noted as 
+for cre recombinase activity in Tg(Atp4b-cre)1Jig? Was recombinase activity noted as 
 detected (&#x2713;) or not detected (-)?
 	<ol type="a">
 		<li> bladder (-)</li>
@@ -283,16 +300,17 @@ the <i>stomach</i> of mice aged post-natal week 7 (adult)?
 </li>
 </ol>
 <p><i><b>Answers:</i> 8.</b> b. <i>Cdh2<sup>tm1Glr</sup></i>, <b>9.</b> b. Exon 1 and upstream
-transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b> a. Tg(Atp4b-cre)1jig, 
+transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b> a. Tg(Atp4b-cre)1Jig, 
 <b>12.</b> d. Atp4b <b>13.</b> d. kidney (-), <b>14.</b> e. present, regionally restricted.</p>
  
 <p>See complete answer explanations for cre-lox and cre recombinases: <a href="Images/Module2Answers.pdf">pdf</a></p>
 </div>	
 <div id=hmdc>
-<h2>The Human-Mouse: Disease Connection at MGI</h2>
-Begin with the video below.<br>
-Download slides (if desired) by clicking the SlideShare footer from the frame on the right.<br>
-<table>
+<font size="3" color="#002255;">The Human-Mouse: Disease Connection at MGI</font>
+
+<p>Begin with the video below.<br>
+Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
+<table cellpadding="5">
 	<tr>
 		<td><iframe width="420" height="315" src="//www.youtube.com/embed/vOtU51x9sLc" 
 		frameborder="1" allowfullscreen></iframe></td>
@@ -365,10 +383,10 @@ CHAT</i>, <b>18.</b> c. Fan CY et al. (1996) J. Biol. Chem.</p>
 		
 </div>
 <div id=mousemine>
-<h2>MouseMine computational access to MGI data</h2>
-Begin with the video below.<br>
-Download slides (if desired) by clicking the SlideShare footer from the frame on the right.<br>
-<table>
+<font size="3" color="#002255;">MouseMine computational access to MGI data</font>
+<p>Begin with the video below.<br>
+Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
+<table cellpadding="5">
 	<tr>
 		<td><iframe width="560" height="315" src="//www.youtube.com/embed/FtlsoM8TGGs" 
 		frameborder="1" allowfullscreen></iframe></td>
