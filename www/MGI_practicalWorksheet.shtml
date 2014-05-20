@@ -85,9 +85,9 @@ constantly added.</p>
 	<li><a href=#mousemine>MouseMine computational access to MGI data</a></li>
 </ol>
 <br>
-<div id=intro class="enhance">
-Module 1: An Introduction to Mouse Genome Informatics</div>
-
+<div id=intro class="enhance"><h2>
+Module 1: An Introduction to Mouse Genome Informatics</h2></div>
+<div>
 <p>Begin with the video below. <br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
 <table cellpadding="5">
@@ -190,11 +190,11 @@ craniorachischisis?
 <p>See complete answer explanations for An Introduction to Mouse Genome Informatics: 
 <a href="Images/Module1Answers.pdf" target="_blank">pdf</a> 
 </p>
+</div>
 
-
-<div id=cre class="enhance">
-Module 2: cre-lox and cre recombinases in MGI</div>
-
+<div id=cre class="enhance"><h2>
+Module 2: cre-lox and cre recombinases in MGI</h2></div>
+<div>
 <p>Begin with the video below.<br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
 <table cellpadding="5">
@@ -305,9 +305,8 @@ transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b>
  
 <p>See complete answer explanations for cre-lox and cre recombinases: <a href="Images/Module2Answers.pdf">pdf</a></p>
 </div>	
-<div id=hmdc>
-<font size="3" color="#002255;">The Human-Mouse: Disease Connection at MGI</font>
-
+<div id=hmdc class="enhance"><h2>The Human-Mouse: Disease Connection at MGI</h2></div>
+<div>
 <p>Begin with the video below.<br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
 <table cellpadding="5">
@@ -382,8 +381,9 @@ CHAT</i>, <b>18.</b> c. Fan CY et al. (1996) J. Biol. Chem.</p>
 <a href="Images/Module3Answers.pdf">pdf</a></p>
 		
 </div>
-<div id=mousemine>
-<font size="3" color="#002255;">MouseMine computational access to MGI data</font>
+<div id=mousemine class="enhance">
+<h2>MouseMine computational access to MGI data</h2></div>
+<div>
 <p>Begin with the video below.<br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
 <table cellpadding="5">
@@ -462,6 +462,7 @@ correction, what is the associated p-value for the MEDIC term: &ldquo;DNA Repair
  
 <p>See complete answer explanations for MouseMine computational access to MGI: 
 <a href="Images/Module4Answers.pdf">pdf</a></p>  
+</div>
 <br>
 <br>	 
 </body>
