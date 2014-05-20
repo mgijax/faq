@@ -1,45 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>MGI Practical Worksheet</title>
-</head>
-<body>
-<!--#include file='include/templateHeadNoReset.html'-->
-<title><!--#include file="include/mgiversion.html"-->
-MGI Practical Worksheet</title>
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"--> MGI Practical Worksheet</title>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css"/>
 
 
-  <meta name="description" content="MGI provides access to integrated data on mouse genes and genome features, from sequences and genomic maps to gene expression and disease models." />
-  <meta name="keywords" content="MGI, mgi, mice, mouse, murine, mus musculus, genes, genome, genomic,
-  sequences, genetics tutorial, proteins, microRNA, QTL, pseudogene, marker, genome feature, gene s
-  equence, nomenclature, gene function, transgene, introduction to genetics, mouse models, mouse genetics, FASTA, MouseBLAST, Mouse BLAST" />
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">MGI Practical Worksheet</span>
+</div>
 
-  <meta name="robots" content="NOODP" />
-  <meta name="robots" content="NOYDIR" />
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
 
-<link rel="stylesheet" type="text/css" href="./userhelp.css" />
 
-<script>
-function openHelpWindow(helpFile){
-  helpUrl = "./" + helpFile;
-  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
-};
-</script>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-</script>
-
-<script>
-$(document).ready(function(){
-  $("#hide").click(function(){
-    $("p").hide();
-  });
-  $("#show").click(function(){
-    $("p").show();
-  });
-});
-</script>
 
 <style type="text/css">
 
@@ -229,10 +205,10 @@ in the respiratory system.</p>
 <ol start="8">
 <li>Of the following, which allele of <i>Cdh2</i> would be most appropriate?
 	<ol type="a">
-		<li> <i>Cdh2<sup>Gt(OST49160)Lex</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;(MGI:3525642)</li>
-		<li> <i>Cdh2<sup>tm1Glr</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;(MGI:3522469)</li>
-		<li> <i>Cdh2<sup>tm1Hyn</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;(MGI:1861181)</li>
-		<li> <i>Cdh2<sup>tm1e(EUCOMM)Wtsi</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(MGI:4433958)</li>
+		<li> <i>Cdh2<sup>Gt(OST49160)Lex</sup></i></li>
+		<li> <i>Cdh2<sup>tm1Glr</sup></i></li>
+		<li> <i>Cdh2<sup>tm1Hyn</sup></i></li>
+		<li> <i>Cdh2<sup>tm1e(EUCOMM)Wtsi</sup></i></li>
 		<li>None of the above</li>
 	</ol>
 	<br>
@@ -263,9 +239,9 @@ system" (which contains <i>stomach glandular epithelium</i> and recombinase acti
 to be "not detected in: respiratory system".<br>
 <b><i>Hint:</b></i> Begin your cre/recombinases search from stomach glandular epithelium.
 	<ol type="a">
-		<li> Tg(Atp4b-cre)1Jig&nbsp;&nbsp;&nbsp;&nbsp;(MGI:3040892)</li>
-		<li> <i>Mnx1<sup>tm4(cre)Tmj</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;(MGI:2447793)</li>
-		<li> Tg(Csht4-cre)1Hkwa	&nbsp;&nbsp;&nbsp;&nbsp;(MGI:3842784)</li>
+		<li> Tg(Atp4b-cre)1Jig)</li>
+		<li> <i>Mnx1<sup>tm4(cre)Tmj</sup></i></li>
+		<li> Tg(Csht4-cre)1Hkwa</li>
 		<li> Any/all of the above</li>
 		<li> None of the above</li>
 	</ol>
@@ -388,6 +364,84 @@ CHAT</i>, <b>18.</b> c. Fan CY et al. (1996) J. Biol. Chem.</p>
 </div>
 <div id=mousemine>
 <h2>MouseMine computational access to MGI data</h2>
-<p>
+Begin with the video below.<br>
+Download slides (if desired) by clicking the SlideShare footer from the frame on the right.<br>
+<table>
+	<tr>
+		<td><iframe width="560" height="315" src="//www.youtube.com/embed/FtlsoM8TGGs" 
+		frameborder="1" allowfullscreen></iframe></td>
+		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868470" 
+		width="378" height="315" frameborder="0" marginwidth="0" marginheight="0" 
+		scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; 
+		max-width: 100%;" allowfullscreen> </iframe></td>
+	</tr>
+</table>
+<p>Then, open <a href="http://www.mousemine.org/mousemine/begin.do" target="_blank">
+MouseMine</a> in a new tab or window and navigate to answer the following questions.</P>
+<b>Human-Mouse: Disease Connection Module Questions</b>
+<p>You are a researcher working on DNA repair and have generated a list of 321 mouse genes 
+based on functional annotations. This list is pre-loaded into MouseMine – go to the 
+“Lists” tab, “View” and click on “Mouse DNA repair genes 2013-01-06”.</p>
+<p>Be sure to scroll down the page to find Enrichment widgets and Template queries.</p>
+<p><i>** Please note that the content in these worksheets is accurate as of 16 May 2014. 
+Updates to the data may cause some numbers to shift slightly. **</i><p>
+
+<ol start="19">
+<li>At the top of the page in list analysis tools, use <b>Manage Columns</b> (may compress 
+to "<b>Columns</b>" in smaller windows) to add a column for "<b>NCBI Gene Number</b>" to 
+the list of 321 DNA repair genes. What is the NCBI Gene Number for <i>Hmga2</i>?
+	<ol type="a">
+		<li> 15368</li>
+		<li> 22210</li>
+		<li> 13248</li>
+		<li> 35510</li>
+		<li> 11478</li>
+	</ol>
+	<br>
+</li>
+<li>In the Human Disease Enrichment widget, using the default of Holm-Bonferroni test 
+correction, what is the associated p-value for the MEDIC term: "DNA Repair Deficiency Disorders"?
+	<ol type="a">
+		<li> 2.641253e-84 with 62 genes matched</li>
+		<li> 5.148577e-27 with 23 genes matched</li>
+		<li> 0.001798 with 5 genes matched</li>
+		<li> 0.05</li>
+		<li> There is no significant enrichment for this term</li>
+	</ol>
+	<br>
+</li>
+<li>Scroll further down the page below the Enrichment Widgets to the <b>Template Results</b>
+ for this list. Locate the table for <b>Function: “Mouse Features → Functions (GO terms)”</b>. 
+ Expand, if necessary, by clicking on the name of the template.<br> 
+ According to the column summary for “<b>Code</b>”, how many functional annotations have 
+ the evidence code “<b>IMP</b>” which corresponds to “Inferred from Mutant Phenotype”?
+ 	<ol type="a">
+ 		<li> 9062</li>
+ 		<li> 1214</li>
+ 		<li> 3308</li>
+ 		<li> 13</li>
+ 		<li> none</li>
+ 	</ol>
+ 	<br>
+ </li>Exit the list analysis tools and return to MouseMine Home.<br>
+  Find the template for <b>Homology: “Genes -> Homologs”</b>. Enter “pxn” into the search box, 
+  leaving the Organism dropdown menu at the default <i>M. musculus</i> for mouse.<br> 
+  What is the <b>Homolog symbol</b> corresponding to the <b>Homolog Organism: <i>Saccharomyces cerevisiae</i></b>?
+  	<ol type="a">
+  		<li> <i>PXN</i></li>
+  		<li> <i>Pax</i></li>
+  		<li> <i>PXL1</i></li>
+  		<li> <i>pxna</i></li>
+  		<li> there is no homolog in <i>S. cerevisiae</i></li>
+  	</ol>
+  	<br>
+  </li>
+<p><i><b>Answers:</i> 19.</b> a. 15368, <b>20.</b> b. 5.148577e-27 with 23 genes matched, 
+<b>21.</b> b. 1214 annotations with evidence code IMP, <b>22.</b> c. <i>PXL1</i>.</p>
+ 
+<p>See complete answer explanations for MouseMine computational access to MGI: 
+<a href="Images/Module4Answers.pdf">pdf</a></p>  
+<br>
+<br>	 
 </body>
 </html>
