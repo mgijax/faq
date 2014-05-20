@@ -27,6 +27,20 @@ function openHelpWindow(helpFile){
 };
 </script>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+
 <style type="text/css">
 
 body {color:#000;
@@ -47,5 +61,333 @@ h2 {color:#002255;
 <p>
 
 <h1>MGI Practical Worksheet</h1>
+<div id="top">
+
+<p>Mouse Genome Informatics (MGI) is the international database for genetic, genomic, 
+phenotypic and expression data in the laboratory mouse. The database has existed online 
+at <a href="http://www.informatics.jax.org">www.informatics.jax.org</a> for 25 years, 
+providing free access to information for researchers, and developing tools and structures 
+to explore, manipulate and connect data in order to answer many kinds of biological 
+questions.</p>
+
+<p>This worksheet is intended to cover a basic introduction (<a href=#intro>Intro module 1</a>), 
+a brief overview of cre-lox and recombinase tools (<a href=#cre>Cre module 2</a>), a new 
+clinical and translational tool (<a href=#hmdc>Human-Mouse: Disease Connection module 3</a>) 
+and a new computational access platform for MGI data access (<a href=#mousemine>MouseMine 
+module 4</a>).</p>
+
+<p>Each section has an accompanying video walkthrough and then users are invited to 
+explore the website sections in order to answer the following questions. Answers to the 
+multiple choice questions follow each section.<br>
+<br>Additional online tutorial documentation can be found:
+<br><a href="http://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml">An introduction to mouse genetics</a>
+<br><a href="http://www.informatics.jax.org/mgihome/other/homepage_usingMGI.shtml">How to use MGI overview</a>
+<br><a href="http://www.informatics.jax.org/mgihome/other/hmdc_tour.shtml">A tour of the Human-Mouse: Disease Connection</a>
+<br><a href="http://www.mousemine.org/blog/?page_id=57">MouseMine basic tools and navigation</a></p>
+
+<p><i>Please note:</i> The data and tools referred to in this worksheet are accurate as of 
+May 22, 2014, though ongoing curation may cause some numbers to shift slightly as data is 
+constantly added.</p>
+
+<h2>Index</h2>
+<ol>
+	<li><a href=#intro>Introduction to Mouse Genome Informatics</a></li>
+	<li><a href=#cre>cre-lox and cre recombinases in MGI</a></li>
+	<li><a href=#hmdc>The Human-Mouse: Disease Connection in MGI</a></li>
+	<li><a href=#mousemine>MouseMine computational access to MGI data</a></li>
+</ol>
+<br>
+<div id=intro>
+<h2>Module 1: An Introduction to Mouse Genome Informatics</h2>
+
+Begin with the video below. <br>
+Download slides (if desired) by clicking the SlideShare footer from the frame on the right.<br>
+<table>
+ <tr>
+	<td><iframe width="560" height="315" src="//www.youtube.com/embed/9hFuuSGIeeg" frameborder="2" allowfullscreen></iframe></td>
+	<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34867838" width="378" height="315" frameborder="0" marginwidth="0" 
+marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe></td>
+</tr>
+<table>
+
+<p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new tab or window and navigate to answer the following questions.</P>
+<b>Introductory Module Questions</b>
+<p>
+<ol>
+<li>On which mouse chromosome would you find the vang-like 2 gene (<i>Vangl2</i>)?
+	<ol type="a">
+		<li> Chr 1</li>
+		<li> Chr 4</li>
+		<li> Chr 10</li>
+		<li> Chr 19</li>
+		<li> Chr X</li>
+	</ol>
+	<br>
+</li>
+<li>How many phenotypic alleles have been described for this gene?
+	<ol type="a">
+		<li> 1</li>
+		<li> 3</li>
+		<li> 7</li>
+		<li> 14</li>
+		<li> 22</li>
+	</ol>
+	<br>
+</li>
+<li>Has a mouse mutant of this gene been used to model a human disease? If yes, which one?
+	<ol type="a">
+		<li> No</li>
+		<li> Yes, Neural Tube Defects</li>
+		<li> Yes, Cancer</li>
+		<li> Yes, Alzheimer Disease</li>
+		<li> Yes, Polydactyly</li>
+	</ol>
+	<br>
+	
+</li>
+<li>What category of allele is <i>Vangl2<sup>Lp-m1Jus</sup></i>?
+	<ol type="a">
+		<li> Reporter</li>
+		<li> Gene trap</li>
+		<li> Spontaneous</li>
+		<li> Chemically induced (ENU)</li>
+		<li> Targeted (null/knockout)</li>
+	</ol>
+	<br>
+</li>
+<li>What are the mutation details of <i>Vangl2<sup>Lp-m1Jus</sup></i>?
+	<ol type="a">
+		<li> Exon 1 is floxed</li>
+		<li> Exon 4 was targeted and replaced by a neomycin cassette</li>
+		<li> A transversion mutation occurred, changing Asp255 to Glu</li>
+		<li> A stop codon mutation truncating the protein at amino acid 410</li>
+		<li> The entire gene was deleted</li>
+	</ol>
+	<br>
+</li>
+<li>Which of the following <i>nervous system</i> phenotypes have been observed in mice <i>
+homozygous</i> for <i>Vangl2<sup>Lp-m1Jus</sup></i>?
+	<ol type="a">
+		<li> craniorachischisis</li>
+		<li> abnormal synapse morphology</li>
+		<li> abnormal kidney morphology</li>
+		<li> decreased Purkinje cell number</li>
+		<li> no observed nervous system phenotypes</li>
+	</ol>
+	<br>
+</li>
+<li>Using the <a href="http://www.informatics.jax.org/searches/allele_form.shtml">Phenotypes, 
+Alleles and Diseases query</a> form, how many <i>targeted</i> alleles have been annotated to 
+craniorachischisis?
+	<ol type="a">
+		<li> 1</li>
+		<li> 3</li>
+		<li> 13</li>
+		<li> 15</li>
+		<li> 35</li>
+	</ol>
+	<br>
+</li> 
+</ol>
+<p><i><b>Answers:</i> 1.</b> a. Chr 1, <b>2.</b> e. 22 phenotypic alleles, <b>3.</b> b. Yes, Neural Tube Defects,
+<b>4.</b> d. Chemically induced (ENU), <b>5.</b> c. A transversion mutation occurred, changing Asp255 to Gln, 
+<b>6.</b> a. craniorachischisis, <b>7.</b> d. 15 targeted alleles</p>
+
+<p>See complete answer explanations for An Introduction to Mouse Genome Informatics: 
+<a href="Images/Module1Answers.pdf" target="_blank">pdf</a> 
+</p>
+</div>
+
+<div id=cre>
+<h2>Module 2: cre-lox and cre recombinases in MGI</h2>
+
+Begin with the video below.<br>
+Download slides (if desired) by clicking the SlideShare footer from the frame on the right.<br>
+<table>
+	<tr>
+		<td><iframe width="560" height="315" src="//www.youtube.com/embed/M-HNHLPpODs" 
+		frameborder="1" allowfullscreen></iframe></td>
+		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868028" width="378" 
+		height="315" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" 
+		style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" 
+		allowfullscreen> </iframe> </td>
+	</tr>
+</table>
+<p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new 
+tab or window and navigate to answer the following questions.</P>
+<b>Cre Module Questions</b>
+
+<p>You want to design an experiment where you study the effects of removing cadherin 2 
+(<i>Cdh2</i>) from mouse <b>stomach glandular epithelium</b>, but <b>NOT respiratory system</b>.</p> 
+
+<p>To do this requires use of a cre-lox strategy, where you have (1) a mouse with a targeted 
+conditional allele of <i>Cdh2</i>, with loxP recombinase recognition sites used to flank 
+some portion of the <i>Cdh2</i> gene, and (2) a mouse carrying a cre transgene with 
+recombinase activity detected in the stomach glandular epithelium along with no activity 
+in the respiratory system.</p>
+
+<ol start="8">
+<li>Of the following, which allele of <i>Cdh2</i> would be most appropriate?
+	<ol type="a">
+		<li> <i>Cdh2<sup>Gt(OST49160)Lex</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;(MGI:3525642)</li>
+		<li> <i>Cdh2<sup>tm1Glr</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;(MGI:3522469)</li>
+		<li> <i>Cdh2<sup>tm1Hyn</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;(MGI:1861181)</li>
+		<li> <i>Cdh2<sup>tm1e(EUCOMM)Wtsi</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(MGI:4433958)</li>
+		<li>None of the above</li>
+	</ol>
+	<br>
+</li>
+<li>Which exon(s) of the <i>Cdh2</i> gene are flanked by LoxP sites (floxed) in <i>Cdh2<sup>tm1Glr</sup></i>?
+	<ol type="a">
+		<li> The entire gene</li>
+		<li> Exon 1 and upstream transcriptional regulatory sequences</li>
+		<li> Exon 3</li>
+		<li> Exons 4&5</li>
+		<li> It is not specified</li>
+	</ol>
+	<br>
+</li> 
+<li>How many cre transgenes have recombinase activity results annotated to the "stomach glandular 
+epithelium"?
+	<ol type="a">
+		<li> none</li>
+		<li> 6</li>
+		<li> 61</li>
+		<li> 122</li>
+		<li> It is impossible to tell</li>
+	</ol>
+	<br>
+</li>
+<li>Of the following, which transgene best matches recombinase activity "detected in: alimentary 
+system" (which contains <i>stomach glandular epithelium</i> and recombinase activity known 
+to be "not detected in: respiratory system".<br>
+<b><i>Hint:</b></i> Begin your cre/recombinases search from stomach glandular epithelium.
+	<ol type="a">
+		<li> Tg(Atp4b-cre)1Jig&nbsp;&nbsp;&nbsp;&nbsp;(MGI:3040892)</li>
+		<li> <i>Mnx1<sup>tm4(cre)Tmj</sup></i>&nbsp;&nbsp;&nbsp;&nbsp;(MGI:2447793)</li>
+		<li> Tg(Csht4-cre)1Hkwa	&nbsp;&nbsp;&nbsp;&nbsp;(MGI:3842784)</li>
+		<li> Any/all of the above</li>
+		<li> None of the above</li>
+	</ol>
+	<br>
+</li>
+<li>Which is the driver of the cre recombinase transgene Tg(Atp4b-cre)1Jig?
+	<ol type="a">
+		<li> cre</li>
+		<li> CMV</li>
+		<li> Thyroglobulin</li>
+		<li> Atp4b</li>
+		<li> There is no driver</li>
+	</ol>
+	<br>
+</li>
+<li>Which tissues, structures or substructures of the renal and urinary system were examined 
+for cre recombinase activity in Tg(Atp4b-cre))1Jig? Was recombinase activity noted as 
+detected (&#x2713;) or not detected (-)?
+	<ol type="a">
+		<li> bladder (-)</li>
+		<li> renal tubule (&#x2713;) and renal corpuscle (-)</li>
+		<li> kidney (&#x2713;)</li>
+		<li> kidney (-)</li>
+		<li> metanephros (-)</li>
+	</ol>
+	<br>
+</li>
+<li>What is the level (present/absent) and pattern of cre recombinase activity detected in 
+the <i>stomach</i> of mice aged post-natal week 7 (adult)?
+	<ol type="a">
+		<li> Not reported</li>
+		<li> absent, not applicable</li>
+		<li> present, not specified</li>
+		<li> present, strong</li>
+		<li> present, regionally restricted</li>
+	</ol>
+	<br>
+</li>
+</ol>
+<p><i><b>Answers:</i> 8.</b> b. <i>Cdh2<sup>tm1Glr</sup></i>, <b>9.</b> b. Exon 1 and upstream
+transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b> a. Tg(Atp4b-cre)1jig, 
+<b>12.</b> d. Atp4b <b>13.</b> d. kidney (-), <b>14.</b> e. present, regionally restricted.</p>
+ 
+<p>See complete answer explanations for cre-lox and cre recombinases: <a href="Images/Module2Answers.pdf">pdf</a></p>
+</div>	
+<div id=hmdc>
+<h2>The Human-Mouse: Disease Connection at MGI</h2>
+Begin with the video below.<br>
+Download slides (if desired) by clicking the SlideShare footer from the frame on the right.<br>
+<table>
+	<tr>
+		<td><iframe width="420" height="315" src="//www.youtube.com/embed/vOtU51x9sLc" 
+		frameborder="1" allowfullscreen></iframe></td>
+		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868224" 
+		width="378" height="315" frameborder="0" marginwidth="0" marginheight="0"
+		 scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; 
+		 max-width: 100%;" allowfullscreen></iframe></td>
+	</tr>
+</table>
+<p>Then, open the <a href="http://www.informatics.jax.org/humanDisease.shtml" target="_blank">
+Human-Mouse: Disease Connection homepage</a> in a new 
+tab or window and navigate to answer the following questions.</P>
+<b>Human-Mouse: Disease Connection Module Questions</b>
+<p>You have an exome sequencing result come back for a patient who as a familial 
+susceptibility to <b>glomerulonephritis</b> (<i>renal/urinary system phenotype</i>), 
+<b>vasculitis</b> (<i>cardiovascular system phenotype</i>), and <b>leukemia</b> (<i>tumorigenesis phenotype</i>),
+ which appears to be inherited as a monogenic trait. The genes with predicted pathogenic 
+variants are: <i>CHAT</i>, <i>ACOX1</i>, <i>SH2D3C</i>, <i>TUSC2</i> and <i>ZYX</i>.</p>
+<ol start="15">
+<li>Based on mouse phenotypic annotations, which of these genes is the most likely candidate 
+for your observations?
+	<ol type="a">
+		<li> <i>Acox1</i></li>
+		<li> <i>Chat</i></li>
+		<li> <i>Sh2d3c</i></li>
+		<li> <i>Tusc2</i></li>
+		<li> <i>Zyx</i></li>
+	</ol>
+	<br>
+</li>
+<li>Which of these genes would be expected to be associated with infertility (a <i>reproductive 
+system</i> phenotype)?
+	<ol type="a">
+		<li> <i>Acox1</i></li>
+		<li> <i>Chat</i></li>
+		<li> <i>Sh2d3c</i></li>
+		<li> <i>Tusc2</i></li>
+		<li> <i>Zyx</i></li>
+	</ol>
+	<br>
+</li>
+<li>Which of these genes has variants associated with <b>Myasthenic Syndrom, Congenital, 
+Associated with Episodic Apnea</b> in human patients?
+	<ol type="a">
+		<li> <i>ACOX1</i></li>
+		<li> <i>CHAT</i></li>
+		<li> <i>SH2D3C</i></li>
+		<li> <i>TUSC2</i></li>
+		<li> <i>ZYX</i></li>
+	</ol>
+	<br>
+</li>
+<li>What is the <i>Disease Relevant</i> publication that describes the association of mouse 
+<i>Acox1</i> in <b>Peroxisomal Acyl-Coa Oxidase Deficiency</b>?
+	<ol type="a">
+		<li> Abbott BD et al. (2012) Reprod. Toxocol.</li>
+		<li> Huang J et al. (2011) Am. J. Pathol.</li>
+		<li> Fan CY et al. (1996) J. Biol. Chem. </li>
+		<li> Suzuki et al. (1994) J. Pediat.</li>
+		<li> This association was made by Mouse Genome Informatics curators</li>
+	</ol>
+	<br>
+</li>
+<p><i><b>Answers:</i> 15.</b> d. <i>Tusc2</i>, <b>16.</b> a. <i>Acox1</i>, <b>17.</b> b. <i>
+CHAT</i>, <b>18.</b> c. Fan CY et al. (1996) J. Biol. Chem.</p>
+ 
+<p>See complete answer explanations for the Human-Mouse: Disease Connection: 
+<a href="Images/Module3Answers.pdf">pdf</a></p>
+		
+</div>
+<div id=mousemine>
+<h2>MouseMine computational access to MGI data</h2>
+<p>
 </body>
 </html>
