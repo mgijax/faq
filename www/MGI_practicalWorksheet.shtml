@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>MGI Practical Worksheet</title>
+</head>
+<body>
+<!--#include file='include/templateHeadNoReset.html'-->
+<title><!--#include file="include/mgiversion.html"-->
+MGI Practical Worksheet</title>
+
+
+  <meta name="description" content="MGI provides access to integrated data on mouse genes and genome features, from sequences and genomic maps to gene expression and disease models." />
+  <meta name="keywords" content="MGI, mgi, mice, mouse, murine, mus musculus, genes, genome, genomic,
+  sequences, genetics tutorial, proteins, microRNA, QTL, pseudogene, marker, genome feature, gene s
+  equence, nomenclature, gene function, transgene, introduction to genetics, mouse models, mouse genetics, FASTA, MouseBLAST, Mouse BLAST" />
+
+  <meta name="robots" content="NOODP" />
+  <meta name="robots" content="NOYDIR" />
+
+<link rel="stylesheet" type="text/css" href="./userhelp.css" />
+
+<script>
+function openHelpWindow(helpFile){
+  helpUrl = "./" + helpFile;
+  window.open(helpUrl,'helpWindow','width=1000,height=600,resizable=yes,scrollbars=yes,alwaysRaised=yes');
+};
+</script>
+
+<style type="text/css">
+
+body {color:#000;
+	}
+h1 {color:#002255;
+ 	text-indent:50px;
+ 	}
+h2 {color:#002255;
+	text-indent:50px;
+	}
+
+
+</style>
+
+<!--#include file='include/templateBodyStart.html'-->
+
+<title>MGI Practical Worksheet</title>
+<p>
+
+<h1>MGI Practical Worksheet</h1>
+</body>
+</html>
