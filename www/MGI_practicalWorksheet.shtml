@@ -46,30 +46,27 @@ questions.</p>
 and recombinase tools, a new clinical and translational tool called the <i>Human-Mouse: Disease 
 Connection</i> and <i>MouseMine</i>, a new computational 
 platform for MGI data access.</p>
-
-<p>Each section has an accompanying video walkthrough and then users are invited to 
-explore the website sections in order to answer the following questions. Answers to the 
-multiple choice questions follow each section.<br>
-<br>Additional online tutorial documentation can be found:
-<br><a href="http://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml">An introduction to mouse genetics</a>
-<br><a href="http://www.informatics.jax.org/mgihome/other/homepage_usingMGI.shtml">How to use MGI overview</a>
-<br><a href="http://www.informatics.jax.org/mgihome/other/hmdc_tour.shtml">A tour of the Human-Mouse: Disease Connection</a>
-<br><a href="http://www.mousemine.org/blog/?page_id=57">MouseMine basic tools and navigation</a></p>
-
-<p><i>Please note:</i> The data and tools referred to in this worksheet are accurate as of 
-May 22, 2014, though ongoing curation may cause some numbers to shift slightly as data is 
-constantly added.</p>
 <br>
-<br>
-<br>
-<div id="index" class="enhance"><h2>Index</h2></div>
+<div id="index" class="enhance"><h2><b>Index</b></h2></div>
 <ol>
 	<li><a href=#intro>Introduction to Mouse Genome Informatics</a></li>
 	<li><a href=#cre>cre-lox and cre recombinases in MGI</a></li>
 	<li><a href=#hmdc>The Human-Mouse: Disease Connection in MGI</a></li>
 	<li><a href=#mousemine>MouseMine computational access to MGI data</a></li>
 </ol>
-<br>
+<p>Each section has an accompanying video walkthrough and then users are invited to 
+explore the website sections in order to answer the following questions. Answers to the 
+multiple choice questions follow each section.</p>
+<p><i>Please note:</i> The data and tools referred to in this worksheet are accurate as of 
+May 22, 2014, though ongoing curation may cause some numbers to shift slightly as data is 
+constantly added.</p>
+<p>Additional online tutorial documentation can be found:
+<br><a href="http://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml">An introduction to mouse genetics</a>
+<br><a href="http://www.informatics.jax.org/mgihome/other/homepage_usingMGI.shtml">How to use MGI overview</a>
+<br><a href="http://www.informatics.jax.org/mgihome/other/hmdc_tour.shtml">A tour of the Human-Mouse: Disease Connection</a>
+<br><a href="http://www.mousemine.org/blog/?page_id=57">MouseMine basic tools and navigation</a> 
+or see the more extensive <a href="http://www.flymine.org/help/tour/start.html">documentation for FlyMine</a>, 
+another member of the <a href="http://www.nature.com/srep/2013/130508/srep01802/full/srep01802.html">InterMOD</a> consortium.</p>
 <br>
 <br>
 <div id=intro class="enhance"><h2><b>
@@ -437,8 +434,8 @@ of Holm-Bonferroni test correction, what is the associated p-value for the MEDIC
 <li>Scroll further down the page to the <b>Template Results</b>
  for this list. Locate the table for <b>Function: &ldquo;Mouse Features &#8594; Functions (GO terms)&rdquo;</b>. 
  Expand, if necessary, by clicking on the name of the template.<br> 
- According to the Column Summary for <b>Code</b>, how many functional annotations have the evidence code <b>IMP</b> which corresponds to &ldquo;
- Inferred from Mutant Phenotype&rdquo;?<br>
+ According to the <b>Column Summary</b> for column: &ldquo;<b>Code</b>&rdquo;, how many functional 
+ annotations have the evidence code <b>IMP</b> which corresponds to &ldquo;Inferred from Mutant Phenotype&rdquo;?<br>
  <b><i>Hint:</b></i> The Column Summary appears as a bar graph icon in the column header that
  expands on click. Filters can applied using the popup, or by using the <b>Filter</b> button 
  above the table.
