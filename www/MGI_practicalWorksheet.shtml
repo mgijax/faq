@@ -35,17 +35,16 @@ h2 {color:#002255;
 <div id="top">
 
 <p>Mouse Genome Informatics (MGI) is the international database for genetic, genomic, 
-phenotypic and expression data in the laboratory mouse. The database has existed online 
-at <a href="http://www.informatics.jax.org">www.informatics.jax.org</a> for 25 years, 
+phenotypic and expression data in the laboratory mouse. MGI has existed online 
+at <a href="http://www.informatics.jax.org">www.informatics.jax.org</a> since 1994 and has
+a <a href="http://www.informatics.jax.org/mgihome/other/mgicron.shtml#1980s">25 year history</a> of 
 providing free access to information for researchers, and developing tools and structures 
 to explore, manipulate and connect data in order to answer many kinds of biological 
 questions.</p>
 
-<p>This worksheet is intended to cover a basic introduction (<a href=#intro>Intro module 1</a>), 
-a brief overview of cre-lox and recombinase tools (<a href=#cre>Cre module 2</a>), a new 
-clinical and translational tool (<a href=#hmdc>Human-Mouse: Disease Connection module 3</a>) 
-and a new computational platform for MGI data access (<a href=#mousemine>MouseMine 
-module 4</a>).</p>
+<p>This worksheet is intended to cover a basic introduction, a brief overview of cre-lox 
+and recombinase tools, a new clinical and translational tool and a new computational 
+platform for MGI data access.</p>
 
 <p>Each section has an accompanying video walkthrough and then users are invited to 
 explore the website sections in order to answer the following questions. Answers to the 
@@ -197,7 +196,7 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 <p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new 
 tab or window and navigate to answer the following questions.</P>
 <br>
-<b>Questions for Module 2. cre-lox and cre recombinases in MGI Questions</b>
+<b>Questions for Module 2. cre-lox and cre recombinases in MGI</b>
 
 <p>You want to design an experiment where you study the effects of removing cadherin 2 
 (<i>Cdh2</i>) from mouse <b>stomach glandular epithelium</b>, but <b>NOT respiratory system</b>.</p> 
@@ -208,82 +207,87 @@ some portion of the <i>Cdh2</i> gene, and (2) a mouse carrying a cre transgene w
 recombinase activity detected in the stomach glandular epithelium along with no activity 
 in the respiratory system.</p>
 
+<p>For additional background on conditional alleles and the cre-lox system, see <a href="http://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml#cre">here<a>
+or <a href="http://cre.jax.org/introduction.html">here</a>.
+
 <ol start="8">
 <li>Of the following, which allele of <i>Cdh2</i> would be most appropriate?
-	<ol type="a">
-		<li> <i>Cdh2<sup>Gt(OST49160)Lex</sup></i></li>
-		<li> <i>Cdh2<sup>tm1Glr</sup></i></li>
-		<li> <i>Cdh2<sup>tm1Hyn</sup></i></li>
-		<li> <i>Cdh2<sup>tm1e(EUCOMM)Wtsi</sup></i></li>
-		<li>None of the above</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;<i>Cdh2<sup>Gt(OST49160)Lex</sup></i></dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;<i>Cdh2<sup>tm1Glr</sup></i></dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;<i>Cdh2<sup>tm1Hyn</sup></i></dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;<i>Cdh2<sup>tm1e(EUCOMM)Wtsi</sup></i></dd>
+		<dd> e. &nbsp;&nbsp;&nbsp;&nbsp;None of the above</dd>
+	</dl>
 	<br>
 </li>
 <li>Which exon(s) of the <i>Cdh2</i> gene are flanked by LoxP sites (floxed) in <i>Cdh2<sup>tm1Glr</sup></i>?
-	<ol type="a">
-		<li> The entire gene</li>
-		<li> Exon 1 and upstream transcriptional regulatory sequences</li>
-		<li> Exon 3</li>
-		<li> Exons 4&5</li>
-		<li> It is not specified</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;The entire gene</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;Exon 1 and upstream transcriptional regulatory sequences</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;Exon 3</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;Exons 4&5</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;It is not specified</dd>
+	</dl>
 	<br>
 </li> 
 <li>How many cre transgenes have recombinase activity results annotated to the <i>stomach glandular 
-epithelium</i>?
-	<ol type="a">
-		<li> none</li>
-		<li> 6</li>
-		<li> 61</li>
-		<li> 122</li>
-		<li> It is impossible to tell</li>
-	</ol>
+epithelium</i>?<br>
+<b><i>Hint:</i></b> Use the data access options found on the <a href="http://www.informatics.jax.org/recombinase.shtml">
+Recombinase (cre) Activity home page</a>.
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;none</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;6</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;61</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;122</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;It is impossible to tell</dd>
+	</dl>
 	<br>
 </li>
 <li>Of the following, which transgene best matches recombinase activity &ldquo;detected in: alimentary 
 system&rdquo; (which contains <i>stomach glandular epithelium</i> and recombinase activity known 
 to be &ldquo;not detected in: respiratory system&rdquo;.<br>
-<b><i>Hint:</b></i> Begin your cre/recombinases search from stomach glandular epithelium.
-	<ol type="a">
-		<li> Tg(Atp4b-cre)1Jig</li>
-		<li> <i>Mnx1<sup>tm4(cre)Tmj</sup></i></li>
-		<li> Tg(Csht4-cre)1Hkwa</li>
-		<li> Any/all of the above</li>
-		<li> None of the above</li>
-	</ol>
+<b><i>Hint:</b></i> Use the results table from your <i>stomach glandular epithelium</i> search above.
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;Tg(Atp4b-cre)1Jig</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;<i>Mnx1<sup>tm4(cre)Tmj</sup></i></dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;Tg(Csht4-cre)1Hkwa</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;Any/all of the above</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;None of the above</dd>
+	</dl>
 	<br>
 </li>
 <li>Which is the driver of the cre recombinase transgene Tg(Atp4b-cre)1Jig?
-	<ol type="a">
-		<li> cre</li>
-		<li> CMV</li>
-		<li> Thyroglobulin</li>
-		<li> Atp4b</li>
-		<li> There is no driver</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;cre</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;CMV</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;Thyroglobulin</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;Atp4b</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;There is no driver</dd>
+	</dl>
 	<br>
 </li>
 <li>Which tissues, structures or substructures of the renal and urinary system were examined 
 for cre recombinase activity in Tg(Atp4b-cre)1Jig? Was recombinase activity noted as 
 detected (&#x2713;) or not detected (-)?
-	<ol type="a">
-		<li> bladder (-)</li>
-		<li> renal tubule (&#x2713;) and renal corpuscle (-)</li>
-		<li> kidney (&#x2713;)</li>
-		<li> kidney (-)</li>
-		<li> metanephros (-)</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;bladder (-)</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;renal tubule (&#x2713;) and renal corpuscle (-)</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;kidney (&#x2713;)</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;kidney (-)</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;metanephros (-)</dd>
+	</dl>
 	<br>
 </li>
 <li>What is the level (present/absent) and pattern of cre recombinase activity detected in 
 the <i>stomach</i> of mice aged post-natal week 7 (adult)?
-	<ol type="a">
-		<li> Not reported</li>
-		<li> absent, not applicable</li>
-		<li> present, not specified</li>
-		<li> present, strong</li>
-		<li> present, regionally restricted</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;Not reported</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;absent, not applicable</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;present, not specified</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;present, strong</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;present, regionally restricted</dd>
+	</dl>
 	<br>
 </li>
 </ol>
@@ -298,7 +302,7 @@ transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b>
 <div id=hmdc class="enhance">
 <br>
 <br>
-<h2>Module 3. The Human-Mouse: Disease Connection at MGI</h2></div>
+<h2><b>Module 3. The Human-Mouse: Disease Connection at MGI</b></h2></div>
 <div>
 <p>Begin with the video below.<br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
@@ -315,7 +319,7 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 <p>Then, open the <a href="http://www.informatics.jax.org/humanDisease.shtml" target="_blank">
 Human-Mouse: Disease Connection homepage</a> in a new 
 tab or window and navigate to answer the following questions.</P>
-<b>Questions for Module 3. Human-Mouse: Disease Connection</b>
+<b>Questions for Module 3. Human-Mouse: Disease Connection at MGI</b>
 <p>You have an exome sequencing result come back for a patient who as a familial 
 susceptibility to <b>glomerulonephritis</b> (<i>renal/urinary system phenotype</i>), 
 <b>vasculitis</b> (<i>cardiovascular system phenotype</i>), and <b>leukemia</b> (<i>tumorigenesis phenotype</i>),
@@ -324,46 +328,46 @@ variants are: <i>CHAT</i>, <i>ACOX1</i>, <i>SH2D3C</i>, <i>TUSC2</i> and <i>ZYX<
 <ol start="15">
 <li>Based on mouse phenotypic annotations, which of these genes is the most likely candidate 
 for your observations?
-	<ol type="a">
-		<li> <i>Acox1</i></li>
-		<li> <i>Chat</i></li>
-		<li> <i>Sh2d3c</i></li>
-		<li> <i>Tusc2</i></li>
-		<li> <i>Zyx</i></li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;<i>Acox1</i></dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;<i>Chat</i></dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;<i>Sh2d3c</i></dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;<i>Tusc2</i></dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;<i>Zyx</i></dd>
+	</dl>
 	<br>
 </li>
 <li>Which of these genes would be expected to be associated with infertility (a <i>reproductive 
 system</i> phenotype)?
-	<ol type="a">
-		<li> <i>Acox1</i></li>
-		<li> <i>Chat</i></li>
-		<li> <i>Sh2d3c</i></li>
-		<li> <i>Tusc2</i></li>
-		<li> <i>Zyx</i></li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;<i>Acox1</i></dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;<i>Chat</i></dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;<i>Sh2d3c</i></dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;<i>Tusc2</i></dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;<i>Zyx</i></dd>
+	</dl>
 	<br>
 </li>
 <li>Which of these genes has variants associated with <b>Myasthenic Syndrome, Congenital, 
 Associated with Episodic Apnea</b> in human patients?
-	<ol type="a">
-		<li> <i>ACOX1</i></li>
-		<li> <i>CHAT</i></li>
-		<li> <i>SH2D3C</i></li>
-		<li> <i>TUSC2</i></li>
-		<li> <i>ZYX</i></li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;<i>ACOX1</i></dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;<i>CHAT</i></dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;<i>SH2D3C</i></dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;<i>TUSC2</i></dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;<i>ZYX</i></dd>
+	</dl>
 	<br>
 </li>
 <li>What is the <i>Disease Relevant</i> publication that describes the association of mouse 
 <i>Acox1</i> in <b>Peroxisomal Acyl-Coa Oxidase Deficiency</b>?
-	<ol type="a">
-		<li> Abbott BD et al. (2012) Reprod. Toxocol.</li>
-		<li> Huang J et al. (2011) Am. J. Pathol.</li>
-		<li> Fan CY et al. (1996) J. Biol. Chem. </li>
-		<li> Suzuki et al. (1994) J. Pediat.</li>
-		<li> This association was made by Mouse Genome Informatics curators</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;Abbott BD et al. (2012) Reprod. Toxocol.</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;Huang J et al. (2011) Am. J. Pathol.</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;Fan CY et al. (1996) J. Biol. Chem. </dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;Suzuki et al. (1994) J. Pediat.</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;This association was made by Mouse Genome Informatics curators</dd>
+	</dl>
 	<br>
 </li>
 </ol>
@@ -378,7 +382,7 @@ CHAT</i>, <b>18.</b> c. Fan CY et al. (1996) J. Biol. Chem.</p>
 <div id=mousemine class="enhance">
 <br>
 <br>
-<h2>MouseMine computational access to MGI data</h2></div>
+<h2><b>MouseMine computational access to MGI data</b></h2></div>
 <div>
 <p>Begin with the video below.<br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
@@ -394,63 +398,67 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 </table>
 <p>Then, open <a href="http://www.mousemine.org/mousemine/begin.do" target="_blank">
 MouseMine</a> in a new tab or window and navigate to answer the following questions.</P>
-<b>MouseMine Module Questions</b>
+<b>Questions for Module 4. MouseMine computational access to MGI data</b>
 <p>You are a researcher working on DNA repair and have generated a list of 321 mouse genes 
-based on functional annotations. This list is pre-loaded into MouseMine – go to the 
-&ldquo;Lists&rdquo; tab, &ldquo;View&rdquo; and click on &ldquo;Mouse DNA repair genes 2013-01-06&rdquo;.</p>
+based on functional annotations. This list is pre-loaded into MouseMine &#45; go to the 
+&ldquo;Lists&rdquo; tab, &ldquo;View&rdquo; and click on &ldquo;<a 
+href="http://www.mousemine.org/mousemine/bagDetails.do?scope=all&bagName=Mouse+DNA+repair+genes+2013-01-06">Mouse DNA repair genes 2013-01-06</a>&rdquo;.</p>
 <p>Be sure to scroll down the page to find Enrichment widgets and Template queries.</p>
-<p><i>** Please note that the content in these worksheets is accurate as of 16 May 2014. 
+<p><i>** Please note that the content in these worksheets is accurate as of 22 May 2014. 
 Updates to the data may cause some numbers to shift slightly.**</i><p>
 
 <ol start="19">
 <li>At the top of the page in list analysis tools, use <b>Manage Columns</b> (may compress 
 to <b>Columns</b> in smaller windows) to add a column for &ldquo;<b>NCBI Gene Number</b>&rdquo; to 
 the list of 321 DNA repair genes. What is the NCBI Gene Number for <i>Hmga2</i>?
-	<ol type="a">
-		<li> 15364</li>
-		<li> 22210</li>
-		<li> 13248</li>
-		<li> 35510</li>
-		<li> 11478</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;15364</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;22210</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;13248</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;35510</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;11478</dd>
+	</dl>
 	<br>
 </li>
-<li>In the Human Disease Enrichment widget, using the default of Holm-Bonferroni test 
-correction, what is the associated p-value for the MEDIC term: &ldquo;DNA Repair Deficiency Disorders&rdquo;?
-	<ol type="a">
-		<li> 2.641253e-84 with 62 genes matched</li>
-		<li> 5.057056e-27 with 23 genes matched</li>
-		<li> 0.001798 with 5 genes matched</li>
-		<li> 0.05</li>
-		<li> There is no significant enrichment for this term</li>
-	</ol>
+<li>Scroll down the page to the <b>Human Disease Enrichment</b> widget. Using the default 
+of Holm-Bonferroni test correction, what is the associated p-value for the MEDIC term: &ldquo;DNA Repair Deficiency Disorders&rdquo;?
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;2.641253e-84 with 62 genes matched</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;5.057056e-27 with 23 genes matched</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;0.001798 with 5 genes matched</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;0.05</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;There is no significant enrichment for this term</dd>
+	</dl>
 	<br>
 </li>
-<li>Scroll further down the page below the Enrichment Widgets to the <b>Template Results</b>
+<li>Scroll further down the page to the <b>Template Results</b>
  for this list. Locate the table for <b>Function: &ldquo;Mouse Features &#8594; Functions (GO terms)&rdquo;</b>. 
  Expand, if necessary, by clicking on the name of the template.<br> 
- According to the column summary for <b>Code</b>, how many functional annotations have 
- the evidence code <b>IMP</b> which corresponds to “Inferred from Mutant Phenotype”?
- 	<ol type="a">
- 		<li> 9062</li>
- 		<li> 1214</li>
- 		<li> 3308</li>
- 		<li> 13</li>
- 		<li> none</li>
- 	</ol>
+ According to the Column Summary for <b>Code</b>, how many functional annotations have the evidence code <b>IMP</b> which corresponds to &ldquo;
+ Inferred from Mutant Phenotype&rdquo;?<br>
+ <b><i>Hint:</b></i> The Column Summary appears as a bar graph icon in the column header that
+ expands on click. Filters can applied using the popup, or by using the <b>Filter</b> button 
+ above the table.
+  	<dl>
+ 		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;9062</dd>
+ 		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;1214</dd>
+ 		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;3308</dd>
+ 		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;13</dd>
+ 		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;none</dd>
+ 	</dl>
  	<br>
  </li>
  <li>Exit the list analysis tools and return to MouseMine Home.<br>
   Find the template for <b>Homology: &ldquo;Genes &#8594; Homologs&rdquo;</b>. Enter &ldquo;pxn&rdquo; into the search box, 
   leaving the Organism dropdown menu at the default <i>M. musculus</i> for mouse.<br> 
   What is the <b>Homolog symbol</b> corresponding to the <b>Homolog Organism: <i>Saccharomyces cerevisiae</i></b>?
-  	<ol type="a">
-  		<li> <i>PXN</i></li>
-  		<li> <i>Pax</i></li>
-  		<li> <i>PXL1</i></li>
-  		<li> <i>pxna</i></li>
-  		<li> there is no homolog in <i>S. cerevisiae</i></li>
-  	</ol>
+  	<dl>
+  		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;<i>PXN</i></dd>
+  		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;<i>Pax</i></dd>
+  		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;<i>PXL1</i></dd>
+  		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;<i>pxna</i></dd>
+  		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;there is no homolog in <i>S. cerevisiae</i></dd>
+  	</dl>
   	<br>
   </li>
 </ol>
@@ -460,6 +468,9 @@ correction, what is the associated p-value for the MEDIC term: &ldquo;DNA Repair
 <p>See complete answer explanations for MouseMine computational access to MGI: 
 <a href="Images/Module4Answers.pdf">pdf</a></p>  
 </div>
+<br>
+<br>
+<br>
 <br>
 <br>	 
 </body>
