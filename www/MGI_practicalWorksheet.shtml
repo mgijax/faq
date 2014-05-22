@@ -44,7 +44,7 @@ questions.</p>
 <p>This worksheet is intended to cover a basic introduction (<a href=#intro>Intro module 1</a>), 
 a brief overview of cre-lox and recombinase tools (<a href=#cre>Cre module 2</a>), a new 
 clinical and translational tool (<a href=#hmdc>Human-Mouse: Disease Connection module 3</a>) 
-and a new computational access platform for MGI data access (<a href=#mousemine>MouseMine 
+and a new computational platform for MGI data access (<a href=#mousemine>MouseMine 
 module 4</a>).</p>
 
 <p>Each section has an accompanying video walkthrough and then users are invited to 
@@ -59,7 +59,9 @@ multiple choice questions follow each section.<br>
 <p><i>Please note:</i> The data and tools referred to in this worksheet are accurate as of 
 May 22, 2014, though ongoing curation may cause some numbers to shift slightly as data is 
 constantly added.</p>
-
+<br>
+<br>
+<br>
 <div id="index" class="enhance"><h2>Index</h2></div>
 <ol>
 	<li><a href=#intro>Introduction to Mouse Genome Informatics</a></li>
@@ -68,8 +70,10 @@ constantly added.</p>
 	<li><a href=#mousemine>MouseMine computational access to MGI data</a></li>
 </ol>
 <br>
-<div id=intro class="enhance"><h2>
-Module 1: An Introduction to Mouse Genome Informatics</h2></div>
+<br>
+<br>
+<div id=intro class="enhance"><h2><b>
+Module 1: An Introduction to Mouse Genome Informatics</b></h2></div>
 <div>
 <p>Begin with the video below. <br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
@@ -83,27 +87,28 @@ marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1
 
 <p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new tab 
 or window and navigate to answer the following questions.</P>
-<b>Introductory Module Questions</b>
+<br>
+<b>Module 1: An Introduction to Mouse Genome Informatics Questions</b>
 <p>
 <ol>
 <li>On which mouse chromosome would you find the vang-like 2 gene (<i>Vangl2</i>)?
-	<ol type="a">
-		<li> Chr 1</li>
-		<li> Chr 4</li>
-		<li> Chr 10</li>
-		<li> Chr 19</li>
-		<li> Chr X</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;Chr 1</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;Chr 4</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;Chr 10</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;Chr 19</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;Chr X</dd>
+	</dl>
 	<br>
 </li>
 <li>How many phenotypic alleles have been described for this gene?
-	<ol type="a">
-		<li> 1</li>
-		<li> 3</li>
-		<li> 7</li>
-		<li> 14</li>
-		<li> 22</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;1</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;3</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;7</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;14</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;22</dd>
+	</dl>
 	<br>
 </li>
 <li>Has a mouse mutant of this gene been used to model a human disease? If yes, which one?
@@ -168,10 +173,13 @@ craniorachischisis?
 <p>See complete answer explanations for An Introduction to Mouse Genome Informatics: 
 <a href="Images/Module1Answers.pdf" target="_blank">pdf</a> 
 </p>
+<br>
+<br>
 </div>
-
-<div id=cre class="enhance"><h2>
-Module 2: cre-lox and cre recombinases in MGI</h2></div>
+<div id=cre class="enhance">
+<br>
+<br>
+<h2>Module 2: cre-lox and cre recombinases in MGI</h2></div>
 <div>
 <p>Begin with the video below.<br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
@@ -187,7 +195,8 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 </table>
 <p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new 
 tab or window and navigate to answer the following questions.</P>
-<b>Cre Module Questions</b>
+<br>
+<b>Module 2: cre-lox and cre recombinases in MGI Questions</b>
 
 <p>You want to design an experiment where you study the effects of removing cadherin 2 
 (<i>Cdh2</i>) from mouse <b>stomach glandular epithelium</b>, but <b>NOT respiratory system</b>.</p> 
