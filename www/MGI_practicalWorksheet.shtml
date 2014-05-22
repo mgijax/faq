@@ -339,7 +339,9 @@ for your observations?
 	<br>
 </li>
 <li>Which of these genes would be expected to be associated with infertility (a <i>reproductive 
-system</i> phenotype)?
+system</i> phenotype)?<br>
+<b><i>Hint:</i></b> Click on the shaded cells at row&#8212;column intersections to see 
+more specific annotations.
 	<dl>
 		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;<i>Acox1</i></dd>
 		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;<i>Chat</i></dd>
@@ -361,7 +363,7 @@ Associated with Episodic Apnea</b> in human patients?
 	<br>
 </li>
 <li>What is the <i>Disease Relevant</i> publication that describes the association of mouse 
-<i>Acox1</i> in <b>Peroxisomal Acyl-Coa Oxidase Deficiency</b>?
+<i>Acox1</i> to <b>Peroxisomal Acyl-Coa Oxidase Deficiency</b>?
 	<dl>
 		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;Abbott BD et al. (2012) Reprod. Toxocol.</dd>
 		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;Huang J et al. (2011) Am. J. Pathol.</dd>
