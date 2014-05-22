@@ -73,7 +73,7 @@ constantly added.</p>
 <br>
 <br>
 <div id=intro class="enhance"><h2><b>
-Module 1: An Introduction to Mouse Genome Informatics</b></h2></div>
+Module 1. An Introduction to Mouse Genome Informatics</b></h2></div>
 <div>
 <p>Begin with the video below. <br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
@@ -88,7 +88,7 @@ marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1
 <p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new tab 
 or window and navigate to answer the following questions.</P>
 <br>
-<b>Module 1: An Introduction to Mouse Genome Informatics Questions</b>
+<b>Questions for Module 1. An Introduction to Mouse Genome Informatics</b>
 <p>
 <ol>
 <li>On which mouse chromosome would you find the vang-like 2 gene (<i>Vangl2</i>)?
@@ -112,57 +112,57 @@ or window and navigate to answer the following questions.</P>
 	<br>
 </li>
 <li>Has a mouse mutant of this gene been used to model a human disease? If yes, which one?
-	<ol type="a">
-		<li> No</li>
-		<li> Yes, Neural Tube Defects</li>
-		<li> Yes, Cancer</li>
-		<li> Yes, Alzheimer Disease</li>
-		<li> Yes, Polydactyly</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;No</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;Yes, Neural Tube Defects</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;Yes, Cancer</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;Yes, Alzheimer Disease</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;Yes, Polydactyly</dd>
+	</dl>
 	<br>
 	
 </li>
 <li>What category of allele is <i>Vangl2<sup>Lp-m1Jus</sup></i>?
-	<ol type="a">
-		<li> Reporter</li>
-		<li> Gene trap</li>
-		<li> Spontaneous</li>
-		<li> Chemically induced (ENU)</li>
-		<li> Targeted (null/knockout)</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;Reporter</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;Gene trap</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;Spontaneous</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;Chemically induced (ENU)</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;Targeted (null/knockout)</dd>
+	</dl>
 	<br>
 </li>
 <li>What are the mutation details of <i>Vangl2<sup>Lp-m1Jus</sup></i>?
-	<ol type="a">
-		<li> Exon 1 is floxed</li>
-		<li> Exon 4 was targeted and replaced by a neomycin cassette</li>
-		<li> A transversion mutation occurred, changing Asp255 to Glu</li>
-		<li> A stop codon mutation truncating the protein at amino acid 410</li>
-		<li> The entire gene was deleted</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;Exon 1 is floxed</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;Exon 4 was targeted and replaced by a neomycin cassette</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;A transversion mutation occurred, changing Asp255 to Glu</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;A stop codon mutation truncating the protein at amino acid 410</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;The entire gene was deleted</dd>
+	</dl>
 	<br>
 </li>
 <li>Which of the following <i>nervous system</i> phenotypes have been observed in mice <i>
 homozygous</i> for <i>Vangl2<sup>Lp-m1Jus</sup></i>?
-	<ol type="a">
-		<li> craniorachischisis</li>
-		<li> abnormal synapse morphology</li>
-		<li> abnormal kidney morphology</li>
-		<li> decreased Purkinje cell number</li>
-		<li> no observed nervous system phenotypes</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;craniorachischisis</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;abnormal synapse morphology</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;abnormal kidney morphology</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;decreased Purkinje cell number</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;no observed nervous system phenotypes</dd>
+	</dl>
 	<br>
 </li>
 <li>Using the <a href="http://www.informatics.jax.org/searches/allele_form.shtml">Phenotypes, 
 Alleles and Diseases query</a> form, how many <i>targeted</i> alleles have been annotated to 
 craniorachischisis?
-	<ol type="a">
-		<li> 1</li>
-		<li> 3</li>
-		<li> 13</li>
-		<li> 15</li>
-		<li> 35</li>
-	</ol>
+	<dl>
+		<dd> a.&nbsp;&nbsp;&nbsp;&nbsp;1</dd>
+		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;3</dd>
+		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;13</dd>
+		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;15</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;35</dd>
+	</dl>
 	<br>
 </li> 
 </ol>
@@ -179,7 +179,7 @@ craniorachischisis?
 <div id=cre class="enhance">
 <br>
 <br>
-<h2>Module 2: cre-lox and cre recombinases in MGI</h2></div>
+<h2><b>Module 2. cre-lox and cre recombinases in MGI<b></h2></div>
 <div>
 <p>Begin with the video below.<br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
@@ -193,10 +193,11 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 		allowfullscreen> </iframe> </td>
 	</tr>
 </table>
+
 <p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new 
 tab or window and navigate to answer the following questions.</P>
 <br>
-<b>Module 2: cre-lox and cre recombinases in MGI Questions</b>
+<b>Questions for Module 2. cre-lox and cre recombinases in MGI Questions</b>
 
 <p>You want to design an experiment where you study the effects of removing cadherin 2 
 (<i>Cdh2</i>) from mouse <b>stomach glandular epithelium</b>, but <b>NOT respiratory system</b>.</p> 
@@ -291,8 +292,13 @@ transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b>
 <b>12.</b> d. Atp4b <b>13.</b> d. kidney (-), <b>14.</b> e. present, regionally restricted.</p>
  
 <p>See complete answer explanations for cre-lox and cre recombinases: <a href="Images/Module2Answers.pdf">pdf</a></p>
+<br>
+<br>
 </div>	
-<div id=hmdc class="enhance"><h2>The Human-Mouse: Disease Connection at MGI</h2></div>
+<div id=hmdc class="enhance">
+<br>
+<br>
+<h2>Module 3. The Human-Mouse: Disease Connection at MGI</h2></div>
 <div>
 <p>Begin with the video below.<br>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
@@ -309,7 +315,7 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 <p>Then, open the <a href="http://www.informatics.jax.org/humanDisease.shtml" target="_blank">
 Human-Mouse: Disease Connection homepage</a> in a new 
 tab or window and navigate to answer the following questions.</P>
-<b>Human-Mouse: Disease Connection Module Questions</b>
+<b>Questions for Module 3. Human-Mouse: Disease Connection</b>
 <p>You have an exome sequencing result come back for a patient who as a familial 
 susceptibility to <b>glomerulonephritis</b> (<i>renal/urinary system phenotype</i>), 
 <b>vasculitis</b> (<i>cardiovascular system phenotype</i>), and <b>leukemia</b> (<i>tumorigenesis phenotype</i>),
@@ -366,9 +372,12 @@ CHAT</i>, <b>18.</b> c. Fan CY et al. (1996) J. Biol. Chem.</p>
  
 <p>See complete answer explanations for the Human-Mouse: Disease Connection: 
 <a href="Images/Module3Answers.pdf">pdf</a></p>
-		
+<br>
+<br>		
 </div>
 <div id=mousemine class="enhance">
+<br>
+<br>
 <h2>MouseMine computational access to MGI data</h2></div>
 <div>
 <p>Begin with the video below.<br>
@@ -398,7 +407,7 @@ Updates to the data may cause some numbers to shift slightly.**</i><p>
 to <b>Columns</b> in smaller windows) to add a column for &ldquo;<b>NCBI Gene Number</b>&rdquo; to 
 the list of 321 DNA repair genes. What is the NCBI Gene Number for <i>Hmga2</i>?
 	<ol type="a">
-		<li> 15368</li>
+		<li> 15364</li>
 		<li> 22210</li>
 		<li> 13248</li>
 		<li> 35510</li>
@@ -410,7 +419,7 @@ the list of 321 DNA repair genes. What is the NCBI Gene Number for <i>Hmga2</i>?
 correction, what is the associated p-value for the MEDIC term: &ldquo;DNA Repair Deficiency Disorders&rdquo;?
 	<ol type="a">
 		<li> 2.641253e-84 with 62 genes matched</li>
-		<li> 5.148577e-27 with 23 genes matched</li>
+		<li> 5.057056e-27 with 23 genes matched</li>
 		<li> 0.001798 with 5 genes matched</li>
 		<li> 0.05</li>
 		<li> There is no significant enrichment for this term</li>
@@ -445,7 +454,7 @@ correction, what is the associated p-value for the MEDIC term: &ldquo;DNA Repair
   	<br>
   </li>
 </ol>
-<p><i><b>Answers:</i> 19.</b> a. 15368, <b>20.</b> b. 5.148577e-27 with 23 genes matched, 
+<p><i><b>Answers:</i> 19.</b> a. 15364, <b>20.</b> b. 5.057056e-27 with 23 genes matched, 
 <b>21.</b> b. 1214 annotations with evidence code IMP, <b>22.</b> c. <i>PXL1</i>.</p>
  
 <p>See complete answer explanations for MouseMine computational access to MGI: 
