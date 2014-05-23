@@ -76,11 +76,11 @@ Module 1. An Introduction to Mouse Genome Informatics</b></h2></div>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
 <table cellpadding="5">
  <tr>
-	<td><iframe width="560" height="315" src="//www.youtube.com/embed/9hFuuSGIeeg" frameborder="2" allowfullscreen></iframe></td>
+	<td><iframe width="560" height="315" src="//www.youtube.com/embed/9hFuuSGIeeg?rel=0" frameborder="2" allowfullscreen></iframe></td>
 	<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34867838" width="378" height="315" frameborder="0" marginwidth="0" 
 marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe></td>
 </tr>
-<table>
+</table>
 
 <p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new tab 
 or window and navigate to answer the following questions.</P>
@@ -163,7 +163,7 @@ craniorachischisis?
 	<br>
 </li> 
 </ol>
-<p><i><b>Answers:</i> 1.</b> a. Chr 1, <b>2.</b> e. 22 phenotypic alleles, <b>3.</b> b. Yes, Neural Tube Defects,
+<p><b><i>Answers:</i> 1.</b> a. Chr 1, <b>2.</b> e. 22 phenotypic alleles, <b>3.</b> b. Yes, Neural Tube Defects,
 <b>4.</b> d. Chemically induced (ENU), <b>5.</b> c. A transversion mutation occurred, changing Asp255 to Gln, 
 <b>6.</b> a. craniorachischisis, <b>7.</b> d. 15 targeted alleles</p>
 
@@ -182,7 +182,7 @@ craniorachischisis?
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
 <table cellpadding="5">
 	<tr>
-		<td><iframe width="560" height="315" src="//www.youtube.com/embed/M-HNHLPpODs" 
+		<td><iframe width="560" height="315" src="//www.youtube.com/embed/M-HNHLPpODs?rel=0" 
 		frameborder="1" allowfullscreen></iframe></td>
 		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868028" width="378" 
 		height="315" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" 
@@ -205,7 +205,7 @@ some portion of the <i>Cdh2</i> gene, and (2) a mouse carrying a cre transgene w
 recombinase activity detected in the stomach glandular epithelium along with no activity 
 in the respiratory system.</p>
 
-<p>For additional background on conditional alleles and the cre-lox system, see <a href="http://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml#cre">here<a>
+<p>For additional background on conditional alleles and the cre-lox system, see <a href="http://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml#cre">here</a>
 or <a href="http://cre.jax.org/introduction.html">here</a>.
 
 <ol start="8">
@@ -289,7 +289,7 @@ the <i>stomach</i> of mice aged post-natal week 7 (adult)?
 	<br>
 </li>
 </ol>
-<p><i><b>Answers:</i> 8.</b> b. <i>Cdh2<sup>tm1Glr</sup></i>, <b>9.</b> b. Exon 1 and upstream
+<p><b><i>Answers:</i> 8.</b> b. <i>Cdh2<sup>tm1Glr</sup></i>, <b>9.</b> b. Exon 1 and upstream
 transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b> a. Tg(Atp4b-cre)1Jig, 
 <b>12.</b> d. Atp4b <b>13.</b> d. kidney (-), <b>14.</b> e. present, regionally restricted.</p>
  
@@ -306,8 +306,8 @@ transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
 <table cellpadding="5">
 	<tr>
-		<td><iframe width="420" height="315" src="//www.youtube.com/embed/vOtU51x9sLc" 
-		frameborder="1" allowfullscreen></iframe></td>
+		<td><iframe width="420" height="315" src="//www.youtube.com/embed/vOtU51x9sLc?rel=0" 
+		frameborder="0" allowfullscreen></iframe></td>
 		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868224" 
 		width="378" height="315" frameborder="0" marginwidth="0" marginheight="0"
 		 scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; 
@@ -371,7 +371,7 @@ Associated with Episodic Apnea</b> in human patients?
 	<br>
 </li>
 </ol>
-<p><i><b>Answers:</i> 15.</b> d. <i>Tusc2</i>, <b>16.</b> a. <i>Acox1</i>, <b>17.</b> b. <i>
+<p><b><i>Answers:</i> 15.</b> d. <i>Tusc2</i>, <b>16.</b> a. <i>Acox1</i>, <b>17.</b> b. <i>
 CHAT</i>, <b>18.</b> c. Fan CY et al. (1996) J. Biol. Chem.</p>
  
 <p>See complete answer explanations for the Human-Mouse: Disease Connection: 
@@ -388,8 +388,8 @@ CHAT</i>, <b>18.</b> c. Fan CY et al. (1996) J. Biol. Chem.</p>
 Download slides (if desired) by clicking the SlideShare footer from the frame on the right.</p>
 <table cellpadding="5">
 	<tr>
-		<td><iframe width="560" height="315" src="//www.youtube.com/embed/FtlsoM8TGGs" 
-		frameborder="1" allowfullscreen></iframe></td>
+		<td><iframe width="560" height="315" 
+		src="//www.youtube.com/embed/FtlsoM8TGGs?rel=0" frameborder="0" allowfullscreen></iframe></td>
 		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868470" 
 		width="378" height="315" frameborder="0" marginwidth="0" marginheight="0" 
 		scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; 
@@ -462,7 +462,7 @@ of Holm-Bonferroni test correction, what is the associated p-value for the MEDIC
   	<br>
   </li>
 </ol>
-<p><i><b>Answers:</i> 19.</b> a. 15364, <b>20.</b> b. 5.057056e-27 with 23 genes matched, 
+<p><b><i>Answers:</i> 19.</b> a. 15364, <b>20.</b> b. 5.057056e-27 with 23 genes matched, 
 <b>21.</b> b. 1214 annotations with evidence code IMP, <b>22.</b> c. <i>PXL1</i>.</p>
  
 <p>See complete answer explanations for MouseMine computational access to MGI: 
