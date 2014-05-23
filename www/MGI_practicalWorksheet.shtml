@@ -77,9 +77,10 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 <table cellpadding="5">
  <tr>
 	<td><iframe width="560" height="315" src="//www.youtube.com/embed/9hFuuSGIeeg?rel=0" frameborder="2" allowfullscreen></iframe></td>
-	<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34867838" width="378" height="315" frameborder="0" marginwidth="0" 
+	<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34867838?rel=0" width="378" height="315" frameborder="0" marginwidth="0" 
 marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe></td>
 </tr>
+
 </table>
 
 <p>Then, open <a href="http://www.informatics.jax.org" target="_blank">MGI</a> in a new tab 
@@ -184,7 +185,7 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 	<tr>
 		<td><iframe width="560" height="315" src="//www.youtube.com/embed/M-HNHLPpODs?rel=0" 
 		frameborder="1" allowfullscreen></iframe></td>
-		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868028" width="378" 
+		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868028?rel=0" width="378" 
 		height="315" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" 
 		style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" 
 		allowfullscreen> </iframe> </td>
@@ -308,7 +309,7 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 	<tr>
 		<td><iframe width="420" height="315" src="//www.youtube.com/embed/vOtU51x9sLc?rel=0" 
 		frameborder="0" allowfullscreen></iframe></td>
-		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868224" 
+		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868224?rel=0" 
 		width="378" height="315" frameborder="0" marginwidth="0" marginheight="0"
 		 scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; 
 		 max-width: 100%;" allowfullscreen></iframe></td>
@@ -390,10 +391,10 @@ Download slides (if desired) by clicking the SlideShare footer from the frame on
 	<tr>
 		<td><iframe width="560" height="315" 
 		src="//www.youtube.com/embed/FtlsoM8TGGs?rel=0" frameborder="0" allowfullscreen></iframe></td>
-		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868470" 
+		<td><iframe src="http://www.slideshare.net/slideshow/embed_code/34868470?rel=0" 
 		width="378" height="315" frameborder="0" marginwidth="0" marginheight="0" 
 		scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; 
-		max-width: 100%;" allowfullscreen> </iframe></td>
+		max-width: 100%;" allowfullscreen> </iframe></td>		
 	</tr>
 </table>
 <p>Then, open <a href="http://www.mousemine.org/mousemine/begin.do" target="_blank">
