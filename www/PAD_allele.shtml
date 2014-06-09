@@ -48,10 +48,9 @@
 			image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->searches/allele_form.shtml' 
-			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/allele_form.shtml'); 
-			return false;">
-			Phenotypes, Alleles and Disease Models Query Form</a>
+			<a href='<!--#include file='include/fewi_url.html'-->allele'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->allele'); 
+			return false;">Phenotypes, Alleles and Disease Models Query Form</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>
 		

@@ -126,7 +126,7 @@ or window and navigate to answer the following questions.</P>
 		<dd> b.&nbsp;&nbsp;&nbsp;&nbsp;Gene trap</dd>
 		<dd> c.&nbsp;&nbsp;&nbsp;&nbsp;Spontaneous</dd>
 		<dd> d.&nbsp;&nbsp;&nbsp;&nbsp;Chemically induced (ENU)</dd>
-		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;Targeted (null/knockout)</dd>
+		<dd> e.&nbsp;&nbsp;&nbsp;&nbsp;Targeted (Null/knockout)</dd>
 	</dl>
 	<br>
 </li>
@@ -292,7 +292,7 @@ the <i>stomach</i> of mice aged post-natal week 7 (adult)?
 </ol>
 <p><b><i>Answers:</i> 8.</b> b. <i>Cdh2<sup>tm1Glr</sup></i>, <b>9.</b> b. Exon 1 and upstream
 transcriptional regulatory sequences, <b>10.</b> b. 6 cre transgenes, <b>11.</b> a. Tg(Atp4b-cre)1Jig, 
-<b>12.</b> d. Atp4b <b>13.</b> d. kidney (-), <b>14.</b> e. present, regionally restricted.</p>
+<b>12.</b> d. Atp4b <b>13.</b> e. metanephros (-), <b>14.</b> e. present, regionally restricted.</p>
  
 <p>See complete answer explanations for cre-lox and cre recombinases: <a href="Images/Module2Answers.pdf">pdf</a></p>
 <br>
