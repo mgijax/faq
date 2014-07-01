@@ -9,7 +9,7 @@
  <span class="titleBarMainTitle">MGI Celebrates 25 years</span>
 </div> <!--titleBar-->
 <br>
-<table>
+<table cellpadding="5" >
 <tr valign="top">
 <td><p>Mouse Genome Informatics is delighted to celebrate 25 years in 2014. From its 
 <a href="http://jaxmice.jax.org/jaxnotes/archive/442b.html">GBASE precursor</a>, through early 
@@ -20,22 +20,21 @@ Tumor Biology (MTB), components of the Gene Ontology (GO) project, MouseMine and
 we have enjoyed <a href="http://www.informatics.jax.org/mgihome/other/mgi_funding.shtml"> the 
 support of the National Institutes of Health</a> (NIH), <a href="http://www.jax.org/">
 The Jackson Laboratory</a> and the mouse genetics community.</p>
-<p>Take a trip down memory lane 
-with the <a href="http://www.informatics.jax.org/mgihome/other/mgicron.shtml">Chronology 
-of MGI Database Releases</a> from the 1980s to the present or go a little deeper with our 
-<a href="http://www.informatics.jax.org/mgihome/other/publications.shtml">Publications list</a>.</p>
 
 <p>We invite you to come celebrate this milestone with us on <b>Thursday, Oct 30, 2014</b> 
 at the Jackson Laboratory in <b>Bar Harbor, Maine</b>. These events are free and open to 
 everyone, though we want to extend a special invitation to former staff, students, advisors 
-and colleagues.</p> 
+and colleagues. In the mean time, take a trip down memory lane 
+with the <a href="http://www.informatics.jax.org/mgihome/other/mgicron.shtml">Chronology 
+of MGI Database Releases</a> from the 1980s to the present or go a little deeper with our 
+<a href="http://www.informatics.jax.org/mgihome/other/publications.shtml">Publications list</a>.</p></p> 
 <p>This event immediately follows the <a href="http://imgs.org/?run=conference" target="_blank">
 28<sup>th</sup> Annual International Mammalian Genome Conference</a> (Oct 26-29) though registration for 
-that meeting is not required.</p>
+that meeting is not required. Please confirm your attendance at the bottom of the page.</p>
 <p><b>Proposed Agenda for Oct 30, 2014</b> <br>
 All activities to take place at The Jackson Laboratory 
 (600 Main Street, Bar Harbor, ME)</p>
-<table style="width:90%" valign="top" border="2">
+<table valign="top" border="1" cellpadding="5">
 	<tr>
 		<th>Time</th>
 		<th>Event</th>
@@ -50,18 +49,18 @@ All activities to take place at The Jackson Laboratory
 		<td>8:30&ndash;11:30</td>
 		<td>MGI Symposium</td>
 		<td><a href="http://research.jax.org/faculty/janan_eppig.html" target="_blank">Janan T. Eppig</a> 
-			<i>Professor and lead PI for the Mouse Genome Database grant</i><br>
+			<i>Professor and lead PI for the Mouse Genome Database grant</i><br> 
 			The Jackson Laboratory<br><br>
 			<a href="http://research.jax.org/faculty/bob_braun.html" target="_blank">Robert Braun</a> 
-			<i>Professor, and Vice President for Research</i><br>
+			<i>Professor and Vice President for Research</i><br> 
 			The Jackson Laboratory<br><br>
 			<a href="http://www.adelsonfoundation.org/aboutkhf.html" target="_blank">Kenneth H. Fasman</a>
-			<i> Vice President and Chief Science Officer</i><br>
+			<i> Vice President and Chief Science Officer</i><br> 
 			Dr. Miriam & Sheldon G. Adelson Medical Research Foundation<br><br>
 			<a href="http://research.jax.org/faculty/ken_paigen.html" target="_blank">Ken Paigan</a> 
-			<i>Professor</i><br>
+			<i>Professor</i><br> 
 			The Jackson Laboratory<br><br>
-			<a href="http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p19746" target="_blank">Maja Bucan</a> <i>Professor</i><br>
+			<a href="http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p19746" target="_blank">Maja Bucan</a> <i>Professor</i>, 
 			University of Pennsylvania<br>
 		</td>
 	</tr>
@@ -84,7 +83,7 @@ All activities to take place at The Jackson Laboratory
 		<td>Roscoe's dining room</td>
 	</td>
 </table>
-<td><img src="Images/2007MGI_group.png" alt="MGI group photo 2007" width="500" height="333"><br><br>
+<td><img src="Images/2007MGI_group.png" alt="MGI group photo 2007" width="500" height="333"><br>MGI group photo, 2007<br><br>
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:375px;width:500px;"><div id="gmap_canvas" style="height:375px;width:500px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}#maps{width:500px;font-size:10px;font-family:arial;text-align:right;}</style></div><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script type="text/javascript">jQuery(document).ready(function(){jQuery('.gmap').hide();jQuery("#maps span").click(function() {var $this = $(this);$this.next("div").fadeToggle();$('.gmap').not($this.next("div")).fadeOut();});});</script><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(44.36637959999999,-68.1969287),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.36637959999999, -68.1969287)});infowindow = new google.maps.InfoWindow({content:"<b>The Jackson Laboratory/Mouse Genome Informatics</b><br/>600 Main Street<br/>04609 Bar Harbor" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script><div id="maps"><span>Google Maps © 2014</span><div class="gmap">Map Generator by <a href="http://www.map-embed.com">map-embed.com</a></div></div></table>
 
