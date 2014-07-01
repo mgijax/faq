@@ -40,9 +40,9 @@ All activities to take place at The Jackson Laboratory
 <table valign="top" border="1" cellpadding="5">
 	<tr>
 		<th>Time</th>
-		<th></th>
+		<th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
 		<th>Event</th>
-		<th></th>
+		<th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
 		<th>Details</th>
 	</tr>
 	<tr>
@@ -76,7 +76,7 @@ All activities to take place at The Jackson Laboratory
 	<tr valign="top">
 		<td>11:30&ndash;1:00</td>
 		<td>  </td>
-		<td>Lunch and posters</td>
+		<td>Lunch and Posters</td>
 		<td>  </td>
 		<td>Sandwiches and finger foods are provided.<br>
 		Social time to browse retrospectives, photos, other memorabilia and posters.<br>
