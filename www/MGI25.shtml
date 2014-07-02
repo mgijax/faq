@@ -89,8 +89,10 @@ All activities to take place at The Jackson Laboratory
 		<td>  </td>
 		<td>Afternoon Activities</td>
 		<td>  </td>
-		<td>Lab tours, group hike in Acadia, biking<br>
-		    Advance sign up requested, use the form below<br><br></td>
+		<td>Lab tours, group hike in Acadia National Park, biking tour and/or MGI hands-on 
+		exploration and workshop. See <a href="#activities">more details</a> at the bottom of the page 
+		as they become available or register interest to receive email updates.<br>
+		    Advance sign up requested, use the form below.<br><br></td>
 	</tr>
 	<tr valign="top">
 		<td>5:00&ndash;6:30</td>
@@ -107,9 +109,44 @@ All activities to take place at The Jackson Laboratory
 <hr>
 <div id="registration">
 <p>Please click <b>Submit</b> at the bottom before exiting the page to record your responses.</p>
-<iframe src="https://docs.google.com/forms/d/1vxIyoPOkoaxic_5j2qCO12wE4C6RuzIMoxFfpVLEeDk/viewform?embedded=true" width="800" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe><p>
+<iframe src="https://docs.google.com/forms/d/1vxIyoPOkoaxic_5j2qCO12wE4C6RuzIMoxFfpVLEeDk/viewform?embedded=true" width="800" height="1350" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe><p>
 </div>
 Do not forget to click <b>Submit</b> to record your response. A confirmation page will appear.<br>
 <br>
+<hr>
 <br>
+<div id="activities">
+<b>Additional details for Afternoon Activities</b><br>
+<p>All activities are free and open to guests, please contact <a href="http://www.informatics.jax.org/mgihome/support/mgi_inbox.shtml">mgi-help@jax.org</a>
+ if you would like to include additional people. Please also let us know if you, or anyone in your party, has reduced 
+mobility or requires other accommodation. Outdoor activities may be subject to weather. 
+Average temperatures may be quite cool, be sure to bring appropriate footwear and clothing.</p> 
+
+<p><b>Lab Tour</b>:<br> 
+Enjoy a guided tour of The Jackson Laboratory campus. 
+Standard tours are estimated at 45min and will leave from the front lobby.</p>
+
+<p><b>Group Hike in Acadia National Park</b>:<br> 
+Take a relaxed hike through the fall colors along some of 
+<a href="http://www.nps.gov/acad/index.htm">Acadia National Park</a>'s 125 miles of hiking 
+trails. A must-see while in the Bar Harbor area. Specific trail TBD, estimated at approximately 2h duration.
+A moderate level of fitness is required.<br>
+Transportation between The Jackson Laboratory and the trailhead can be arranged during registration.</p>
+
+<p><b>Cycling Tour</b>:<br>
+Rent a bicycle or bring your own for a loop around the local area including carriage trails. 
+Specific route TBD, estimated at approximately 2h duration, and requires a moderate level of 
+fitness.</p>
+
+<p><b>MGI Hands-on Exploration and Workshop:</b><br>
+Take the time to learn about MGI's current features by participating in a hands-on workshop. 
+This will be include a short seminar-style demonstration followed by the opportunity to 
+navigate the site using a set of self-guided exercises. Participants will be instructed on how 
+to locate pertinent biological information, perform a variety of searches, try out the 
+Human-Mouse: Disease Connection translational tool and the use the MouseMine computational 
+access platform. User Support will be present to discuss more specific research questions 
+as well. Estimated at approximately 2h duration, early and late sessions may be arranged based on 
+interest.<br>
+Computer access is provided, or participants may bring their own.<br><br>
+</div>
 <!--#include file='include/templateBodyStop.html'-->
