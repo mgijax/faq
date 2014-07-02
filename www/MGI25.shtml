@@ -47,7 +47,7 @@ All activities to take place at The Jackson Laboratory
 		<th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
 		<th>Details</th>
 	</tr>
-	<tr>
+	<tr valign="top">
 		<td>8:00&ndash;8:30</td>
 		<td>  </td>
 		<td>Registration</td>
@@ -84,7 +84,7 @@ All activities to take place at The Jackson Laboratory
 		Social time to browse retrospectives, photos, other memorabilia and posters.<br><br>
 		</td>
 	</tr>
-	<tr>
+	<tr valign="top">
 		<td>1:00&ndash;4:30</td>
 		<td>  </td>
 		<td>Afternoon Activities</td>
@@ -92,7 +92,7 @@ All activities to take place at The Jackson Laboratory
 		<td>Lab tours, group hike in Acadia, biking<br>
 		    Advance sign up requested, use the form below<br><br></td>
 	</tr>
-	<tr>
+	<tr valign="top">
 		<td>5:00&ndash;6:30</td>
 		<td>  </td>
 		<td>Happy Hour</td>
