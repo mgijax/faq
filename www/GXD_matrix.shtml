@@ -1,0 +1,141 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"--> GXD Matrix</title>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css"/>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I interpret the results of my expression search?</span>
+</div>
+
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
+
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			<span><!--#include file='faq_toolbar.shtml'-->Overview</span>
+		</td>
+	</tr>
+<p>
+<p>
+	You can use the <a href='<!--#include file='include/fewi_url.html'-->gxd'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
+			return false;">
+			Gene Expression Standard or Differential Data Query</a> in order to find expression 
+			data for a tissue, gene or set of genes.
+<p>See FAQ below for details on how to:</b>
+	<ul>
+		<li>.. find expression data for a specific gene and tissue? 
+			<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml'); return false;">FAQ</a></li>
+		<li>.. find expression data for tissue during a specific stage of development? 
+			<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml'); return false;">FAQ</a></li>
+		<li>.. find genes expressed in one tissue but not another (or not reported in another)? 
+			<a href="GXD_comp_tissue.shtml" onClick="javascript:openFaqWindow('GXD_comp_tissue.shtml'); return false;">FAQ</a></li>
+		<li>.. find references that report expression data for a gene at a specific age?
+			<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow('GXD_ref_age.shtml'); return false;">FAQ</a></li>
+	</ul>
+<p>
+<p>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Accessing the Gene Expression Data Search Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Gene Expression Data Search Form from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/fewi_url.html'-->gxd'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
+			return false;">
+			Gene Expression Data Search Form</a>
+			in a new window. Scroll down this page for further instructions.
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/srchmenu_GXD.jpg" width=675 height=318 alt="Search Menu GXD QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding expression assays for <i>Shh</i> mutants
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Use the <b>Standard Search</b> query form.</li>
+						<p>
+						<li>Navigate to the <b>Mutant/wild type</b> row, select the <b>Specimens 
+						mutated in gene:</b> option and type <i>shh</i> in the text box. This will return
+						a list of expression assays done in mice which carry mutant <i>Shh</i> alleles. 
+						<p>
+						<li>Click <b>Search</b>.</li>
+						<p>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_mutant1.jpg" width=675 height=445 alt="GXD query mutant">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 4>The results summary lists expression assays that have 
+						been done on mice carrying <i>Shh</i> mutant alleles. The specific 
+						allele used in obtaining each result will be listed in the <b>Mutant 
+						Allele(s)</b> column. To refine or change search parameters,
+						click the <b>Click to modify search</b> button at the top of the page.</li>
+						<p>
+						<li>Use the tabs along the top of the table to navigate to a list of unique 
+						genes with expression results, assays, or to view images (box).</li>
+						<p>
+						<li>Sort the table by clicking on column headers, apply filters 
+						and/or download as a text or Excel file using the buttons just above 
+						the table (arrow).</li>
+						<p>
+						<li>Click on any <u>data</u> link in the <b>Result Details</b> 
+						column to view more pattern and level of gene expression, images, and details 
+						of the specific assay, including mouse specimen details and antibodies or probes used.</li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_mutant2.jpg" width=675 height=346 alt="GXD Search Results Screen Shot">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'-->
