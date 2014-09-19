@@ -52,7 +52,7 @@ to autism (via OMIM) was run.</p>
 	<li>The <a href="#genes">Genes</a> tab</li>
 	<li>The <a href="#assays">Assays</a> tab</li>
 	<li>The <a href="#assayresults">Assay Results</a> tab</li>
-	<li>The <a href="#tissues">Tissues</a> tab</li>
+	<li>The <a href="#images">Images</a> tab</li>
 	<li>The <a href="#tissuestage">Tissue x Stage Matrix</a> tab</li>
 	<li>The <a href="#tissuegene">Tissue x Gene Matrix</a> tab</li>
 </ol>
@@ -72,7 +72,7 @@ to autism (via OMIM) was run.</p>
 		<td valign=top>
 			<p><p>The Genes tab provides a list of the unique genes with expression data 
 			represented in these results. A number in the tab header provides a count of 
-			all genes.
+			all genes. Only genes with at least one gene expression annotation are reported.
 			<p>
 			This list can be downloaded (see buttons just above the table) or forwarded 
 			to MGI Batch Query where additional data can be added.</p>
@@ -105,7 +105,7 @@ to autism (via OMIM) was run.</p>
 			make a gene expression annotation. The majority of these are peer-reviewed publications, 
 			data from direct submission and batch loads from collaborating large scale projects.
 			<p>Assay records can be sorted by Assay Type, Gene Symbol, or Reference (by J:&#35;)
-			by using the small triangles in column headers, or filtered using the <b>Filter 
+			by using the arrows in column headers, or filtered using the <b>Filter 
 			expression by:</b> buttons above the tabs.
 			<p>Clicking on "data" within the Assay Results tab will go to the total curated 
 			data that matches that Assay Type, Gene and Reference. The linked Assay Detail page 
@@ -118,6 +118,78 @@ to autism (via OMIM) was run.</p>
 				<tr>
 					<td>
 						<img src="Images/GXD_matrix3.jpg" width=600 height=258 alt="Assays tab">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<div id="assaysresults"><table>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			The Assay Results Tab
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			<p><p>The Assays Results tab is the most comprehensive list of the data within 
+			GXD. These results can be sorted using the arrows in most column headers, 
+			filtered using the <b>"Filter Expression by:"</b> buttons above the tabs, and 
+			downloaded using the buttons on the table just above the data.
+			<p>To filter more 
+			precisely by anatomical substructures or by gene, use the row and column filters 
+			available on the <a href="#tissuestage">Tissue x Stage Matrix</a> or <a href="#tissuegene">
+			Tissue x Gene Matrix</a> respectively.
+			<p>Each piece of data is accompanied by a reference and additional details can 
+			be found by clicking the "data" hyperlink in the <b>Result details</b> column.
+			<p>Note that a result will be returned for both positive and examined-but-absent gene 
+			expression data (see Yes/No in "<b>Detected</b>" column) by default. This can be 
+			changed by selecting the radio button corresponding to detected, not detected, 
+			or both in the original search parameters, or a filter can be used from above 
+			the results table.
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GXD_matrix4.jpg" width=600 height=318 alt="Assays Results tab">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<div id="images"><table>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			The Assay Results Tab
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			<p><p>The Assays Results tab is the most comprehensive list of the data within 
+			GXD. These results can be sorted using the arrows in most column headers, 
+			filtered using the <b>"Filter Expression by:"</b> buttons above the tabs, and 
+			downloaded using the buttons on the table just above the data.
+			<p>To filter more 
+			precisely by anatomical substructures or by gene, use the row and column filters 
+			available on the <a href="#tissuestage">Tissue x Stage Matrix</a> or <a href="#tissuegene">
+			Tissue x Gene Matrix</a> respectively.
+			<p>Each piece of data is accompanied by a reference and additional details can 
+			be found by clicking the "data" hyperlink in the <b>Result details</b> column.
+			<p>Note that a result will be returned for both positive and examined-but-absent gene 
+			expression data (see Yes/No in "<b>Detected</b>" column) by default. This can be 
+			changed using the parameters in your original search or by applying a filter.
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GXD_matrix4.jpg" width=600 height=318 alt="Assays Results tab">
 					</td>
 				</tr>
 			</table>
