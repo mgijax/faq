@@ -45,8 +45,9 @@
 way to assess the data. Filters appear above the table allowing you to refine the data; if 
 applied, these will filter all tabs. The original search terms and parameters are displayed under the <b>
 Results</b> header as a reminder. A <b>Click to Modify Search</b> button also appears at 
-the top of the page which will expand your original query form on click, allowing additional changes.</p>
-<p>
+the top of the page which will expand your original query form on click, allowing additional changes.<p>
+<p>For the examples below, a search for all expression data annotated to genes with an association 
+to autism (via OMIM) was run.</p>
 <ol>
 	<li>The <a href="#genes">Genes</a> tab</li>
 	<li>The <a href="#assays">Assays</a> tab</li>
@@ -55,7 +56,8 @@ the top of the page which will expand your original query form on click, allowin
 	<li>The <a href="#tissuestage">Tissue x Stage Matrix</a> tab</li>
 	<li>The <a href="#tissuegene">Tissue x Gene Matrix</a> tab</li>
 </ol>
-<img src="Images/GXD_matrix1.png" width=675 height=247 alt="GXD results page with tabs">
+<p>
+<img src="Images/GXD_matrix1.png" width=500 height=183 alt="GXD results page with tabs">
 <p>
 <p>
 <div id="genes"><table>
@@ -68,91 +70,59 @@ the top of the page which will expand your original query form on click, allowin
 	</tr>
 	<tr>
 		<td valign=top>
-			The Genes tab provides a com
+			<p><p>The Genes tab provides a list of the unique genes with expression data 
+			represented in these results. A number in the tab header provides a count of 
+			all genes.
 			<p>
-			For this tutorial, open the 
-			<a href='<!--#include file='include/fewi_url.html'-->gxd'
-			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
-			return false;">
-			Gene Expression Data Search Form</a>
-			in a new window. Scroll down this page for further instructions.
+			This list can be downloaded (see buttons just above the table) or forwarded 
+			to MGI Batch Query where additional data can be added.</p>
+			<p>To filter your results by gene, use the gene column filters on the <a href="#tissuegene">
+			Tissue x Gene Matrix</a> tab.</p>
+			<p>Clicking on Gene Symbols will go to the <b>Gene Detail</b> page within MGI.
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GXD.jpg" width=675 height=247 alt="GXD results page with tabs">
+						<img src="Images/GXD_matrix2.jpg" width=600 height=272 alt="Genes tab">
 					</td>
 				</tr>
 			</table>
 		</td>
 	</tr>
 </table>
-<br>
-<table width="100%">
-	<tr>
-	</tr>
+</div>
+<div id="assays"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding expression assays for <i>Shh</i> mutants
+			The Assays Tab
 		</td>
 	</tr>
 	<tr>
-		<td> 
-			<tr>
-				<td valign=top>
-					<ol>
-						<li>Use the <b>Standard Search</b> query form.</li>
-						<p>
-						<li>Navigate to the <b>Mutant/wild type</b> row, select the <b>Specimens 
-						mutated in gene:</b> option and type <i>shh</i> in the text box. This will return
-						a list of expression assays done in mice which carry mutant <i>Shh</i> alleles. 
-						<p>
-						<li>Click <b>Search</b>.</li>
-						<p>
-					</ol>
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GXD_mutant1.jpg" width=675 height=445 alt="GXD query mutant">
-							</td>
-						</tr>
-					</table>
-				</td>	
-			</tr>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value = 4>The results summary lists expression assays that have 
-						been done on mice carrying <i>Shh</i> mutant alleles. The specific 
-						allele used in obtaining each result will be listed in the <b>Mutant 
-						Allele(s)</b> column. To refine or change search parameters,
-						click the <b>Click to modify search</b> button at the top of the page.</li>
-						<p>
-						<li>Use the tabs along the top of the table to navigate to a list of unique 
-						genes with expression results, assays, or to view images (box).</li>
-						<p>
-						<li>Sort the table by clicking on column headers, apply filters 
-						and/or download as a text or Excel file using the buttons just above 
-						the table (arrow).</li>
-						<p>
-						<li>Click on any <u>data</u> link in the <b>Result Details</b> 
-						column to view more pattern and level of gene expression, images, and details 
-						of the specific assay, including mouse specimen details and antibodies or probes used.</li>
-					</ol>
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GXD_mutant2.jpg" width=675 height=346 alt="GXD Search Results Screen Shot">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			<p><p>The Assays tab lists every analysis type and data source used by GXD to 
+			make a gene expression annotation. The majority of these are peer-reviewed publications, 
+			data from direct submission and batch loads from collaborating large scale projects.
+			<p>Assay records can be sorted by Assay Type, Gene Symbol, or Reference (by J:&#35;)
+			by using the small triangles in column headers, or filtered using the <b>Filter 
+			expression by:</b> buttons above the tabs.
+			<p>Clicking on "data" within the Assay Results tab will go to the total curated 
+			data that matches that Assay Type, Gene and Reference. The linked Assay Detail page 
+			will contain specific about the specimen(s) used (mouse strain, sex and age where 
+			known), probe ID and preparation (where applicable), a text description of the 
+			results curated from author statements (qualitative expression patterns and levels)
+			and supporting images, marked by a camera icon.
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GXD_matrix3.jpg" width=600 height=258 alt="Assays tab">
+					</td>
+				</tr>
+			</table>
 		</td>
 	</tr>
 </table>
+</div>
 <!--#include file='include/templateBlankBodyStop.html'-->
