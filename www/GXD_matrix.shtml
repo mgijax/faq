@@ -56,17 +56,19 @@ the top of the page which will expand your original query form on click, allowin
 	<li>The <a href="#tissuegene">Tissue x Gene Matrix</a> tab</li>
 </ol>
 <img src="Images/GXD_matrix1.png" width=675 height=247 alt="GXD results page with tabs">
-<table>
+<p>
+<p>
+<div id="genes"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Accessing the Gene Expression Data Search Form
+			The Genes Tab
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			On most MGI pages, you can access the Gene Expression Data Search Form from the Search menu as shown in the image at right.
+			The Genes tab provides a com
 			<p>
 			For this tutorial, open the 
 			<a href='<!--#include file='include/fewi_url.html'-->gxd'
