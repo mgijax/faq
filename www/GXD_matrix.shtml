@@ -22,26 +22,41 @@
 			<span><!--#include file='faq_toolbar.shtml'-->Overview</span>
 		</td>
 	</tr>
+</table>
 <p>
-<p>
-	You can use the <a href='<!--#include file='include/fewi_url.html'-->gxd'
+<p>You can use the <a href='<!--#include file='include/fewi_url.html'-->gxd'
 			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
 			return false;">
 			Gene Expression Standard or Differential Data Query</a> in order to find expression 
 			data for a tissue, gene or set of genes.
 <p>See FAQ below for details on how to:</b>
 	<ul>
-		<li>.. find expression data for a specific gene and tissue? 
+		<li>find expression data for a specific gene and tissue? 
 			<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml'); return false;">FAQ</a></li>
-		<li>.. find expression data for tissue during a specific stage of development? 
+		<li>find expression data for tissue during a specific stage of development? 
 			<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml'); return false;">FAQ</a></li>
-		<li>.. find genes expressed in one tissue but not another (or not reported in another)? 
+		<li>find genes expressed in one tissue but not another (or not reported in another)? 
 			<a href="GXD_comp_tissue.shtml" onClick="javascript:openFaqWindow('GXD_comp_tissue.shtml'); return false;">FAQ</a></li>
-		<li>.. find references that report expression data for a gene at a specific age?
+		<li>find references that report expression data for a gene at a specific age?
 			<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow('GXD_ref_age.shtml'); return false;">FAQ</a></li>
 	</ul>
 <p>
+<p>Results from your search will be presented in a table with six tabs, each highlighting a different facet or 
+way to assess the data. Filters appear above the table allowing you to refine the data; if 
+applied, these will filter all tabs. The original search terms and parameters are displayed under the <b>
+Results</b> header as a reminder. A <b>Click to Modify Search</b> button also appears at 
+the top of the page which will expand your original query form on click, allowing additional changes.</p>
 <p>
+<ol>
+	<li>The <a href="#genes">Genes</a> tab</li>
+	<li>The <a href="#assays">Assays</a> tab</li>
+	<li>The <a href="#assayresults">Assay Results</a> tab</li>
+	<li>The <a href="#tissues">Tissues</a> tab</li>
+	<li>The <a href="#tissuestage">Tissue x Stage Matrix</a> tab</li>
+	<li>The <a href="#tissuegene">Tissue x Gene Matrix</a> tab</li>
+</ol>
+<img src="Images/GXD_matrix1.png" width=675 height=247 alt="GXD results page with tabs">
+<table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
 			Accessing the Gene Expression Data Search Form
@@ -63,7 +78,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_GXD.jpg" width=675 height=318 alt="Search Menu GXD QF Screen Shot">
+						<img src="Images/srchmenu_GXD.jpg" width=675 height=247 alt="GXD results page with tabs">
 					</td>
 				</tr>
 			</table>
