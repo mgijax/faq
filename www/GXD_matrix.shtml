@@ -83,7 +83,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix2.jpg" width=600 height=272 alt="Genes tab">
+						<img src="Images/GXD_matrix2.png" width=600 height=272 alt="Genes tab">
 					</td>
 				</tr>
 			</table>
@@ -117,7 +117,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix3.jpg" width=600 height=258 alt="Assays tab">
+						<img src="Images/GXD_matrix3.png" width=600 height=258 alt="Assays tab">
 					</td>
 				</tr>
 			</table>
@@ -154,7 +154,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix4.jpg" width=600 height=318 alt="Assays Results tab">
+						<img src="Images/GXD_matrix4.png" width=600 height=318 alt="Assays Results tab">
 					</td>
 				</tr>
 			</table>
@@ -165,31 +165,70 @@ to autism (via OMIM) was run.</p>
 <div id="images"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			The Assay Results Tab
+			The Images Tab
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			<p><p>The Assays Results tab is the most comprehensive list of the data within 
-			GXD. These results can be sorted using the arrows in most column headers, 
-			filtered using the <b>"Filter Expression by:"</b> buttons above the tabs, and 
-			downloaded using the buttons on the table just above the data.
-			<p>To filter more 
-			precisely by anatomical substructures or by gene, use the row and column filters 
-			available on the <a href="#tissuestage">Tissue x Stage Matrix</a> or <a href="#tissuegene">
-			Tissue x Gene Matrix</a> respectively.
-			<p>Each piece of data is accompanied by a reference and additional details can 
-			be found by clicking the "data" hyperlink in the <b>Result details</b> column.
-			<p>Note that a result will be returned for both positive and examined-but-absent gene 
-			expression data (see Yes/No in "<b>Detected</b>" column) by default. This can be 
-			changed using the parameters in your original search or by applying a filter.
+			<p><p>GXD has permission from several journals and resources to reproduce images 
+			that support gene expression data annotations. These figures are presented on the 
+			Images tab as well as on individual Assay Detail pages.
+			<p>Metadata accompanies each image with the gene(s) assayed, the assay type and 
+			a <b>Result details</b> link that brings you to the Assay Detail page with 
+			detailed specimen and protocol information. 
+			<p>Note that some images have expression data for multiple genes.
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix4.jpg" width=600 height=318 alt="Assays Results tab">
+						<img src="Images/GXD_matrix5.png" width=600 height=400 alt="Images tab">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<div id="tissuestage"><table>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			The Tissue x Stage Matrix Tab
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			<p><p>The Tissue x Stage Matrix is an interactive graphical display of gene 
+			expression data within GXD, organized into anatomical structures (rows) by <a href="
+			http://www.informatics.jax.org/glossary/theiler">Theiler 
+			developmental stages</a> (TS; columns). Mouse age in embryonic (E) or post-natal (P) 
+			days is indicated above the TS categories.
+			<p>White boxes in this grid indicate that the tissue x stage is not a valid 
+			combination, for example, embryonic structural precursors in adult mice, or 
+			organs in early embryos before development and differentiation has occurred. If 
+			a circle appears within the box, the tissue x stage <i>is</i> a valid combination, 
+			but no expression data has been reported. Follow the link to browse the complete 
+			<a href='<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'); 
+			return false;">
+			Mouse Developmental Anatomy Browser</a>.
+			<p>Filled boxes indicate that expression data exists: blue if genes are annotated 
+			as expressed within structures or substructures, red where genes 
+			are annotated as "not detected" within structures or substructures. Heat map 
+			shading represents the number of positive or negative expression results underlying 
+			the intersection, not level of expression for a gene within a tissue.
+			<p>Cut corners are used to indicate that negative (red) or ambiguous (gold) results 
+			have been reported in substructures. Click on the <b>Legend</b> to see examples.
+			<p>
+			
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GXD_matrix6.png" width=600 height=400 alt="Images tab">
 					</td>
 				</tr>
 			</table>
