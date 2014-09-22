@@ -183,7 +183,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix5.png" width=600 height=400 alt="Images tab">
+						<img src="Images/GXD_matrix5.png" width=600 height=340 alt="Images tab">
 					</td>
 				</tr>
 			</table>
@@ -217,18 +217,75 @@ to autism (via OMIM) was run.</p>
 			Mouse Developmental Anatomy Browser</a>.
 			<p>Filled boxes indicate that expression data exists: blue if genes are annotated 
 			as expressed within structures or substructures, red where genes 
-			are annotated as "not detected" within structures or substructures. Heat map 
+			are annotated as "not detected" within structures or substructures. <b>Heat map 
 			shading represents the number of positive or negative expression results underlying 
-			the intersection, not level of expression for a gene within a tissue.
+			the intersection, not level of expression for a gene within a tissue.</b>
 			<p>Cut corners are used to indicate that negative (red) or ambiguous (gold) results 
 			have been reported in substructures. Click on the <b>Legend</b> to see examples.
-			<p>
-			
+			<p>Use scroll bars to explore down the list of structures. When a triangle appears 
+			in front of the term, click to expand substructures. To restrict results by specified 
+			stages, structures or substructures, click the box to place a checkmark in selected 
+			rows or columns and click the <b>Filter</b> button just above the table on this tab. This 
+			will retain selected rows only and filter all tabs.
+			<p>To see the data at specific Tissue x Stage intersections, click the corresponding 
+			filled cell to generate a pop-up (shown for "brain" at "TS20"). A table with the 
+			number of genes <b>detected</b> and number of genes <b>not detected</b>, along 
+			with the number of results supporting those conclusions will appear. To see the 
+			data or images associated with this subset. Click the buttons on the pop-up table, 
+			which will act as a filter.			
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix6.png" width=600 height=400 alt="Images tab">
+						<img src="Images/GXD_matrix6.png" width=600 height=374 alt="Tissue x Stages tab">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<br>
+<br>
+<div id="tissuegene"><table>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			The Tissue x Stage Matrix Tab
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			<p><p>The Tissue x Gene Matrix is an interactive graphical display of gene 
+			expression data within GXD, organized into anatomical structures (rows) by gene (columns).
+			<p>White cells in this grid indicate that the tissue x gene combination has no 
+			data reported, and filled cells indicate that gene expression has been detected 
+			(blue) or examined, but not detected (red) within a given structure or substructure.
+			<b>Heat map shading represents the number of positive or negative expression 
+			results underlying the intersection, not level of expression for a gene within 
+			a tissue.</b>
+			<p>Use scroll bars to explore down the list of structures. When a triangle appears 
+			in front of the term, click to expand substructures. To restrict results by specified 
+			genes, structures or substructures, click the box to place a checkmark in selected 
+			rows or columns and click the <b>Filter</b> button just above the table on this tab. This 
+			will retain selected rows only and filter all tabs.
+			<p>To see all anatomical structures and data organization, use the
+			<a href='<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'); 
+			return false;">
+			Mouse Developmental Anatomy Browser</a>.
+			<p>To see the data at specific Tissue x Gene intersections, click the corresponding 
+			filled cell to generate a pop-up (shown for "Tbx1" in "heart"). A table with the 
+			number of results reporting gene expression <b>detected</b> and/or <b>not detected</b>
+			 will appear. To see the 
+			data or images supporting these with this subset. Click the buttons on the pop-up table, 
+			which will act as a filter.			
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GXD_matrix7.png" width=600 height=347 alt="Tissue x Stages tab">
 					</td>
 				</tr>
 			</table>
