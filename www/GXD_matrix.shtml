@@ -33,12 +33,13 @@
 	<ul>
 		<li>find expression data for a specific gene and tissue? 
 			<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml'); return false;">FAQ</a></li>
-		<li>find expression data for tissue during a specific stage of development? 
-			<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml'); return false;">FAQ</a></li>
-		<li>find genes expressed in one tissue but not another (or not reported in another)? 
+		<li>find genes expressed in one tissue but not expressed, or not reported, in another? 
 			<a href="GXD_comp_tissue.shtml" onClick="javascript:openFaqWindow('GXD_comp_tissue.shtml'); return false;">FAQ</a></li>
-		<li>find references that report expression data for a gene at a specific age?
-			<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow('GXD_ref_age.shtml'); return false;">FAQ</a></li>
+		<li>find all expression data for a tissue using the 
+			<a href='<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'); 
+			return false;">Mouse Developmental Anatomy Browser</a> (with, or without, specifying developmental stage)? 
+			<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml'); return false;">FAQ</a></li>
 	</ul>
 <p>
 <p>Results from your search will be presented in a table with six tabs, each highlighting a different facet or 
@@ -63,7 +64,7 @@ to autism (via OMIM) was run.</p>
 <div id="genes"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			The Genes Tab
+			Genes Tab
 		</td>
 	</tr>
 	<tr>
@@ -71,11 +72,12 @@ to autism (via OMIM) was run.</p>
 	<tr>
 		<td valign=top>
 			<p><p>The Genes tab provides a list of the unique genes with expression data 
-			represented in these results. A number in the tab header provides a count of 
+			represented in these results. The number in the tab header provides a count of 
 			all genes. Only genes with at least one gene expression annotation are reported.
 			<p>
 			This list can be downloaded (see buttons just above the table) or forwarded 
-			to MGI Batch Query where additional data can be added.</p>
+			to MGI Batch Query where additional data (alternative IDs, phenotypes, GO 
+			functions, etc) can be added.</p>
 			<p>To filter your results by gene, use the gene column filters on the <a href="#tissuegene">
 			Tissue x Gene Matrix</a> tab.</p>
 			<p>Clicking on Gene Symbols will go to the <b>Gene Detail</b> page within MGI.
@@ -94,7 +96,7 @@ to autism (via OMIM) was run.</p>
 <div id="assays"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			The Assays Tab
+			Assays Tab
 		</td>
 	</tr>
 	<tr>
@@ -102,17 +104,19 @@ to autism (via OMIM) was run.</p>
 	<tr>
 		<td valign=top>
 			<p><p>The Assays tab lists every analysis type and data source used by GXD to 
-			make a gene expression annotation. The majority of these are peer-reviewed publications, 
-			data from direct submission and batch loads from collaborating large scale projects.
+			make a gene expression annotation. These sources include peer-reviewed publications, 
+			electronic submissions and batch loads from collaborators doing large scale 
+			gene expression projects.
 			<p>Assay records can be sorted by Assay Type, Gene Symbol, or Reference (by J:&#35;)
 			by using the arrows in column headers, or filtered using the <b>Filter 
-			expression by:</b> buttons above the tabs.
-			<p>Clicking on "data" within the Assay Results tab will go to the total curated 
+			expression by:</b> buttons above the tabs. Assay records with associated images
+			 are marked by a camera icon.
+			<p>Clicking on "data" within the Assay tab will go to the  
 			data that matches that Assay Type, Gene and Reference. The linked Assay Detail page 
-			will contain specific about the specimen(s) used (mouse strain, sex and age where 
-			known), probe ID and preparation (where applicable), a text description of the 
-			results curated from author statements (qualitative expression patterns and levels)
-			and supporting images, marked by a camera icon.
+			will contain specifics about the specimen(s) used (mouse strain, sex and age where 
+			known), probe/antibody ID and preparation (where applicable), a text description of the 
+			results curated from author statements (structure qualitative expression patterns and levels)
+			and supporting images.
 		<td valign=top>
 			<table class="outline">
 				<tr>
@@ -128,7 +132,7 @@ to autism (via OMIM) was run.</p>
 <div id="assaysresults"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			The Assay Results Tab
+			Assay Results Tab
 		</td>
 	</tr>
 	<tr>
@@ -140,7 +144,7 @@ to autism (via OMIM) was run.</p>
 			filtered using the <b>"Filter Expression by:"</b> buttons above the tabs, and 
 			downloaded using the buttons on the table just above the data.
 			<p>To filter more 
-			precisely by anatomical substructures or by gene, use the row and column filters 
+			precisely by anatomical structures or by gene, use the row and column filters 
 			available on the <a href="#tissuestage">Tissue x Stage Matrix</a> or <a href="#tissuegene">
 			Tissue x Gene Matrix</a> respectively.
 			<p>Each piece of data is accompanied by a reference and additional details can 
@@ -165,15 +169,15 @@ to autism (via OMIM) was run.</p>
 <div id="images"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			The Images Tab
+			Images Tab
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			<p><p>GXD has permission from several journals and resources to reproduce images 
-			that support gene expression data annotations. These figures are presented on the 
+			<p><p>When GXD has permission to reproduce images that support gene expression
+			 data annotations. these figures are presented on the 
 			Images tab as well as on individual Assay Detail pages.
 			<p>Metadata accompanies each image with the gene(s) assayed, the assay type and 
 			a <b>Result details</b> link that brings you to the Assay Detail page with 
@@ -194,45 +198,51 @@ to autism (via OMIM) was run.</p>
 <div id="tissuestage"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			The Tissue x Stage Matrix Tab
+			Tissue x Stage Matrix Tab
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td valign=top>
-			<p><p>The Tissue x Stage Matrix is an interactive graphical display of gene 
-			expression data within GXD, organized into anatomical structures (rows) by <a href="
+			<p><p>The Tissue x Stage Matrix is an interactive graphical display that
+			provides a global overview of spatio-temporal gene expression patterns. These
+			data are organized into anatomical structures (rows) by <a href="
 			http://www.informatics.jax.org/glossary/theiler">Theiler 
-			developmental stages</a> (TS; columns). Mouse age in embryonic (E) or post-natal (P) 
-			days is indicated above the TS categories.
-			<p>White boxes in this grid indicate that the tissue x stage is not a valid 
-			combination, for example, embryonic structural precursors in adult mice, or 
-			organs in early embryos before development and differentiation has occurred. If 
-			a circle appears within the box, the tissue x stage <i>is</i> a valid combination, 
-			but no expression data has been reported. Follow the link to browse the complete 
+			developmental stages</a> (TS; columns). Column headers also display mouse 
+			age ranges in embryonic (E) or post-natal (P) days associated with each Theiler 
+			stage to aid in interpretation.
+			<p>Use scroll bars to explore down the list of structures. When a triangle appears 
+			in front of a term, click to expand substructures within the hierarchical tree. 
+			To restrict results by specified stages, structures or substructures, click the 
+			box within desired columns or rows to place a checkmark, then click 
+			<b>Filter</b> just above the table within the tab. This will retain selected rows/columns 
+			only and will filter all tabs simultaneously.
+			<p>Filled boxes indicate that expression data exists for a given tissue x stage 
+			intersection: blue if genes are annotated as &quot;detected&quot; or &quot;expressed&quot; 
+			within structures or substructures, red where genes are annotated as "not detected" 
+			within the structure.<p>
+			<p><b>Colors get progressively darker when there are more assays (evidence) supporting a 
+			present or absent annotation; darker colors do not denote higher, or lower, 
+			levels of expression.</b>
+			<p>See <b>Legend</b> for explanations of all colors. In brief, red corners on 
+			blue cells indicate that both present and absent results have been reported for the 
+			structure and gold corners are used to indicate that <i>substructures</i> of a 
+			given tissue have data reporting absent (red) or ambiguous (grey) expression 
+			results.  Click triangles next to tissue terms to view substructures, or click cells 
+			for a detailed pop-up.		
+			<p>White cells in this grid indicate that the tissue does not exist at that 
+			stage. If a circle appears within the box, the tissue exists at that stage, 
+			but no expression data has been reported. See the complete 
 			<a href='<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'
 			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'); 
-			return false;">
-			Mouse Developmental Anatomy Browser</a>.
-			<p>Filled boxes indicate that expression data exists: blue if genes are annotated 
-			as expressed within structures or substructures, red where genes 
-			are annotated as "not detected" within structures or substructures. <b>Heat map 
-			shading represents the number of positive or negative expression results underlying 
-			the intersection, not level of expression for a gene within a tissue.</b>
-			<p>Cut corners are used to indicate that negative (red) or ambiguous (gold) results 
-			have been reported in substructures. Click on the <b>Legend</b> to see examples.
-			<p>Use scroll bars to explore down the list of structures. When a triangle appears 
-			in front of the term, click to expand substructures. To restrict results by specified 
-			stages, structures or substructures, click the box to place a checkmark in selected 
-			rows or columns and click the <b>Filter</b> button just above the table on this tab. This 
-			will retain selected rows only and filter all tabs.
-			<p>To see the data at specific Tissue x Stage intersections, click the corresponding 
+			return false;">Mouse Developmental Anatomy Browser</a> at the link.
+			<p>To access the data for specific tissue x stage combination, click the corresponding 
 			filled cell to generate a pop-up (shown for "brain" at "TS20"). A table with the 
 			number of genes <b>detected</b> and number of genes <b>not detected</b>, along 
 			with the number of results supporting those conclusions will appear. To see the 
-			data or images associated with this subset. Click the buttons on the pop-up table, 
-			which will act as a filter.			
+			data or images associated with this subset, click the buttons on the pop-up table, 
+			which will take you to the appropriate tab as well as acting as a filter.			
 		<td valign=top>
 			<table class="outline">
 				<tr>
@@ -250,7 +260,7 @@ to autism (via OMIM) was run.</p>
 <div id="tissuegene"><table>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			The Tissue x Stage Matrix Tab
+			Tissue x Gene Matrix Tab
 		</td>
 	</tr>
 	<tr>
@@ -258,29 +268,33 @@ to autism (via OMIM) was run.</p>
 	<tr>
 		<td valign=top>
 			<p><p>The Tissue x Gene Matrix is an interactive graphical display of gene 
-			expression data within GXD, organized into anatomical structures (rows) by gene (columns).
-			<p>White cells in this grid indicate that the tissue x gene combination has no 
-			data reported, and filled cells indicate that gene expression has been detected 
-			(blue) or examined, but not detected (red) within a given structure or substructure.
-			<b>Heat map shading represents the number of positive or negative expression 
-			results underlying the intersection, not level of expression for a gene within 
-			a tissue.</b>
+			expression data within GXD that enables a comparison of expression patterns 
+			between genes. It is organized into anatomical structures (in rows) by gene 
+			symbols (in columns). 
 			<p>Use scroll bars to explore down the list of structures. When a triangle appears 
 			in front of the term, click to expand substructures. To restrict results by specified 
 			genes, structures or substructures, click the box to place a checkmark in selected 
 			rows or columns and click the <b>Filter</b> button just above the table on this tab. This 
-			will retain selected rows only and filter all tabs.
-			<p>To see all anatomical structures and data organization, use the
-			<a href='<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'
+			will retain selected rows/columns only and filters all tabs.
+			<p>Filled cells in this tab again indicate that expression data exists: blue 
+			if genes are annotated as &quot;expressed&quot; within structures or substructures, 
+			red where gene expression was examined and not detected within a structure, and white 
+			to indicate that no data has been reported for a given tissue and gene combination.
+			<p><b>Colors get progressively darker when there are more underlying supporting annotations
+			(stronger evidence);  varying shades do not denote higher or lower levels of 
+			expression.</b>.
+			<p>To see the data for specific tissues and genes, click the corresponding 
+			filled cell to generate a pop-up (shown for &quot;Tbx1&quot; in &quot;heart&quot;). 
+			A table with the number of results reporting gene expression <b>detected</b> 
+			and/or <b>not detected</b> will appear. To access the data or images associated 
+			with this subset, click the buttons on the pop-up window which will take you to 
+			the appropriate tab as well as acting as a filter. 
+			<p>The matrices are overviews of gene expression data projected onto the 
+			organization of the anatomy ontology. To see and explore the full anatomy, go 
+			to the <a href='<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'
 			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->vocab/gxd/anatomy/EMAPA:16039'); 
 			return false;">
 			Mouse Developmental Anatomy Browser</a>.
-			<p>To see the data at specific Tissue x Gene intersections, click the corresponding 
-			filled cell to generate a pop-up (shown for "Tbx1" in "heart"). A table with the 
-			number of results reporting gene expression <b>detected</b> and/or <b>not detected</b>
-			 will appear. To see the 
-			data or images supporting these with this subset. Click the buttons on the pop-up table, 
-			which will act as a filter.			
 		<td valign=top>
 			<table class="outline">
 				<tr>
