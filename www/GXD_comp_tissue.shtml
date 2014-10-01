@@ -139,7 +139,7 @@
 						the desired tissue and red (expression examined, but not detected) in 
 						the other selected tissue. White cells indicate no data for a particular 
 						combination within the matrix view.</li>
-						<li>Darker or lighter shades of blue and red are used to represent the 
+						<li><p>Darker or lighter shades of blue and red are used to represent the 
 						number of supporting annotations underlying a combination, and do not 
 						denote higher or lower levels of gene expression. Please see the <b>
 						Legend</b> for a more information</li> 
