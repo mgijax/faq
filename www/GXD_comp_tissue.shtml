@@ -87,7 +87,9 @@
 						<p>
 						<li>Begin typing <i>endocrine system</i> into the upper box in 
 						the <b>Anatomical Structures</b> section of the form and select the term
-						 when it appears in the drop down menu.  
+						 when it appears in the drop down menu. Theiler stage ranges describing 
+						 the developmental stages where this structure exists are also displayed 
+						 alongside each anatomical structure.  
 						<p>
 						<li>Type <i>pineal gland</i> into the lower text box and select the
 						 term when it appears in the drop down menu.</li> 
@@ -105,7 +107,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_EQFanat.jpg" width=675 height=295 alt="Search Menu GXD EQF Anatomical Structure Screen Shot">
+								<img src="Images/GXD_EQFanat.jpg" width=675 height=262 alt="Search Menu GXD EQF Anatomical Structure Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -121,24 +123,33 @@
 						<li value = 6>
 						<p>The Results table indicates the genes for which data is 
 						returned, assays (independent experiments with references), assay 
-						results and images in the tabs along the top.</li>
-						<li>Apply filters to refine your results if desired.</li>
-						<p>
-						<li>Sort the table by clicking on the arrows in the headers. To 
+						results, images, tissue x stage matrix, and tissue x gene matrix in
+						 tabs along the top.</li>
+						<li><p>To see more about each of these tabs, read on in 
+						<a href="GXD_matrix.shtml" onClick="javascript:openFaqWindow('GXD_matrix.shtml');
+						return false;">How do I interpret the results of my expression search?</a></li>
+						<li>Apply filters to refine your results if desired (applies to all tabs 
+						simultaneously), or sort individual tabs by clicking on the arrows 
+						in the headers. To 
 						change the search parameters, use the <b>Click to modify 
 						search</b> button at the top of the page.</li>
 						<p>
-						<li>On the <b>Genes</b> tab, use the export buttons to download 
-						the gene list in either text or Excel formats, or forward to 
-						<a href="http://www.informatics.jax.org/batch">MGI 
-						Batch Query</a> for further analysis.</li>
+						<li>Go to the <b>Tissue x Genes matrix</b> results tab, and scroll 
+						to find genes where filled cells appear blue (expression detected) in 
+						the desired tissue and red (expression examined, but not detected) in 
+						the other selected tissue. White cells indicate no data for a particular 
+						combination within the matrix view.</li>
+						<li>Darker or lighter shades of blue and red are used to represent the 
+						number of supporting annotations underlying a combination, and do not 
+						denote higher or lower levels of gene expression. Please see the <b>
+						Legend</b> for a more information</li> 
 					</ol>
 				</td>
 				<td valign=top colspan=2>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_comp_tissue2.jpg" width=675 height=345 alt="GXD Summary Screen Shot">
+								<img src="Images/GXD_comp_tissue2.jpg" width=675 height=406 alt="GXD Summary Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -146,30 +157,6 @@
 			</tr>
 		</td>
 	</tr>
-    <tr>
-		<td>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value = 10>
-						<p>Use the <b>Click to modify search</b> button at the top of the 
-						page to expand the Batch Query search options.</li>
-						<li>The gene list from the previous search will be automatically 
-						loaded into the <b>Input</b>. Select <b>Gene Attributes</b> and/or 
-						<b>Additional Information</b> to add new data columns to the output.</li>
-					</ol>
-				</td>
-				<td valign=top colspan=2>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GXD_comp_tissue3.jpg" width=675 height=387 alt="Batch query">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</td>
-	</tr>
+    
 </table>
 <!--#include file='include/templateBlankBodyStop.html'-->
