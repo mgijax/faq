@@ -36,7 +36,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-					<img src="Images/GXD_ExpressionDetail.jpg" width=675 height=263 alt="Gene Detail Page, Expression row">
+					<img src="Images/GXD_ExpressionDetail.jpg" width=675 height=312 alt="Gene Detail Page, Expression row">
 					</td>
 				</tr>
 			</table>
@@ -91,10 +91,14 @@
 						 nomenclature text box.
 						<p>
 						<li>Type <i>brain</i> into the <b>Anatomical Structures</b>
-						 text box and select brain from the list that appears.
+						 text box and select brain from the list that appears. Theiler stage 
+						 ranges (&quot;TS17&ndash;28&quot; for &quot;brain&quot;) accompany 
+						 each anatomical structure indicating developmental stages where a
+						 given tissue exists. To restrict your search to a specific embryonic 
+						 or adult stage, use the box to the right.
 						 <p>
-						 <li>If desired, also select other options such as restricting to 
-						 a particular developmental stage, wildtype or mutant specific 
+						 <li>If desired, also select other options to target your your search,
+						 including wildtype or mutant specific 
 						 expression, and preferred assay type(s). 
 						 <p>To run a search for expression in a set of tissues and/or 
 						 during a particular developmental stage and <i>not</i> in others, use 
@@ -109,7 +113,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=637 alt="GXD QF Screen Shot">
+								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=546 alt="GXD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -122,12 +126,16 @@
 					<p>
 						<li value =5>The Results table indicates the genes for which data is 
 						returned, assays (independent experiments with references), assay 
-						results and images in the tabs along the top.</li>
+						results, images, tissue x stage matrix and tissue by gene matrix in t
+						he tabs along the top.</li>
+						<li><p>To see more about each of these tabs, read on in <a href="GXD_matrix.shtml" onClick="javascript:openFaqWindow('GXD_matrix.shtml');
+						return false;">How do I interpret the results of my expression search?</a></li> 
 						<p>
-						<li>If desired, add filters using the buttons indicated above the 
-						results table.</li>
+						<li>To proceed with this example, remain on the Assay Results tab shown</li>
 						<p> 
-						<li>Sort the table by clicking on the arrows in the headers. Note 
+						<li>Filter the table using the options above the table (which filters 
+						all tabs simultaneously), or sort 
+						individual tables by clicking on the arrows in the headers. Note 
 						that both "Detected" and "Not Detected" results will appear 
 						unless specified in the <b>Anatomical structure or stage</b> section
 						of the query. To change the search parameters, use the <b>Click to modify 
@@ -139,7 +147,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=381 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=465 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -149,7 +157,8 @@
 				<td valign=top>
 					<ol>
 					<p>
-					<li value=8>Click the <u>data</u> hyperlink in the <b>Result Details</b> column on the 
+					<li value=9>Click the <u>data</u> hyperlink in the <b>Result Details</b> 
+						column on the 
 						<b>Assay results</b> tab to view details from assays that examined <i>Ptch1</i> expression 
 						in the brain.<p></li>
 						<li>Click on the triangle toggles to expand specimen details.</li>
