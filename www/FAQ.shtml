@@ -157,7 +157,7 @@
 				        		<a href="GXD_comp_tissue.shtml" onClick="javascript:openFaqWindow('GXD_comp_tissue.shtml');
 								return false;">FAQ</a></dt>
 								<dt>.. interpret the results of my query?
-				        		<a href="GXD_Matrix.shtml" onClick="javascript:openFaqWindow('GXD_Matrix.shtml');
+				        		<a href="GXD_matrix.shtml" onClick="javascript:openFaqWindow('GXD_matrix.shtml');
 								return false;">FAQ</a></dt>
                  				<dt>.. find references that report expression data for a gene at a specific age?
 				        		<a href="GXD_ref_age.shtml" onClick="javascript:openFaqWindow('GXD_ref_age.shtml');
