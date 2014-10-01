@@ -146,15 +146,18 @@
 						according to Anatomical System, Assay Type, Detected <i>(shown)</i>, Theiler Stage 
 						and wild type (versus mutant allele).
 						<p>Tabs along the top of the table allow you to navigate to a list of 
-						Genes, Assays, Assay Results <i>(shown)</i> and Images. Tabs can be 
+						Genes, Assays, Assay Results <i>(shown)</i>, Images, Tissue x Stage matrix, 
+						and Tissue x Gene matrix views. Data from tabs can be 
 						exported as plain text or to Excel by using the buttons in the header.</p>
+						<li><p>To see more about each of these tabs, read on in <a href="GXD_matrix.shtml" onClick="javascript:openFaqWindow('GXD_matrix.shtml');
+						return false;">How do I interpret the results of my expression search?</a></li> 
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev3.jpg" width=675 height=361 alt="Expression data for EMAPS">
+								<img src="Images/GXD_tissue_dev3.jpg" width=675 height=428 alt="Expression data for EMAPS">
 							</td>
 						</tr>
 					</table>
@@ -163,7 +166,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>To get detailed data, click on <u>data</u> in the 
+						<li value = 5>To get detailed data, click on <u>data</u> in the 
 						<b>Result Details</b> column. This will link to specifics of the reference, 
 						experimental assay, specimen, gene expression results and available images.
 				<td valign=top>
