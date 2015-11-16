@@ -179,8 +179,8 @@
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
-					<a href="<!--#include file='include/homepages_url.html'-->recombinase.shtml"
-					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->recombinase.shtml');
+					<a href="<!--#include file='include/fewi_url.html'-->home/recombinase"
+					onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->home/recombinase');
 					return false;">
 					Recombinases</a>
 				</td>
