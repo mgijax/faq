@@ -115,17 +115,16 @@
 			</tr>
 			<tr>
 				<td valign=top><ol>
-					<li value = 4>Click the link to 
+					<li value = 4> On the <b>Pax6 Gene Detail</b> page, click more> in the Homology section to expand the section and then click the link for the 
 					<a href="http://www.informatics.jax.org/homology/1212">
-					Vertebrate Homology Class</a> 
-					on the <b>Pax6 Gene Detail</b> page.
+					Vertebrate Homology Class</a>.
 				</ol>
 			</td>
 			<td valign=top>
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho2.jpg" width=601 height=243 alt="Pax6 Orthology">
+								<img src="Images/GO_ortho2.png" width=643 height=301 alt="Pax6 Orthology">
 							</td>
 						</tr>
 					</table>

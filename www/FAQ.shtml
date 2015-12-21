@@ -251,12 +251,9 @@
 								<dt>.. view annotations for mouse/human/rat ortholog sets?
 				        		<a href="GO_ortho.shtml" onClick="javascript:openFaqWindow('GO_ortho.shtml');
 								return false;">FAQ</a></dt>
-								<!--<dt>.. obtain FASTA sequence files for mouse genes with GO annotations in common?
-				        		<a href="GO_seq.shtml" onClick="javascript:openFaqWindow('GO_seq.shtml');
-								return false;">FAQ</a></dt>-->
-								<dt>.. find and download the list of all GO Consortium Reference Genome Project mouse genes?
+								<!--<dt>.. find and download the list of all GO Consortium Reference Genome Project mouse genes?
 				        		<a href="GO_refgen.shtml" onClick="javascript:openFaqWindow('GO_refgen.shtml');
-								return false;">FAQ</a></dt>
+								return false;">FAQ</a></dt>-->
 							</dl>
 						</td>
 					</tr>

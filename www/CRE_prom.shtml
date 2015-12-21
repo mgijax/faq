@@ -66,16 +66,16 @@ with a given promoter</title>
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select <I>Nes</I> from the <B>Recombinase driven by</B> selection list.
+						<li>Type <I>Nes</I> in the <B>Recombinase driven by</B> field. This field has an autocomplete function and you must select a driver if you use this field. Select Nes. 
 						<p>
-						<li>Click <B>Go</B>.
+						<li>Click <B>Search</B>.
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/CreDrivenBy.jpg" width=500 height=538 alt="Recombinase driven by">
+								<img src="Images/CreDrivenBy.png" width=500 height=463 alt="Recombinase driven by">
 							</td>
 						</tr>
 					</table>
@@ -143,7 +143,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesAllele.jpg" width=500 height=582 alt="Nes Allele results summary">
+								<img src="Images/NesAllele.png" width=500 height=503 alt="Nes Allele results summary">
 							</td>
 						</tr>
 					</table>
@@ -155,7 +155,7 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 4>The Transgene Detail page will describe the <b>Mutation Details</b> and
+					<li value = 8>The Transgene Detail page will describe the <b>Mutation Details</b> and
 					summarize the reported <b>Recombinase Activity</b> for the allele. Click the 
 					triangles next to row or table features to expand (circles).</li>
 					<p>
@@ -175,7 +175,7 @@ with a given promoter</title>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/NesTranDetail.jpg" width=500 height=347 alt="Nes Allele Recombinase Specificity">
+								<img src="Images/NesTranDetail.png" width=500 height=382 alt="Nes Allele Recombinase Specificity">
 							</td>
 						</tr>
 					</table>
@@ -187,7 +187,7 @@ with a given promoter</title>
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 8>The <b>Recombinase Activity Detail</b> page is specific 
+					<li value = 12>The <b>Recombinase Activity Detail</b> page is specific 
 					to the selected organ system. In it, you can find links to more detailed 
 					data on recombinase gene expression and activity such as level of activity, 
 					pattern of expression, assay type used to determine activity and 
