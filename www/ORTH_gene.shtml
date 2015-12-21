@@ -115,18 +115,16 @@
 			<tr>
 				<td valign=top>
 				<ol>
-					<li value = 4>Click the link in the Vertebrate Homology row for			
-					<a href='<!--#include file="include/wi_url.html"-->searches/homology_report.cgi?_Marker_key=12184'
-					onClick="javascript:openNewWindow('<!--#include file="include/wi_url.html"-->searches/homology_report.cgi?_Marker_key=12184'); 
-					return false;">
-					<b>Vertebrate Homology Class</b></a>.
+					<li value = 4>On the <b>Pax6 Gene Detail</b> page, click more> in the Homology section to expand the section and then click the link for the 
+					<a href="http://www.informatics.jax.org/homology/1212">
+					Vertebrate Homology Class</a>.
 				</ol>
 			</td>
 			<td valign=top>
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho2.jpg" width=601 height=243 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/GO_ortho2.png" width=643 height=301 alt="Pax6 Orthology">
 							</td>
 						</tr>
 					</table>
