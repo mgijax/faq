@@ -165,11 +165,11 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 7>Click the link to All GO classifications:
+						<li value = 7>Click the link to All GO Annotations:
 						<a href='<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490'
 						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490'); 
 						return false;">				
-						(112 annotations)</a> 
+						(142)</a> 
 						on the <b>Pax6 Gene Detail</b> page.
 					</ol>
 				</td>
