@@ -118,8 +118,8 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Click the link to 
-						<a href='<!--#include file='include/wi_url.html'-->searches/GOannot_report.cgi?id=GO:0001764'
-						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/GOannot_report.cgi?id=GO:0001764'); 
+						<a href='<!--#include file='include/fewi_url.html'-->go/term/GO:0001764'
+						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/term/GO:0001764'); 
 						return false;">		
 						56 genes, 62 annotations</a> 
 						next to the term neuron migration [GO:0001764].
