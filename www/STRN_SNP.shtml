@@ -47,10 +47,10 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF' 
-			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF'); 
-			return false;">
-			Mouse SNP Query Form</a>
+			<a href='<!--#include file='include/fewi_url.html'-->snp'
+						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->snp');
+						return false;">
+						Mouse dbSNP Query Form</a></i></b><br>
 			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
