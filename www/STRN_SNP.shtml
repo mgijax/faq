@@ -6,6 +6,16 @@
 <link rel="stylesheet" type="text/css"/>
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Untitled</title>
+	<meta name="generator" content="BBEdit 10.5" />
+</head>
+<body>
+
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
  <span class="faqHeaderText">How do I find all known coding SNPs in a 
@@ -26,10 +36,9 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Mouse SNP Query Form to 
-		search for mouse single nucleotide polymorphisms represented in 
-		dbSNP. Use this form to search for SNPs by strain or strain 
-		comparison, dbSNP attributes, marker, marker range or associated gene.
+		<td colspan=2 align=left>You can use the Mouse SNP Query Form to search for mouse 			
+		single nucleotide polymorphisms represented in dbSNP. Use this form to search for 
+		SNPs by associated gene, strain or strain comparison or genome coordinates.
 		</td>
 	</tr>
 	<tr>
@@ -46,19 +55,21 @@
 			On most MGI pages, you can access the Mouse SNP Query Form 
 			from the Search menu as shown in the image at right.
 			<p>
-			For this tutorial, open the 
-			<a href='<!--#include file='include/fewi_url.html'-->snp'
-						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->snp');
+			For this tutorial, open the <a href="<!--#include 
+			file='include/fewi_url.html'-->snp"			
+			onClick="javascript:openNewWindow('<!--#include 
+			file='include/fewi_url.html'-->snp');
 						return false;">
-						Mouse SNP Query Form</a></i></b><br>
-			in a new window. Scroll down this page for further instructions. 
+			Mouse SNP Query Form</a></i></b> in a new window. Scroll down this page for 
+			further instructions. 
 		</td>
 		
 		<td valign=top>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_SNP.jpg" width=500 height=347 alt="Search Menu SNP QF">
+						<img src="Images/srchmenu_SNP.jpg" width=500 height=347 
+						alt="Search Menu SNP QF">
 					</td>
 				</tr>
 			</table>
@@ -80,43 +91,38 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select the following strains from the <b>Available Strains</b> list by highlighting them
-						and clicking the <b>Add</b> key (box) to move them into the <b>Selected
-						Strains</b> window. Select multiple entries at the same time 
-						by holding down &#8984; (Mac) or <i>CTRL</i> (PC). Adjust the display
-						order of strains using the arrows to the right.
+						<li>Type <i>Slc10a5</i> in the text box in the <b>Associated 
+						Genes</b> section. Alternatively, you could search by position 
+						(GRCm38/mm10 coordinates) using the <b>Search by Regions</b> tab.
+						<p>
+						<li>Select the following strains from the list in <b>Strains and 
+						Strain Comparisons </b> section by first clicking the <b>Clear 
+						All</b> option and then checking the box next to the desired 
+						strains. 
 						<p>
 						<ul>
 							<li>129X1/SvJ
 							<li>DBA/2J
-							<li>C57BL/6J
 						</ul>
 						<p>
-						<li><i>Optional:</i> Choose one strain (in this example, C57BL/6J) as the reference
-						strain by clicking the lower <b>Add</b> button next to the <b>Reference Strain</b> window. This will
-						allow you to display alleles as <b>S</b> (same) or <b>D</b> (different).
+						<li><i>Optional:</i> Choose one strain (in this example, C57BL/6J) 
+						as the reference strain by selecting it from the <b>Reference 
+						Strain for Comparison</b> drop-down list.
+						
 						<p>
-						<li>Choose to return SNPs which are the same between selected strains, 
-						different, or both using the drop down menu.
-						<p>
-						<li>Select <i>Coding-NonSynonymous</i> and <i>Coding-Synonymous</i> from the <b>dbSNP 
-						Function Class</b> pick list.
-						<p>
-						<li>Type <i>Slc10a5</i> in the text box in the <b>Associated Gene(s)</b> row. Alternatively, you
-						could search by position (GRCm38/mm10 coordinates), or by a marker range (use official gene symbols, rsID numbers
-						are not supported). 
-						<p>			
-						<li>Select additional output options and specify whether output should be displayed
-						on the web (as here), or downloaded.
+						<li>Choose to return SNPs which are the same between selected 
+						strains, different, or both by selecting it.
 						<p>
 						<li>Click <b>Search</b>.
+						<p>
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/STRN_SNP1.jpg" width=675 height=750 alt="SNP QF Screen Shot">
+								<img src="Images/STRN_SNP1.jpg" width=685 height=590 
+								alt="SNP QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -125,9 +131,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 8>Click any link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpDetail&key=1631773'); 
+						<li value = 6>Click any link to <a href="<!--#include 
+						file='include/fewi_url.html'-->snp/rs27319024" 			
+						onClick="javascript:openNewWindow('<!--#include 
+						file='include/fewi_url.html'-->snp/rs27319024');
 						return false;">
 						MGI SNP Detail</a> 
 						in the <b>SNP ID</b> column to view flanking sequence for a SNP.
@@ -137,13 +144,37 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/STRN_SNP2.jpg" width=675 height=427 alt="SNP Search Results">
+								<img src="Images/STRN_SNP2.jpg" width=685 height=350 
+								alt="SNP Search Results 1">
 							</td>
 						</tr>
 					</table>
 				</td>
 			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 7> Filter SNPs result by selecting from <b>dbSNP 
+						Function Class</b>. Click <b>Filter</b>.
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/STRN_SNP3.jpg" width=685 height=319 
+								alt="SNP Search Results 2">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>			
 		</td>
 	</tr>
 </table>
+
+</body>
+</html>
+
+
 <!--#include file='include/templateBlankBodyStop.html'-->
