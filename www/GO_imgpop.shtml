@@ -59,13 +59,17 @@
 			<td><br>
 				This example is a portion of the GO comparative graph
 				of the experimental GO annotations for
-				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=32438'
-				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=32438');
+				<a href="<!--#include 
+				file='include/fewi_url.html'-->marker/MGI:892001"			
+				onClick="javascript:openNewWindow('<!--#include 
+				file='include/fewi_url.html'-->marker/MGI:892001');
 				return false;">
 				Slc22a6</a>
 				from mouse, human, and rat. View the
-				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:892001'
-				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:892001');
+				<a href="<!--#include 
+				file='include/fewi_url.html'-->marker/gograph/MGI:892001"			
+				onClick="javascript:openNewWindow('<!--#include 
+				file='include/fewi_url.html'-->marker/gograph/MGI:892001');
 				return false;">
 				complete graph</a>.
 			</td>

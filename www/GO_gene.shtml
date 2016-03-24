@@ -121,7 +121,7 @@
 						<a href='<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490'
 						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490'); 
 						return false;">				
-						(112 annotations)</a> 
+						(142 annotations)</a> 
 					on the <b>Pax6 Gene Detail</b> page.
 				</ol>
 			</td>
@@ -145,14 +145,18 @@
 					<li value = 5>The <b>Gene Ontology classifications</b> page 
 						supplies all classifications in text, 
 						table and graphical form. Click the link to 
-						<a href='<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490#tabular'
-						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490#tabular'); 
+						<a href='<!--#include 
+						file='include/fewi_url.html'-->go/marker/MGI:97490#tabular'
+						onClick="javascript:openNewWindow('<!--#include 
+						file='include/fewi_url.html'-->go/marker/MGI:97490#tabular'); 
 						return false;">									
 						Tabular View</a> 
 						to view a table listing all classifications, or the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOMarkerGraph&id=MGI:97490'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=GOMarkerGraph&id=MGI:97490'); 
-						return false;">															
+						<a href="<!--#include 
+						file='include/fewi_url.html'-->marker/gograph/MGI:97490"			
+						onClick="javascript:openNewWindow('<!--#include 
+						file='include/fewi_url.html'-->marker/gograph/MGI:97490');
+						return false;">									
 						GO Graph</a> 
 						to view a graph of all classifications.
 					</ol>

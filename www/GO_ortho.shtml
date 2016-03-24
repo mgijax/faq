@@ -115,8 +115,13 @@
 			</tr>
 			<tr>
 				<td valign=top><ol>
-					<li value = 4> On the <b>Pax6 Gene Detail</b> page, click more> in the Homology section to expand the section and then click the link for the 
-					<a href="http://www.informatics.jax.org/homology/1212">
+					<li value = 4> On the <b>Pax6 Gene Detail</b> page, click more> in the 
+					Homology section to expand the section and then click the link for the 
+					<a href="<!--#include 
+					file='include/fewi_url.html'-->homology/1212"			
+					onClick="javascript:openNewWindow('<!--#include 
+					file='include/fewi_url.html'-->homology/1212');
+					return false;">
 					Vertebrate Homology Class</a>.
 				</ol>
 			</td>
@@ -141,9 +146,11 @@
 					a table of <i>Pax6</i> homologs across multiple vertebrate species. 
 					To view a graph of Gene Ontology annotations for human, mouse and rat 
 					homologs, click the link to 
-					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:97490'
-					onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=GOOrthologyGraph&id=MGI:97490'); 
-					return false;">			
+					<a href="<!--#include 
+					file='include/fewi_url.html'-->marker/gograph/MGI:97490"			
+					onClick="javascript:openNewWindow('<!--#include 
+					file='include/fewi_url.html'-->marker/gograph/MGI:97490');
+					return false;">
 					Comparative GO Graph </a> (human, mouse, rat).
 				</td>
 				<td valign=top>

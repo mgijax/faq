@@ -134,7 +134,7 @@
 						<li value = 6>Click any link to <a href="<!--#include 
 						file='include/fewi_url.html'-->snp/rs27319024" 			
 						onClick="javascript:openNewWindow('<!--#include 
-						file='include/fewi_url.html'-->snp/rs27319024');
+						file='include/fewi_url.html'-->snp/rs29711463');
 						return false;">
 						MGI SNP Detail</a> 
 						in the <b>SNP ID</b> column to view flanking sequence for a SNP.
