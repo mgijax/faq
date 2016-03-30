@@ -55,33 +55,37 @@
 				</span>
 			</td>
 		</tr>
+
+
+
+
 		<tr>
-			<td><br>
+			<td valign=top>
+			<br>
 				This example image includes gene models from MGI, NCBI, Ensembl,
-				and VEGA, and RefSeqs for the gene
-				<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=8795'
-				onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=8795');
+				and VEGA for the gene
+				<a href="<!--#include 
+				file='include/fewi_url.html'-->marker/MGI:95524"			
+				onClick="javascript:openNewWindow('<!--#include 
+				file='include/fewi_url.html'-->marker/MGI:95524');
 				return false;">
 				Fgfr3</a>.
 				View the full
-				<a href='http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/?start=33721724;stop=33737067;ref=5;label=MGI_Genome_Features-MGI_NCBI-MGI_VEGA-MGI_ENSEMBL-UCSC_CYTOBAND%3Aoverview'
+				<a href='http://jbrowse.informatics.jax.org/index.html?data=data%2Fmouse&loc=chr5%3A33719700..33738000&tracks=DNA%2CMGI_Genome_Features%2CNCBI%2CENSEMBL%2CHAVANA_VEGA&highlight='
 				onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?name=fgfr3');
 				return false;">
 				gene models</a>
 				in Mouse Genome Browser.
 			</td>
-		</tr>
-		<tr >
+
 			<td valign=top>
-			<br>
 			<table class="outline">
 					<tr>
 						<td>
-							<img src="Images/GM_imgpop1.jpg" width=400 height=221 alt="Gene track image for Fgfr3">
+							<img src="Images/GM_imgpop1.jpg" width=650 height=371.56 alt="Gene track image for Fgfr3">
 						</td>
 					</tr>					
 			</table>
-			<br>
 			</td>
 		</tr>
 	</table>
@@ -89,7 +93,7 @@
 		<tr>
 			<td valign=top>
 				<ol>
-					<li>Use the <i>Select Tracks</i> tab near the top of the page to customize the information which is viewable in the browser. Available tracks include mutant alleles, gene traps, annotated phenotypes and more. You can also upload custom tracks using the adjacent <i>Custom Tracks</i> tab.
+					<li>Use the <b> Available Tracks </b> options on the left to customize the information which is viewable in the browser. Available tracks include alleles and phenotypes, QTL, gene traps, regulatory features, sequence, variants, and more. You can also <b>add combination track</b> by dragging them to the space below or <b>add sequence search track</b>. 
 					</li>
 				<ol>
 			</td>
@@ -97,26 +101,7 @@
 				<table class="outline">
 					<tr>
 						<td>
-						<img src="Images/GM_imgpop2.jpg" width=400 height=113 alt="tracks">
-						</td>
-					</tr>
-				</table>
-			</td>
-			<td>
-		</tr>
-		<br>
-		<tr>
-			<td>
-				<ol>
-				<li value=2>Use the drop-down menu under <b>File</b> to save images from the browser or download FASTA sequences.
-				</li>
-				</ol>
-			</td>
-			<td valign=top colspan=2>
-				<table class="outline">
-					<tr>
-						<td>
-						<img src="Images/GM_imgpop3.jpg" width=400 height=101 alt="dropdown menu">
+						<img src="Images/GM_imgpop2.jpg" width=650 height=372 alt="tracks">
 						</td>
 					</tr>
 				</table>
@@ -147,8 +132,8 @@
 					to view gene models in MGI.
 					<ul>
 						<li><b><i>Using
-						<a href='http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/'
-						onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/');
+						<a href='http://jbrowse.informatics.jax.org/?data=data/mouse'
+						onClick="javascript:openNewWindow('http://jbrowse.informatics.jax.org/?data=data/mouse');
 						return false;">
 						Mouse Genome Browser</a></i></b>
 						<br>
@@ -164,8 +149,7 @@
 						FAQ</a>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
 						The gene models of a gene can be displayed using
-						Mouse Genome Browser via a link in the Sequence Map
-						section of a gene's detail page.
+						Mouse Genome Browser by clicking on the gene model in <b>Location and Maps</b> section.
 					</ul>
 				</td>
 			</tr>
