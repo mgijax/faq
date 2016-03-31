@@ -38,12 +38,13 @@
 	</tr>
 	<tr>
 		<td valign=top>
+		<br>
 			On most MGI pages, you can access the Mouse Genome Browser from the Search menu as shown 
 			in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/'
-			onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gb2/gbrowse/mousebuild38/'); 
+			<a href='http://jbrowse.informatics.jax.org/?data=data/mouse'
+			onClick="javascript:openNewWindow('http://jbrowse.informatics.jax.org/?data=data/mouse'); 
 			return false;">
 			Mouse Genome Browser</a>
 			in a new window. Scroll down this page for further instructions. 
@@ -52,7 +53,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_mgb.jpg" width=804 height=434 alt="Search Menu Genome Browser Screen Shot">
+						<img src="Images/srchmenu_mgb.jpg" width=804 height=434 alt="Search Menu Genome Browser Screen Shot" align=right>
 					</td>
 				</tr>
 			</table>
@@ -60,30 +61,33 @@
 	</tr>
 </table>
 <br>
-<table width="100%">
+<table class="enhance" colspan=1 align=right>
+
 	<tr>
-		<td class="enhance" colspan=2 align=left>
+		<td class="enhance" colspan=2 >
 			Example 1. Displaying targeted alleles, VEGA transcripts, QTL and a variety of 
-			phenotypes on Chromosome 7 between 101 and 103 Mbp
+			phenotypes on Chromosome 7 between 101 and 103 Mbp <br>
 		</td>
 	</tr>
 	<tr>
 		<td> 
 			<tr>
 				<td valign=top>
-					<ol>
-						<li>Change the text in the <b>Landmark or Region</b> text box 
-						to <i>7:101000000..103000000</i> to view chromosome 7 from 
-						101Mbp to 103Mbp.
-						<p>
-						<li>Click <b>Search</b>.
-					</ol>
+					<table class="outline">
+						<ol>
+							<li>Change the text in the text box 
+							to <i>chr7:101000000..103000000</i> to view chromosome 7 from 
+							101Mbp to 103Mbp.
+							<p>
+							<li>Press Enter or click <b>Go</b>.
+						</ol>
+					</table>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_genmap1.jpg" width=756 height=122 alt="Genome Browser">
+								<img src="Images/GM_genmap1.jpg" width=804 height=67.117 alt="Genome Browser" >
 							</td>
 						</tr>
 					</table>
@@ -96,58 +100,43 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Scroll down the page to the <b>Tracks</b> section.
 						<p>
-						<li>Check the boxes next to the following:
+						<li value = 3>Check the boxes next to the following:
 							<dl>
+								
 								<dt><img src="Images/minus_box.jpg"><b> <u>Alleles</u></b>
 								<dl>
-									<dt><dd><img src="Images/check_box.jpg"> Alleles_targeted
-								</dl>
-								<dt><img src="Images/minus_box.jpg"><b> <u>Genes</u></b>
-								<dl>
-									<dt><dd><img src="Images/check_box.jpg"> VEGA transcripts
+									<dt><dd><img src="Images/check_box.jpg"> Targeted Alleles
 								</dl>
 								<dt><img src="Images/minus_box.jpg"><b> <u>Phenotypes</u></b>
 								<dl>
-									<dt><dd><img src="Images/check_box.jpg"> Behavior_neurological
-									<dt><dd><img src="Images/check_box.jpg"> Digestive_alimentary
-									<dt><dd><img src="Images/check_box.jpg"> Growth_size
-									<dt><dd><img src="Images/check_box.jpg"> Homeostasis_metabolism
-									<dt><dd><img src="Images/check_box.jpg"> Immune_system
-									<dt><dd><img src="Images/check_box.jpg"> QTL
+									<dt><dd><img src="Images/check_box.jpg"> Behavior Phenotypes
+									<dt><dd><img src="Images/check_box.jpg"> Digestive Phenotypes
+									<dt><dd><img src="Images/check_box.jpg"> Growth Phenotypes
+									<dt><dd><img src="Images/check_box.jpg"> Homeostasis Phenotypes
+									<dt><dd><img src="Images/check_box.jpg"> Immune Phenotypes
+								</dl>
+								<dt><img src="Images/minus_box.jpg"><b> <u>QTL</u></b>
+								<dl>
+									<dt><dd><img src="Images/check_box.jpg"> MGI QTL
+								</dl>								
+								
+								<dt><img src="Images/minus_box.jpg"><b> <u>Genes</u></b>
+								<dl>
+									<dt><dd><img src="Images/check_box.jpg"> Havana/VEGA Genes
 								</dl>
 							</dl>
-							<p>
-						<li>Click <b>Update Image</b>.
+						<p>
+						<li> Scroll down to view all tracks.
+						<p>
+						<li> Reorder the tracks by dragging the terms in browser to desired order.	
 					</ol>
 				</td>
 				<td valign=top colspan=2>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_genmap2.jpg" width=772 height=466 alt="Genome Browser Tracks">
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<tr>
-				<td valign=top>
-					<ol>
-						<li value = 6>The <b>Details</b> section displays QTL for this 
-						region of chromosome 7. Beneath the QTL, phenotype terms are 
-						listed at left, and associated transcripts modeled to the 
-						right of these terms.
-						<p>
-						<li>Click on a transcript to view a list of alleles.
-					</ol>
-				</td>
-				<td valign=top>
-					<table class="outline">
-						<tr>
-							<td>
-								<img src="Images/GM_genmap3.gif" width=842 height=540 alt="Genome Browser Details">
+								<img src="Images/GM_genmap2.jpg" width=804 height=535.5 alt="Genome Browser Tracks">
 							</td>
 						</tr>
 					</table>
