@@ -92,10 +92,8 @@
 	<table class="enhance" colspan=2 align=left>
 		<tr>
 			<td valign=top>
-				<ol>
-					<li>Use the <b> Available Tracks </b> options on the left to customize the information which is viewable in the browser. Available tracks include alleles and phenotypes, QTL, gene traps, regulatory features, sequence, variants, and more. You can also <b>add combination track</b> by dragging them to the space below or <b>add sequence search track</b>. 
-					</li>
-				<ol>
+				Use the <b> Available Tracks </b> options on the left to customize the information which is viewable in the browser. Available tracks include alleles and phenotypes, QTL, gene traps, regulatory features, sequence, variants, and more. You can also <b>add combination track</b> by dragging them to the space below or <b>add sequence search track</b>. 
+				
 			</td>
 			<td valign=top colspan=2>
 				<table class="outline">
