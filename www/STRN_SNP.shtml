@@ -92,8 +92,7 @@
 				<td valign=top>
 					<ol>
 						<li>Type <i>Slc10a5</i> in the text box in the <b>Associated 
-						Genes</b> section. Alternatively, you could search by position 
-						(GRCm38/mm10 coordinates) using the <b>Search by Regions</b> tab.
+						Genes</b> section. 
 						<p>
 						<li>Select the following strains from the list in <b>Strains and 
 						Strain Comparisons </b> section by first clicking the <b>Clear 
