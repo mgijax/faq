@@ -25,10 +25,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Mouse SNP Query Form to 
-		search for mouse single nucleotide polymorphisms that are different between 
-		two strains. Use this form to search for SNPs by strain or strain 
-		comparison, dbSNP attributes, marker, marker range or associated gene.
+		<td colspan=2 align=left>You can use the Mouse SNP Query Form to search for mouse single nucleotide polymorphisms that are different between two strains. Use this form to search for SNPs by associated gene, strain or strain comparison or genome coordinates.
 		</td>
 	</tr>
 	<tr>
@@ -46,9 +43,11 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF' 
-			onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=snpQF'); 
-			return false;">
+			<a href="<!--#include 
+			file='include/fewi_url.html'-->snp"			
+			onClick="javascript:openNewWindow('<!--#include 
+			file='include/fewi_url.html'-->snp');
+						return false;">
 			Mouse SNP Query Form</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>
@@ -78,25 +77,15 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Select A/J from the <b>Available Strains</b> 
-						window and click the <b>Add</b> button to move it into <b>Selected
-						Strains</b>.</li>
+						<li>Click on the <b>Search by Region</b> tab.</li>
 						<p>
-						<li>Select BALB/cByJ from the <b>Available Strains</b> window and click the lower <b>Add</b>
-						button to set this as the <b>Reference Strain</b>. The identity of the reference strain
-						is arbitrary, but allows you to filter SNPs or display alleles as <b>S</b> (same) or <b>D</b> (different).
+						<li>Enter map coordinates (GRCm38/mm10) or a marker range (use official gene symbols, rsID numbers are not supported) in the Map Position row. Select chromosome 1, then type 1-30 in the <b>Genome Coordinates</b> box and choose Mbp from the drop down menu.
 						<p>
-						<li>Choose to return SNPs which are different between selected strains using the drop down menu.
+						<li>Select A/J from the list in <b>Strains and Strain Comparisons</b> section by first clicking the <b>Clear All</b> option and then checking the box next to A/J.
 						<p>
-						<li>Enter map coordinates (GRCm38/mm10) or a marker range (use official gene symbols, rsID numbers
-						are not supported) in the <b>Map Position</b> row. Select chromosome 1, then type 1-30 in the 
-						<b>Genome Coordinates</b> box and choose <b>Mbp</b> from the drop down menu. 
+						<li>Select BALB/cByJ as the reference strain by selecting it from the <b>Reference Strain for Comparison</b> drop down menu. 
 						<p>			
-						<li>Select additional output options and specify whether output should be displayed
-						on the web (as here), or downloaded. Strains which were fully sequenced as part of the <a href="http://www.sanger.ac.uk/resources/mouse/genomes/">Sanger
-						Mouse Genomes Project</a> will return many more SNPs than those which have
-						genotype information only, and these files may take awhile to load, or be more
-						manageable as downloaded Excel files.
+						<li>Choose to return SNPs which are different between selected strains by selecting <b>Different from the Reference Strain</b>.
 						<p>
 						<li>Click <b>Search</b>.
 					</ol>
@@ -105,7 +94,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/STRN_geno1.jpg" width=675 height=750 alt="SNP QF Screen Shot">
+								<img src="Images/STRN_geno1.jpg" width=675 height=560.4 alt="SNP QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -114,22 +103,21 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 7>SNP Query results will list all SNPs in dbSNP which
-						meet the search criteria. This list can be downloaded, viewed in Mouse
-						Genome Browser or a list of the Genes with matching SNPs can be generated.
-						<p>
-						<li>Click <b>MGI SNP Detail</b> to see more information including flanking
-						regions of the SNP.
-						<p>
-						<li>The <b>Function Class</b> column will indicate if the SNP lies
-						within a gene, and any functional notes that are attached to it (i.e. coding-nonsynonymous, intron, UTR).
+						<li value = 7>SNP Query results will list all SNPs in dbSNP which meet the search criteria. This list can be exported as text file.
+					<p>
+						<li> Click <b>View Mouse Genome Browser</b> to view the specified genome region or select <b>MGI Genome Feature Summary</b> for a list of genome features in that region.
+						</li>
+					<p>					
+						<li>Click <b>MGI SNP Detail</b> to see more information including flanking regions of the SNP.
+					<p>
+						<li>The <b>Gene & Category</b> column will indicate if the SNP lies within a gene, and any functional notes that are attached to it (i.e. coding-nonsynonymous, intron, UTR, etc).
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/STRN_geno2.jpg" width=675 height=534 alt="SNP Search Results">
+								<img src="Images/STRN_geno2.jpg" width=675 height=311.54 alt="SNP Search Results">
 							</td>
 						</tr>
 					</table>
