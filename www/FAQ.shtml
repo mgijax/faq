@@ -71,6 +71,9 @@
 								<dt>.. find primer sequence for a gene?
 				        		<a href="GM_primer.shtml" onClick="javascript:openFaqWindow('GM_primer.shtml');
 								return false;">FAQ</a></dt>
+								<dt>.. find or obtain approved nomenclature for a gene, allele or strain?
+				        		<a href="GM_nomen.shtml" onClick="javascript:openFaqWindow('GM_nomen.shtml');
+								return false;">FAQ</a></dt>
                 			</dl>
 						</td>
 					</tr>
