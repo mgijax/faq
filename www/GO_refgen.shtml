@@ -52,8 +52,8 @@
 			Reports Page from the Download menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='ftp://ftp.informatics.jax.org/pub/reports/index.html' 
-			onClick="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html'); 
+			<a href='http://www.informatics.jax.org/downloads/reports/index.html' 
+			onClick="javascript:openNewWindow('http://www.informatics.jax.org/downloads/reports/index.html'); 
 			return false;">
 			MGI Data and Statistical Reports Page</a>
 			in a new window. Scroll down this page for further instructions. 
@@ -86,8 +86,8 @@
 				<td valign=top>
 					<ol>
 						<li>Click the link to 
-						<a href='ftp://ftp.informatics.jax.org/pub/reports/index.html#go'
-						onClick="javascript:openNewWindow('ftp://ftp.informatics.jax.org/pub/reports/index.html#go'); 
+						<a href='http://www.informatics.jax.org/downloads/reports/index.html#go'
+						onClick="javascript:openNewWindow('http://www.informatics.jax.org/downloads/reports/index.html#go'); 
 						return false;">
 						Gene Ontology Data</a> to move down the page.
 					</ol>
