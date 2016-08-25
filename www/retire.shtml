@@ -169,7 +169,7 @@
                       <img src="Images/MappingDataNew.jpg" alt="Download menu for FTP site" width="300px" border="0" /></a> </div>
 
                 <div class="text">Alternative(s):</div>
-              <em>Page:</em>&nbsp;&nbsp;<a href="<!--#include file='include/ftp_url.html'-->index.html" target="_blank">Public Reports</a> on MGI's FTP server<br />
+              <em>Page:</em>&nbsp;&nbsp;<a href="<!--#include file='include/pub_reports_url.html'-->index.html" target="_blank">Public Reports</a> on MGI's FTP server<br />
               <em>Description:</em>&nbsp;&nbsp;Reports for each mapping panel and chromosome are available in tab-delimited format on MGI's FTP server. Reach these reports via the &quot;Download&quot; item on the menu bar.<br />
                 </div>
 

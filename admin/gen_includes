@@ -89,7 +89,7 @@ createIncludeFile('searchtool_url.html', config['QUICKSEARCH_URL'])
 createIncludeFile('mgiversion.html', config['NAME'])
 createIncludeFile('homepages_url.html', config['HOMEPAGES_URL'])
 createIncludeFile('menus_url.html', config['MENUS_URL'])
-createIncludeFile('ftp_url.html', config['FTP_URL'])
+createIncludeFile('pub_reports_url.html', config['PUB_REPORTS_URL'])
 
 
 #####----- Template Include Files --------#####
