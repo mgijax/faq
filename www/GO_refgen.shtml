@@ -52,8 +52,8 @@
 			Reports Page from the Download menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file="include/pub_reports_url.html" -->reports/index.html' 
-			onClick="javascript:openNewWindow('<!--#include file="include/pub_reports_url.html" -->reports/index.html'); 
+			<a href='<!--#include file="include/pub_reports_url.html" -->index.html' 
+			onClick="javascript:openNewWindow('<!--#include file="include/pub_reports_url.html" -->index.html'); 
 			return false;">
 			MGI Data and Statistical Reports Page</a>
 			in a new window. Scroll down this page for further instructions. 
@@ -86,8 +86,8 @@
 				<td valign=top>
 					<ol>
 						<li>Click the link to 
-						<a href='<!--#include file="include/pub_reports_url.html" -->reports/index.html#go'
-						onClick="javascript:openNewWindow('<!--#include file="include/pub_reports_url.html" -->reports/index.html#go'); 
+						<a href='<!--#include file="include/pub_reports_url.html" -->index.html#go'
+						onClick="javascript:openNewWindow('<!--#include file="include/pub_reports_url.html" -->index.html#go'); 
 						return false;">
 						Gene Ontology Data</a> to move down the page.
 					</ol>

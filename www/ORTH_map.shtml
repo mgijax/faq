@@ -47,7 +47,7 @@
 			from the Search menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->reports/homologymap/mouse_human.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->reports/homologymap/mouse_human.shtml'); return false;">
+			<a href='<!--#include file='include/wi_url.html'--homologymap/mouse_human.shtml' onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'--homologymap/mouse_human.shtml'); return false;">
 			Mouse-Human Orthology Map</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>

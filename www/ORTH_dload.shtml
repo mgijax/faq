@@ -74,8 +74,8 @@
 				<td valign=top>
 					<ol>
 						<li>Click the  
-						<a href='<!--#include file="include/pub_reports_url.html" -->reports/index.html#homology'
-						onClick="javascript:openNewWindow('<!--#include file="include/pub_reports_url.html" -->reports/index.html#homology');
+						<a href='<!--#include file="include/pub_reports_url.html" -->index.html#homology'
+						onClick="javascript:openNewWindow('<!--#include file="include/pub_reports_url.html" -->index.html#homology');
 						return false;">
 						Vertebrate Homology</a> hyperlink in the <b>Table of Contents</b> to navigate to the appropriate subsection of the page..
 					</ol>
