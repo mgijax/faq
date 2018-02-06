@@ -44,11 +44,7 @@
 		<td valign=top>
 			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
 			<p>
-			For this tutorial, open the 
-			<a href='http://www.informatics.jax.org/'
-			onClick="javascript:openNewWindow('http://www.informatics.jax.org/'); 
-			return false;">
-			MGI home page</a>
+			For this tutorial, open the <a href="<!--#include file='include/fewi_url.html' " MGI home page</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
@@ -96,11 +92,7 @@
 		<td> 
 			<tr>
 				<td valign=top><ol>
-					<li value = 3>Click the link to 
-			<a href='http://www.informatics.jax.org/marker/MGI:2682003'
-			onClick="javascript:openNewWindow('http://www.informatics.jax.org/marker/MGI:2682003'); 
-			return false;">
-			Whrn</a>
+					<li value = 3> Click the link to <a href="<!--#include file='include/fewi_url.html'--> marker/MGI:2682003" Whrn</a>.
 				</td>
 				<td valign=top>
 					<table class="outline">
@@ -118,11 +110,8 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>Locate the <b>Molecular Reagents</b> section near the bottom of the 
-						page. Click the link to Genomic 
-									<a href='http://www.informatics.jax.org/searches/probe_report.cgi?_Marker_key=94311&DNAtypes=Genomic'
-			onClick="javascript:openNewWindow('http://www.informatics.jax.org/searches/probe_report.cgi?_Marker_key=94311&DNAtypes=Genomic'); 
-			return false;">
-			3</a> to view a list of 3 genomic clones containing <i>Whrn</i>.
+						page. Click the link to Genomic <a href="<!--#include file='include/fewi_url.html’-->probe/marker/MGI:2682003?segmentType=genomic">3</a>
+						to view a list of 3 genomic clones containing <i>Whrn</i>.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -142,11 +131,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click the link to 
-									<a href='http://www.informatics.jax.org/searches/probe.cgi?1030525'
-			onClick="javascript:openNewWindow('http://www.informatics.jax.org/searches/probe.cgi?1030525'); 
-			return false;">
-			MGI:2785018</a>.
+						<li value = 5>Click the link to <a href="<!--#include file='include/fewi_url.html’-->probe/MGI:2785018">RPCI23 clone RP23-340H1</a>
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -166,12 +151,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>Click the link to 
-									<a href='https://www.ncbi.nlm.nih.gov/clone/587368/'
-			onClick="javascript:openNewWindow('https://www.ncbi.nlm.nih.gov/clone/587368/'); 
-			return false;">
-			 RPCI-23</a> 
-						on the page that follows.
+						<li value = 6>Click the link to <a href='https://www.ncbi.nlm.nih.gov/clone/587368/'>RPCI-23</a> on the page that follows.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -191,7 +171,6 @@
 			<tr>
 				<td valign=top>
 					<ol>
-
 						<li value = 7>Click on "Distributors" tab to order.  
 					</ol>
 				</td>
@@ -221,12 +200,7 @@
 			<li>Follow the steps detailed in Example 1 above, but select 
 			cDNA (8) instead of genomic (3) for step 4.
 			<li value = 2>Detail pages for cDNA clones may contain direct links to 
-			IMAGE or RIKEN. To order RIKEN clones specifically,
-			visit 
-			<a href='http://www.dnaform.jp/en/products/clone/riken_human/'
-			onClick="javascript:openNewWindow('http://www.dnaform.jp/en/products/clone/riken_human/'); 
-			return false;">
-			DNAForm</a>.
+			IMAGE or RIKEN. To order RIKEN clones specifically, visit <a href='https://www.dnaform.jp/en/products/clone/riken_human/'> DNAForm</a>.
 		</td>
 	</tr>
 </table>
