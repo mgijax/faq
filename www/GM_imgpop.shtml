@@ -62,7 +62,7 @@
 		<tr>
 			<td valign=top>
 			<br>
-				This example image includes gene models from MGI, NCBI, Ensembl, and VEGA for the gene <a href="<!--#include file='include/fewi_url.html'--> marker/MGI:95524">Fgfr3</a>.
+				This example image includes gene models from MGI, NCBI, Ensembl, and VEGA for the gene <a href="<!--#include file='include/fewi_url.html'-->marker/MGI:95524">Fgfr3</a>.
 				View the full <a href="http://jbrowse.informatics.jax.org/?data=data%2Fmouse&loc=chr5%3A33721672..33737065&tracks=DNA%2CMGI_Genome_Features%2CNCBI%2CENSEMBL%2CHAVANA_VEGA&highlight=" target="_blank">gene models</a> 
 				in Mouse Genome Browser.
 			</td>
@@ -127,7 +127,7 @@
 						all transcript tracks to display gene models.
 						For detailed instructions see the following:
 						<p>
-						How do I create a genome map from a genomic interval? <a href="<!--#include file='include/fewi_url.html'--> faq/GM_genmap.shtml">FAQ</a>
+						How do I create a genome map from a genomic interval? <a href="<!--#include file='include/fewi_url.html'-->faq/GM_genmap.shtml">FAQ</a>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
 						The gene models of a gene can be displayed using
 						Mouse Genome Browser by clicking on the gene model in <b>Location and Maps</b> section.
