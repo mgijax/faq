@@ -45,11 +45,7 @@
 			On most MGI pages, you can access the GO Browser 
 			from the Search menu as shown in the image at right.
 			<p>
-			For this tutorial, open the 
-			<a href='<!--#include file='include/wi_url.html'-->searches/GO_form.shtml' 
-			onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/GO_form.shtml'); 
-			return false;">
-			GO Browser</a>
+			For this tutorial, open the <a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology/">GO Browser</a> 
 			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
@@ -97,11 +93,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click the link to the term 
-						<a href='<!--#include file='include/wi_url.html'-->searches/GO.cgi?id=GO:0001764'
-						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->searches/GO.cgi?id=GO:0001764'); 
-						return false;">
-						neuron migration</a>.
+						<li value = 3>Click the link to the term <a href="<!--#include file='include/fewi_url.html'-->vocab/gene_ontology/GO:0001764">neural migration</a>.
 					</ol>
 				</td>
 				<td valign=top>
@@ -117,11 +109,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 4>Click the link to 
-						<a href='<!--#include file='include/fewi_url.html'-->go/term/GO:0001764'
-						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/term/GO:0001764'); 
-						return false;">		
-						56 genes, 62 annotations</a> 
+						<li value = 4>Click the link to <a href="<!--#include file='include/fewi_url.html'-->go/term/GO:0001764">173 genes, 226 annotations</a> 
 						next to the term neuron migration [GO:0001764].
 					</ol>
 				</td>
@@ -145,11 +133,7 @@
 							The final column, labeled <b>Ref(s)</b>, provides links 
 							to the references used to make these annotations. 
 						<p>
-						<li>Scroll down the page and click the link to 
-						<a href='<!--#include file='include/fewi_url.html'-->marker/MGI:97490'
-						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->marker/MGI:97490'); 
-						return false;">
-						Pax6</a>.
+						<li>Scroll down the page and click the link to <a href="<!--#include file='include/fewi_url.html'-->marker/MGI:97490">Pax6</a>.
 					</ol>
 				</td>
 				<td valign=top>
@@ -165,11 +149,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 7>Click the link to All GO Annotations:
-						<a href='<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490'
-						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490'); 
-						return false;">				
-						(142)</a> 
+						<li value = 7>Click the link to All GO Annotations:<a href="<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490">(152)</a> 
 						on the <b>Pax6 Gene Detail</b> page.
 					</ol>
 				</td>
@@ -188,16 +168,8 @@
 					<ol>
 						<li value = 8>The <b>Gene Ontology classifications</b> page 
 						supplies all classifications in text, 
-						table and graphical form. Click the link to 
-						<a href='<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490#tabular'
-						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490#tabular'); 
-						return false;">									
-						Tabular View</a> 
-						to view a table listing all classifications, or the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=GOMarkerGraph&id=MGI:97490'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=GOMarkerGraph&id=MGI:97490'); 
-						return false;">																
-						GO Graph</a> 
+						table and graphical form. Click the link to <a href="<!--#include file='include/fewi_url.html'-->go/marker/MGI:97490#tabular">Tabular View</a> 
+						to view a table listing all classifications, or the link to <a href="<!--#include file='include/fewi_url.html'-->marker/gograph/MGI:97490">GO Graph</a> 
 						to view a graph of all classifications.
 					</ol>
 				</td>

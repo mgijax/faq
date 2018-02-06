@@ -93,9 +93,8 @@
 			<tr >
 				<td>
 					<br>
-						Read summaries of the <a href='<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi'
-						onClick="javascript:openNewWindow('<!--#include file='include/wi_url.html'-->external/festing/search_form.cgi');
-						return false;">Characteristics of Inbred Strains</a> of Mice and Rats by M. Festing. <br>
+						Read summaries of the <a href="<!--#include file='include/fewi_url.html'-->inbred_strains/">Characteristics of Inbred Strains</a>
+						 of Mice and Rats by M. Festing. <br>
 				</td>
 			</tr>
 		</table>
@@ -148,11 +147,7 @@
 					genetic, genomic, and biological data in MGI.
 					Here are two ways to find SNP data in MGI:
 					<ul>
-						<li><b><i>Using
-						<a href='<!--#include file='include/fewi_url.html'-->snp'
-						onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->snp');
-						return false;">
-						SNP Query Form</a></i></b><br>
+						<li><b><i>Using <a href="<!--#include file='include/fewi_url.html'-->snp">SNP Query Form</a> </i></b><br>
 						Queries allow selection of the strains and genes or
 						genomic regions of interest and allow designation of a
 						reference strain for same/different comparisons.

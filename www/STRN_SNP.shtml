@@ -55,13 +55,8 @@
 			On most MGI pages, you can access the Mouse SNP Query Form 
 			from the Search menu as shown in the image at right.
 			<p>
-			For this tutorial, open the <a href="<!--#include 
-			file='include/fewi_url.html'-->snp"			
-			onClick="javascript:openNewWindow('<!--#include 
-			file='include/fewi_url.html'-->snp');
-						return false;">
-			Mouse SNP Query Form</a></i></b> in a new window. Scroll down this page for 
-			further instructions. 
+			For this tutorial, open the <a href="<!--#include file='include/fewi_url.html'-->snp">Mouse SNP Query Form</a> 
+			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
 		<td valign=top>
@@ -130,12 +125,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>Click any link to <a href="<!--#include 
-						file='include/fewi_url.html'-->snp/rs27319024" 			
-						onClick="javascript:openNewWindow('<!--#include 
-						file='include/fewi_url.html'-->snp/rs29711463');
-						return false;">
-						MGI SNP Detail</a> 
+						<li value = 6>Click any link to <a href="<!--#include file='include/fewi_url.html'-->snp/rs29711463">MGI SNP Detail</a> 
 						in the <b>SNP ID</b> column to view flanking sequence for a SNP.
 					</ol>
 				</td>

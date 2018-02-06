@@ -58,20 +58,8 @@
 		<tr>
 			<td><br>
 				This example is a portion of the GO comparative graph
-				of the experimental GO annotations for
-				<a href="<!--#include 
-				file='include/fewi_url.html'-->marker/MGI:892001"			
-				onClick="javascript:openNewWindow('<!--#include 
-				file='include/fewi_url.html'-->marker/MGI:892001');
-				return false;">
-				Slc22a6</a>
-				from mouse, human, and rat. View the
-				<a href="<!--#include 
-				file='include/fewi_url.html'-->marker/gograph/MGI:892001"			
-				onClick="javascript:openNewWindow('<!--#include 
-				file='include/fewi_url.html'-->marker/gograph/MGI:892001');
-				return false;">
-				complete graph</a>.
+				of the experimental GO annotations for <a href="<!--#include file='include/fewi_url.html'-->marker/MGI:892001">Slc22a6</a>
+				from mouse, human, and rat. View the <a href="<!--#include file='include/fewi_url.html'-->marker/gograph/MGI:892001">complete graph</a>.
 			</td>
 		</tr>
 		<tr >
@@ -115,22 +103,15 @@
 						Association @ EBI (GOA) for human, and Rat Genome Database
 						(RGD) for rat.  For detailed instructions see the following:
 						<p>
-						How do I view annotations for mouse/human/rat ortholog sets?
-						<a href='GO_ortho.shtml'
-						onClick="javascript:openFaqWindow('GO_ortho.shtml');
-						return false;">
-     					FAQ</a>
+						How do I view annotations for mouse/human/rat ortholog sets? <a href="<!--#include file='include/fewi_url.html'-->faq/GO_ortho.shtml">FAQ</a>
+						
 						<li><b><i>MGI GO Annotation Graphs</i></b><br>
 						These graphs present GO annotations made to individual
 						mouse genes by GO curators at MGI.  They are a complement
 						to the presentation of GO annotations in text and tabular
 						form. For detailed instructions see the following:
 						<p>
-    					How do I find all GO annotations for a specific gene?
- 						<a href='GO_gene.shtml'
-						onClick="javascript:openFaqWindow('GO_gene.shtml');
-						return false;">
-    					FAQ</a>
+    					How do I find all GO annotations for a specific gene? <a href="<!--#include file='include/fewi_url.html'-->faq/GO_gene.shtml">FAQ</a>
 					</ul>
 				</td>
 			</tr>

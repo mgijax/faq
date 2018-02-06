@@ -44,7 +44,7 @@
 		<td valign=top>
 			On most MGI pages, you can find the Search Box in the upper right corner, as shown in the image.
 			<p>
-			For this tutorial, open the <a href="<!--#include file='include/fewi_url.html' " MGI home page</a>
+			For this tutorial, open the <a href="<!--#include file='include/fewi_url.html’--> index.shtml"> MGI home page</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>

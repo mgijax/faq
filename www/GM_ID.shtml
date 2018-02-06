@@ -8,8 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I search for a gene using an Entrez, Ensembl, 
- VEGA, or other accession ID?</span>
+ <span class="faqHeaderText">How do I search for a gene using an Entrez, Ensembl, VEGA, or other accession ID?</span>
 </div>
 
 <style>
@@ -46,11 +45,7 @@
 			On most MGI pages, you can find Quick Search in the upper 
 			right corner, as shown in the image.
 			<p>
-			For this tutorial, open the 
-			<a href='<!--#include file='include/mgihome_url.html'-->homepages/index.shtml' 
-			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
-			return false;">
-			MGI home page</a>
+			For this tutorial, open the <a href="<!--#include file='include/fewi_url.html’--> index.shtml"> MGI home page</a> 
 			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
@@ -99,12 +94,8 @@
 			<tr>
 				<td valign=top><ol>
 					<li value = 3>The <b>Search Results</b> page lists symbols, names, 
-					and accession identifiers containing <i>18505</i>. Click the link to 
-					<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12181'
-					onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=12181'); 
-					return false;">
-					MGI Marker Detail</a> to retrieve the Gene Detail 
-					page for the <i>Pax3</i> gene.
+					and accession identifiers containing <i>18505</i>. Click the link to <a href="<!--#include file='include/fewi_url.html’--> marker/MGI:97487">MGI Marker Detail</a>
+					 to retrieve the Gene Detail page for the <i>Pax3</i> gene.
 				</td>
 				<td valign=top>
 					<table class="outline">
