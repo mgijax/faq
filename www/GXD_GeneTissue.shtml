@@ -36,7 +36,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-					<img src="Images/GXD_ExpressionDetail.jpg" width=675 height=312 alt="Gene Detail Page, Expression row">
+					<img src="Images/GXD_ExpressionDetail.jpg" width=675 height=399 alt="Gene Detail Page, Expression row">
 					</td>
 				</tr>
 			</table>
@@ -56,10 +56,7 @@
 			On most MGI pages, you can access the <b>Gene Expression Data Query</b> form from the Search dropdown menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href='<!--#include file='include/fewi_url.html'-->gxd'
-			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
-			return false;">
-			Gene Expression Data Query form</a>
+			<a href="<!--#include file='include/fewi_url.html’-->gxd">Gene Expression Data Query form</a>
 			in a new window. 
 		</td>		
 		<td valign=top>
@@ -113,7 +110,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=546 alt="GXD QF Screen Shot">
+								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=640 alt="GXD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -147,7 +144,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=465 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=370 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -168,7 +165,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=570 alt="GXD Images">
+							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=484 alt="GXD Images">
 							</td>
 						</tr>
 					</table>
