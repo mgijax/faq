@@ -89,7 +89,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_mutant1.jpg" width=675 height=445 alt="GXD query mutant">
+								<img src="Images/GXD_mutant1.jpg" width=675 height=521 alt="GXD query mutant">
 							</td>
 						</tr>
 					</table>
@@ -105,7 +105,7 @@
 						click the <b>Click to modify search</b> button at the top of the page.</li>
 						<p>
 						<li>Use the tabs along the top of the table to navigate to a list of unique 
-						genes with expression results, assays, or to view images (box).</li>
+						genes with expression results, assays, images, tissue x stage matrix, or tissue x gene matrix (box) .</li>
 						<p>
 						<li>Sort the table by clicking on column headers, apply filters 
 						and/or download as a text or Excel file using the buttons just above 
@@ -120,7 +120,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_mutant2.jpg" width=675 height=346 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_mutant2.jpg" width=675 height=319 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
