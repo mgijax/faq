@@ -86,7 +86,8 @@
 						<li>Type <i>fgf8</i> into the <b>Gene Symbol/Name</b> text box.</li>
 						<p>
 						<li>Select the <b>Assay type(s)</b> you would like to return. <i>Ctrl</i> + 
-						click to select multiple items (default is "ANY" which includes all assay types). To follow along this example, select "in situ protein (section)" and "in situ protein (whole mount)"</li>
+						click to select multiple items (default is "ANY" which includes all assay types). 
+						To follow along this example, select "Immunohistochemistry (section)" and "Immunohistochemistry (whole mount)"</li>
 						<p>
 						<li>Select "10.5" from the <b>Age</b> pick list.
 						<p>
@@ -100,7 +101,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_ref_age1.jpg" width=675 height=458 alt="GEL QF Screen Shot">
+								<img src="Images/GXD_ref_age1.jpg" width=675 height=376 alt="GEL QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -129,7 +130,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_ref_age2.jpg" width=675 height=414 alt="GEL Search Results">
+								<img src="Images/GXD_ref_age2.jpg" width=675 height=362 alt="GEL Search Results">
 							</td>
 						</tr>
 					</table>
@@ -161,7 +162,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 11>The <b>Gene Expression Data</b> page organizes data into four tabs along the top: <b>Genes</b>, <b>Assays</b>, <b>Assay Results</b> and direct links to <b>Images</b>.
+						<li value = 11>The <b>Gene Expression Data</b> page organizes data into six tabs along the top: <b>Genes</b>, <b>Assays</b>, <b>Assay Results</b>, <b>Images</b>, <b>Tissue x Stage Matrix</b>, and <b>Tissue x Gene Matrix</b>.
 						Tables can be sorted by clicking column headers containing arrows, and/or exported as .txt or Excel files.</li>
 						
 						<p>
@@ -172,7 +173,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_ref_age4.jpg" width=675 height=212 alt="Gene Expression table">
+								<img src="Images/GXD_ref_age4.jpg" width=675 height=273 alt="Gene Expression table">
 							</td>
 						</tr>
 					</table>
