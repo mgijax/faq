@@ -58,7 +58,7 @@ to autism (via OMIM) was run.</p>
 	<li>The <a href="#tissuegene">Tissue x Gene Matrix</a> tab</li>
 </ol>
 <p>
-<img src="Images/GXD_matrix1.png" width=500 height=183 alt="GXD results page with tabs">
+<img src="Images/GXD_matrix1.png" width=600 height=157 alt="GXD results page with tabs">
 <p>
 <p>
 <div id="genes"><table>
@@ -85,7 +85,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix2.png" width=600 height=272 alt="Genes tab">
+						<img src="Images/GXD_matrix2.png" width=600 height=256 alt="Genes tab">
 					</td>
 				</tr>
 			</table>
@@ -121,7 +121,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix3.png" width=600 height=258 alt="Assays tab">
+						<img src="Images/GXD_matrix3.png" width=600 height=215 alt="Assays tab">
 					</td>
 				</tr>
 			</table>
@@ -158,7 +158,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix4.png" width=600 height=318 alt="Assays Results tab">
+						<img src="Images/GXD_matrix4.png" width=600 height=328 alt="Assays Results tab">
 					</td>
 				</tr>
 			</table>
@@ -187,7 +187,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix5.png" width=600 height=340 alt="Images tab">
+						<img src="Images/GXD_matrix5.png" width=600 height=374 alt="Images tab">
 					</td>
 				</tr>
 			</table>
@@ -247,7 +247,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix6.png" width=600 height=374 alt="Tissue x Stages tab">
+						<img src="Images/GXD_matrix6.png" width=600 height=408 alt="Tissue x Stages tab">
 					</td>
 				</tr>
 			</table>
@@ -299,7 +299,7 @@ to autism (via OMIM) was run.</p>
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GXD_matrix7.png" width=600 height=347 alt="Tissue x Stages tab">
+						<img src="Images/GXD_matrix7.png" width=600 height=315 alt="Tissue x Stages tab">
 					</td>
 				</tr>
 			</table>
