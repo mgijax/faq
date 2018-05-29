@@ -1,0 +1,134 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"--> Expression in a List of Genes</title>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css"/>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find expression data for a list of genes?</span>
+</div>
+
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
+
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		<span><!--#include file='faq_toolbar.shtml'-->
+			Overview
+		</span>
+
+		</td>
+	</tr>
+	<p>
+	<p>
+	<tr>
+		<td colspan=2 align=left>You can use the Gene Expression Data Search Form to find detailed expression data of greatest interest to you using a variety of query parameters.
+		</td>
+	</tr>
+	<p>
+	<p>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Accessing the Gene Expression Data Search Form
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			On most MGI pages, you can access the Gene Expression Data Search Form from the Search menu as shown in the image at right.
+			<p>
+			For this tutorial, open the 
+			<a href='<!--#include file='include/fewi_url.html'-->gxd'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
+			return false;">
+			Gene Expression Data Search Form</a>
+			in a new window. Scroll down this page for further instructions.
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/srchmenu_GXD.jpg" width=675 height=318 alt="Search Menu GXD QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 1. Finding expression assays for a list of genes using batch search function
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Use the <b>Batch Search</b> query form.</li>
+						<p>
+						<li>In the box for <b>ID/Symbols List</b>, type in <i>shh, bmp7, slit1, slit2, slit3, robo2 </i> in the text box. 
+						This will return a list of expression assays done in mice which carry mutant alleles of those genes. 
+						In this example, use the default <b>Search all input types</b>.
+						<p>
+						Alternatively, click the <b>Browse</b> button to upload file with list of IDs of gene symbols.
+						<p>
+						<li>Click <b>Search</b>.</li>
+						<p>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_gene_list1.jpg" width=675 height=160 alt="GXD gene list 1">
+							</td>
+						</tr>
+					</table>
+				</td>	
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 4>The results summary lists expression assays that have 
+						been done on mice carrying <i>Shh, Bmp7, Slit1, Slit2, Slit3, Robo2</i> mutant alleles. The specific 
+						allele used in obtaining each result will be listed in the <b>Mutant 
+						Allele(s)</b> column. To refine or change search parameters,
+						click the <b>Click to modify search</b> button at the top of the page.</li>
+						<p>
+						<li>Use the tabs along the top of the table to navigate to a list of unique 
+						genes with expression results, assays, images, tissue x stage matrix, or tissue x gene matrix (box) .</li>
+						<p>
+						<li>Sort the table by clicking on column headers, apply filters 
+						and/or download as a text or Excel file using the buttons just above 
+						the table (arrow).</li>
+						<p>
+						<li>Click on any <u>data</u> link in the <b>Result Details</b> 
+						column to view more pattern and level of gene expression, images, and details 
+						of the specific assay, including mouse specimen details and antibodies or probes used.</li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_gene_list2.jpg" width=675 height=332 alt="GXD Search Results 1">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'-->
