@@ -90,7 +90,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev1.png" width=600 height=298 alt="AD Browser Screen Shot">
+								<img src="Images/GXD_tissue_dev1.jpg" width=600 height=358 alt="AD Browser Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -133,7 +133,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev2.jpg" width=500 height=358 alt="AD Browser heart anatomical detail">
+								<img src="Images/GXD_tissue_dev2.jpg" width=600 height=358 alt="AD Browser heart anatomical detail">
 							</td>
 						</tr>
 					</table>
@@ -151,7 +151,7 @@
 						and Tissue x Gene matrix views. Data from tabs can be 
 						exported as plain text or to Excel by using the buttons in the header.</p>
 						<li><p>To see more about each of these tabs, read on in 
-						<a href="<!--#include file='include/fewi_url.html’-->faq/GXD_matrix.shtml">How do I interpret the results of my expression search?</a>
+						<a href="http://www.informatics.jax.org/faq/GXD_matrix.shtml">How do I interpret the results of my expression search?</a> 
 						</li> 
 					</ol>
 				</td>

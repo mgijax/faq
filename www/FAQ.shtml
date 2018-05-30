@@ -168,6 +168,9 @@
         						<dt>.. find expression data in mouse mutants?
 				        		<a href="GXD_mutant.shtml" onClick="javascript:openFaqWindow('GXD_mutant.shtml');
 								return false;">FAQ</a></dt>
+								<dt>.. find expression data for a list of genes?
+				        		<a href="GXD_gene_list.shtml" onClick="javascript:openFaqWindow('GXD_gene_list.shtml');
+								return false;">FAQ </a></dt>
 
                             </dl>
 						</td>

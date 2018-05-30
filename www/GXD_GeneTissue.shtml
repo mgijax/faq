@@ -56,7 +56,10 @@
 			On most MGI pages, you can access the <b>Gene Expression Data Query</b> form from the Search dropdown menu as shown in the image at right.
 			<p>
 			For this tutorial, open the 
-			<a href="<!--#include file='include/fewi_url.html’-->gxd">Gene Expression Data Query form</a>
+			<a href='<!--#include file='include/fewi_url.html'-->gxd'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
+			return false;">
+			Gene Expression Data Search Form</a>
 			in a new window. 
 		</td>		
 		<td valign=top>
