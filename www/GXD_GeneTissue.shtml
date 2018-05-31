@@ -129,7 +129,7 @@
 						results, images, tissue x stage matrix and tissue by gene matrix in t
 						he tabs along the top.</li>
 						<li><p>To see more about each of these tabs, read on in 
-						<a href="<!--#include file='include/fewi_url.html’-->faq/GXD_matrix.shtml">How do I interpret the results of my expression search?</a>
+						<a href="http://www.informatics.jax.org/faq/GXD_matrix.shtml">How do I interpret the results of my expression search?</a> 
 						</li> 
 						<p>
 						<li>To proceed with this example, remain on the Assay Results tab shown</li>
