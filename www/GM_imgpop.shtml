@@ -62,19 +62,8 @@
 		<tr>
 			<td valign=top>
 			<br>
-				This example image includes gene models from MGI, NCBI, Ensembl,
-				and VEGA for the gene
-				<a href="<!--#include 
-				file='include/fewi_url.html'-->marker/MGI:95524"			
-				onClick="javascript:openNewWindow('<!--#include 
-				file='include/fewi_url.html'-->marker/MGI:95524');
-				return false;">
-				Fgfr3</a>.
-				View the full
-				<a href='http://jbrowse.informatics.jax.org/index.html?data=data%2Fmouse&loc=chr5%3A33719700..33738000&tracks=DNA%2CMGI_Genome_Features%2CNCBI%2CENSEMBL%2CHAVANA_VEGA&highlight='
-				onClick="javascript:openNewWindow('http://gbrowse.informatics.jax.org/cgi-bin/gbrowse/mouse_current/?name=fgfr3');
-				return false;">
-				gene models</a>
+				This example image includes gene models from MGI, NCBI, Ensembl, and VEGA for the gene <a href="<!--#include file='include/fewi_url.html'-->marker/MGI:95524">Fgfr3</a>.
+				View the full <a href="http://jbrowse.informatics.jax.org/?data=data%2Fmouse&loc=chr5%3A33721672..33737065&tracks=DNA%2CMGI_Genome_Features%2CNCBI%2CENSEMBL%2CHAVANA_VEGA&highlight=" target="_blank">gene models</a> 
 				in Mouse Genome Browser.
 			</td>
 
@@ -92,7 +81,8 @@
 	<table class="enhance" colspan=2 align=left>
 		<tr>
 			<td valign=top>
-				Use the <b> Available Tracks </b> options on the left to customize the information which is viewable in the browser. Available tracks include alleles and phenotypes, QTL, gene traps, regulatory features, sequence, variants, and more. You can also <b>add combination track</b> by dragging them to the space below or <b>add sequence search track</b>. 
+				Use the <b>Available Tracks</b> options on the left to customize the information which is viewable in the browser. Available tracks include alleles and phenotypes, QTL, gene traps, regulatory features, sequence, variants, and more. 
+				You can also <b>add combination track</b> by dragging them to the space below or <b>add sequence search track</b>. 
 				
 			</td>
 			<td valign=top colspan=2>
@@ -129,22 +119,15 @@
 					alleles, phenotypes, QTL, and SNPs. Here are two ways
 					to view gene models in MGI.
 					<ul>
-						<li><b><i>Using
-						<a href='http://jbrowse.informatics.jax.org/?data=data/mouse'
-						onClick="javascript:openNewWindow('http://jbrowse.informatics.jax.org/?data=data/mouse');
-						return false;">
-						Mouse Genome Browser</a></i></b>
+						<li><b><i>Using <a href="http://jbrowse.informatics.jax.org/?data=data%2Fmouse&loc=chr5%3A33721672..33737065&tracks=DNA%2CMGI_Genome_Features%2CNCBI%2CENSEMBL%2CHAVANA_VEGA&highlight=" target="_blank">Mouse Genome Browser</a>
+						</i></b>
 						<br>
 						Enter the landmark (e.g., gene) or genome region
 						(e.g., chromosome and coordinates) of interest and select
 						all transcript tracks to display gene models.
 						For detailed instructions see the following:
 						<p>
-						How do I create a genome map from a genomic interval?
-     					<a href="GM_genmap.shtml"
-     					onClick="javascript:openFaqWindow('GM_genmap.shtml');
-						return false;">
-						FAQ</a>
+						How do I create a genome map from a genomic interval? <a href="<!--#include file='include/fewi_url.html'-->faq/GM_genmap.shtml">FAQ</a>
 						<li><b><i>Using the link on gene detail pages</i></b><br>
 						The gene models of a gene can be displayed using
 						Mouse Genome Browser by clicking on the gene model in <b>Location and Maps</b> section.

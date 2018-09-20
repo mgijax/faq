@@ -44,9 +44,7 @@
 		<td valign=top>
 			On most MGI pages, you can access the Protein Superfamily Vocabulary Browser from the Search menu as shown in the image at right.
 			<p>
-			For this tutorial, open the 
-			<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A' onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=A'); return false;">
-			Protein Superfamily Vocabulary Browser</a>
+			For this tutorial, open the <a href="<!--#include file='include/fewi_url.html'-->index.shtml">Protein Superfamily Vocabulary Browser</a> 
 			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
@@ -97,11 +95,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>Click the link to 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=4080834'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfDetail&key=4080834'); 
-						return false;">
-						zinc finger DHHC domain-containing protein 7</a> 
+						<li value = 3>Click the link to <a href="<!--#include file='include/fewi_url.html'-->index.shtml">zinc finger DHHC domain-containing protein 7</a> 
 						to view a list of genes in this superfamily, along with 
 						human and rat orthologs and protein sequence IDs.
 					</ol>
@@ -133,13 +127,8 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Click the link to the letter 
-						<a href='<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=M'
-						onClick="javascript:openNewWindow('<!--#include file='include/javawi_url.html'-->WIFetch?page=pirsfVocab&subset=M'); 
-						return false;">
-						M</a> 
-						to retrieve all protein superfamily names starting 
-						with this character.
+						<li>Click the link to the letter <a href="<!--#include file='include/fewi_url.html'-->index.shtml">M</a> 
+						to retrieve all protein superfamily names starting with this character.
 					</ol>
 				</td>
 				<td valign=top colspan=2>

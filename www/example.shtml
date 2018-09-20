@@ -23,9 +23,9 @@ Body of the page goes here...<BR>
 
 Anchors to the Javawi2 product
 <ul>
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=expressionQFexpanded">Gene Expression Data Expanded Query Form</A></LI>
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=markerDetail&key=10603">Gene Detail: Kit</A></LI>
-<LI><A HREF="<!--#include file='include/javawi_url.html'-->WIFetch?page=alleleDetail&key=32226">Allele Detail: Kit<sup>Ph</sup></a></LI>
+<LI><a href="<!--#include file='include/fewi_url.html'-->gxd/batchSearch">Gene Expression Data Expanded Query Form</a></LI>
+<LI><a href="<!--#include file='include/fewi_url.html'-->gxd/batchSearch">Gene Detail: Kit</a></LI>
+<LI><a href="<!--#include file='include/fewi_url.html'-->gxd/batchSearch">Allele Detail: Kit<sup>Ph</sup></a></LI>
 </ul>
 
 Anchors to the Python WI product

@@ -57,7 +57,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/srchmenu_AD.jpg" width=500 height=318 alt="Search Menu Developmental Anatomy Screen Shot">
+						<img src="Images/srchmenu_AD.jpg" width=600 height=358 alt="Search Menu Developmental Anatomy Screen Shot">
 					</td>
 				</tr>
 			</table>
@@ -90,7 +90,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev1.png" width=500 height=340 alt="AD Browser Screen Shot">
+								<img src="Images/GXD_tissue_dev1.jpg" width=600 height=358 alt="AD Browser Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -101,7 +101,8 @@
 					<ol start="2">
 						<li>Once selected, the left pane will update with a list indicating 
 						the selected structure along with a stage range for when that structure appears 
-						during development. These values can range from <a href="http://www.emouseatlas.org/emap/ema/theiler_stages/theiler_stages.html">
+						during development. These values can range from 
+						<a href="http://www.emouseatlas.org/emap/ema/theiler_stages/theiler_stages.html">
 						Theiler Stage</a> 1 <i>(1-cell embryo)</i> to TS28 <i>(postnatal mouse)</i>. 
 						Other terms that contain your search term also appear below.
 						<p>The top right "<b>Anatomical Term Detail</b>" pane will update 
@@ -132,7 +133,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev2.jpg" width=500 height=340 alt="AD Browser heart anatomical detail">
+								<img src="Images/GXD_tissue_dev2.jpg" width=600 height=358 alt="AD Browser heart anatomical detail">
 							</td>
 						</tr>
 					</table>
@@ -149,15 +150,16 @@
 						Genes, Assays, Assay Results <i>(shown)</i>, Images, Tissue x Stage matrix, 
 						and Tissue x Gene matrix views. Data from tabs can be 
 						exported as plain text or to Excel by using the buttons in the header.</p>
-						<li><p>To see more about each of these tabs, read on in <a href="GXD_matrix.shtml" onClick="javascript:openFaqWindow('GXD_matrix.shtml');
-						return false;">How do I interpret the results of my expression search?</a></li> 
+						<li><p>To see more about each of these tabs, read on in 
+						<a href="http://www.informatics.jax.org/faq/GXD_matrix.shtml">How do I interpret the results of my expression search?</a> 
+						</li> 
 					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev3.jpg" width=675 height=428 alt="Expression data for EMAPS">
+								<img src="Images/GXD_tissue_dev3.jpg" width=600 height=314 alt="Expression data for EMAPS">
 							</td>
 						</tr>
 					</table>
@@ -173,7 +175,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_tissue_dev4.jpg" width=675 height=460 alt="AD Browser Term Detail">
+								<img src="Images/GXD_tissue_dev4.jpg" width=600 height=417 alt="AD Browser Term Detail">
 							</td>
 						</tr>
 					</table>

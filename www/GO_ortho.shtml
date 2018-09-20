@@ -45,11 +45,7 @@
 			On most MGI pages, you can find the Search Box in 
 			the upper right corner, as shown in the image.
 			<p>
-			For this tutorial, open the 
-			<a href='<!--#include file='include/mgihome_url.html'-->homepages/index.shtml' 
-			onClick="javascript:openNewWindow('<!--#include file='include/mgihome_url.html'-->homepages/index.shtml'); 
-			return false;">
-			MGI home page</a>
+			For this tutorial, open the <a href="<!--#include file='include/fewi_url.html'-->index.shtml">MGI home page</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>		
 		<td valign=top>
@@ -97,11 +93,7 @@
 			<tr>
 				<td valign=top><ol>
 					<li value = 3>The <b>Search Results</b> page lists 
-					symbols and names containing <i>Pax6</i>. Click the link to 
-					<a href='<!--#include file='include/fewi_url.html'-->marker/MGI:97490'
-					onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->marker/MGI:97490'); 
-					return false;">
-					Pax6</a>.
+					symbols and names containing <i>Pax6</i>. Click the link to <a href="<!--#include file='include/fewi_url.html'-->marker/MGI:97490">Pax6</a>.
 				</td>
 				<td valign=top>
 					<table class="outline">
@@ -116,13 +108,7 @@
 			<tr>
 				<td valign=top><ol>
 					<li value = 4> On the <b>Pax6 Gene Detail</b> page, click more> in the 
-					Homology section to expand the section and then click the link for the 
-					<a href="<!--#include 
-					file='include/fewi_url.html'-->homology/1212"			
-					onClick="javascript:openNewWindow('<!--#include 
-					file='include/fewi_url.html'-->homology/1212');
-					return false;">
-					Vertebrate Homology Class</a>.
+					Homology section to expand the section and then click the link for the <a href="<!--#include file='include/fewi_url.html'-->homology/1212">Vertebrate Homology Class</a>.
 				</ol>
 			</td>
 			<td valign=top>
@@ -145,13 +131,7 @@
 					<li value = 5>The <b>Vertebrate Homology Class</b> page supplies 
 					a table of <i>Pax6</i> homologs across multiple vertebrate species. 
 					To view a graph of Gene Ontology annotations for human, mouse and rat 
-					homologs, click the link to 
-					<a href="<!--#include 
-					file='include/fewi_url.html'-->marker/gograph/MGI:97490"			
-					onClick="javascript:openNewWindow('<!--#include 
-					file='include/fewi_url.html'-->marker/gograph/MGI:97490');
-					return false;">
-					Comparative GO Graph </a> (human, mouse, rat).
+					homologs, click the link to <a href="<!--#include file='include/fewi_url.html'-->marker/gograph/MGI:97490">Comparative GO Graph</a> (human, mouse, rat).
 				</td>
 				<td valign=top>
 					<table class="outline">

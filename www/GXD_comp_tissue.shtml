@@ -81,12 +81,8 @@
 						<li>Select the <b>Differential Expression Search</b> tab from the Gene 
 						Expression Data Query landing page.</li>
 						<p>
-						<li>Use the triangular toggles (circled) to select an Anatomical, 
-						Developmental Stage or combined query. For this example, remain on 
-						the <b>Anatomical Structures</b> ribbon.</li>
-						<p>
 						<li>Begin typing <i>endocrine system</i> into the upper box in 
-						the <b>Anatomical Structures</b> section of the form and select the term
+						the <b>anatomical structures</b> section of the form and select the term
 						 when it appears in the drop down menu. Theiler stage ranges describing 
 						 the developmental stages where this structure exists are also displayed 
 						 alongside each anatomical structure.  
@@ -107,7 +103,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_EQFanat.jpg" width=675 height=262 alt="Search Menu GXD EQF Anatomical Structure Screen Shot">
+								<img src="Images/GXD_EQFanat.jpg" width=675 height=307 alt="Search Menu GXD EQF Anatomical Structure Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -157,6 +153,49 @@
 			</tr>
 		</td>
 	</tr>
-    
+<br>
+<table width="100%">
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example 2. Finding genes expressed in the pineal gland but not anywhere else
+		</td>
+	</tr>
+	<tr>
+		<td> 
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Select the <b>Differential Expression Search</b> tab from the Gene 
+						Expression Data Query landing page.</li>
+						<p>
+						<li>Begin typing <i>retina</i> into the upper box in 
+						the <b>anatomical structures</b> section of the form and select the term
+						 when it appears in the drop down menu. Theiler stage ranges describing 
+						 the developmental stages where this structure exists are also displayed 
+						 alongside each anatomical structure.  
+						<p>
+						<li>Select the <b>anywhere else</b> box under <b>and NOT detected or analyzed</b>.</li> 
+						<p>
+						<li>Click <b>Search</b>.
+						<p>
+						This search will return genes with expression present in the retina whose expression was either:
+						<ul> 
+							<li>analyzed and not detected (absent) in other systems, or</li>
+							<li>not analyzed or annotated to other systems.</li>
+						</ul></li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_comp_tissue3.jpg" width=675 height=280 alt="Search Menu GXD EQF Anatomical Structure Screen Shot2">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
 </table>
 <!--#include file='include/templateBlankBodyStop.html'-->

@@ -36,7 +36,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-					<img src="Images/GXD_ExpressionDetail.jpg" width=675 height=312 alt="Gene Detail Page, Expression row">
+					<img src="Images/GXD_ExpressionDetail.jpg" width=675 height=399 alt="Gene Detail Page, Expression row">
 					</td>
 				</tr>
 			</table>
@@ -59,7 +59,7 @@
 			<a href='<!--#include file='include/fewi_url.html'-->gxd'
 			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
 			return false;">
-			Gene Expression Data Query form</a>
+			Gene Expression Data Search Form</a>
 			in a new window. 
 		</td>		
 		<td valign=top>
@@ -113,7 +113,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=546 alt="GXD QF Screen Shot">
+								<img src="Images/GXD_GeneTissue1.jpg" width=675 height=640 alt="GXD QF Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -128,8 +128,9 @@
 						returned, assays (independent experiments with references), assay 
 						results, images, tissue x stage matrix and tissue by gene matrix in t
 						he tabs along the top.</li>
-						<li><p>To see more about each of these tabs, read on in <a href="GXD_matrix.shtml" onClick="javascript:openFaqWindow('GXD_matrix.shtml');
-						return false;">How do I interpret the results of my expression search?</a></li> 
+						<li><p>To see more about each of these tabs, read on in 
+						<a href="http://www.informatics.jax.org/faq/GXD_matrix.shtml">How do I interpret the results of my expression search?</a> 
+						</li> 
 						<p>
 						<li>To proceed with this example, remain on the Assay Results tab shown</li>
 						<p> 
@@ -147,7 +148,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=465 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_GeneTissue2.jpg" width=675 height=370 alt="GXD Search Results Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -168,7 +169,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=570 alt="GXD Images">
+							<img src="Images/GXD_GeneTissue3.jpg" width=675 height=484 alt="GXD Images">
 							</td>
 						</tr>
 					</table>

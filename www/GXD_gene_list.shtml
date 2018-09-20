@@ -1,6 +1,6 @@
 <!--#include file='include/templateHead.html'-->
 
-<title><!--#include file="include/mgiversion.html"--> Expression in Mouse Mutants</title>
+<title><!--#include file="include/mgiversion.html"--> Expression in a List of Genes</title>
 
 <!--#include file='include/templateBlankBodyStart.html'-->
 <link rel="stylesheet" type="text/css"/>
@@ -8,7 +8,7 @@
 
 <div id="faqPageHeader">
  <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
- <span class="faqHeaderText">How do I find expression data in mouse mutants?</span>
+ <span class="faqHeaderText">How do I find expression data for a list of genes?</span>
 </div>
 
 <style>
@@ -67,7 +67,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Finding expression assays for <i>Shh</i> mutants
+			Example 1. Finding expression assays for a list of genes using batch search function
 		</td>
 	</tr>
 	<tr>
@@ -75,11 +75,13 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>Use the <b>Standard Search</b> query form.</li>
+						<li>Use the <b>Batch Search</b> query form.</li>
 						<p>
-						<li>Navigate to the <b>Mutant/wild type</b> row, select the <b>Specimens 
-						mutated in gene:</b> option and type <i>shh</i> in the text box. This will return
-						a list of expression assays done in mice which carry mutant <i>Shh</i> alleles. 
+						<li>In the box for <b>ID/Symbols List</b>, type in <i>shh, bmp7, slit1, slit2, slit3, robo2 </i> in the text box. 
+						This will return a list of expression assays done in mice which carry mutant alleles of those genes. 
+						In this example, use the default <b>Search all input types</b>.
+						<p>
+						Alternatively, click the <b>Browse</b> button to upload file with list of IDs of gene symbols.
 						<p>
 						<li>Click <b>Search</b>.</li>
 						<p>
@@ -89,7 +91,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_mutant1.jpg" width=675 height=521 alt="GXD query mutant">
+								<img src="Images/GXD_gene_list1.jpg" width=675 height=160 alt="GXD gene list 1">
 							</td>
 						</tr>
 					</table>
@@ -99,7 +101,7 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>The results summary lists expression assays that have 
-						been done on mice carrying <i>Shh</i> mutant alleles. The specific 
+						been done on mice carrying <i>Shh, Bmp7, Slit1, Slit2, Slit3, Robo2</i> mutant alleles. The specific 
 						allele used in obtaining each result will be listed in the <b>Mutant 
 						Allele(s)</b> column. To refine or change search parameters,
 						click the <b>Click to modify search</b> button at the top of the page.</li>
@@ -120,7 +122,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_mutant2.jpg" width=675 height=319 alt="GXD Search Results Screen Shot">
+								<img src="Images/GXD_gene_list2.jpg" width=675 height=332 alt="GXD Search Results 1">
 							</td>
 						</tr>
 					</table>
