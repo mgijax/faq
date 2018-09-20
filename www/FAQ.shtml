@@ -18,13 +18,13 @@
 			<tr>
 				<td>
 					<ul>
-						<li><a href="#faq_marker">Genes, Genome Features &amp Maps</a> | </li>
-						<li><a href="#faq_pad">Phenotypes, Alleles &amp Disease Models</a> | </li>
+						<li><a href="#faq_marker">Genes, Genome Features &amp; Maps</a> | </li>
+						<li><a href="#faq_pad">Phenotypes, Alleles &amp; Disease Models</a> | </li>
 						<li><a href="#faq_gxd">Gene Expression</a> | </li>
 						<li><a href="#faq_cre">Recombinases</a> | </li>
 						<li><a href="#faq_go">GO Functional Annotations</a> | </li>
 						<li><a href="#faq_pathways">Biochemical Pathways</a> | </li>
-						<li><a href="#faq_strain">Strains, SNPs &amp Polymorphisms</a> | </li>
+						<li><a href="#faq_strain">Strains, SNPs &amp; Polymorphisms</a> | </li>
 						<li><a href="#faq_mammortho">Vertebrate Homology</a></li>
 					</ul>
 				</td>
@@ -32,14 +32,14 @@
 		</table>
 	</td></tr>
 <tr><td>
-	<a name="faq_marker"></a>
+	<a id="faq_marker"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
 					<a href='<!--#include file='include/homepages_url.html'-->genes.shtml'
 					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->genes.shtml');
 					return false;">
-					Genes, Genome Features &amp Maps</a>
+					Genes, Genome Features &amp; Maps</a>
 				</td>
 			</tr>
 			<tr >
@@ -83,14 +83,14 @@
 	</table>
 </td></tr>
 <tr><td>
-	<a name="faq_pad"></a>
+	<a id="faq_pad"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
 					<a href='<!--#include file='include/homepages_url.html'-->phenotypes.shtml'
 					onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->phenotypes.shtml');
 					return false;">
-					Phenotypes, Alleles &amp Disease Models</a>
+					Phenotypes, Alleles &amp; Disease Models</a>
 				</td>
 			</tr>
 			<tr >
@@ -132,7 +132,7 @@
 </td>
 </tr>
 <tr><td>			
-	<a name="faq_gxd"></a>
+	<a id="faq_gxd"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -178,7 +178,7 @@
 	</table>
 </td></tr>
 <tr><td>			
-	<a name="faq_cre"></a>
+	<a id="faq_cre"></a>
 		<table class="outline" width="100%">
 			<tr>
 				<td class="enhance">
@@ -221,7 +221,7 @@
 </td></tr>
 <tr><td>
 
-<a name="faq_go"></a>
+<a id="faq_go"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
@@ -268,7 +268,7 @@
 
 <tr><td>
 
-<a name="faq_pathways"></a>
+<a id="faq_pathways"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
@@ -309,14 +309,14 @@
 
 <tr><td>
 
-<a name="faq_strain"></a>
+<a id="faq_strain"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
-				<a href="<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml"
-				onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->strains_SNPs.shtml');
+				<a href="<!--#include file='include/fewi_url.html'-->home/strain"
+				onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->home/strain');
 				return false;">
-				Strains, SNPs &amp Polymorphisms</a>
+				Strains, SNPs &amp; Polymorphisms</a>
 			</td>
 		</tr>
 		<tr >
@@ -350,7 +350,7 @@
 
 <tr><td>
 
-<a name="faq_mammortho"></a>
+<a id="faq_mammortho"></a>
 	<table class="outline" width="100%">
 		<tr>
 			<td class="enhance">
