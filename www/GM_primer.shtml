@@ -119,7 +119,7 @@
 					<ol>
 						<li value = 4>Locate the <b>Molecular Reagents</b> section near the middle of the 
 						page. Click the link to Primer pair 
-						<a href='<!--#include file='include/wi_url.html'-->probe/marker/MGI:2682003?segmentType=primer"> (1)</a>.
+						<a href="<!--#include file='include/fewi_url.html'-->probe/marker/MGI:2682003?segmentType=primer"> (1)</a>.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
@@ -140,14 +140,14 @@
 				<td valign=top>
 					<ol>
 						<li value = 5>Click the link to 
-						<a href='<!--#include file='include/wi_url.html'-->probe/MGI:3653111"> Whrn-pA, Whrn-pB (MGI:3653111)</a>.
+						<a href="<!--#include file='include/fewi_url.html'-->probe/MGI:3653111"> Whrn-pA, Whrn-pB (MGI:3653111)</a>.
 					</ol>
 				</td>
 				<td valign=top colspan=2>
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_primer1.jpg" width=791 height=57 alt="Primer List">
+								<img src="Images/GM_primer1.jpg" width=802 height=50 alt="Primer List">
 							</td>
 						</tr>
 					</table>
@@ -167,7 +167,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GM_primer2.jpg" width=399 height=188 alt="Primer Detail">
+								<img src="Images/GM_primer2.jpg" width=802 height=187 alt="Primer Detail">
 							</td>
 						</tr>
 					</table>
