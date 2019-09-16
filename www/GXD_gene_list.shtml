@@ -78,7 +78,7 @@
 						<li>Use the <b>Batch Search</b> query form.</li>
 						<p>
 						<li>In the box for <b>ID/Symbols List</b>, type in <i>shh, bmp7, slit1, slit2, slit3, robo2 </i> in the text box. 
-						This will return a list of expression assays done in mice which carry mutant alleles of those genes. 
+						This will return a list of expression assays done in mice of those genes. 
 						In this example, use the default <b>Search all input types</b>.
 						<p>
 						Alternatively, click the <b>Browse</b> button to upload file with list of IDs of gene symbols.
@@ -101,8 +101,8 @@
 				<td valign=top>
 					<ol>
 						<li value = 4>The results summary lists expression assays that have 
-						been done on mice carrying <i>Shh, Bmp7, Slit1, Slit2, Slit3, Robo2</i> mutant alleles. The specific 
-						allele used in obtaining each result will be listed in the <b>Mutant 
+						been done on mice of those genes. The specific mutant
+						allele, if any, used in obtaining each result will be listed in the <b>Mutant 
 						Allele(s)</b> column. To refine or change search parameters,
 						click the <b>Click to modify search</b> button at the top of the page.</li>
 						<p>

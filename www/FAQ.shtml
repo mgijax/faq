@@ -23,7 +23,6 @@
 						<li><a href="#faq_gxd">Gene Expression</a> | </li>
 						<li><a href="#faq_cre">Recombinases</a> | </li>
 						<li><a href="#faq_go">GO Functional Annotations</a> | </li>
-						<li><a href="#faq_pathways">Biochemical Pathways</a> | </li>
 						<li><a href="#faq_strain">Strains, SNPs &amp; Polymorphisms</a> | </li>
 						<li><a href="#faq_mammortho">Vertebrate Homology</a></li>
 					</ul>
@@ -271,46 +270,7 @@
 
 <tr><td>
 
-<a id="faq_pathways"></a>
-	<table class="outline" width="100%">
-		<tr>
-			<td class="enhance">
-				<a href="<!--#include file='include/homepages_url.html'-->pathways.shtml"
-				onClick="javascript:openNewWindow('<!--#include file='include/homepages_url.html'-->pathways.shtml');
-				return false;">
-				Biochemical Pathways</a>
-			</td>
-		</tr>
-		<tr >
-			<td>
-		<tr >
-			<tr >
-				<td>
-					<tr >
-						<td>	How do I ...
-							<dl class="linkedList">
-         						<dt>.. see a list of all pathways in MouseCyc?
-				        		<a href="BP_allpath.shtml" onClick="javascript:openFaqWindow('BP_allpath.shtml');
-								return false;">FAQ</a></dt>
-                				<dt>.. search MouseCyc for a specific compound?
-				        		<a href="BP_comp.shtml" onClick="javascript:openFaqWindow('BP_comp.shtml');
-								return false;">FAQ</a></dt>
-                				<dt>.. display my mouse gene expression data in the context of mouse pathways?
-				        		<a href="BP_expr.shtml" onClick="javascript:openFaqWindow('BP_expr.shtml');
-								return false;">FAQ</a></dt>
-                				<dt>.. compare mouse pathways to human pathways?
-				        		<a href="BP_path.shtml" onClick="javascript:openFaqWindow('BP_path.shtml');
-								return false;">FAQ</a></dt>
-                            </dl>
-						</td>
-					</tr>
-				</td>
-			</tr>
-		</tr>
-	</table>
-</td></tr>
 
-<tr><td>
 
 <a id="faq_strain"></a>
 	<table class="outline" width="100%">
