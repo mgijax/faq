@@ -83,7 +83,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/srchbox.jpg" width=390 height=33 alt="Search Box Screen Shot">
+								<img src="Images/srchbox.jpg" width=390 height=30.83 alt="Search Box Screen Shot">
 							</td>
 						</tr>
 					</table>
@@ -116,15 +116,15 @@
 				<td valign=top>
 				<ol>
 					<li value = 4>On the <b>Pax6 Gene Detail</b> page, click more> in the Homology section to expand the section and then click the link for the 
-					<a href="http://www.informatics.jax.org/homology/1212">
-					Vertebrate Homology Class</a>.
+					<a href="http://www.informatics.jax.org/homology/cluster/key/36706436">
+					Pax6 stringent orthology</a>.
 				</ol>
 			</td>
 			<td valign=top>
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho2.png" width=643 height=301 alt="Pax6 Orthology">
+								<img src="Images/GO_ortho2.png" width=600 height=197.8 alt="Pax6 Orthology">
 							</td>
 						</tr>
 					</table>
@@ -139,7 +139,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/ORTH_set3.jpg" width=601 height=326 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/ORTH_set3.jpg" width=600 height=237.8 alt="Pax6 Orthology Screen Shot">
 							</td>
 						</tr>
 					</table>

@@ -131,7 +131,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GM_search2.jpg" width=675 height=431 alt="Search Results">
+						<img src="Images/GM_search2.jpg" width=600 height=172 alt="Search Results">
 					</td>
 				</tr>
 			</table>
@@ -140,7 +140,7 @@
 	<tr>
 		<td valign=top>
 			<ol>
-				<li value = 4>On the Batch Summary page, locate the <b>[Click to modify search]</b> button at the upper left to see additional options. Select gene attributes to display, and select the radio button next to Human Disease (OMIM) to retrieve human diseases associated with mouse genes <i>Cxcl10</i>, <i>Ifng</i>, <i>Il2</i>,  and <i>Irf1</i>. </li>
+				<li value = 4>On the Batch Summary page, locate the <b>[Click to modify search]</b> button at the upper left to see additional options. Select gene attributes to display, and select the radio button next to Human Disease (DO) to retrieve human diseases associated with mouse genes <i>Cxcl10</i>, <i>Ifng</i>, <i>Il2</i>,  and <i>Irf1</i>. </li>
 				<p>
 				<li> Click <b>[Search]</b> again. </li>
 				<p>You can also retrieve ontology (functional) information, alleles or expression data for all of your genes using this window.
@@ -151,7 +151,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GM_search3.jpg" width=675 height=467 alt="MGI Batch Query">
+						<img src="Images/GM_search3.jpg" width=600 height=508 alt="MGI Batch Query">
 					</td>
 				</tr>
 			</table>
@@ -180,7 +180,7 @@
 					and other results containing <i>vitamin D binding</i> by relevance to
 					this phrase, and to any individual word in this phrase. </li>
 					<br>
-					<li>Hover over the "<i>and 9 more...</i>" button in the Best Match column to see a summary of gene-associated features that contain the phrase "vitamin D" and/or "bind(ing)" as a root word, including gene synonyms, orthologs, functions and protein domains. 
+					<li>Hover over the "<i>and 11 more...</i>" button in the Best Match column to see a summary of gene-associated features that contain the phrase "vitamin D" and/or "bind(ing)" as a root word, including gene synonyms, orthologs, functions and protein domains. 
 					<p>Click for more details. </li>
 				</td>
 				<td valign=top>
@@ -188,7 +188,7 @@
 						<tr>
 						<p>
 							<td>
-								<img src="Images/GM_search4.jpg" width=675 height=529 alt="vitd">
+								<img src="Images/GM_search4.jpg" width=600 height=439 alt="vitd">
 							</td>
 						</tr>
 					</table>
@@ -238,7 +238,7 @@
 			<table class="outline">
 				<tr>
 					<td>
-						<img src="Images/GM_search6.jpg" width=675 height=580 alt="Search Results">
+						<img src="Images/GM_search6.jpg" width=600 height=529 alt="Search Results">
 					</td>
 				</tr>
 			</table>

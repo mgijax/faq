@@ -52,7 +52,7 @@
 								<dt>.. search for genes, QTL, or other features in a specific genome interval?
 				        		<a href="GM_marker.shtml" onClick="javascript:openFaqWindow('GM_marker.shtml');
 								return false;">FAQ</a></dt>
-								<dt>.. search for a gene using an Entrez, Ensembl, VEGA, or other accession ID?
+								<dt>.. search for a gene using an Entrez, Ensembl, or other accession ID?
 				        		<a href="GM_search.shtml" onClick="javascript:openFaqWindow('GM_search.shtml');
 								return false;">FAQ</a></dt>
 								<dt>.. search for all targeted or spontaneous alleles associated with a gene or marker?
