@@ -106,7 +106,7 @@
 					<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GXD_Gene1.jpg" width=601 height=128 alt="Search Results for Pax6">
+								<img src="Images/GXD_Gene1.jpg" width=675 height=143 alt="Search Results for Pax6">
 							</td>
 						</tr>
 					</table>
@@ -124,7 +124,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/GO_ortho2.png" width=600 height=197.8 alt="Pax6 Orthology">
+								<img src="Images/GO_ortho2.png" width=675 height=222 alt="Pax6 Orthology">
 							</td>
 						</tr>
 					</table>
@@ -139,7 +139,7 @@
 				<table class="outline">
 						<tr>
 							<td>
-								<img src="Images/ORTH_set3.jpg" width=600 height=237.8 alt="Pax6 Orthology Screen Shot">
+								<img src="Images/ORTH_set3.jpg" width=675 height=267 alt="Pax6 Orthology Screen Shot">
 							</td>
 						</tr>
 					</table>
