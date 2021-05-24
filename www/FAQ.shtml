@@ -58,7 +58,7 @@
 								<dt>.. search for all targeted or spontaneous alleles associated with a gene or marker?
 				        		<a href="GM_gtrap.shtml" onClick="javascript:openFaqWindow('GM_gtrap.shtml');
 								return false;">FAQ</a></dt>
-								<dt>.. retrieve Entrez, Ensembl, VEGA, or other IDs for a list of genes?
+								<dt>.. retrieve Entrez, Ensembl, or other IDs for a list of genes?
 				        		<a href="GM_batch.shtml" onClick="javascript:openFaqWindow('GM_batch.shtml');
 								return false;">FAQ</a></dt>
 								<dt>.. create a genome map from a genomic interval?
