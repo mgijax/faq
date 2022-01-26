@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--#include file='include/templateHead.html'-->
+       <title>How do I find curated data and official nomenclature associated with a publication? </title>
+       <style>
+       .outline { border: 2px solid #DFEFFF; }
+</style>
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css "/>
+ 
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I find curated data and official nomenclature associated with a publication?</span>
+</div>
+ 
+ 
+<table>
+       <tr>
+              <td class="enhance" colspan=2>
+              <span><!--#include file='faq_toolbar.shtml'-->
+              </span>
+ 
+              </td>
+       </tr>
+<tr>
+              <td colspan=2>If you know the PubMed ID, enter that in the Quick Search field. 
+              </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+              <td>
+                     <span style="white-space: nowrap">You can access the MGI Quick Search directly</span> 
+                     from the homepage, or at the upper right corner of most other MGI pages.
+              </td>
+              <td>
+                     <table class="outline">
+                           <tr>
+                                  <td>
+                                         <img src="Images/header.jpg" width=675 height=238 alt="MGI Header">
+                                  </td>
+                           </tr>
+                     </table>
+              </td>
+       </tr>
+       <tr>
+              <td colspan=2>To search by authors, journals, text, or year, use the 
+              <a href="http://www.informatics.jax.org/reference" target="_blank">References Query Form</a>. 
+              </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+              <td>
+                     On most MGI pages, you can access the References Query Form from the Search menu as shown in the image at right.
+              </td>
+              <td>
+                     <table class="outline">
+                           <tr>
+                                  <td>
+                                         <img src="Images/RefsSearch.png" width=669 height=328 alt="Search Menu, References Query Form">
+                                  </td>
+                           </tr>
+                     </table>
+              </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+              <td>To search for authors:
+              <ul>
+ <li>Begin typing a partial name in the Author entry field. An autocomplete list appears.</li>
+ <li>Select one item from the list. The author's name appears in the field, followed by a semicolon.</li>
+ <li>You must choose author names from the autocomplete list (i.e., there is no free text entry in this field.)</li>
+ <li>You can choose to limit the search from any author to first or last author.</li> 
+</ul>
+<p><span style="white-space: nowrap">The Journal field works in a similar manner to the author field. 
+You must select a journal from the autocomplete list.</span> This field uses journal abbreviations from 
+the National Library of Medicine (NLM). A search for <i>The Journal of Endocrinology</i> will not find any 
+references, though a search for <i>J Endocrinol</i> will.</p>
+ 
+<p>You can search abstracts and titles by entering text in that field.</p> 
+<ul>
+  <li>The text search stems words: it removes suffixes and searches using root words.  A search for <i>stem cell factor 
+  receptor binding</i> searches for  <i>stem-</i>, <i>cell-</i> (e.g.  cellular), <i>factor-,</i> <i>recept-</i> (e.g.  reception); 
+  <i>bind-</i> (e.g.  binds). </li>
+  <li>Use quotation marks to enclose phrases where the specified words must come in order, with no words intervening. </li>
+  <li>Boolean operators (OR or AND) are not permitted.</li>
+  </ul>
+<p>The most relevant results appear at the top of the returned list (i.e. those containing all of the searched words). Words that 
+match your search terms are <span style="background-color: #FFFF88">highlighted in yellow</span>.</p>
+ 
+
+<p>You can perform a more general search and then filter the results by author, journal, year, type of data or reference type. 
+In the banner above your results, after <i>Filter References By:</i> click the desired box. This will allow you to further limit 
+your results to specific authors, journals, years or a type of MGI curated data. The filters will reduce your results to only 
+those containing the checked items.</p>
+
+<p>NOTE: If you get an error message such as "Too many Authors to filter." Modify your search or use another filter first. </p>
+ <ul>
+         <li>The first column in your results provides links to PubMed and the Journal.</li>
+         <li>The Title column allows you to click to view the abstract.</li>
+         <li>The Curated Data column provides links to official nomenclature and data our curators associated with the publication, 
+         including: 
+         <ul>
+  <li>Functional annotations (GO) </li>
+  <li>Genome features</li>
+  <li>Phenotypic alleles</li>
+  <li>Sequences</li>
+  <li>Strains</li>
+ </ul></li>
+  </ul>
+  
+ </td>
+ <td>
+                     <table class="outline">
+                           <tr>
+                                  <td>
+                                         <img src="Images/RefsForm.png" width=770 height=340 alt="References Query Form">
+                                  </td>
+                           </tr>
+</table>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'-->

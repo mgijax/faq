@@ -25,6 +25,7 @@
 						<li><a href="#faq_go">GO Functional Annotations</a> | </li>
 						<li><a href="#faq_strain">Strains, SNPs &amp; Polymorphisms</a> | </li>
 						<li><a href="#faq_mammortho">Vertebrate Homology</a></li>
+						<li><a href="#faq_refs">References</a></li>
 					</ul>
 				</td>
 			</tr>
@@ -353,6 +354,42 @@
 			</tr>
 		</tr>
 	</table>
+</td></tr>
+
+<tr><td>
+
+<a id="faq_refs"></a>
+    <table class="outline" width="100%">
+    	<tr>
+			<td class="enhance">
+				<a href="<!--#include file='include/fewi_url.html'-->reference"
+				onClick="javascript:openNewWindow('<!--#include file='fewi_url.html'-->reference');
+				return false;">
+				References</a>
+			</td>
+		</tr>
+		<tr >
+			<td>
+		<tr >
+			<tr >
+				<td>
+					<tr >
+						<td>	How do I ...
+							<dl class="linkedList">
+								<!--<dt>.. find curated data and official nomenclature associated with a publication?
+								<a href="REFs.shtml" onClick="javascript:openFaqWindow('REFs.shtml');
+								return false;">FAQ</a></dt>-->
+                            </dl>
+						</td>
+					</tr>
+                </table>
+				</td>
+			</tr>
+
+</table>
+
+<!--#include file='include/templateBodyStop.html'-->
+
 </td>
 </tr>
 </table>
