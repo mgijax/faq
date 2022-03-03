@@ -24,7 +24,7 @@
 						<li><a href="#faq_cre">Recombinases</a> | </li>
 						<li><a href="#faq_go">GO Functional Annotations</a> | </li>
 						<li><a href="#faq_strain">Strains, SNPs &amp; Polymorphisms</a> | </li>
-						<li><a href="#faq_mammortho">Vertebrate Homology</a></li>
+						<li><a href="#faq_mammortho">Vertebrate Homology</a> | </li>
 						<li><a href="#faq_refs">References</a></li>
 					</ul>
 				</td>
@@ -376,9 +376,9 @@
 					<tr >
 						<td>	How do I ...
 							<dl class="linkedList">
-								<!--<dt>.. find curated data and official nomenclature associated with a publication?
+								<dt>.. find curated data and official nomenclature associated with a publication?
 								<a href="REFs.shtml" onClick="javascript:openFaqWindow('REFs.shtml');
-								return false;">FAQ</a></dt>-->
+								return false;">FAQ</a></dt>
                             </dl>
 						</td>
 					</tr>
