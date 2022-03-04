@@ -63,7 +63,7 @@
 	<tr>
 		<td valign=top>
 			For this tutorial, open the 
-			<a href="<!--#include file='include/fewi_url.html'reference">References Query Form</a>
+			<a href="<!--#include file='include/fewi_url.html'-->reference">References Query Form</a>
 			in a new window. Scroll down this page for further instructions. 
 		</td>
 		
