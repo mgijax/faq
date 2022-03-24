@@ -22,13 +22,16 @@
 	</tr>
 	<tr>
 		<td colspan=2 align=left>You can use the <b>Reference Query Form</b> to look up curated data and official nomenclature 
-		associated with a publication.
+		associated with a publication. <br>
+		Alternatively, if you know the <b>PubMed ID</b>, enter that in the <b>Quick Search</b> Field. 
+		You can access the MGI Quick Search directly from the homepage, or at the upper right corner of most other MGI pages.
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
+			<br>
 				Accessing the Reference Query Form
 		</td>
 	</tr>
