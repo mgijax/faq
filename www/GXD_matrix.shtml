@@ -27,7 +27,7 @@
 <p>You can use the <a href='<!--#include file='include/fewi_url.html'-->gxd'
 			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd'); 
 			return false;">
-			Gene Expression Standard or Differential Data Query</a> in order to find expression 
+			Gene Expression Standard or Expression Profile Search</a> in order to find expression 
 			data for a tissue, gene or set of genes.
 <p>See FAQ below for details on how to:</b>
 	<ul>

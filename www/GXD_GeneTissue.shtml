@@ -100,11 +100,7 @@
 						 <li>If desired, also select other options to target your your search,
 						 including wildtype or mutant specific 
 						 expression, and preferred assay type(s). 
-						 <p>To run a search for expression in a set of tissues and/or 
-						 during a particular developmental stage and <i>not</i> in others, use 
-						 the <b>Differential Expression Search</b> tab. See 
-			 <a href="http://www.informatics.jax.org/faq/GXD_comp_tissue.shtml">here</a> 
-			 for more on the Differential Expression search. </li>
+						 </li>
 						 <p>
 						<li>Click <b>Search</b>.
 					</ol>
