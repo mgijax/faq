@@ -77,16 +77,17 @@
 		<td>
 			<tr>
 				<td valign=top>
-					<ul>
-						<li value = 1>
+					<ol>
+						<li>
 						<p>Begin typing <i>muscle cell</i> into the <b>Cell Type Search</b> text box
-						and select from the drop down menu options that appear.</li>
+						and select from the drop down menu options that appear.
 						</p>
 							<ul>
 								<li>The Cell Type field has an autocomplete list that activates on the second character.</li>
 								<li>You may also use a CL numerical identifier in this field.</li>
 							</ul>
-					</ul>
+						</li>
+					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
@@ -102,7 +103,7 @@
 				<td valign=top>
 					<ol start="2">
 						<li>Select a term from the autocomplete list to activate a search.
-						The search finds all cell type terms that contain any of your search terms and displays a list of those terms.</i>.
+						The search finds all cell type terms that contain any of your search terms and displays a list of those terms.</i>
 					</ol>
 				</td>
 				<td valign=top>
@@ -117,20 +118,20 @@
 			</tr>
 			<tr>
 				<td valign=top>
-					<ul>
+					<ol>
 						<li value = 3>
 						<p>Click on a term in the search results (<b>muscle cell</b>; arrow) to update the Term Detail and Tree View sections of the browser.</p>
 						</li>
 						<li value = 4>
 						<p>To review expression annotations that use the term or one of its subterms, click on the hyperlinked number of expression results next to the term in the tree view (red box).</p>
-						</li>
 							<ul>
 								<li>The <b>Term Detail</b> section (upper portion of the right pane) displays information specific for that term, including synonyms and definitions.</li>
 								<li>The <b>Tree View</b> (lower portion of the right pane) contains a hierarchical tree view for CL with the selected term highlighted.
 								Finer detail cell type structures are represented as subterms. Scroll and/or click on triangle toggles to navigate around the tree.
 								Greyed out terms have no associated expression annotations; some of these cell types are not present in the mouse.</li>
 							</ul>
-					</ul>
+						</li>
+					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">
@@ -144,7 +145,7 @@
 			</tr>
 			<tr>
 				<td valign=top>
-					<ul>
+					<ol>
 						<li value = 5>
 						<p>The expression results appear in a table. The default display tab is Assay results (boxed). The other tabs provide different views of the same data.</p>
 						</li>
@@ -154,12 +155,12 @@
 						</li>
 						<li value = 7>
 						<p>To view the detailed data, click on <u>data</u> (arrow) in the <b>Result Details</b> column.</p>
-						</li>
 							<ul>
 								<li>As illustrated in the Cell Type column (box), a search using <b>muscle cell</b> returns all annotations using it and its subterms.</li>
 								<li>Data from the Assay results and Genes tabs can be exported as plain text by using buttons in the header (arrowhead). Genes can be exported to the MGI Batch Query or MouseMine.</li>
 							</ul>
-					</ul>
+						</li>
+					</ol>
 				</td>
 				<td valign=top>
 					<table class="outline">

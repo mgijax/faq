@@ -153,6 +153,9 @@
 								<dt>.. find expression data for a specific gene and/or tissue?
 				        		<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml');
 								return false;">FAQ</a></dt>
+								<dt>.. search for genes by expression profile?
+				        		<a href="GXD_exp_profile.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml');
+								return false;">FAQ</a></dt>
                 				<dt>.. find expression data for a tissue during development?
 				        		<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml');
 								return false;">FAQ</a></dt>

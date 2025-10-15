@@ -1,0 +1,184 @@
+<!--#include file='include/templateHead.html'-->
+
+<title><!--#include file="include/mgiversion.html"--> Expression Profile Search</title>
+
+<!--#include file='include/templateBlankBodyStart.html'-->
+<link rel="stylesheet" type="text/css"/>
+
+
+<div id="faqPageHeader">
+ <img src="<!--#include file='include/webshare_url.html'-->images/mgi_logo.gif">
+ <span class="faqHeaderText">How do I search for genes by expression profile?</span>
+</div>
+
+<style>
+	.outline { border: 2px solid #DFEFFF; }
+</style>
+
+
+<table border=0 cellpadding=0 cellspacing=7>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+		<span><!--#include file='faq_toolbar.shtml'-->
+			Overview
+		</span>
+
+		</td>
+	</tr>
+	<p>
+	<p>
+	<tr>
+		<td colspan=2 align=left>You can use the Expression Profile Search to define the expression profile of interest by specifying up to 10 anatomical structures and
+		whether expression is present or absent in these structures as determined by either classical expression assays or RNA-Seq experiments.
+		In addition, you can also specify the developmental (Theiler) stage(s) of interest.
+		</td>
+	</tr>
+	<p>
+	<p>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Accessing the Expression Profile Search
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td valign=top>
+			The Expression Profile Search is a tab on the Gene Expression Data Search.
+			On most MGI pages, you can access the <u>Gene Expression Data Search</u> from the Search menu as shown in the image at right.
+			<p>
+			Alternatively, you can also navigate to the Gene Expression Database (GXD) home page using the tile found on the MGI home page (arrow in image at right). Once there, click on the Expression Profile Search tile.
+			</p>
+			<p>
+			For this tutorial, open the
+			<a href='<!--#include file='include/fewi_url.html'-->gxd'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->gxd');
+			return false;">
+			Gene Expression Data Search Form</a>
+			in a new window. Scroll down this page for further instructions.
+		<td valign=top>
+			<table class="outline">
+				<tr>
+					<td>
+						<img src="Images/GXD_ExpProf_1.png" width=600 height=297 alt="Search Menu GXD QF Screen Shot">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<table width="100%">
+	<tr>
+	</tr>
+	<tr>
+		<td class="enhance" colspan=2 align=left>
+			Example: search for genes expressed in the forebrain but not in the hindbrain or spinal cord as determined by RNA-Seq.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li>Click on the Expression Profile Search tab (boxed).</li>
+						<p>
+						<li>Choose the RNA-Seq radio button (arrow) to select the assay type.
+						<p>
+						Note <i>Classical expression assays</i> are RNA in situ, immunohistochemistry, knock-in reporter, Northern blot, RT-PCR and Western blot assays.
+						</p>
+						</li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ExpProf_2.png" width=600 height=94 alt="Blank Expression Profile Form">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 3>To define the expression profile of interest, use the Detected/Not detected radio buttons
+						and type in the anatomical structures of interest.</li>
+						<p>
+						<li value = 4>Click Search.
+						<p>
+							<ul>
+								<li>The background color for Detected Structures will be blue, Not detected will be red.</li>
+								<li>The structure field has an autocomplete list that activates on the second character.</li>
+								<li>If you also want to specify developmental stages, check
+								“Show Theiler stage selectors” (arrow).
+								You can define search profiles based on developmental stages alone,
+								or you can use combinations of anatomical structures and developmental stages.</li>
+								<li>To ensure successful searches, the autocomplete list is limited to terms or stages for which GXD has the selected type of expression data.</li>
+								<li>Three rows are provided by default. Use the Add structure button to specify up to 10 structures and/or developmental stages.</li>
+								<li>The Expression Profile search does not compare gene expression levels between anatomical structures or Theiler stages,
+								it only  compares presence or absence of expression (Detected v. Not detected).  For RNA-seq experiments, Not detected is defined as <0.5 TPM (below cutoff).</li>
+							<ul>
+						<p>
+						</li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ExpProf_3.png" width=600 height=387 alt="GXD Expression Profile Search">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 5>Click on the > RNA Seq Heat Map button (arrow) to open a browser window displaying your data in Morpheus, a tool created at the Broad Institute.</li>
+						<p>
+						Searches for expression data return summaries with multiple tabbed views, allowing users to review the returned data at their preferred level of detail. Heat maps are usually the most helpful way to review RNA-Seq data.
+						<p>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ExpProf_4.png" width=600 height=468 alt="GXD Summary Heat Map Tab">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign=top>
+					<ol>
+						<li value = 6>Use Morpheus to sort, filter, do hierarchical clustering, nearest neighbor analysis, and visual enrichment.
+						<p>
+							<ul>
+								<li>A summary of the data exported to Morpheus is at the top of the page.</li>
+								<li>Each column of the heat map is a bioreplicate set; the metadata annotations for the set are included in the column display.</li>
+								<li>Each row in the heat map is a gene.</li>
+								<li>A Tips box (inset indicated by arrow) provides guidance on interpreting the heat map and using Morpheus effectively.</li>
+							<ul>
+						<p>
+						</li>
+					</ol>
+				</td>
+				<td valign=top>
+					<table class="outline">
+						<tr>
+							<td>
+								<img src="Images/GXD_ExpProf_5.png" width=600 height=414 alt="Morpheus">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</td>
+	</tr>
+</table>
+<!--#include file='include/templateBlankBodyStop.html'-->
