@@ -119,14 +119,15 @@
 					<ol>
 						<li value = 3>Click on a term in the search results (<b>muscle cell</b>; arrow) to update the Term Detail and Tree View sections of the browser.
 						</li>
+						<p>
 						<li value = 4>To review expression annotations that use the term or one of its subterms, click on the hyperlinked number of expression results next to the term in the tree view (red box).
-						</li>
 						<p>
 						The <b>Term Detail</b> section (upper portion of the right pane) displays information specific for that term, including synonyms and definitions.
 						<p>
 						The <b>Tree View</b> (lower portion of the right pane) contains a hierarchical tree view for CL with the selected term highlighted.
 						Finer detail cell type structures are represented as subterms. Scroll and/or click on triangle toggles to navigate around the tree.
 						Greyed out terms have no associated expression annotations; some of these cell types are not present in the mouse.
+						</li>
 					</ol>
 				</td>
 				<td valign=top>
@@ -144,16 +145,17 @@
 					<ol>
 						<li value = 5>The expression results appear in a table. The default display tab is Assay results (boxed). The other tabs provide different views of the same data.
 						</li>
+						<p>
 						<li value = 6>The return can be further refined using the filters found at the top of the page; they use attributes of the assay results or curated annotations to the genes analyzed.
 						Three filters have been applied in the example (brackets).
 						</li>
+						<p>
 						<li value = 7>To view the detailed data, click on <u>data</u> (arrow) in the <b>Result Details</b> column.
-						</li>
 						<p>
 						As illustrated in the Cell Type column (box), a search using <b>muscle cell</b> returns all annotations using it and its subterms.
 						<p>
 						Data from the Assay results and Genes tabs can be exported as plain text by using buttons in the header (arrowhead). Genes can be exported to the MGI Batch Query or MouseMine.
-						<p>
+						</li>
 					</ol>
 				</td>
 				<td valign=top>
