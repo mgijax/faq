@@ -69,7 +69,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example 1. Find all gene expression results annotated to muscle cell and child terms.
+			Example. Find all gene expression results annotated to muscle cell and child terms.
 		</td>
 	</tr>
 
@@ -79,11 +79,12 @@
 				<td valign=top>
 					<ol>
 						<li>Begin typing <i>muscle cell</i> into the <b>Cell Type Search</b> text box
-						and select from the drop down menu options that appear.</li>
+						and select from the drop down menu options that appear.
 						<p>
 						The Cell Type field has an autocomplete list that activates on the second character.
 						<p>
 						You may also use a CL numerical identifier in this field.
+						</li>
 					</ol>
 				</td>
 				<td valign=top>
