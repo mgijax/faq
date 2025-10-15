@@ -46,7 +46,6 @@
 			On most MGI pages, you can access the <u>Gene Expression Data Search</u> from the Search menu as shown in the image at right.
 			<p>
 			Alternatively, you can also navigate to the Gene Expression Database (GXD) home page using the tile found on the MGI home page (arrow in image at right). Once there, click on the Expression Profile Search tile.
-			</p>
 			<p>
 			For this tutorial, open the
 			<a href='<!--#include file='include/fewi_url.html'-->gxd'
@@ -81,9 +80,10 @@
 					<ol>
 						<li>Click on the Expression Profile Search tab (boxed).</li>
 						<p>
-						<li>Choose the RNA-Seq radio button (arrow) to select the assay type.</li>
+						<li>Choose the RNA-Seq radio button (arrow) to select the assay type.
 						<p>
 						Note <i>Classical expression assays</i> are RNA in situ, immunohistochemistry, knock-in reporter, Northern blot, RT-PCR and Western blot assays.
+						</li>
 					</ol>
 				</td>
 				<td valign=top>
@@ -102,7 +102,7 @@
 						<li value = 3>To define the expression profile of interest, use the Detected/Not detected radio buttons
 						and type in the anatomical structures of interest.</li>
 						<p>
-						<li value = 4>Click Search.</li>
+						<li value = 4>Click Search.
 						<p>
 						The background color for Detected Structures will be blue, Not detected will be red.
 						<p>
@@ -117,6 +117,7 @@
 						<p>
 						The Expression Profile search does not compare gene expression levels between anatomical structures or Theiler stages,
 						it only  compares presence or absence of expression (Detected v. Not detected).  For RNA-seq experiments, Not detected is defined as <0.5 TPM (below cutoff).
+						</li>
 					</ol>
 				</td>
 				<td valign=top>
@@ -132,10 +133,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click on the > RNA Seq Heat Map button (arrow) to open a browser window displaying your data in Morpheus, a tool created at the Broad Institute.</li>
+						<li value = 5>Click on the > RNA Seq Heat Map button (arrow) to open a browser window displaying your data in Morpheus, a tool created at the Broad Institute.
 						<p>
 						Searches for expression data return summaries with multiple tabbed views, allowing users to review the returned data at their preferred level of detail. Heat maps are usually the most helpful way to review RNA-Seq data.
-						<p>
+						</li>
 					</ol>
 				</td>
 				<td valign=top>
@@ -151,7 +152,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>Use Morpheus to sort, filter, do hierarchical clustering, nearest neighbor analysis, and visual enrichment.</li>
+						<li value = 6>Use Morpheus to sort, filter, do hierarchical clustering, nearest neighbor analysis, and visual enrichment.
 						<p>
 						A summary of the data exported to Morpheus is at the top of the page.
 						<p>
@@ -160,6 +161,7 @@
 						Each row in the heat map is a gene.
 						<p>
 						A Tips box (inset indicated by arrow) provides guidance on interpreting the heat map and using Morpheus effectively.
+						</li>
 					</ol>
 				</td>
 				<td valign=top>
