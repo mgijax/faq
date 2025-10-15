@@ -25,16 +25,14 @@
 
 		</td>
 	</tr>
-	<p>
-	<p>
 	<tr>
 		<td colspan=2 align=left>You can use the Expression Profile Search to define the expression profile of interest by specifying up to 10 anatomical structures and
 		whether expression is present or absent in these structures as determined by either classical expression assays or RNA-Seq experiments.
 		In addition, you can also specify the developmental (Theiler) stage(s) of interest.
 		</td>
 	</tr>
-	<p>
-	<p>
+	<tr>
+	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
 			Accessing the Expression Profile Search
@@ -83,11 +81,9 @@
 					<ol>
 						<li>Click on the Expression Profile Search tab (boxed).</li>
 						<p>
-						<li>Choose the RNA-Seq radio button (arrow) to select the assay type.
+						<li>Choose the RNA-Seq radio button (arrow) to select the assay type.</li>
 						<p>
 						Note <i>Classical expression assays</i> are RNA in situ, immunohistochemistry, knock-in reporter, Northern blot, RT-PCR and Western blot assays.
-						</p>
-						</li>
 					</ol>
 				</td>
 				<td valign=top>
@@ -103,11 +99,10 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>To define the expression profile of interest, use the Detected/Not detected radio buttons
+						<li> value = 3>To define the expression profile of interest, use the Detected/Not detected radio buttons
 						and type in the anatomical structures of interest.</li>
 						<p>
-						<li value = 4>Click Search.
-						<p>
+						<li> value = 4>Click Search.
 							<ul>
 								<li>The background color for Detected Structures will be blue, Not detected will be red.</li>
 								<li>The structure field has an autocomplete list that activates on the second character.</li>
@@ -120,7 +115,6 @@
 								<li>The Expression Profile search does not compare gene expression levels between anatomical structures or Theiler stages,
 								it only  compares presence or absence of expression (Detected v. Not detected).  For RNA-seq experiments, Not detected is defined as <0.5 TPM (below cutoff).</li>
 							<ul>
-						<p>
 						</li>
 					</ol>
 				</td>
