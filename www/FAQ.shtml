@@ -156,6 +156,9 @@
                 				<dt>.. find expression data for a tissue during development?
 				        		<a href="GXD_tissue_dev.shtml" onClick="javascript:openFaqWindow('GXD_tissue_dev.shtml');
 								return false;">FAQ</a></dt>
+								<dt>.. find expression data for a cell type?
+								<a href="GXD_cell_type.shtml" onClick="javascript:openFaqWindow('GXD_cell_type.shtml');
+								return false;">FAQ</a></dt>
 								<dt>.. interpret the results of my query?
 				        		<a href="GXD_matrix.shtml" onClick="javascript:openFaqWindow('GXD_matrix.shtml');
 								return false;">FAQ</a></dt>
