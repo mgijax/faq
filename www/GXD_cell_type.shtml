@@ -29,7 +29,7 @@
 		<td colspan=2 align=left>
 		<p>The Cell Ontology (CL) is a hierarchically structured, controlled vocabulary that describes a broad range of canonical biological cell types.
 		You can use the Cell Ontology (CL) Browser to search for and view descriptions of cell types; to explore the ontology hierarchy and locate specific terms in context.
-		You can then use the links provided to find the expression results associated with those terms.</p>
+		You can then use the links provided to find the expression results associated with those terms.
 	</tr>
 	<tr>
 	</tr>
@@ -44,7 +44,7 @@
 		<td valign=top>
 			<p>On most MGI pages, you can access the Cell Ontology Browser from the Search menu as shown in the image at right.
 			Alternatively, you can also navigate to the Gene Expression Database (GXD) home page using the tile found on the MGI home page (arrow in image at right).
-			Once there, click on the Cell Ontology Browser tile.</p>
+			Once there, click on the Cell Ontology Browser tile.
 			<p>
 			For this tutorial, open the
 			<a href="<!--#include file='include/fewi_url.html'-->vocab/cell_ontology/CL:0000000">
@@ -78,15 +78,12 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li>
-						<p>Begin typing <i>muscle cell</i> into the <b>Cell Type Search</b> text box
-						and select from the drop down menu options that appear.
-						</p>
-							<ul>
-								<li>The Cell Type field has an autocomplete list that activates on the second character.</li>
-								<li>You may also use a CL numerical identifier in this field.</li>
-							</ul>
-						</li>
+						<li>Begin typing <i>muscle cell</i> into the <b>Cell Type Search</b> text box
+						and select from the drop down menu options that appear.</li>
+						<p>
+						The Cell Type field has an autocomplete list that activates on the second character.
+						<p>
+						You may also use a CL numerical identifier in this field.
 					</ol>
 				</td>
 				<td valign=top>
@@ -119,18 +116,16 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 3>
-						<p>Click on a term in the search results (<b>muscle cell</b>; arrow) to update the Term Detail and Tree View sections of the browser.</p>
+						<li value = 3>Click on a term in the search results (<b>muscle cell</b>; arrow) to update the Term Detail and Tree View sections of the browser.
 						</li>
-						<li value = 4>
-						<p>To review expression annotations that use the term or one of its subterms, click on the hyperlinked number of expression results next to the term in the tree view (red box).</p>
-							<ul>
-								<li>The <b>Term Detail</b> section (upper portion of the right pane) displays information specific for that term, including synonyms and definitions.</li>
-								<li>The <b>Tree View</b> (lower portion of the right pane) contains a hierarchical tree view for CL with the selected term highlighted.
-								Finer detail cell type structures are represented as subterms. Scroll and/or click on triangle toggles to navigate around the tree.
-								Greyed out terms have no associated expression annotations; some of these cell types are not present in the mouse.</li>
-							</ul>
+						<li value = 4>To review expression annotations that use the term or one of its subterms, click on the hyperlinked number of expression results next to the term in the tree view (red box).
 						</li>
+						<p>
+						The <b>Term Detail</b> section (upper portion of the right pane) displays information specific for that term, including synonyms and definitions.
+						<p>
+						The <b>Tree View</b> (lower portion of the right pane) contains a hierarchical tree view for CL with the selected term highlighted.
+						Finer detail cell type structures are represented as subterms. Scroll and/or click on triangle toggles to navigate around the tree.
+						Greyed out terms have no associated expression annotations; some of these cell types are not present in the mouse.
 					</ol>
 				</td>
 				<td valign=top>
@@ -146,20 +141,18 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>
-						<p>The expression results appear in a table. The default display tab is Assay results (boxed). The other tabs provide different views of the same data.</p>
+						<li value = 5>The expression results appear in a table. The default display tab is Assay results (boxed). The other tabs provide different views of the same data.
 						</li>
-						<li value = 6>
-						<p>The return can be further refined using the filters found at the top of the page; they use attributes of the assay results or curated annotations to the genes analyzed.
-						Three filters have been applied in the example (brackets).</p>
+						<li value = 6>The return can be further refined using the filters found at the top of the page; they use attributes of the assay results or curated annotations to the genes analyzed.
+						Three filters have been applied in the example (brackets).
 						</li>
-						<li value = 7>
-						<p>To view the detailed data, click on <u>data</u> (arrow) in the <b>Result Details</b> column.</p>
-							<ul>
-								<li>As illustrated in the Cell Type column (box), a search using <b>muscle cell</b> returns all annotations using it and its subterms.</li>
-								<li>Data from the Assay results and Genes tabs can be exported as plain text by using buttons in the header (arrowhead). Genes can be exported to the MGI Batch Query or MouseMine.</li>
-							</ul>
+						<li value = 7>To view the detailed data, click on <u>data</u> (arrow) in the <b>Result Details</b> column.
 						</li>
+						<p>
+						As illustrated in the Cell Type column (box), a search using <b>muscle cell</b> returns all annotations using it and its subterms.
+						<p>
+						Data from the Assay results and Genes tabs can be exported as plain text by using buttons in the header (arrowhead). Genes can be exported to the MGI Batch Query or MouseMine.
+						<p>
 					</ol>
 				</td>
 				<td valign=top>
@@ -175,10 +168,9 @@
 			<tr>
 				<td valign=top>
 					<ol start="8">
-						<li>
-						<p>In addition to reporting the results obtained for each specimen, including the level and pattern of expression for each anatomical structure and cell type examined,
+						<li>In addition to reporting the results obtained for each specimen, including the level and pattern of expression for each anatomical structure and cell type examined,
 						the Assay Detail page provides information about the gene analyzed, assay type, probes and experimental conditions used, and age and genetic background of the specimen;
-						links to additional details are supplied. Images of the data are displayed when available.</p>
+						links to additional details are supplied. Images of the data are displayed when available.
 						</li>
 				<td valign=top>
 					<table class="outline">

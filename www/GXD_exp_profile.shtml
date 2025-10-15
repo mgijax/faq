@@ -99,23 +99,24 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li> value = 3>To define the expression profile of interest, use the Detected/Not detected radio buttons
+						<li value = 3>To define the expression profile of interest, use the Detected/Not detected radio buttons
 						and type in the anatomical structures of interest.</li>
 						<p>
-						<li> value = 4>Click Search.
-							<ul>
-								<li>The background color for Detected Structures will be blue, Not detected will be red.</li>
-								<li>The structure field has an autocomplete list that activates on the second character.</li>
-								<li>If you also want to specify developmental stages, check
-								“Show Theiler stage selectors” (arrow).
-								You can define search profiles based on developmental stages alone,
-								or you can use combinations of anatomical structures and developmental stages.</li>
-								<li>To ensure successful searches, the autocomplete list is limited to terms or stages for which GXD has the selected type of expression data.</li>
-								<li>Three rows are provided by default. Use the Add structure button to specify up to 10 structures and/or developmental stages.</li>
-								<li>The Expression Profile search does not compare gene expression levels between anatomical structures or Theiler stages,
-								it only  compares presence or absence of expression (Detected v. Not detected).  For RNA-seq experiments, Not detected is defined as <0.5 TPM (below cutoff).</li>
-							<ul>
-						</li>
+						<li value = 4>Click Search.</li>
+						<p>
+						The background color for Detected Structures will be blue, Not detected will be red.
+						<p>
+						The structure field has an autocomplete list that activates on the second character.
+						<p>If you also want to specify developmental stages, check “Show Theiler stage selectors” (arrow).
+						You can define search profiles based on developmental stages alone,
+						or you can use combinations of anatomical structures and developmental stages.
+						<p>
+						To ensure successful searches, the autocomplete list is limited to terms or stages for which GXD has the selected type of expression data.
+						<p>
+						Three rows are provided by default. Use the Add structure button to specify up to 10 structures and/or developmental stages.
+						<p>
+						The Expression Profile search does not compare gene expression levels between anatomical structures or Theiler stages,
+						it only  compares presence or absence of expression (Detected v. Not detected).  For RNA-seq experiments, Not detected is defined as <0.5 TPM (below cutoff).
 					</ol>
 				</td>
 				<td valign=top>
@@ -150,16 +151,15 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 6>Use Morpheus to sort, filter, do hierarchical clustering, nearest neighbor analysis, and visual enrichment.
+						<li value = 6>Use Morpheus to sort, filter, do hierarchical clustering, nearest neighbor analysis, and visual enrichment.</li>
 						<p>
-							<ul>
-								<li>A summary of the data exported to Morpheus is at the top of the page.</li>
-								<li>Each column of the heat map is a bioreplicate set; the metadata annotations for the set are included in the column display.</li>
-								<li>Each row in the heat map is a gene.</li>
-								<li>A Tips box (inset indicated by arrow) provides guidance on interpreting the heat map and using Morpheus effectively.</li>
-							<ul>
+						A summary of the data exported to Morpheus is at the top of the page.
 						<p>
-						</li>
+						Each column of the heat map is a bioreplicate set; the metadata annotations for the set are included in the column display.
+						<p>
+						Each row in the heat map is a gene.
+						<p>
+						A Tips box (inset indicated by arrow) provides guidance on interpreting the heat map and using Morpheus effectively.
 					</ol>
 				</td>
 				<td valign=top>
