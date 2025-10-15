@@ -30,6 +30,8 @@
 		<p>The Cell Ontology (CL) is a hierarchically structured, controlled vocabulary that describes a broad range of canonical biological cell types.
 		You can use the Cell Ontology (CL) Browser to search for and view descriptions of cell types; to explore the ontology hierarchy and locate specific terms in context.
 		You can then use the links provided to find the expression results associated with those terms.
+		<p>
+		</td>
 	</tr>
 	<tr>
 	</tr>
@@ -43,6 +45,7 @@
 	<tr>
 		<td valign=top>
 			<p>On most MGI pages, you can access the Cell Ontology Browser from the Search menu as shown in the image at right.
+			<p>
 			Alternatively, you can also navigate to the Gene Expression Database (GXD) home page using the tile found on the MGI home page (arrow in image at right).
 			Once there, click on the Cell Ontology Browser tile.
 			<p>

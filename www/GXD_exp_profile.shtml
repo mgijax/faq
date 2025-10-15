@@ -26,16 +26,18 @@
 		</td>
 	</tr>
 	<tr>
-		<td colspan=2 align=left>You can use the Expression Profile Search to define the expression profile of interest by specifying up to 10 anatomical structures and
+		<td colspan=2 align=left>
+		<p>You can use the Expression Profile Search to define the expression profile of interest by specifying up to 10 anatomical structures and
 		whether expression is present or absent in these structures as determined by either classical expression assays or RNA-Seq experiments.
 		In addition, you can also specify the developmental (Theiler) stage(s) of interest.
+		<p>
 		</td>
 	</tr>
 	<tr>
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Accessing the Expression Profile Search
+		Accessing the Expression Profile Search
 		</td>
 	</tr>
 	<tr>
@@ -43,7 +45,7 @@
 	<tr>
 		<td valign=top>
 			The Expression Profile Search is a tab on the Gene Expression Data Search.
-			On most MGI pages, you can access the <u>Gene Expression Data Search</u> from the Search menu as shown in the image at right.
+			On most MGI pages, you can access the Gene Expression Data Search from the Search menu as shown in the image at right.
 			<p>
 			Alternatively, you can also navigate to the Gene Expression Database (GXD) home page using the tile found on the MGI home page (arrow in image at right). Once there, click on the Expression Profile Search tile.
 			<p>
@@ -70,7 +72,7 @@
 	</tr>
 	<tr>
 		<td class="enhance" colspan=2 align=left>
-			Example: search for genes expressed in the forebrain but not in the hindbrain or spinal cord as determined by RNA-Seq.
+			Example. Search for genes expressed in the forebrain but not in the hindbrain or spinal cord as determined by RNA-Seq.
 		</td>
 	</tr>
 	<tr>
@@ -82,7 +84,7 @@
 						<p>
 						<li>Choose the RNA-Seq radio button (arrow) to select the assay type.
 						<p>
-						Note <i>Classical expression assays</i> are RNA in situ, immunohistochemistry, knock-in reporter, Northern blot, RT-PCR and Western blot assays.
+						Classical expression assays are RNA in situ, immunohistochemistry, knock-in reporter, Northern blot, RT-PCR and Western blot assays.
 						</li>
 					</ol>
 				</td>
@@ -133,7 +135,7 @@
 			<tr>
 				<td valign=top>
 					<ol>
-						<li value = 5>Click on the > RNA Seq Heat Map button (arrow) to open a browser window displaying your data in Morpheus, a tool created at the Broad Institute.
+						<li value = 5>Click on the --> RNA Seq Heat Map button (arrow) to open a browser window displaying your data in Morpheus, a tool created at the Broad Institute.
 						<p>
 						Searches for expression data return summaries with multiple tabbed views, allowing users to review the returned data at their preferred level of detail. Heat maps are usually the most helpful way to review RNA-Seq data.
 						</li>

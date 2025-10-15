@@ -150,7 +150,7 @@
 					<tr >
 						<td>	How do I ...
 							<dl class="linkedList">
-								<dt>.. find expression data for a specific gene and/or tissue?
+								<dt>.. find expression data for a specific gene and tissue?
 				        		<a href="GXD_GeneTissue.shtml" onClick="javascript:openFaqWindow('GXD_GeneTissue.shtml');
 								return false;">FAQ</a></dt>
 								<dt>.. search for genes by expression profile?
