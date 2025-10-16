@@ -50,8 +50,9 @@
 			Once there, click on the Cell Ontology Browser tile.
 			<p>
 			For this tutorial, open the
-			<a href="<!--#include file='include/fewi_url.html'-->vocab/cell_ontology/CL:0000000">
-			Cell Ontology Browser</a>
+			<a href='<!--#include file='include/fewi_url.html'-->vocab/cell_ontology/CL:0000000'
+			onClick="javascript:openNewWindow('<!--#include file='include/fewi_url.html'-->vocab/cell_ontology/CL:0000000');
+			return false;">
 			in a new window. Scroll down this page for further instructions.
 		</td>
 
